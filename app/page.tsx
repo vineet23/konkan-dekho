@@ -16,10 +16,14 @@ import { formatIndianPrice } from "@/lib/utils/number-format";
 
 export default function Home() {
   const [filteredPlots, setFilteredPlots] = useState<Plot[]>(plots);
-  
-  const locations = Array.from(new Set(plots.map(plot => plot.location)));
-  const maxPrice = Math.max(...plots.map(plot => convertPriceToNumber(plot.price)));
-  const maxArea = Math.max(...plots.map(plot => convertAreaToNumber(plot.area)));
+
+  const locations = Array.from(new Set(plots.map((plot) => plot.location)));
+  const maxPrice = Math.max(
+    ...plots.map((plot) => convertPriceToNumber(plot.price))
+  );
+  const maxArea = Math.max(
+    ...plots.map((plot) => convertAreaToNumber(plot.area))
+  );
 
   const handleFiltersChange = (filters: FilterOptions) => {
     const filtered = filterPlots(plots, filters);
@@ -47,11 +51,14 @@ export default function Home() {
               Find Your Perfect Plot in Konkan
             </h1>
             <p className="mt-4 text-xl">
-              Explore premium land plots with breathtaking views and excellent investment potential.
+              Explore premium land plots with breathtaking views and excellent
+              investment potential.
             </p>
-            <Button className="mt-8 bg-[#FF385C] hover:bg-[#D93B60]">
-              Explore Plots
-            </Button>
+            <Link href="/explore/all-plots">
+              <Button className="mt-8 bg-[#FF385C] hover:bg-[#D93B60]">
+                Explore Plots
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

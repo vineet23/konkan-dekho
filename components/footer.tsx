@@ -8,33 +8,92 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2">
               <MapPin className="h-6 w-6 text-[#FF385C]" />
-              <span className="text-lg font-bold text-[#FF385C]">Konkan Dekho</span>
+              <span className="text-lg font-bold text-[#FF385C]">
+                Konkan Dekho
+              </span>
             </div>
             <p className="mt-4 text-sm text-gray-600">
-              Your trusted partner in finding the perfect plot of land in the beautiful Konkan region.
+              Your trusted partner in finding the perfect plot of land in the
+              beautiful Konkan region.
             </p>
           </div>
-          
+
           <div>
             <h3 className="text-sm font-semibold text-gray-900">Explore</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-sm text-gray-600 hover:text-[#FF385C]">All Plots</a></li>
-              <li><a href="#" className="text-sm text-gray-600 hover:text-[#FF385C]">Featured Locations</a></li>
-              <li><a href="#" className="text-sm text-gray-600 hover:text-[#FF385C]">How It Works</a></li>
-              <li><a href="#" className="text-sm text-gray-600 hover:text-[#FF385C]">List Your Plot</a></li>
+              <li>
+                <a
+                  href="/explore/all-plots"
+                  className="text-sm text-gray-600 hover:text-[#FF385C]"
+                >
+                  All Plots
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/explore/featured-locations"
+                  className="text-sm text-gray-600 hover:text-[#FF385C]"
+                >
+                  Featured Locations
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/explore/how-it-works"
+                  className="text-sm text-gray-600 hover:text-[#FF385C]"
+                >
+                  How It Works
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/explore/list-your-plot"
+                  className="text-sm text-gray-600 hover:text-[#FF385C]"
+                >
+                  List Your Plot
+                </a>
+              </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-sm font-semibold text-gray-900">Company</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-sm text-gray-600 hover:text-[#FF385C]">About Us</a></li>
-              <li><a href="#" className="text-sm text-gray-600 hover:text-[#FF385C]">Our Team</a></li>
-              <li><a href="#" className="text-sm text-gray-600 hover:text-[#FF385C]">Testimonials</a></li>
-              <li><a href="#" className="text-sm text-gray-600 hover:text-[#FF385C]">Contact</a></li>
+              <li>
+                <a
+                  href="/about"
+                  className="text-sm text-gray-600 hover:text-[#FF385C]"
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/team"
+                  className="text-sm text-gray-600 hover:text-[#FF385C]"
+                >
+                  Our Team
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/testimonials"
+                  className="text-sm text-gray-600 hover:text-[#FF385C]"
+                >
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contact"
+                  className="text-sm text-gray-600 hover:text-[#FF385C]"
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-sm font-semibold text-gray-900">Contact Us</h3>
             <ul className="mt-4 space-y-2">
@@ -44,12 +103,14 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-gray-400" />
-                <span className="text-sm text-gray-600">info@konkandekho.com</span>
+                <span className="text-sm text-gray-600">
+                  info@konkandekho.com
+                </span>
               </li>
             </ul>
           </div>
         </div>
-        
+
         <div className="mt-8 border-t pt-8">
           <p className="text-center text-sm text-gray-600">
             © {new Date().getFullYear()} Konkan Dekho. All rights reserved.
