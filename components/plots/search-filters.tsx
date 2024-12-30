@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
@@ -15,16 +15,27 @@ interface SearchFiltersProps {
   onFiltersChange: (filters: FilterOptions) => void;
   maxPrice: number;
   maxArea: number;
+  initialLocation?: string;
 }
 
-export function SearchFilters({ locations, onFiltersChange, maxPrice, maxArea }: SearchFiltersProps) {
+export function SearchFilters({ 
+  locations, 
+  onFiltersChange, 
+  maxPrice, 
+  maxArea,
+  initialLocation = ALL_LOCATIONS 
+}: SearchFiltersProps) {
   const [filters, setFilters] = useState<FilterOptions>({
     priceRange: [0, maxPrice],
     areaRange: [0, maxArea],
-    location: ALL_LOCATIONS,
+    location: initialLocation,
     searchQuery: "",
     sortBy: 'price-asc'
   });
+
+  useEffect(() => {
+    onFiltersChange(filters);
+  }, []);
 
   const handleFilterChange = (newFilters: Partial<FilterOptions>) => {
     const updatedFilters = { ...filters, ...newFilters };
@@ -69,7 +80,7 @@ export function SearchFilters({ locations, onFiltersChange, maxPrice, maxArea }:
         <div>
           <Label>Location</Label>
           <Select
-            defaultValue={ALL_LOCATIONS}
+            defaultValue={initialLocation}
             onValueChange={(value) => handleFilterChange({ location: value })}
           >
             <SelectTrigger className="mt-1">
