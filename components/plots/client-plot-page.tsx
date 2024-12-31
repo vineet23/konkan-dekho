@@ -13,17 +13,23 @@ export function ClientPlotPage({ id }: { id: string }) {
   }
   
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="grid gap-8 lg:grid-cols-3">
-        <div className="lg:col-span-2">
+    <div className="container mx-auto px-4 py-4 sm:py-8 max-w-7xl">
+      {/* Mobile: Stack vertically */}
+      <div className="flex flex-col gap-6 lg:grid lg:grid-cols-3 lg:gap-8">
+        {/* Media and Details */}
+        <div className="lg:col-span-2 space-y-6">
           <PlotMediaGallery
             media={plot.media}
             images={plot.images}
           />
           <PlotDetails plot={plot} />
         </div>
+        
+        {/* Contact Form - Sticky on desktop */}
         <div className="lg:col-span-1">
-          <ContactForm />
+          <div className="lg:sticky lg:top-4">
+            <ContactForm />
+          </div>
         </div>
       </div>
     </div>

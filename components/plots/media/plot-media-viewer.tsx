@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { PlotMedia } from "@/lib/types";
+import { ImageViewer } from "./image-viewer";
 
 interface PlotMediaViewerProps {
   media: PlotMedia;
@@ -13,19 +13,12 @@ export function PlotMediaViewer({ media }: PlotMediaViewerProps) {
       <video
         src={media.url}
         controls
-        className="absolute inset-0 w-full h-full object-contain bg-black"
+        className="absolute inset-0 h-full w-full object-cover"
         poster={media.thumbnail}
+        playsInline
       />
     );
   }
 
-  return (
-    <Image
-      src={media.url}
-      alt="Plot view"
-      fill
-      className="object-cover"
-      priority
-    />
-  );
+  return <ImageViewer src={media.url} alt="Plot view" />;
 }
