@@ -1,4 +1,5 @@
-import { MapPin, Phone, Mail } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -7,8 +8,13 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div>
             <div className="flex items-center space-x-2">
-              <MapPin className="h-6 w-6 text-[#FF385C]" />
-              <span className="text-lg font-bold text-[#FF385C]">
+              <Image
+                src="/image/logo.svg"
+                alt="Konkan Dekho"
+                width={48}
+                height={48}
+              />
+              <span className="text-4xl font-bold text-[#FF385C] font-caveat self-end">
                 Konkan Dekho
               </span>
             </div>

@@ -20,9 +20,10 @@ export function ContactForm() {
 
   return (
     <Card className="p-6">
-      <h2 className="text-xl font-semibold">Contact Us</h2>
+      <h2 className="text-xl font-semibold">Buy Now</h2>
       <p className="mt-2 text-sm text-gray-600">
-        Interested in this plot? Fill out the form below and we'll get back to you.
+        Interested in this plot? Fill out the form below and we'll get back to
+        you.
       </p>
       <form onSubmit={handleSubmit} className="mt-4 space-y-4">
         <div>

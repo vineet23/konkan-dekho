@@ -37,7 +37,7 @@ export default function Home() {
       <section className="relative h-[600px]">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488"
+            src="https://images.unsplash.com/photo-1667807876919-3a493bd565a3"
             alt="Konkan landscape"
             fill
             priority

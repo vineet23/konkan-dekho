@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { MapPin, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
+import Image from "next/image";
 
 export function Navbar() {
   return (
@@ -11,8 +12,13 @@ export function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center">
           <Link href="/" className="flex items-center space-x-2">
-            <MapPin className="h-8 w-8 text-[#FF385C]" />
-            <span className="text-xl font-bold text-[#FF385C]">
+            <Image
+              src="/image/logo.svg"
+              alt="Konkan Dekho"
+              width={48}
+              height={48}
+            />
+            <span className="text-4xl font-bold text-[#FF385C] font-caveat self-end">
               Konkan Dekho
             </span>
           </Link>
@@ -29,7 +35,7 @@ export function Navbar() {
           </div>
         </div>
 
-        <div className="flex items-center space-x-4">
+        <div className="hidden lg:flex items-center space-x-4">
           <Link href="/explore/list-your-plot">
             <Button variant="ghost">List Your Plot</Button>
           </Link>

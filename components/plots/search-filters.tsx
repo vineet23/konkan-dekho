@@ -4,11 +4,20 @@ import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { FilterOptions, SortOption } from "@/lib/types";
 import { Card } from "@/components/ui/card";
 import { ALL_LOCATIONS, PRICE_STEP, AREA_STEP } from "@/lib/constants";
-import { formatIndianPrice, formatIndianNumber } from "@/lib/utils/number-format";
+import {
+  formatIndianPrice,
+  formatIndianNumber,
+} from "@/lib/utils/number-format";
 
 interface SearchFiltersProps {
   locations: string[];
@@ -18,19 +27,19 @@ interface SearchFiltersProps {
   initialLocation?: string;
 }
 
-export function SearchFilters({ 
-  locations, 
-  onFiltersChange, 
-  maxPrice, 
+export function SearchFilters({
+  locations,
+  onFiltersChange,
+  maxPrice,
   maxArea,
-  initialLocation = ALL_LOCATIONS 
+  initialLocation = ALL_LOCATIONS,
 }: SearchFiltersProps) {
   const [filters, setFilters] = useState<FilterOptions>({
     priceRange: [0, maxPrice],
     areaRange: [0, maxArea],
     location: initialLocation,
     searchQuery: "",
-    sortBy: 'price-asc'
+    sortBy: "price-asc",
   });
 
   useEffect(() => {
@@ -53,7 +62,9 @@ export function SearchFilters({
             type="text"
             placeholder="Search by title, location, or description..."
             className="mt-1"
-            onChange={(e) => handleFilterChange({ searchQuery: e.target.value })}
+            onChange={(e) =>
+              handleFilterChange({ searchQuery: e.target.value })
+            }
           />
         </div>
 
@@ -62,7 +73,9 @@ export function SearchFilters({
           <Label>Sort By</Label>
           <Select
             defaultValue="price-asc"
-            onValueChange={(value) => handleFilterChange({ sortBy: value as SortOption })}
+            onValueChange={(value) =>
+              handleFilterChange({ sortBy: value as SortOption })
+            }
           >
             <SelectTrigger className="mt-1">
               <SelectValue placeholder="Sort by" />
@@ -106,7 +119,9 @@ export function SearchFilters({
               max={maxPrice}
               step={PRICE_STEP}
               className="mt-3"
-              onValueChange={(value) => handleFilterChange({ priceRange: value as [number, number] })}
+              onValueChange={(value) =>
+                handleFilterChange({ priceRange: value as [number, number] })
+              }
             />
             <div className="flex justify-between mt-2 text-sm text-gray-600">
               <span>{formatIndianPrice(filters.priceRange[0])}</span>
@@ -124,7 +139,9 @@ export function SearchFilters({
               max={maxArea}
               step={AREA_STEP}
               className="mt-3"
-              onValueChange={(value) => handleFilterChange({ areaRange: value as [number, number] })}
+              onValueChange={(value) =>
+                handleFilterChange({ areaRange: value as [number, number] })
+              }
             />
             <div className="flex justify-between mt-2 text-sm text-gray-600">
               <span>{formatIndianNumber(filters.areaRange[0])} sq ft</span>
