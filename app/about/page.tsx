@@ -6,9 +6,11 @@ import Image from "next/image";
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-8">About Konkan Dekho</h1>
+      <h1 className="text-5xl font-caveat font-bold mb-8">
+        About Konkan Dekho
+      </h1>
 
-      <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
+      <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div>
           <h2 className="text-2xl font-semibold mb-4">Our Vision</h2>
           <p className="text-gray-600 mb-4">

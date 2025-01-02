@@ -48,7 +48,7 @@ export function Footer() {
                   href="/explore/how-it-works"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
-                  How It Works
+                  How We Work
                 </a>
               </li>
               <li>

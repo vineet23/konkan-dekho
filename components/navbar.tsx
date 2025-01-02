@@ -35,7 +35,7 @@ export function Navbar() {
           </div>
         </div>
 
-        <div className="hidden lg:flex items-center space-x-4">
+        <div className="hidden md:flex items-center space-x-4">
           <Link href="/explore/list-your-plot">
             <Button variant="ghost">List Your Plot</Button>
           </Link>

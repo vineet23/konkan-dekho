@@ -14,7 +14,7 @@ interface PlotMediaGalleryProps {
 export function PlotMediaGallery({ media, images }: PlotMediaGalleryProps) {
   const allMedia: PlotMedia[] = [
     ...media,
-    ...images.map(url => ({ type: 'image' as const, url }))
+    ...images.map((url) => ({ type: "image" as const, url })),
   ];
 
   const [selectedMedia, setSelectedMedia] = useState<PlotMedia>(allMedia[0]);
@@ -27,9 +27,9 @@ export function PlotMediaGallery({ media, images }: PlotMediaGalleryProps) {
           <PlotMediaViewer media={selectedMedia} />
         </AspectRatio>
       </div>
-      
+
       {/* Thumbnails */}
-      <div className="flex gap-2 overflow-x-auto pb-2 snap-x">
+      <div className="flex gap-2 overflow-x-auto py-2 snap-x">
         {allMedia.map((item, index) => (
           <div key={index} className="snap-start">
             <PlotMediaThumbnail

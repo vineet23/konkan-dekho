@@ -20,15 +20,17 @@ export default function ContactPage() {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
-      
+      <h1 className="text-5xl font-caveat font-bold mb-8">Contact Us</h1>
+
       <div className="grid md:grid-cols-3 gap-8">
         <Card className="p-6">
           <MapPin className="h-8 w-8 text-[#FF385C] mb-4" />
           <h2 className="text-xl font-semibold mb-2">Visit Us</h2>
           <p className="text-gray-600">
-            123 Business Center<br />
-            Mumbai, Maharashtra<br />
+            123 Business Center
+            <br />
+            Mumbai, Maharashtra
+            <br />
             India - 400001
           </p>
         </Card>
@@ -37,8 +39,10 @@ export default function ContactPage() {
           <Clock className="h-8 w-8 text-[#FF385C] mb-4" />
           <h2 className="text-xl font-semibold mb-2">Business Hours</h2>
           <p className="text-gray-600">
-            Monday - Friday: 9:00 AM - 6:00 PM<br />
-            Saturday: 9:00 AM - 2:00 PM<br />
+            Monday - Friday: 9:00 AM - 6:00 PM
+            <br />
+            Saturday: 9:00 AM - 2:00 PM
+            <br />
             Sunday: Closed
           </p>
         </Card>
@@ -47,7 +51,8 @@ export default function ContactPage() {
           <Phone className="h-8 w-8 text-[#FF385C] mb-4" />
           <h2 className="text-xl font-semibold mb-2">Get in Touch</h2>
           <p className="text-gray-600">
-            Phone: +91 123 456 7890<br />
+            Phone: +91 123 456 7890
+            <br />
             Email: info@konkandekho.com
           </p>
         </Card>

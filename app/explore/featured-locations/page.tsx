@@ -9,31 +9,36 @@ import { MapPin, ArrowRight } from "lucide-react";
 const featuredLocations = [
   {
     name: "Ratnagiri",
-    description: "Beautiful coastal region with pristine beaches and mango orchards",
+    description:
+      "Beautiful coastal region with pristine beaches and mango orchards",
     image: "https://images.unsplash.com/photo-1506368249639-73a05d6f6488",
-    plotCount: 12
+    plotCount: 12,
   },
   {
     name: "Sindhudurg",
     description: "Serene landscapes with historic forts and untouched beaches",
     image: "https://images.unsplash.com/photo-1502787530428-11cf61d6ba18",
-    plotCount: 8
+    plotCount: 8,
   },
   {
     name: "Raigad",
-    description: "Rich in history with stunning mountain views and coastal beauty",
+    description:
+      "Rich in history with stunning mountain views and coastal beauty",
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef",
-    plotCount: 15
-  }
+    plotCount: 15,
+  },
 ];
 
 export default function FeaturedLocationsPage() {
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-8">Featured Locations</h1>
+      <h1 className="text-5xl font-caveat font-bold mb-8">
+        Featured Locations
+      </h1>
       <p className="text-gray-600 mb-12 max-w-3xl">
-        Discover our handpicked selection of prime locations in the Konkan region, 
-        each offering unique investment opportunities and natural beauty.
+        Discover our handpicked selection of prime locations in the Konkan
+        region, each offering unique investment opportunities and natural
+        beauty.
       </p>
 
       <div className="grid md:grid-cols-3 gap-8">

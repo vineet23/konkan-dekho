@@ -7,7 +7,7 @@ import { MapPin, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { plots } from "@/lib/data/plots";
-import { SearchFilters } from "@/components/plots/search-filters";
+import { CollapsibleSearchFilters } from "@/components/plots/collapsible-search-filters";
 import { filterPlots } from "@/lib/utils/filters";
 import { sortPlots } from "@/lib/utils/sorting";
 import { FilterOptions, Plot } from "@/lib/types";
@@ -66,14 +66,14 @@ export default function Home() {
       {/* Search and Filters */}
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <SearchFilters
+          <CollapsibleSearchFilters
             locations={locations}
             onFiltersChange={handleFiltersChange}
             maxPrice={maxPrice}
             maxArea={maxArea}
           />
 
-          <h2 className="text-3xl font-bold mb-8">
+          <h2 className="pt-8 text-4xl font-bold font-caveat mb-8">
             {filteredPlots.length === 0 ? "No plots found" : "Available Plots"}
           </h2>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

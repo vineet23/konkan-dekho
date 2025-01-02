@@ -20,8 +20,8 @@ export default function ListYourPlotPage() {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-8">List Your Plot</h1>
-      
+      <h1 className="text-5xl font-bold font-caveat mb-8">List Your Plot</h1>
+
       <div className="grid md:grid-cols-3 gap-8 mb-12">
         <Card className="p-6">
           <h2 className="text-xl font-semibold mb-4">Why List with Us?</h2>
@@ -55,7 +55,9 @@ export default function ListYourPlotPage() {
       </div>
 
       <Card className="p-8">
-        <h2 className="text-2xl font-semibold mb-6">Submit Your Plot Details</h2>
+        <h2 className="text-2xl font-semibold mb-6">
+          Submit Your Plot Details
+        </h2>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid md:grid-cols-2 gap-6">
             <div>

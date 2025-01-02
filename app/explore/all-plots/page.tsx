@@ -1,7 +1,7 @@
 "use client";
 
 import { plots } from "@/lib/data/plots";
-import { SearchFilters } from "@/components/plots/search-filters";
+import { CollapsibleSearchFilters } from "@/components/plots/collapsible-search-filters";
 import { PlotGrid } from "@/components/plots/plot-grid";
 import { useState, useEffect } from "react";
 import { FilterOptions, Plot } from "@/lib/types";
@@ -13,21 +13,31 @@ import { ALL_LOCATIONS } from "@/lib/constants";
 
 export default function AllPlotsPage() {
   const searchParams = useSearchParams();
-  const locationParam = searchParams.get('location');
-  
+  const locationParam = searchParams.get("location");
+
   const [filters, setFilters] = useState<FilterOptions>({
-    priceRange: [0, Math.max(...plots.map(plot => convertPriceToNumber(plot.price)))],
-    areaRange: [0, Math.max(...plots.map(plot => convertAreaToNumber(plot.area)))],
+    priceRange: [
+      0,
+      Math.max(...plots.map((plot) => convertPriceToNumber(plot.price))),
+    ],
+    areaRange: [
+      0,
+      Math.max(...plots.map((plot) => convertAreaToNumber(plot.area))),
+    ],
     location: locationParam || ALL_LOCATIONS,
     searchQuery: "",
-    sortBy: 'price-asc'
+    sortBy: "price-asc",
   });
 
   const [filteredPlots, setFilteredPlots] = useState<Plot[]>(plots);
-  
-  const locations = Array.from(new Set(plots.map(plot => plot.location)));
-  const maxPrice = Math.max(...plots.map(plot => convertPriceToNumber(plot.price)));
-  const maxArea = Math.max(...plots.map(plot => convertAreaToNumber(plot.area)));
+
+  const locations = Array.from(new Set(plots.map((plot) => plot.location)));
+  const maxPrice = Math.max(
+    ...plots.map((plot) => convertPriceToNumber(plot.price))
+  );
+  const maxArea = Math.max(
+    ...plots.map((plot) => convertAreaToNumber(plot.area))
+  );
 
   const handleFiltersChange = (newFilters: FilterOptions) => {
     setFilters(newFilters);
@@ -45,9 +55,11 @@ export default function AllPlotsPage() {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-8">All Available Plots</h1>
-      
-      <SearchFilters
+      <h1 className="text-5xl font-bold font-caveat mb-8">
+        All Available Plots
+      </h1>
+
+      <CollapsibleSearchFilters
         locations={locations}
         onFiltersChange={handleFiltersChange}
         maxPrice={maxPrice}
