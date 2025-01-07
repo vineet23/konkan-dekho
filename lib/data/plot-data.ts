@@ -23,4 +23,5 @@ export const plotData: Plot = {
     latitude: "16.9902° N",
     longitude: "73.3120° E",
   },
+  media: [],
 };

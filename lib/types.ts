@@ -29,3 +29,13 @@ export interface Plot {
     longitude: string;
   };
 }
+
+// Define the TeamMember type
+export interface TeamMember {
+  name: string;
+  role: string;
+  image: string;
+  linkedin?: string;
+  email?: string;
+  bio: string;
+}
