@@ -3,23 +3,22 @@ import { Plot } from "../types";
 export const plots: Plot[] = [
   {
     id: 1,
-    title: "Beachfront Paradise",
-    location: "Ratnagiri",
-    area: "10,000 sq ft",
-    price: "₹50,00,000",
+    title: "Chafa – 2BHK Sea Front Villa",
+    location: "Neware Village, Ratnagiri",
+    area: "8,500 sq ft",
+    price: "₹9,500 per sq ft",
     description:
-      "Beautiful beachfront plot with panoramic views of the Arabian Sea. Perfect for building your dream vacation home.",
+      "Chafa is a charming 2BHK sea-facing villa nestled in the serene Neware Village of Ratnagiri. This elegant farmhouse-style property blends rustic tranquility with breathtaking sea views, offering a perfect retreat for nature lovers and peace seekers. Enjoy panoramic sunsets, gentle sea breeze, and modern comforts surrounded by lush greenery. Ideal for weekend getaways or long-term living in Konkan’s beauty.",
     features: [
-      "Beach Access",
-      "Clear Title",
-      "Road Connectivity",
-      "Electricity Available",
-      "Water Connection",
+      "Sea Front View",
+      "2BHK Furnished Villa",
+      "Private Road Access",
+      "Hilltop Elevation",
+      "Scenic Sunrise and Sunset Points"
     ],
     images: [
-      "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2",
-      "https://images.unsplash.com/photo-1502787530428-11cf61d6ba18",
-      "https://images.unsplash.com/photo-1500382017468-9049fed747ef",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chafa%2FMalushte_chafa.jpeg?alt=media&token=d9eb4d9d-d714-4460-87da-2521176fa47b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chafa%2F2023-12-23.jpg?alt=media&token=3ea2d769-bc8a-480a-999c-213f9a444935"
     ],
     media: [
       {
@@ -76,35 +75,36 @@ export const plots: Plot[] = [
   },
   {
     id: 3,
-    title: "Coastal Retreat",
-    location: "Sindhudurg",
-    area: "12,000 sq ft",
-    price: "₹65,00,000",
+    title: "Sea Nest",
+    location: "Ratnagiri",
+    area: "10,000 sq ft",
+    price: "₹1.2 Cr",
     description:
-      "Spacious plot near Tarkarli beach. Perfect for resort development with proximity to tourist attractions.",
+      "A luxurious sea-facing villa located in the scenic coastal town of Ratnagiri. Sea Nest offers a perfect blend of comfort and elegance with panoramic views of the Arabian Sea. Designed for both relaxation and sophistication, the property includes spacious interiors, a landscaped garden, and modern amenities. Whether you're looking for a peaceful retreat or a vacation home, Sea Nest is your dream destination by the sea.",
     features: [
-      "Beach Proximity",
-      "Tourist Area",
-      "Commercial Potential",
-      "Wide Road Access",
-      "Water Supply",
+      "Sea Facing Villa",
+      "3BHK Fully Furnished",
+      "Private Garden",
+      "Spacious Terrace",
+      "Direct Road Access"
     ],
     images: [
-      "https://images.unsplash.com/photo-1505144808419-1957a94ca61e",
-      "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57",
-      "https://images.unsplash.com/photo-1501426026826-31c667bdf23d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-002%20(1).jpg?alt=media&token=c7b0cce0-3928-4b46-bf34-22728629dbc8x",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-001.jpg?alt=media&token=4fa7677b-3357-4359-beee-9cd27194e711",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FIMG_8104-Pano-2.jpg?alt=media&token=b69720c4-ac29-4937-8f6e-1b025b0019e4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-033.jpg?alt=media&token=6b371ea8-8a3b-49ff-ab70-814c4c52770e",
     ],
     media: [
       {
         type: "video",
         url: "https://player.vimeo.com/external/370467167.sd.mp4?s=9c119f276db66644b68d333c6c404b9b5f6a0fde&profile_id=164&oauth2_token_id=57447761",
         thumbnail:
-          "https://images.unsplash.com/photo-1505144808419-1957a94ca61e",
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-088.jpg?alt=media&token=ee172088-4db2-48d6-b61a-7fedb75807f8",
       },
     ],
     coordinates: {
-      latitude: "16.0537° N",
-      longitude: "73.4711° E",
+      latitude: "17.10451480888077° N",
+      longitude: "73.29064576411145° E",
     },
   },
   {
