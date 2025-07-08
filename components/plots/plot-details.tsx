@@ -1,6 +1,5 @@
 import { MapPin, SquareDashed, IndianRupee, Map } from "lucide-react";
 import { Plot } from "@/lib/types";
-import { MapLink } from "./map-link";
 
 interface PlotDetailsProps {
   plot: Plot;
@@ -57,11 +56,15 @@ export function PlotDetails({ plot }: PlotDetailsProps) {
         <div className="flex flex-col sm:flex-row sm:items-center gap-4">
           <div className="flex items-center space-x-4 text-gray-600 text-sm sm:text-base">
             <Map className="h-5 w-5 shrink-0" />
-            <span className="break-all sm:break-normal">
-              {plot.coordinates.latitude}, {plot.coordinates.longitude}
-            </span>
+            <a
+              href={plot.googleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline break-all sm:break-normal"
+            >
+              View on Google Maps
+            </a>
           </div>
-          <MapLink coordinates={plot.coordinates} />
         </div>
       </div>
     </div>

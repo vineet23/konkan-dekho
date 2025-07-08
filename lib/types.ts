@@ -24,11 +24,9 @@ export interface Plot {
   features: string[];
   images: string[];
   media: PlotMedia[];
-  coordinates: {
-    latitude: string;
-    longitude: string;
-  };
+  googleMapsUrl: string; // ✅ instead of coordinates
 }
+
 
 // Define the TeamMember type
 export interface TeamMember {

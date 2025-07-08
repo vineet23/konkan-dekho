@@ -1,24 +1,36 @@
-"use client";
-
 import { PlotMedia } from "@/lib/types";
-import { ImageViewer } from "./image-viewer";
 
 interface PlotMediaViewerProps {
-  media: PlotMedia;
+  media: PlotMedia[];
 }
 
 export function PlotMediaViewer({ media }: PlotMediaViewerProps) {
-  if (media.type === 'video') {
-    return (
-      <video
-        src={media.url}
-        controls
-        className="absolute inset-0 h-full w-full object-cover"
-        poster={media.thumbnail}
-        playsInline
-      />
-    );
-  }
+  if (!Array.isArray(media)) return null;
 
-  return <ImageViewer src={media.url} alt="Plot view" />;
+  return (
+    <div className="media-viewer space-y-4">
+      {media.map((item, index) => {
+        if (item.type === "video") {
+          return (
+            <video
+              key={index}
+              controls
+              className="w-full rounded-md shadow"
+              src={item.url}
+              poster={item.thumbnail}
+            />
+          );
+        } else {
+          return (
+            <img
+              key={index}
+              src={item.url}
+              alt={`Media ${index + 1}`}
+              className="w-full rounded-md shadow"
+            />
+          );
+        }
+      })}
+    </div>
+  );
 }
