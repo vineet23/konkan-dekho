@@ -37,3 +37,12 @@ export interface TeamMember {
   email?: string;
   bio: string;
 }
+
+export interface Review {
+  id: string;
+  name: string;
+  comment: string;
+  media?: { type: "image" | "video"; url: string }[];
+  date: string;
+}
+

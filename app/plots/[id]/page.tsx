@@ -9,10 +9,10 @@ export function generateStaticParams() {
 }
 
 export default function PlotDetailsPage({ params }: { params: { id: string } }) {
-  const plot = plots.find(p => p.id === parseInt(params.id));
-  
+  const plot = plots.find((p) => p.id === parseInt(params.id));
+
   if (!plot) {
-    notFound();
+    return notFound(); // 🔁 FIX: ensure it's returned
   }
 
   return <ClientPlotPage id={params.id} />;

@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer";
 import { Toaster } from "@/components/ui/toaster";
 import { Caveat } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const caveat = Caveat({
   subsets: ["latin"],
   variable: "--font-caveat",
@@ -25,14 +25,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${caveat.variable}`} suppressHydrationWarning>
-      <body className={inter.className} suppressHydrationWarning>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem={false}
-        >
-          <div className="flex min-h-screen flex-col">
+    <html lang="en" className={`${inter.variable} ${caveat.variable}`} suppressHydrationWarning>
+      <body
+        suppressHydrationWarning
+        className="bg-white text-black dark:bg-zinc-900 dark:text-white transition-colors duration-300"
+      >
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
+          <div className="flex min-h-screen flex-col font-sans">
             <Navbar />
             <main className="flex-1">{children}</main>
             <Footer />

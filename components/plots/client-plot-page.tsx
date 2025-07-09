@@ -1,13 +1,22 @@
 "use client";
 
+import { useState } from "react";
 import { PlotDetails } from "./plot-details";
 import { ContactForm } from "./contact-form";
 import { plots } from "@/lib/data/plots";
 import { PlotMediaGallery } from "./media/plot-media-gallery";
 import { SimilarPlots } from "./similar-plots";
+import { Reviews } from "./reviews"; // Make sure this file exists
+import { Review } from "@/lib/types";
 
 export function ClientPlotPage({ id }: { id: string }) {
   const plot = plots.find((p) => p.id === parseInt(id));
+
+  const [reviews, setReviews] = useState<Review[]>([]);
+
+  const handleReviewSubmit = (newReview: Review) => {
+    setReviews((prev) => [newReview, ...prev]);
+  };
 
   if (!plot) {
     return <div>Plot not found</div>;
@@ -21,12 +30,19 @@ export function ClientPlotPage({ id }: { id: string }) {
         <div className="lg:col-span-2 space-y-6">
           <PlotMediaGallery media={plot.media} images={plot.images} />
           <PlotDetails plot={plot} />
+          
+          {/* 🔽 Review Section (Added here) */}
+          <Reviews reviews={reviews} onSubmit={handleReviewSubmit} />
+
           {/* Mobile Contact Form */}
           <div className="block lg:hidden">
             <ContactForm />
           </div>
+
+          {/* 🔽 Similar Properties (comes after reviews) */}
           <SimilarPlots currentPlot={plot} allPlots={plots} />
         </div>
+
         {/* Contact Form - Sticky on desktop */}
         <div className="hidden lg:block lg:col-span-1">
           <div className="lg:sticky lg:top-4">
