@@ -1,55 +1,85 @@
-import Image from "next/image";
 import { MapPin, SquareDashed, IndianRupee, Map } from "lucide-react";
 import { Plot } from "@/lib/types";
+import { MapLink } from "./map-link";
 
-interface Props { plot: Plot }
+interface PlotDetailsProps {
+  plot: Plot;
+}
 
-export function PlotDetails({ plot }: Props) {
+export function PlotDetails({ plot }: PlotDetailsProps) {
   return (
-    <section className="bg-white p-6 rounded-lg shadow-lg space-y-6">
-      <h1 className="text-2xl font-bold">{plot.title}</h1>
+    <div className="mt-4 sm:mt-8">
+      <h1 className="text-2xl sm:text-3xl font-bold">{plot.title}</h1>
 
-      <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-6 text-gray-600">
-        <div className="flex items-center space-x-2">
-          <MapPin /><span>{plot.location}</span>
+      {/* Key Details */}
+      <div className="mt-4 flex flex-col sm:flex-row gap-4 sm:items-center sm:space-x-4 text-gray-600">
+        <div className="flex items-center">
+          <MapPin className="mr-1 h-5 w-5 shrink-0" />
+          <span className="truncate">{plot.location}</span>
         </div>
-        <div className="flex items-center space-x-2">
-          <SquareDashed /><span>{plot.area}</span>
+        <div className="flex items-center">
+          <SquareDashed className="mr-1 h-5 w-5 shrink-0" />
+          <span>{plot.area}</span>
         </div>
-        <div className="flex items-center space-x-2">
-          <IndianRupee /><span>{plot.price}</span>
+        <div className="flex items-center">
+          <IndianRupee className="mr-1 h-5 w-5 shrink-0" />
+          <span>{plot.price}</span>
         </div>
       </div>
 
-      <div>
-        <h2 className="text-lg font-semibold mb-2">Description</h2>
-        <p className="text-gray-700">{plot.description}</p>
+      {/* Description */}
+      <div className="mt-6">
+        <h2 className="text-lg sm:text-xl font-semibold">Description</h2>
+        <p className="mt-2 text-gray-600 text-sm sm:text-base">
+          {plot.description}
+        </p>
       </div>
-      
-      <div>
-        <h2 className="text-lg font-semibold mb-2">Features</h2>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {plot.features.map((feature, idx) => (
-            <li key={idx} className="flex items-center text-gray-600">
-              <span className="inline-block w-2 h-2 bg-[#FF385C] rounded-full mr-2" />
+
+      {/* Features */}
+      <div className="mt-6">
+        <h2 className="text-lg sm:text-xl font-semibold">Features</h2>
+        <ul className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2">
+          {plot.features.map((feature, index) => (
+            <li
+              key={index}
+              className="flex items-center text-gray-600 text-sm sm:text-base"
+            >
+              <span className="mr-2 h-2 w-2 rounded-full bg-[#FF385C] shrink-0" />
               {feature}
             </li>
           ))}
         </ul>
       </div>
 
-      <div>
-        <h2 className="text-lg font-semibold mb-2">Location</h2>
-        <div className="bg-gray-100 rounded-lg overflow-hidden">
+      {/* Location */}
+      <div className="mt-6">
+        <h2 className="text-lg sm:text-xl font-semibold mb-4">Location</h2>
+
+        {/* Embedded Map */}
+        <div className="w-full h-[300px] rounded-md overflow-hidden border">
           <iframe
             width="100%"
-            height="250"
-            src={plot.googleMapsUrl.replace("/maps?", "/maps/embed?")}
+            height="100%"
+            style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            src={plot.googleMapsUrl.replace("/maps?", "/maps/embed?")}
           ></iframe>
         </div>
+
+        {/* View on Google Maps Button */}
+        <div className="mt-4">
+          <a
+            href={plot.googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition"
+          >
+            View on Google Maps
+          </a>
+        </div>
       </div>
-    </section>
+    </div>
   );
 }

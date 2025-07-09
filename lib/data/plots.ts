@@ -62,7 +62,8 @@ export const plots: Plot[] = [
   }
 ],
 
-    googleMapsUrl: "https://www.google.com/maps?q=17.10451480888077,73.29064576411145"
+googleMapsUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d335668.93780889775!2d73.2415787918651!3d17.055469582869602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bea0fe4d6d724d7%3A0x8275d7b856d3fc98!2sSea%20Nest!5e0!3m2!1sen!2sin!4v1752052152457!5m2!1sen!2sin"
+
   },
   {
     id: 4,
