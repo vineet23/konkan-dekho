@@ -3,9 +3,10 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="border-t bg-white">
+    <footer className="border-t bg-background text-foreground">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+          {/* Logo and Description */}
           <div>
             <div className="flex items-center space-x-2">
               <Image
@@ -18,107 +19,74 @@ export function Footer() {
                 Konkan Dekho
               </span>
             </div>
-            <p className="mt-4 text-sm text-gray-600">
-              Your trusted partner in finding the perfect plot of land in the
-              beautiful Konkan region.
+            <p className="mt-4 text-sm text-muted-foreground">
+              Your trusted partner in finding the perfect plot of land in the beautiful Konkan region.
             </p>
           </div>
 
+          {/* Explore Links */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900">Explore</h3>
+            <h3 className="text-sm font-semibold">Explore</h3>
             <ul className="mt-4 space-y-2">
-              <li>
-                <a
-                  href="/explore/all-plots"
-                  className="text-sm text-gray-600 hover:text-[#FF385C]"
-                >
-                  All Plots
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/explore/featured-locations"
-                  className="text-sm text-gray-600 hover:text-[#FF385C]"
-                >
-                  Featured Locations
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/explore/how-it-works"
-                  className="text-sm text-gray-600 hover:text-[#FF385C]"
-                >
-                  How We Work
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/explore/list-your-plot"
-                  className="text-sm text-gray-600 hover:text-[#FF385C]"
-                >
-                  List Your Plot
-                </a>
-              </li>
+              {[
+                { href: "/explore/all-plots", text: "All Plots" },
+                { href: "/explore/featured-locations", text: "Featured Locations" },
+                { href: "/explore/how-it-works", text: "How We Work" },
+                { href: "/explore/list-your-plot", text: "List Your Plot" },
+              ].map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="text-sm text-muted-foreground hover:text-[#FF385C]"
+                  >
+                    {link.text}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
+          {/* Company Links */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900">Company</h3>
+            <h3 className="text-sm font-semibold">Company</h3>
             <ul className="mt-4 space-y-2">
-              <li>
-                <a
-                  href="/about"
-                  className="text-sm text-gray-600 hover:text-[#FF385C]"
-                >
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/team"
-                  className="text-sm text-gray-600 hover:text-[#FF385C]"
-                >
-                  Our Team
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/testimonials"
-                  className="text-sm text-gray-600 hover:text-[#FF385C]"
-                >
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/contact"
-                  className="text-sm text-gray-600 hover:text-[#FF385C]"
-                >
-                  Contact
-                </a>
-              </li>
+              {[
+                { href: "/about", text: "About Us" },
+                { href: "/team", text: "Our Team" },
+                { href: "/testimonials", text: "Testimonials" },
+                { href: "/contact", text: "Contact" },
+              ].map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className="text-sm text-muted-foreground hover:text-[#FF385C]"
+                  >
+                    {link.text}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
+          {/* Contact Info */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900">Contact Us</h3>
-            <ul className="mt-4 space-y-2">
+            <h3 className="text-sm font-semibold">Contact Us</h3>
+            <ul className="mt-4 space-y-2 text-muted-foreground">
               <li className="flex items-center space-x-2">
-                <Phone className="h-4 w-4 text-gray-400" />
-                <span className="text-sm text-gray-600">+91 123 456 7890</span>
+                <Phone className="h-4 w-4" />
+                <span className="text-sm">+91 123 456 7890</span>
               </li>
               <li className="flex items-center space-x-2">
-                <Mail className="h-4 w-4 text-gray-400" />
-                <span className="text-sm text-gray-600">
-                  info@konkandekho.com
-                </span>
+                <Mail className="h-4 w-4" />
+                <span className="text-sm">info@konkandekho.com</span>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-8 border-t pt-8">
-          <p className="text-center text-sm text-gray-600">
+        {/* Copyright */}
+        <div className="mt-8 border-t pt-8 border-border">
+          <p className="text-center text-sm text-muted-foreground">
             © {new Date().getFullYear()} Konkan Dekho. All rights reserved.
           </p>
         </div>
