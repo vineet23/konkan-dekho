@@ -22,7 +22,7 @@ export default function AboutPage() {
           <p className="text-gray-600">
             We are committed to transparency, authenticity, and providing
             comprehensive information to help you make informed decisions about
-            your land investments.
+            your land investments and homestays.
           </p>
         </div>
         <div className="relative h-[400px]">
@@ -40,7 +40,8 @@ export default function AboutPage() {
           <h3 className="text-xl font-semibold mb-4">Our Mission</h3>
           <p className="text-gray-600">
             To provide a seamless platform for discovering premium land plots
-            while ensuring transparency and trust in every transaction.
+            and homestays while ensuring transparency and trust in every
+            transaction.
           </p>
         </Card>
 

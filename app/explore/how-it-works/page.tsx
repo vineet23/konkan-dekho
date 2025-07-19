@@ -10,10 +10,10 @@ export default function HowItWorksPage() {
           <div className="w-16 h-16 bg-[#FF385C] rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
             1
           </div>
-          <h2 className="text-xl font-semibold mb-2">Browse Plots</h2>
+          <h2 className="text-xl font-semibold mb-2">Explore Stays</h2>
           <p className="text-gray-600">
-            Explore our extensive collection of premium land plots across the
-            Konkan region
+            Discover a curated selection of authentic Konkan homestays with
+            stunning views and local charm.
           </p>
         </div>
 
@@ -21,10 +21,10 @@ export default function HowItWorksPage() {
           <div className="w-16 h-16 bg-[#FF385C] rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
             2
           </div>
-          <h2 className="text-xl font-semibold mb-2">Filter & Compare</h2>
+          <h2 className="text-xl font-semibold mb-2">Check Amenities</h2>
           <p className="text-gray-600">
-            Use our advanced filters to find plots that match your specific
-            requirements
+            Filter stays by your preferred amenities like sea view, pet-friendly
+            options, or nearby attractions.
           </p>
         </div>
 
@@ -32,10 +32,10 @@ export default function HowItWorksPage() {
           <div className="w-16 h-16 bg-[#FF385C] rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
             3
           </div>
-          <h2 className="text-xl font-semibold mb-2">Contact Us</h2>
+          <h2 className="text-xl font-semibold mb-2">Contact Host</h2>
           <p className="text-gray-600">
-            Get in touch with our experts for detailed information and site
-            visits
+            Reach out to our verified hosts directly for questions,
+            availability, or custom requirements.
           </p>
         </div>
 
@@ -43,9 +43,10 @@ export default function HowItWorksPage() {
           <div className="w-16 h-16 bg-[#FF385C] rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
             4
           </div>
-          <h2 className="text-xl font-semibold mb-2">Secure Your Plot</h2>
+          <h2 className="text-xl font-semibold mb-2">Book Your Stay</h2>
           <p className="text-gray-600">
-            Complete the purchase process with our guidance and support
+            Finalize your booking securely and get ready to experience true
+            Konkan hospitality.
           </p>
         </div>
       </div>
@@ -57,34 +58,31 @@ export default function HowItWorksPage() {
         <div className="space-y-6">
           <div>
             <h3 className="text-lg font-semibold mb-2">
-              How do I schedule a site visit?
+              How do I book a homestay?
             </h3>
             <p className="text-gray-600">
-              You can request a site visit through our contact form or by
-              calling us directly. Our team will arrange the visit at your
-              convenience.
+              Simply explore listings, contact the host, and once you confirm
+              the details, we’ll help you complete the booking.
             </p>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-2">
-              What documents are required for purchase?
+              Are meals included in the stay?
             </h3>
             <p className="text-gray-600">
-              Required documents typically include identity proof, address
-              proof, and PAN card. Our team will guide you through the complete
-              documentation process.
+              Some homestays offer meals, while others have kitchens or nearby
+              restaurants. Details are mentioned on each listing.
             </p>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-2">
-              Do you provide legal assistance?
+              Is it safe and verified?
             </h3>
             <p className="text-gray-600">
-              Yes, we have a team of legal experts who will assist you
-              throughout the purchase process and ensure all documentation is
-              properly handled.
+              Yes, all our homestays are verified by our local team. We also
+              collect reviews and ratings from past guests.
             </p>
           </div>
         </div>

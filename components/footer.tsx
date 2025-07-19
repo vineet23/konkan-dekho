@@ -19,8 +19,8 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-4 text-sm text-gray-600">
-              Your trusted partner in finding the perfect plot of land in the
-              beautiful Konkan region.
+              Your trusted partner in finding the perfect homestays & plot of
+              land in the beautiful Konkan region.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export function Footer() {
                   href="/explore/all-plots"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
-                  All Plots
+                  All Homestays
                 </a>
               </li>
               <li>
@@ -56,7 +56,7 @@ export function Footer() {
                   href="/explore/list-your-plot"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
-                  List Your Plot
+                  List Your Plot/Homestay
                 </a>
               </li>
             </ul>
@@ -105,12 +105,12 @@ export function Footer() {
             <ul className="mt-4 space-y-2">
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-gray-400" />
-                <span className="text-sm text-gray-600">+91 123 456 7890</span>
+                <span className="text-sm text-gray-600">+91 9834069861</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-gray-400" />
                 <span className="text-sm text-gray-600">
-                  info@konkandekho.com
+                  advaitkulkarni301@gmail.com
                 </span>
               </li>
             </ul>

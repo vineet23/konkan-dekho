@@ -42,7 +42,7 @@ export function SimilarPlots({ currentPlot, allPlots }: SimilarPlotsProps) {
   return (
     <div className="mt-12 border-t">
       <h2 className="pt-8 text-3xl font-bold mb-6 font-caveat">
-        Similar Plots Near by
+        Similar homestays near by
       </h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {similarPlots.map((plot) => (

@@ -5,25 +5,25 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Suresh Kumar",
+    name: "Abhay Rane",
     location: "Mumbai",
     rating: 5,
     text: "Found my dream plot through Konkan Dekho. The process was smooth and transparent.",
     plotLocation: "Ratnagiri",
   },
   {
-    name: "Meera Shah",
+    name: "Pratik Limaye",
     location: "Pune",
     rating: 5,
     text: "Excellent service and very professional team. They helped me find the perfect investment opportunity.",
-    plotLocation: "Sindhudurg",
+    plotLocation: "Ratnagiri",
   },
   {
-    name: "Rahul Desai",
-    location: "Thane",
+    name: "Atharva Desai",
+    location: "Panvel",
     rating: 4,
     text: "Great platform for finding land in Konkan. Very detailed information and helpful support.",
-    plotLocation: "Raigad",
+    plotLocation: "Ratnagiri",
   },
 ];
 

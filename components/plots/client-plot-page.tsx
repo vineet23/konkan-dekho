@@ -10,7 +10,7 @@ export function ClientPlotPage({ id }: { id: string }) {
   const plot = plots.find((p) => p.id === parseInt(id));
 
   if (!plot) {
-    return <div>Plot not found</div>;
+    return <div>Plot/Homestay not found</div>;
   }
 
   return (

@@ -29,7 +29,7 @@ export function Navbar() {
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 transform text-gray-400" />
             <Input
               className="w-full pl-10"
-              placeholder="Search for plots by location..."
+              placeholder="Search for homestays by location..."
               type="search"
             />
           </div>
@@ -37,7 +37,7 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center space-x-4">
           <Link href="/explore/list-your-plot">
-            <Button variant="ghost">List Your Plot</Button>
+            <Button variant="ghost">List Your Plot/Homestay</Button>
           </Link>
           <Link href="/contact">
             <Button className="bg-[#FF385C] hover:bg-[#D93B60]">

@@ -12,20 +12,20 @@ const featuredLocations = [
     description:
       "Beautiful coastal region with pristine beaches and mango orchards",
     image: "https://images.unsplash.com/photo-1506368249639-73a05d6f6488",
-    plotCount: 12,
+    plotCount: 7,
   },
   {
     name: "Sindhudurg",
     description: "Serene landscapes with historic forts and untouched beaches",
     image: "https://images.unsplash.com/photo-1502787530428-11cf61d6ba18",
-    plotCount: 8,
+    plotCount: "No",
   },
   {
     name: "Raigad",
     description:
       "Rich in history with stunning mountain views and coastal beauty",
     image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef",
-    plotCount: 15,
+    plotCount: "No",
   },
 ];
 
@@ -60,13 +60,17 @@ export default function FeaturedLocationsPage() {
               <p className="text-gray-600 mb-4">{location.description}</p>
               <div className="flex items-center justify-between">
                 <span className="text-sm text-gray-600">
-                  {location.plotCount} plots available
+                  {location.plotCount === "No"
+                    ? "Coming Soon"
+                    : `${location.plotCount} homestays available`}
                 </span>
-                <Link href={`/explore/all-plots?location=${location.name}`}>
-                  <Button variant="ghost" size="sm">
-                    View Plots <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
-                </Link>
+                {location.plotCount !== "No" && (
+                  <Link href={`/explore/all-plots?location=${location.name}`}>
+                    <Button variant="ghost" size="sm">
+                      View Homestays <ArrowRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
+                )}
               </div>
             </div>
           </Card>

@@ -20,7 +20,9 @@ export default function ListYourPlotPage() {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-5xl font-bold font-caveat mb-8">List Your Plot</h1>
+      <h1 className="text-5xl font-bold font-caveat mb-8">
+        List Your Plot/Homestay
+      </h1>
 
       <div className="grid md:grid-cols-3 gap-8 mb-12">
         <Card className="p-6">
@@ -36,7 +38,7 @@ export default function ListYourPlotPage() {
         <Card className="p-6">
           <h2 className="text-xl font-semibold mb-4">Our Process</h2>
           <ul className="space-y-2 text-gray-600">
-            <li>• Submit plot details</li>
+            <li>• Submit plot/homestay details</li>
             <li>• Property verification</li>
             <li>• Professional listing creation</li>
             <li>• Active marketing</li>
@@ -48,7 +50,7 @@ export default function ListYourPlotPage() {
           <ul className="space-y-2 text-gray-600">
             <li>• Clear property title</li>
             <li>• Property documents</li>
-            <li>• Plot photographs</li>
+            <li>• Plot/Homestay photographs</li>
             <li>• Owner details</li>
           </ul>
         </Card>
@@ -56,7 +58,7 @@ export default function ListYourPlotPage() {
 
       <Card className="p-8">
         <h2 className="text-2xl font-semibold mb-6">
-          Submit Your Plot Details
+          Submit Your Plot/Homestay Details
         </h2>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid md:grid-cols-2 gap-6">
@@ -76,14 +78,14 @@ export default function ListYourPlotPage() {
               <Input type="email" placeholder="Email" required />
             </div>
             <div>
-              <Label>Plot Location</Label>
+              <Label>Plot/Homestay Location</Label>
               <Input placeholder="City/District" required />
             </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <Label>Plot Area (sq ft)</Label>
+              <Label>Plot/Homestay Area (sq ft)</Label>
               <Input type="number" placeholder="Area in square feet" required />
             </div>
             <div>
@@ -93,7 +95,7 @@ export default function ListYourPlotPage() {
           </div>
 
           <div>
-            <Label>Plot Description</Label>
+            <Label>Plot/Homestay Description</Label>
             <Textarea
               placeholder="Provide detailed information about your plot..."
               className="min-h-[150px]"

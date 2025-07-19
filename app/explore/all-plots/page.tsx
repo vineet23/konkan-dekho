@@ -56,7 +56,7 @@ export default function AllPlotsPage() {
   return (
     <div className="container mx-auto px-4 py-16">
       <h1 className="text-5xl font-bold font-caveat mb-8">
-        All Available Plots
+        All Available Homestays
       </h1>
 
       <CollapsibleSearchFilters

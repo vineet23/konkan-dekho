@@ -9,7 +9,8 @@ export default function TeamPage() {
       <h1 className="text-5xl font-caveat font-bold mb-8">Our Team</h1>
       <p className="text-gray-600 mb-12 max-w-3xl">
         Meet the dedicated professionals behind Konkan Dekho who work tirelessly
-        to help you find your perfect plot of land in the Konkan region.
+        to help you find your perfect plot of land or homestay in the Konkan
+        region.
       </p>
 
       <div className="grid md:grid-cols-3 gap-8">

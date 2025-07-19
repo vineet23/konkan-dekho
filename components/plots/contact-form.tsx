@@ -20,10 +20,10 @@ export function ContactForm() {
 
   return (
     <Card className="p-6">
-      <h2 className="text-xl font-semibold">Buy Now</h2>
+      <h2 className="text-xl font-semibold">Book Now</h2>
       <p className="mt-2 text-sm text-gray-600">
-        Interested in this plot? Fill out the form below and we'll get back to
-        you.
+        Interested in this homestay? Fill out the form below and we'll get back
+        to you.
       </p>
       <form onSubmit={handleSubmit} className="mt-4 space-y-4">
         <div>
@@ -53,11 +53,11 @@ export function ContactForm() {
       <div className="mt-6 space-y-2">
         <div className="flex items-center text-sm text-gray-600">
           <Phone className="mr-2 h-4 w-4" />
-          +91 123 456 7890
+          +91 9834069861
         </div>
         <div className="flex items-center text-sm text-gray-600">
           <Mail className="mr-2 h-4 w-4" />
-          info@konkandekho.com
+          advaitkulkarni301@gmail.com
         </div>
       </div>
     </Card>

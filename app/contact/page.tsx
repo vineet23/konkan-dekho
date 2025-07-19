@@ -27,11 +27,11 @@ export default function ContactPage() {
           <MapPin className="h-8 w-8 text-[#FF385C] mb-4" />
           <h2 className="text-xl font-semibold mb-2">Visit Us</h2>
           <p className="text-gray-600">
-            123 Business Center
+            102-Omkar Sanjiwani Apartment, Joshi Paland
             <br />
-            Mumbai, Maharashtra
+            Ratnagiri, Maharashtra
             <br />
-            India - 400001
+            India - 415612
           </p>
         </Card>
 
@@ -51,9 +51,20 @@ export default function ContactPage() {
           <Phone className="h-8 w-8 text-[#FF385C] mb-4" />
           <h2 className="text-xl font-semibold mb-2">Get in Touch</h2>
           <p className="text-gray-600">
-            Phone: +91 123 456 7890
+            Phone:
             <br />
-            Email: info@konkandekho.com
+            +91 9082046979
+            <br />
+            +91 9834069861
+            <br />
+            +91 7021761113
+            <br />
+            <br />
+            Email:
+            <br />
+            vineetpatel.developer@gmail.com
+            <br />
+            advaitkulkarni301@gmail.com
           </p>
         </Card>
       </div>
