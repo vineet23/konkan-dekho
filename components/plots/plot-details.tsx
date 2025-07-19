@@ -1,4 +1,4 @@
-import { MapPin, SquareDashed, IndianRupee, Map } from "lucide-react";
+import { MapPin, SquareDashed, IndianRupee, Map, User } from "lucide-react";
 import { Plot } from "@/lib/types";
 import { MapLink } from "./map-link";
 
@@ -18,12 +18,12 @@ export function PlotDetails({ plot }: PlotDetailsProps) {
           <span className="truncate">{plot.location}</span>
         </div>
         <div className="flex items-center">
-          <SquareDashed className="mr-1 h-5 w-5 shrink-0" />
-          <span>{plot.area}</span>
+          <User className="mr-1 h-5 w-5 shrink-0" />
+          <span>{plot.guests} guests max</span>
         </div>
         <div className="flex items-center">
           <IndianRupee className="mr-1 h-5 w-5 shrink-0" />
-          <span>{plot.price}</span>
+          <span>{plot.price.slice(1)} per night</span>
         </div>
       </div>
 

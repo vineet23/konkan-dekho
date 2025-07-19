@@ -18,7 +18,7 @@ export interface Plot {
   id: number;
   title: string;
   location: string;
-  area: string;
+  guests: string;
   price: string;
   description: string;
   features: string[];

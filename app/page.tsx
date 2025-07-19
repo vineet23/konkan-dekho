@@ -22,7 +22,7 @@ export default function Home() {
     ...plots.map((plot) => convertPriceToNumber(plot.price))
   );
   const maxArea = Math.max(
-    ...plots.map((plot) => convertAreaToNumber(plot.area))
+    ...plots.map((plot) => convertAreaToNumber(plot.guests))
   );
 
   const handleFiltersChange = (filters: FilterOptions) => {
@@ -98,9 +98,12 @@ export default function Home() {
                     </div>
                     <div className="mt-4 flex items-center justify-between">
                       <div>
-                        <p className="text-sm text-gray-600">{plot.area}</p>
+                        <p className="text-sm text-gray-600">
+                          {plot.guests} guests
+                        </p>
                         <p className="text-lg font-bold text-[#FF385C]">
-                          {formatIndianPrice(convertPriceToNumber(plot.price))}
+                          {formatIndianPrice(convertPriceToNumber(plot.price))}{" "}
+                          per nigth
                         </p>
                       </div>
                       <Button variant="ghost" size="icon">

@@ -132,7 +132,7 @@ export function SearchFilters({
 
         {/* Area Range Slider */}
         <div className="md:col-span-2 lg:col-span-1">
-          <Label>Area Range</Label>
+          <Label>Guests Range</Label>
           <div className="mt-2 px-2">
             <Slider
               defaultValue={[0, maxArea]}
@@ -144,8 +144,8 @@ export function SearchFilters({
               }
             />
             <div className="flex justify-between mt-2 text-sm text-gray-600">
-              <span>{formatIndianNumber(filters.areaRange[0])} sq ft</span>
-              <span>{formatIndianNumber(filters.areaRange[1])} sq ft</span>
+              <span>{formatIndianNumber(filters.areaRange[0])} min</span>
+              <span>{formatIndianNumber(filters.areaRange[1])} max</span>
             </div>
           </div>
         </div>
