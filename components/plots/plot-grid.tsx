@@ -33,7 +33,7 @@ export function PlotGrid({ plots }: PlotGridProps) {
               </div>
               <div className="mt-4 flex items-center justify-between">
                 <div>
-                  <p className="text-sm text-gray-600">{plot.area}</p>
+                  <p className="text-sm text-gray-600">{plot.guests}</p>
                   <p className="text-lg font-bold text-[#FF385C]">
                     {formatIndianPrice(convertPriceToNumber(plot.price))}
                   </p>

@@ -4,9 +4,10 @@ export const plotData: Plot = {
   id: 1,
   title: "Beachfront Paradise",
   location: "Ratnagiri",
-  area: "10,000 sq ft",
+  guests: "8",
   price: "₹50,00,000",
-  description: "Beautiful beachfront plot with panoramic views of the Arabian Sea. Perfect for building your dream vacation home.",
+  description:
+    "Beautiful beachfront plot with panoramic views of the Arabian Sea. Perfect for building your dream vacation home.",
   features: [
     "Beach Access",
     "Clear Title",
