@@ -17,17 +17,18 @@ export const plots: Plot[] = [
       "Direct Road Access",
     ],
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-002%20(1).jpg?alt=media&token=c7b0cce0-3928-4b46-bf34-22728629dbc8x",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-001.jpg?alt=media&token=4fa7677b-3357-4359-beee-9cd27194e711",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FIMG_8104-Pano-2.jpg?alt=media&token=b69720c4-ac29-4937-8f6e-1b025b0019e4",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-033.jpg?alt=media&token=6b371ea8-8a3b-49ff-ab70-814c4c52770e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-088_11zon.webp?alt=media&token=552793c7-3e8b-4501-953a-1dcfae1748ea",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FIMG_8104-Pano-2_11zon.webp?alt=media&token=b0f16c09-8546-42de-a9dc-5e396540acef",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-001_11zon.webp?alt=media&token=7f5475ad-5274-40a6-9e4b-b65fe186e6fe",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-029_11zon.webp?alt=media&token=a9509a31-4d34-4523-bb2e-170e009448fc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-033_11zon.webp?alt=media&token=ee9858c3-77c6-491d-a314-5885d9591433",
     ],
     media: [
       {
         type: "video",
-        url: "https://player.vimeo.com/external/373239380.sd.mp4?s=30d44fd0002d11c158f4d4392c867a02234c7889&profile_id=164&oauth2_token_id=57447761",
+        url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FWhatsApp%20Video%202025-06-29%20at%2015.36.21.mp4?alt=media&token=475ed962-7f3f-46da-9308-012ff8f07cab",
         thumbnail:
-          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-088.jpg?alt=media&token=ee172088-4db2-48d6-b61a-7fedb75807f8",
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea%20Nest%20VIlla-088_11zon.webp?alt=media&token=552793c7-3e8b-4501-953a-1dcfae1748ea",
       },
     ],
     coordinates: {
@@ -51,6 +52,8 @@ export const plots: Plot[] = [
       "Scenic Sunrise and Sunset Points",
     ],
     images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chafa%2Fchafa1.webp?alt=media&token=7eb6ec54-7fc1-409c-ba89-b6677c9d9a4c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chafa%2FDA7EC7F2-358B-4638-BD8A-F04B9CC1A068.jpeg?alt=media&token=17517bb5-5b77-4110-95fa-e879e6204448",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chafa%2FMalushte_chafa.jpeg?alt=media&token=d9eb4d9d-d714-4460-87da-2521176fa47b",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chafa%2F2023-12-23.jpg?alt=media&token=3ea2d769-bc8a-480a-999c-213f9a444935",
     ],
@@ -98,6 +101,40 @@ export const plots: Plot[] = [
     coordinates: {
       latitude: "16.985152798810304° N",
       longitude: "73.29886364275058° E",
+    },
+  },
+  {
+    id: 4,
+    title: "Sea Breeze",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹5,000",
+    description:
+      "A luxurious sea-facing flat located in the scenic coastal town of Ratnagiri. Sea Nest offers a perfect blend of comfort and elegance with panoramic views of the Arabian Sea. Designed for both relaxation and sophistication, the property includes spacious interiors, a landscaped garden, and modern amenities. Whether you're looking for a peaceful retreat or a vacation home, Sea Nest is your dream destination by the sea.",
+    features: [
+      "Sea Facing Flat",
+      "2BHK Fully Furnished",
+      "Private Parking",
+      "Family Apartment",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Breeze%2FWhatsApp%20Image%202025-06-22%20at%2022.06.19.jpeg?alt=media&token=c504f6ed-f849-4e27-97dc-b2a54be01882",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Breeze%2FWhatsApp%20Image%202025-06-22%20at%2022.06.23.jpeg?alt=media&token=5fa81e8c-be18-48a7-87ed-23085e2a6351",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Breeze%2FWhatsApp%20Image%202025-06-22%20at%2022.06.15.jpeg?alt=media&token=2a815c52-63ee-4e82-86cc-0ca404347287",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Breeze%2FWhatsApp%20Image%202025-06-22%20at%2022.06.31.jpeg?alt=media&token=9b2d7538-774b-4a3a-a6f6-023dbda91a03",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Breeze%2FWhatsApp%20Image%202025-06-22%20at%2022.06.35.jpeg?alt=media&token=7c13e9cc-9b12-400b-87e4-0cf10e123473",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FWhatsApp%20Video%202025-06-29%20at%2015.36.21.mp4?alt=media&token=475ed962-7f3f-46da-9308-012ff8f07cab",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Breeze%2FWhatsApp%20Image%202025-06-22%20at%2022.06.19.jpeg?alt=media&token=c504f6ed-f849-4e27-97dc-b2a54be01882",
+      },
+    ],
+    coordinates: {
+      latitude: "16.98659826644164° N",
+      longitude: "73.30654537792053° E",
     },
   },
 ];

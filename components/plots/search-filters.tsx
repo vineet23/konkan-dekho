@@ -83,8 +83,8 @@ export function SearchFilters({
             <SelectContent>
               <SelectItem value="price-asc">Price: Low to High</SelectItem>
               <SelectItem value="price-desc">Price: High to Low</SelectItem>
-              <SelectItem value="area-asc">Area: Low to High</SelectItem>
-              <SelectItem value="area-desc">Area: High to Low</SelectItem>
+              <SelectItem value="area-asc">Guests: Low to High</SelectItem>
+              <SelectItem value="area-desc">Guests: High to Low</SelectItem>
             </SelectContent>
           </Select>
         </div>
