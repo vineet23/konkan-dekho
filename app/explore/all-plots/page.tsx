@@ -22,7 +22,7 @@ export default function AllPlotsPage() {
     ],
     areaRange: [
       0,
-      Math.max(...plots.map((plot) => convertAreaToNumber(plot.area))),
+      Math.max(...plots.map((plot) => convertAreaToNumber(plot.guests))),
     ],
     location: locationParam || ALL_LOCATIONS,
     searchQuery: "",
@@ -36,7 +36,7 @@ export default function AllPlotsPage() {
     ...plots.map((plot) => convertPriceToNumber(plot.price))
   );
   const maxArea = Math.max(
-    ...plots.map((plot) => convertAreaToNumber(plot.area))
+    ...plots.map((plot) => convertAreaToNumber(plot.guests))
   );
 
   const handleFiltersChange = (newFilters: FilterOptions) => {
