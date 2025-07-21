@@ -48,11 +48,11 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-4 py-32 sm:px-6 lg:px-8">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              Find Your Perfect Plot & Homestay in Konkan
+              Find Your Perfect Homestay in Konkan
             </h1>
             <p className="mt-4 text-xl">
-              Explore premium land plots & homestays with breathtaking views and
-              excellent investment potential.
+              Explore premium homestays with breathtaking views and excellent
+              vacation vibes.
             </p>
             <Link href="/explore/all-plots">
               <Button className="mt-8 bg-[#FF385C] hover:bg-[#D93B60]">
