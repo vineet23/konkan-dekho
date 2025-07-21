@@ -108,7 +108,7 @@ export const plots: Plot[] = [
     title: "Sea Breeze",
     location: "Ratnagiri",
     guests: "5",
-    price: "₹5,000",
+    price: "₹5,500",
     description:
       "A luxurious sea-facing flat located in the scenic coastal town of Ratnagiri. Sea Nest offers a perfect blend of comfort and elegance with panoramic views of the Arabian Sea. Designed for both relaxation and sophistication, the property includes spacious interiors, a landscaped garden, and modern amenities. Whether you're looking for a peaceful retreat or a vacation home, Sea Nest is your dream destination by the sea.",
     features: [
@@ -137,4 +137,5 @@ export const plots: Plot[] = [
       longitude: "73.30654537792053° E",
     },
   },
+
 ];
