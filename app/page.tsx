@@ -103,7 +103,7 @@ export default function Home() {
                         </p>
                         <p className="text-lg font-bold text-[#FF385C]">
                           {formatIndianPrice(convertPriceToNumber(plot.price))}{" "}
-                          per nigth
+                          per night
                         </p>
                       </div>
                       <Button variant="ghost" size="icon">

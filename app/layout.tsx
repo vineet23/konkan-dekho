@@ -14,9 +14,12 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Konkan Dekho - Explore & Buy Premium Land Plots",
+  title: "Konkan Dekho - Explore & Stay at Premium Villas and Homestays",
   description:
-    "Discover premium land plots in Konkan region. Find your perfect property with detailed information, images, and expert assistance.",
+    "Discover premium homestays in Konkan region. Find perfect property for your vacation with detailed information, images and expert assistance.",
+  openGraph: {
+    images: ["/image/logo.svg"],
+  },
 };
 
 export default function RootLayout({
