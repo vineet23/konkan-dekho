@@ -29,7 +29,10 @@ export function PlotMediaGallery({ media, images }: PlotMediaGalleryProps) {
       </div>
 
       {/* Thumbnails */}
-      <div className="flex gap-2 overflow-x-auto py-2 snap-x">
+      <div
+        className="flex gap-2 overflow-x-auto py-2 snap-x"
+        style={{ scrollbarColor: "#D1D1D1 white" }}
+      >
         {allMedia.map((item, index) => (
           <div key={index} className="snap-start">
             <PlotMediaThumbnail
