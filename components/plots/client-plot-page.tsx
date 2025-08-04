@@ -23,14 +23,14 @@ export function ClientPlotPage({ id }: { id: string }) {
           <PlotDetails plot={plot} />
           {/* Mobile Contact Form */}
           <div className="block lg:hidden">
-            <ContactForm />
+            <ContactForm phone={plot.phone} />
           </div>
           <SimilarPlots currentPlot={plot} allPlots={plots} />
         </div>
         {/* Contact Form - Sticky on desktop */}
         <div className="hidden lg:block lg:col-span-1">
           <div className="lg:sticky lg:top-4">
-            <ContactForm />
+            <ContactForm phone={plot.phone} />
           </div>
         </div>
       </div>

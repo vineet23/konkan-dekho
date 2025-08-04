@@ -21,6 +21,7 @@ export interface Plot {
   guests: string;
   price: string;
   description: string;
+  phone: string;
   features: string[];
   images: string[];
   media: PlotMedia[];

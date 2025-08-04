@@ -7,6 +7,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "8",
     price: "₹12,000",
+    phone: "9834069861",
     description:
       "A luxurious sea-facing villa located in the scenic coastal town of Ratnagiri. Sea Nest offers a perfect blend of comfort and elegance with panoramic views of the Arabian Sea. Designed for both relaxation and sophistication, the property includes spacious interiors, a landscaped garden, and modern amenities. Whether you're looking for a peaceful retreat or a vacation home, Sea Nest is your dream destination by the sea.",
     features: [
@@ -45,6 +46,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "8",
     price: "₹12,000",
+    phone: "8380064344",
     description:
       "Nestled in the heart of Aare Ware, Malushte's Chafa Sea view villa offers an exquisite vacation experience in an Art Deco haven. With its captivating stoned staircase, mesmerizing wooden swing from a bygone era, and stunning bathrooms boasting panoramic oceanic views, this seaside villa provides a unique escape. Indulge in the mesmerizing sunsets that paint the sky with a symphony of vibrant hues, visible from every corner of the home.",
     features: [
@@ -85,6 +87,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "5",
     price: "₹4,500",
+    phone: "9421439664",
     description:
       "Wake up to sweeping views of the sea on one side and a peaceful creek with resting egrets on the other — all from your window. Nestled just a minute from Bhatye Beach, this cozy 2BHK hosted by Dr. Nidhee is your perfect nature escape in Ratnagiri.",
     features: [
@@ -121,6 +124,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "5",
     price: "₹5,000",
+    phone: "9834069861",
     description:
       "A luxurious sea-facing flat located in the scenic coastal town of Ratnagiri. Sea Nest offers a perfect blend of comfort and elegance with panoramic views of the Arabian Sea. Designed for both relaxation and sophistication, the property includes spacious interiors, a landscaped garden, and modern amenities. Whether you're looking for a peaceful retreat or a vacation home, Sea Nest is your dream destination by the sea.",
     features: [
@@ -161,6 +165,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "6",
     price: "₹5,000",
+    phone: "9420880780",
     description: "A luxurious 2 BHK flat in the heart of Ratnagiri.",
     features: ["2BHK Fully Furnished", "Private Parking", "Family Apartment"],
     images: [
@@ -181,6 +186,47 @@ export const plots: Plot[] = [
     coordinates: {
       latitude: "17.0006° N",
       longitude: "73.290626° E",
+    },
+  },
+  {
+    id: 6,
+    title: "StayCostas @ Rutu 2BHK Bunglow",
+    location: "Ratnagiri",
+    guests: "8",
+    price: "₹6,000",
+    phone: "9145174975",
+    description:
+      "A home that brings the essence of seasons indoors,  Rutu is a warm, wooden-themed 2BHK retreat set amidst a lush landscaped garden. The house offers the charm of nature, with ample space, cozy interiors, and calm surroundings – ideal for a family or small group looking for a peaceful stay close to the city. Whether you're sipping tea on the balcony or unwinding in the earthy-toned living room, Rutu promises tranquility and a touch of Konkan's seasonal soul.",
+    features: [
+      "City Center",
+      "2BHK Fully Furnished Bunglow",
+      "Private Parking",
+      "Family Homestay",
+      "Landscaped Garden",
+      "Free Parking",
+      "Free Wifi",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow-Main-Photo.webp?alt=media&token=a0241681-2cf4-4792-ad8f-bb09c35fcb09",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow-Hall.webp?alt=media&token=398672ac-3fe9-44fe-9ced-e14540414e75",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow_hall.webp?alt=media&token=bf6b63db-991c-4880-9c97-9377ea43a363",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bedroom2.webp?alt=media&token=e4144b4f-6f1e-44bf-afb8-cf92dcf86b8b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bedroom2-1.webp?alt=media&token=f5790c91-b794-4724-a505-f1930826c78a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bedroom1_11zon.webp?alt=media&token=09c241bd-27a2-4c35-98e0-1cc02f086e62",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRoom1.webp?alt=media&token=069c45a5-978f-4ff4-8c81-f3c8be7c1eb4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow-Entry.webp?alt=media&token=1f3eddbd-4937-4f3d-afba-93cec78e7061",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow-Main-Photo.webp?alt=media&token=a0241681-2cf4-4792-ad8f-bb09c35fcb09",
+      },
+    ],
+    coordinates: {
+      latitude: "16.9838761° N",
+      longitude: "73.3375922° E",
     },
   },
 ];

@@ -27,7 +27,7 @@ export async function generateMetadata({
     openGraph: {
       images:
         plot.images && plot.images.length > 0
-          ? plot.images
+          ? plot.images[0]
           : ["/image/logo.svg"],
     },
   };

@@ -4,6 +4,7 @@ export const plotData: Plot = {
   id: 1,
   title: "Beachfront Paradise",
   location: "Ratnagiri",
+  phone: "9834069861",
   guests: "8",
   price: "₹50,00,000",
   description:
