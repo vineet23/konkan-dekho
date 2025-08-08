@@ -190,7 +190,7 @@ export const plots: Plot[] = [
   },
   {
     id: 6,
-    title: "StayCostas @ Rutu 2BHK Bunglow",
+    title: "StayCostas @ Rutu 2BHK Bunglow:local change",
     location: "Ratnagiri",
     guests: "8",
     price: "₹6,000",
@@ -227,6 +227,47 @@ export const plots: Plot[] = [
     coordinates: {
       latitude: "16.9838761° N",
       longitude: "73.3375922° E",
+    },
+  },
+
+  {
+    id: 7,
+    title: "Amantara Homestay",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹2500",
+    phone: "9145174975",
+    description:
+      "Experience a serene escape at this comfortable homestay nestled in the heart of Ratnagiri. It's central location offers convenient access city's local attractions. Enjoy a peaceful retreat amidst the vibrant culture during your stay. The property offers ample parking space ensuring convenience for all guests with 24/7 gated security. Furthermore,  you can enjoy the stunning sea view from the building terrace.",
+    features: [
+      "City Center",
+      "1BHK Fully Furnished Bunglow",
+      "Private Parking",
+      "Family Homestay",
+      "Landscaped Garden",
+      "Free Parking",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom.webp?alt=media&token=dc06172c-ded9-471d-8e62-cbd0f2a5dea6",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom-p2.webp?alt=media&token=00e03eb8-c733-498b-a1cf-576384662d38",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Washroom.webp?alt=media&token=dc4c7229-8a27-40bf-ac33-faf6a678296a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-kitchen.webp?alt=media&token=cc783689-c74d-4747-abd7-f9c8947f10e1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FBalcony.webp?alt=media&token=5ab130de-2a05-4fc7-844f-48ffd775be29",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Cutlery.webp?alt=media&token=8fc82477-9867-4821-a1c6-78c8566eda4f",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-WalkIn-Video.mp4?alt=media&token=73526f36-089a-461e-bd93-160002da47b4",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
+      },
+    ],
+    coordinates: {
+      latitude: "17.239721712860494° N",
+      longitude: "73.36298324306279° E",
     },
   },
 ];
