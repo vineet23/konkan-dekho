@@ -190,10 +190,10 @@ export const plots: Plot[] = [
   },
   {
     id: 6,
-    title: "StayCostas @ Rutu 2BHK Bunglow:local change",
+    title: "StayCostas @ Rutu 2BHK Bunglow",
     location: "Ratnagiri",
     guests: "8",
-    price: "₹6,000",
+    price: "₹5,000",
     phone: "9145174975",
     description:
       "A home that brings the essence of seasons indoors,  Rutu is a warm, wooden-themed 2BHK retreat set amidst a lush landscaped garden. The house offers the charm of nature, with ample space, cozy interiors, and calm surroundings – ideal for a family or small group looking for a peaceful stay close to the city. Whether you're sipping tea on the balcony or unwinding in the earthy-toned living room, Rutu promises tranquility and a touch of Konkan's seasonal soul.",
@@ -236,7 +236,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "4",
     price: "₹2500",
-    phone: "9145174975",
+    phone: "9922562474",
     description:
       "Experience a serene escape at this comfortable homestay nestled in the heart of Ratnagiri. It's central location offers convenient access city's local attractions. Enjoy a peaceful retreat amidst the vibrant culture during your stay. The property offers ample parking space ensuring convenience for all guests with 24/7 gated security. Furthermore,  you can enjoy the stunning sea view from the building terrace.",
     features: [
@@ -248,8 +248,8 @@ export const plots: Plot[] = [
       "Free Parking",
     ],
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom.webp?alt=media&token=dc06172c-ded9-471d-8e62-cbd0f2a5dea6",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom-p2.webp?alt=media&token=00e03eb8-c733-498b-a1cf-576384662d38",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Washroom.webp?alt=media&token=dc4c7229-8a27-40bf-ac33-faf6a678296a",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-kitchen.webp?alt=media&token=cc783689-c74d-4747-abd7-f9c8947f10e1",
@@ -262,7 +262,7 @@ export const plots: Plot[] = [
         type: "video",
         url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-WalkIn-Video.mp4?alt=media&token=73526f36-089a-461e-bd93-160002da47b4",
         thumbnail:
-          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom.webp?alt=media&token=dc06172c-ded9-471d-8e62-cbd0f2a5dea6",
       },
     ],
     coordinates: {
@@ -270,4 +270,135 @@ export const plots: Plot[] = [
       longitude: "73.36298324306279° E",
     },
   },
+  {
+    id: 8,
+    title: "Blue Water",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹2500",
+    phone: "9423644609",
+    description:
+      "A mesmerising sea view from the 4th floor of the building, and access to Beach just outside the building compund.Apartment is fully furnished, & comprises 1 Master Bedroom + 1 Bedroom + 1 Spacious Living + 1 Dinning Room + 1 Full Glass Lounge Deck overlooking sea view + Open Sky Deck 185 sq. ft",
+    features: [
+      "City Center",
+      "Beach access – Beachfront",
+      "Private Parking",
+      "Dedicated workspace",
+      "Free parking on premises",
+      "Pets allowed",
+      "Kitchen",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20balcony%20part%202.webp?alt=media&token=15b23305-4bab-4cd6-b101-f57fb4735789",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20hall%20part%202.webp?alt=media&token=719a3b26-8fdf-4c36-9323-ffa5828118a8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20balcony.webp?alt=media&token=6a79742f-6ca4-4052-8563-8ad4eac0c6a2  ",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20bedroom%202.webp?alt=media&token=0cdfa9dc-74f7-47af-add3-222e75c3bd0c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20hall%20part%201.webp?alt=media&token=9a9adbab-fa23-42e8-b4bb-be87f18ae49a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20hall%20part%202.webp?alt=media&token=719a3b26-8fdf-4c36-9323-ffa5828118a8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20seaview%202.webp?alt=media&token=b9b147e5-3680-40cf-8d85-1775c5a7627f",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20balcony%20part%202.webp?alt=media&token=15b23305-4bab-4cd6-b101-f57fb4735789",
+      },
+    ],
+    coordinates: {
+      latitude: "17.239721712860494° N",
+      longitude: "73.36298324306279° E",
+    },
+  },
+  {
+    id: 9,
+    title: "Ac Lux 301",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹3500",
+    phone: "9423644609",
+    description:
+      "Discover serenity, refreshment, and a unique relaxation experience with our beautiful homestay located in the city, offering the perfect blend of comfort, uniqueness, and tranquility. Every room in the property is fully air-conditioned and meticulously designed with a distinct theme to create a one-of-a-kind living experience for every guest. Whether it’s the rustic charm of a coastal-inspired suite, the elegance of a modern minimalistic room, or the warmth of a bohemian haven.The space This Homestay offers a unique experience that accommodates the whole family. We offer the best 24-hour housekeeping service, the best quality linen, and rooms designed for maximum comfort. And has Air conditioning in all rooms like living kitchen and bedroom.",
+
+    features: [
+      "City Center",
+      "Beach access – Beachfront",
+      "Private Parking",
+      "Dedicated workspace",
+      "Free parking on premises",
+      "Pets allowed",
+      "Kitchen",
+      "Fast wifi – 103 Mbps",
+      "Lift",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20hall.webp?alt=media&token=2bc33d3e-0570-481e-8152-13f3b111c949",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20beddroom%20view%202.webp?alt=media&token=7304ccd0-c737-463d-a80c-7813747a2b9e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20bedroom%202.webp?alt=media&token=9aa5a416-caa3-4dd1-841d-8d333d8589cb",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20miscelleneous%204.webp?alt=media&token=404e9343-9b56-433c-99d2-c1f7dee89622",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20miscelleneous.webp?alt=media&token=860e36dc-ed9b-4ac2-8e65-ddcf290631a0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20bathroom.webp?alt=media&token=59fc2d66-c698-4922-9c8d-23842553e935",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20kitchen.webp?alt=media&token=09c62581-96de-4c35-84c9-eed29ce85489",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20hall.webp?alt=media&token=2bc33d3e-0570-481e-8152-13f3b111c949",
+      },
+    ],
+    coordinates: {
+      latitude: "17.239721712860494° N",
+      longitude: "73.36298324306279° E",
+    },
+  },
+  {
+    id: 10,
+    title: "Sea View lux flat 203",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹3500",
+    phone: "9423644609",
+    description:
+      "1BHK Sea View Flat in Ratnagiri with Elegant Interiors Wake up to the soothing sound of waves and unwind with ocean views—this beautifully designed 1BHK flat in Ratnagiri city offers a perfect blend of comfort, style, and serenity. Premium interiors with tasteful design Balcony/Window sit-out to enjoy the sea breeze and sunset views also the city Centre is nearby and all amenities and services like Zomato is available",
+
+    features: [
+      "City Center",
+      "Beach access – Beachfront",
+      "Private Parking",
+      "Dedicated workspace",
+      "Free parking on premises",
+      "Pets allowed",
+      "Kitchen",
+      "Fast wifi – 103 Mbps",
+      "Lift",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20bedroom%201.webp?alt=media&token=b9d1810c-0039-4ce3-82d2-7b33ffb5e786",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20bed%20misc.webp?alt=media&token=0a04d6dd-c483-4e47-82aa-34cde40e9d34",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20hall%20part%201.webp?alt=media&token=ce952c7c-ffb4-456f-b765-d2ee35ae812a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20hall%20part%201.webp?alt=media&token=ce952c7c-ffb4-456f-b765-d2ee35ae812a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20whole%20hall.webp?alt=media&token=3f7bd623-3bce-43a4-8f2b-6b255e9e158d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20mirror%20bedroom.webp?alt=media&token=73488f52-b66d-4306-8d6d-32952e03ca9f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20misc.webp?alt=media&token=80ef03e5-1a8f-4b2e-8d32-47ea2b006aab",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20hall.webp?alt=media&token=2bc33d3e-0570-481e-8152-13f3b111c949",
+      },
+    ],
+    coordinates: {
+      latitude: "17.239721712860494° N",
+      longitude: "73.36298324306279° E",
+    },
+  },
+
+
 ];
