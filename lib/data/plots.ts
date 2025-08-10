@@ -399,6 +399,45 @@ export const plots: Plot[] = [
       longitude: "73.36298324306279° E",
     },
   },
+  {
+    id: 11,
+    title: "Mrudugandh GuestHouse",
+    location: "Ratnagiri",
+    guests: "10",
+    price: "₹12000",
+    phone: "9890289088",
+    description:
+      "Mrudugandha Guest House is a spacious coastal villa located just minutes from the pristine Aare Ware Beach in Ganpatipule. Surrounded by greenery and offering glimpses of the Arabian Sea, it’s the perfect escape for a peaceful holiday. The villa features comfortable rooms, multiple living spaces, a beautiful white-sand courtyard, and in-house authentic Konkani meals.Number of Rooms:Full Villa: 4 Bedrooms + 3 Living Rooms,Ground Floor Option: 2 Bedrooms + 2 Living Rooms",
 
+    features: [
+      "Coastal Villa",
+      "Konkani Authentic food",
+      "Private Parking",
+      "Spacious",
+      "Outdoor Dining :Sand Courtyard",
+      "Indoor Games",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-hall1.webp?alt=media&token=15b9c36a-b9af-40c7-842d-f5ab520c34c9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-living-Room1.webp?alt=media&token=1dc8068d-0e96-45e7-a861-2acb1bdfa2f0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-Bedroom2.webp?alt=media&token=5050ed2f-5b44-4dc0-8163-484572409c1b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-Bedroom.webp?alt=media&token=a31ffb6c-ab20-4d88-888c-88640a18eb05",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-Fronthouse.webp?alt=media&token=2b25e8e4-05fa-4661-9488-9556b389df60",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-Hall2.webp?alt=media&token=571bfd3f-8aee-4cff-9ea0-21cb5b9149bb",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-hall1.webp?alt=media&token=15b9c36a-b9af-40c7-842d-f5ab520c34c9",
+      },
+    ],
+    coordinates: {
+      latitude: "17.09576498902864° N",
+      longitude: "73.29990790902359° E",
+    },
+  },
 
 ];
