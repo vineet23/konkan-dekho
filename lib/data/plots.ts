@@ -8,6 +8,7 @@ export const plots: Plot[] = [
     guests: "8",
     price: "₹10,000",
     phone: "9834069861",
+
     description:
       "A luxurious sea-facing villa located in the scenic coastal town of Ratnagiri. Sea Nest offers a perfect blend of comfort and elegance with panoramic views of the Arabian Sea. Designed for both relaxation and sophistication, the property includes spacious interiors, a landscaped garden, and modern amenities. Whether you're looking for a peaceful retreat or a vacation home, Sea Nest is your dream destination by the sea.",
     features: [
@@ -39,6 +40,7 @@ export const plots: Plot[] = [
       latitude: "17.10451480888077° N",
       longitude: "73.29064576411145° E",
     },
+    hostId: "advait",
   },
   {
     id: 2,

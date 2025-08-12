@@ -29,6 +29,7 @@ export interface Plot {
     latitude: string;
     longitude: string;
   };
+  hostId?: string; // NEW: Links plot to a host in hosts.ts
 }
 
 // Define the TeamMember type
@@ -39,4 +40,18 @@ export interface TeamMember {
   linkedin?: string;
   email?: string;
   bio: string;
+}
+
+// Define the Host type
+export interface Host {
+  id: string;              // Matches Plot.hostId
+  name: string;
+  photo: string;
+  description: string;
+  location?: string;
+  since?: string;
+  languages?: string[];
+  phone?: string;
+  instagram?: string;
+  website?: string;
 }
