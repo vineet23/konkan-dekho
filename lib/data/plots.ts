@@ -6,7 +6,7 @@ export const plots: Plot[] = [
     title: "Sea Nest Villa : Panaromic Sea View",
     location: "Ratnagiri",
     guests: "8",
-    price: "₹12,000",
+    price: "₹10,000",
     phone: "9834069861",
     description:
       "A luxurious sea-facing villa located in the scenic coastal town of Ratnagiri. Sea Nest offers a perfect blend of comfort and elegance with panoramic views of the Arabian Sea. Designed for both relaxation and sophistication, the property includes spacious interiors, a landscaped garden, and modern amenities. Whether you're looking for a peaceful retreat or a vacation home, Sea Nest is your dream destination by the sea.",
@@ -45,7 +45,7 @@ export const plots: Plot[] = [
     title: "Malushte Chafa Seaview Aare Ware",
     location: "Ratnagiri",
     guests: "8",
-    price: "₹12,000",
+    price: "₹9,000",
     phone: "8380064344",
     description:
       "Nestled in the heart of Aare Ware, Malushte's Chafa Sea view villa offers an exquisite vacation experience in an Art Deco haven. With its captivating stoned staircase, mesmerizing wooden swing from a bygone era, and stunning bathrooms boasting panoramic oceanic views, this seaside villa provides a unique escape. Indulge in the mesmerizing sunsets that paint the sky with a symphony of vibrant hues, visible from every corner of the home.",
@@ -192,8 +192,8 @@ export const plots: Plot[] = [
     id: 6,
     title: "StayCostas @ Rutu 2BHK Bunglow",
     location: "Ratnagiri",
-    guests: "8",
-    price: "₹5,000",
+    guests: "6",
+    price: "₹4,000",
     phone: "9145174975",
     description:
       "A home that brings the essence of seasons indoors,  Rutu is a warm, wooden-themed 2BHK retreat set amidst a lush landscaped garden. The house offers the charm of nature, with ample space, cozy interiors, and calm surroundings – ideal for a family or small group looking for a peaceful stay close to the city. Whether you're sipping tea on the balcony or unwinding in the earthy-toned living room, Rutu promises tranquility and a touch of Konkan's seasonal soul.",
@@ -429,7 +429,7 @@ export const plots: Plot[] = [
     media: [
       {
         type: "video",
-        url: "",
+        url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-Video.mp4?alt=media&token=d83122b0-853c-46e4-a173-0cc64530e65a",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-hall1.webp?alt=media&token=15b9c36a-b9af-40c7-842d-f5ab520c34c9",
       },
@@ -439,5 +439,47 @@ export const plots: Plot[] = [
       longitude: "73.29990790902359° E",
     },
   },
+  {
+    id: 12,
+    title: "Dr Nimkar's Konkan Nest ",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹3000",
+    phone: "7507079027",
+    description:
+      "🌴 Welcome to Konkan Nest Resort! 🌴,🏨 Location: Ganpatipule 🏨,Escape to the serene coastal paradise of Ganpatipule and experience the ultimate relaxation at Konkan Nest Resort, your tranquil haven nestled amidst nature's beauty.",
 
+    features: [
+      "Authentic Konkani Resort",
+      "Couple Friendlly",
+      "Konkani Authentic Food",
+      "Private Parking",
+      "Spacious",
+      "Free Wifi",
+      "Bellboy service",
+      "Pets Allowed",
+
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2Fkonkan-nest-Bedroom3%20(1).webp?alt=media&token=83fed14a-ec6e-4579-905c-55350f9d57f3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2FKonkan-Nest-Bedroom2.webp?alt=media&token=fccaa23b-2776-481d-b536-e4d973412074",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2FKonkan-Nest-Night-View.webp?alt=media&token=8bbaaf43-0a39-4752-b06a-b5cd526363b7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2FKonkan-Nest-Reception.webp?alt=media&token=531b12b3-a951-430e-bd65-c3f94e4c72f5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2Fkonkan-nest-Bedroom3%20(2).webp?alt=media&token=82e70cbb-0fc5-4a7e-b063-9fd8c46f5bea",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2FKonkan-Nest-Bedroom.webp?alt=media&token=88ff82b0-d943-411c-9990-5e84a7c2cada",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2Fkonkan-nest-Bedroom3%20(1).webp?alt=media&token=83fed14a-ec6e-4579-905c-55350f9d57f3",
+      },
+    ],
+    coordinates: {
+      latitude: "17.15795899993019° N",
+      longitude: "73.28596272436839° E",
+    },
+  },
 ];
