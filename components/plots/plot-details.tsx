@@ -1,6 +1,7 @@
 import { MapPin, SquareDashed, IndianRupee, Map, User } from "lucide-react";
 import { Plot } from "@/lib/types";
 import { MapLink } from "./map-link";
+import { HostSection } from "./host-section";
 
 interface PlotDetailsProps {
   plot: Plot;
@@ -64,6 +65,16 @@ export function PlotDetails({ plot }: PlotDetailsProps) {
           <MapLink coordinates={plot.coordinates} />
         </div>
       </div>
+
+      {/* Host Section */}
+      {plot.host && (
+        <HostSection
+          name={plot.host?.name || ""}
+          imageUrl={plot.host?.imageUrl || "/image/logo.svg"}
+          isPremier={plot.host?.isPremier}
+          listingDate={plot.host?.listingDate}
+        />
+      )}
     </div>
   );
 }

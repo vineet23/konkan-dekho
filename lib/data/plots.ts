@@ -39,6 +39,12 @@ export const plots: Plot[] = [
       latitude: "17.10451480888077° N",
       longitude: "73.29064576411145° E",
     },
+    host: {
+      name: "Advait",
+      imageUrl: "/image/advait.jpg",
+      isPremier: true,
+      listingDate: "2023-01-15",
+    },
   },
   {
     id: 2,
@@ -79,6 +85,12 @@ export const plots: Plot[] = [
     coordinates: {
       latitude: "17.104791235166047° N",
       longitude: "73.29015778018795° E",
+    },
+    host: {
+      name: "Kabeer",
+      imageUrl: "/image/host-placeholder.svg",
+      isPremier: false,
+      listingDate: "2025-07-30",
     },
   },
   {
@@ -255,7 +267,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-kitchen.webp?alt=media&token=cc783689-c74d-4747-abd7-f9c8947f10e1",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FBalcony.webp?alt=media&token=5ab130de-2a05-4fc7-844f-48ffd775be29",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Cutlery.webp?alt=media&token=8fc82477-9867-4821-a1c6-78c8566eda4f",
-
     ],
     media: [
       {
@@ -296,7 +307,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20hall%20part%201.webp?alt=media&token=9a9adbab-fa23-42e8-b4bb-be87f18ae49a",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20hall%20part%202.webp?alt=media&token=719a3b26-8fdf-4c36-9323-ffa5828118a8",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20seaview%202.webp?alt=media&token=b9b147e5-3680-40cf-8d85-1775c5a7627f",
-
     ],
     media: [
       {
@@ -340,7 +350,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20miscelleneous.webp?alt=media&token=860e36dc-ed9b-4ac2-8e65-ddcf290631a0",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20bathroom.webp?alt=media&token=59fc2d66-c698-4922-9c8d-23842553e935",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20kitchen.webp?alt=media&token=09c62581-96de-4c35-84c9-eed29ce85489",
-
     ],
     media: [
       {
@@ -384,7 +393,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20whole%20hall.webp?alt=media&token=3f7bd623-3bce-43a4-8f2b-6b255e9e158d",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20mirror%20bedroom.webp?alt=media&token=73488f52-b66d-4306-8d6d-32952e03ca9f",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/sea%20view%20ac%20lux%20203%2Fsea%20view%20luxe%20flat%20203%20misc.webp?alt=media&token=80ef03e5-1a8f-4b2e-8d32-47ea2b006aab",
-
     ],
     media: [
       {
@@ -424,7 +432,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-Bedroom.webp?alt=media&token=a31ffb6c-ab20-4d88-888c-88640a18eb05",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-Fronthouse.webp?alt=media&token=2b25e8e4-05fa-4661-9488-9556b389df60",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mrudugandh%20Guesthouse%2FMrudugandh-Guesthouse-Hall2.webp?alt=media&token=571bfd3f-8aee-4cff-9ea0-21cb5b9149bb",
-
     ],
     media: [
       {
@@ -458,7 +465,6 @@ export const plots: Plot[] = [
       "Free Wifi",
       "Bellboy service",
       "Pets Allowed",
-
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2Fkonkan-nest-Bedroom3%20(1).webp?alt=media&token=83fed14a-ec6e-4579-905c-55350f9d57f3",
@@ -467,7 +473,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2FKonkan-Nest-Reception.webp?alt=media&token=531b12b3-a951-430e-bd65-c3f94e4c72f5",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2Fkonkan-nest-Bedroom3%20(2).webp?alt=media&token=82e70cbb-0fc5-4a7e-b063-9fd8c46f5bea",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan%20Nest%2FKonkan-Nest-Bedroom.webp?alt=media&token=88ff82b0-d943-411c-9990-5e84a7c2cada",
-
     ],
     media: [
       {

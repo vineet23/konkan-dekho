@@ -14,6 +14,14 @@ export interface PlotMedia {
   thumbnail?: string; // Thumbnail for videos
 }
 
+export interface HostInfo {
+  name: string;
+  imageUrl: string;
+  isPremier?: boolean;
+  listingDate?: string; // Date when the host started listing
+  // yearsHosting?: number;
+}
+
 export interface Plot {
   id: number;
   title: string;
@@ -29,6 +37,7 @@ export interface Plot {
     latitude: string;
     longitude: string;
   };
+  host?: HostInfo;
 }
 
 // Define the TeamMember type
