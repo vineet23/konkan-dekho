@@ -532,7 +532,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "6",
     price: "₹7000",
-    phone: "9422537320",
+    phone: "9820926252",
     description:
       "BY THE BAY homestay in Kalbadevi, Ratnagiri, is just 12 km from Ratnagiri city and 19 km from Ganpatipule.Nestled amidst coconut, mango, and jackfruit plantations, it offers a serene eco-friendly stay near the Konkan coast.A virgin beach with deep blue sea lies just 4 minutes away, perfect for couples and families seeking peace.The homestay features a simple kitchen for tea, coffee, and light meals.Experience authentic Konkan village life with pollution-free surroundings and a true tropical paradise vibe.",
     features: [
