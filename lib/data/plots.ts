@@ -487,4 +487,85 @@ export const plots: Plot[] = [
       longitude: "73.28596272436839° E",
     },
   },
+  {
+    id: 13,
+    title: "Khotacha Wada ",
+    location: "Ratnagiri",
+    guests: "8",
+    price: "₹6000",
+    phone: "9422537320",
+    description:
+      "🌴 Khotacha Wada – A Luxury Farm Stay in Konkan,Tucked away in the serene village of Bhandarpule, near Ganpatipule, Khotacha Wada is a boutique farmstay that blends rustic Konkan charm with modern comfort. Surrounded by coconut groves, lush greenery, and the calming sounds of nature, it offers guests a perfect escape from the city rush.Wake up to birdsong, enjoy home-cooked Konkan delicacies, and unwind in cozy, traditionally inspired rooms designed for relaxation. Whether it’s watching the sunset over Ganpatipule beach just minutes away, exploring the local temples, or simply enjoying the peace of the countryside, Khotacha Wada is your home away from home in Ratnagiri.",
+    features: [
+      "Konkani Authentic Food",
+      "Private Parking",
+      "Spacious",
+      "Swimming Pool",
+      "Garden resort",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Khotacha%20Wada%2FKhotacha-wada.webp?alt=media&token=2d134f81-a0ce-46d7-930b-a910f2c76e8c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Khotacha%20Wada%2FKhotacha-wada-attic.webp?alt=media&token=ec37af40-80d6-48ef-90e4-7b8eed4c654e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Khotacha%20Wada%2FKhotacha-wada-SwimmingPool2.webp?alt=media&token=cd7556f1-4798-4d60-b323-7956e03c6dc7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Khotacha%20Wada%2FKhotacha-wada-SwimmingPool.webp?alt=media&token=5b896a19-f0a2-4b89-a223-bef3a9007248",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Khotacha%20Wada%2Fkhotacha-wada-livingRoom.webp?alt=media&token=ca225ec1-d288-4e8d-9c0e-78e9d6e48c3a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Khotacha%20Wada%2FKhotacha-wada-NightView.webp?alt=media&token=b0ea0daf-1f0f-4eab-838c-0c2b8ab86146",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Khotacha%20Wada%2FKhotacha-wada-Kitchen.webp?alt=media&token=443602a6-3dbb-494c-8972-947452f4099e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Khotacha%20Wada%2FKhotacha-wada-Entry.webp?alt=media&token=7f624841-0c62-446a-b0c2-cebd159cbb2a",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Khotacha%20Wada%2FKhotacha-wada-attic.webp?alt=media&token=ec37af40-80d6-48ef-90e4-7b8eed4c654e",
+      },
+    ],
+    coordinates: {
+      latitude: "17.135415425292745° N",
+      longitude: "73.28602470902456° E",
+    },
+  },
+  {
+    id: 14,
+    title: "Casa By The Bay Villa ",
+    location: "Ratnagiri",
+    guests: "6",
+    price: "₹7000",
+    phone: "9422537320",
+    description:
+      "BY THE BAY homestay in Kalbadevi, Ratnagiri, is just 12 km from Ratnagiri city and 19 km from Ganpatipule.Nestled amidst coconut, mango, and jackfruit plantations, it offers a serene eco-friendly stay near the Konkan coast.A virgin beach with deep blue sea lies just 4 minutes away, perfect for couples and families seeking peace.The homestay features a simple kitchen for tea, coffee, and light meals.Experience authentic Konkan village life with pollution-free surroundings and a true tropical paradise vibe.",
+    features: [
+      "Konkan village life",
+      "Private Parking",
+      "spacious living",
+      "Swimming Pool",
+      "cozy bedrooms",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-frontView.webp?alt=media&token=02442123-9f76-4b31-859c-b2e65dcdf9d3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2Fcasa-by-the-bay-bedroom2.webp?alt=media&token=01a04f0f-9084-4184-92c0-5172f3ba0210",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-BedroomView.webp?alt=media&token=a17fee8d-e1cc-4fb1-a974-d2b335d9e8fa",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-LivingRoom.webp?alt=media&token=21da18ea-7b1f-4ec2-a335-84fb346deb8f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-SwimmingPool.webp?alt=media&token=0915e154-987d-43d3-85ca-30302f4b011f",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-frontView.webp?alt=media&token=02442123-9f76-4b31-859c-b2e65dcdf9d3",
+      },
+    ],
+    coordinates: {
+      latitude: "17.05982020088181° N",
+      longitude: "73.29136555050613° E",
+    },
+    host: {
+      name: "Amit",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2015-01-15",
+    },
+  },
 ];
