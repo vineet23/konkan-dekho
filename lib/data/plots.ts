@@ -219,8 +219,8 @@ export const plots: Plot[] = [
       "Free Wifi",
     ],
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow-Main-Photo.webp?alt=media&token=a0241681-2cf4-4792-ad8f-bb09c35fcb09",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow-Hall.webp?alt=media&token=398672ac-3fe9-44fe-9ced-e14540414e75",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow-Main-Photo.webp?alt=media&token=a0241681-2cf4-4792-ad8f-bb09c35fcb09",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow_hall.webp?alt=media&token=bf6b63db-991c-4880-9c97-9377ea43a363",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bedroom2.webp?alt=media&token=e4144b4f-6f1e-44bf-afb8-cf92dcf86b8b",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bedroom2-1.webp?alt=media&token=f5790c91-b794-4724-a505-f1930826c78a",
@@ -233,7 +233,7 @@ export const plots: Plot[] = [
         type: "video",
         url: "",
         thumbnail:
-          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow-Main-Photo.webp?alt=media&token=a0241681-2cf4-4792-ad8f-bb09c35fcb09",
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/rutu%2FRutu-Bunglow-Hall.webp?alt=media&token=398672ac-3fe9-44fe-9ced-e14540414e75",
       },
     ],
     coordinates: {
@@ -260,12 +260,12 @@ export const plots: Plot[] = [
       "Free Parking",
     ],
     images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FBalcony.webp?alt=media&token=5ab130de-2a05-4fc7-844f-48ffd775be29",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom.webp?alt=media&token=dc06172c-ded9-471d-8e62-cbd0f2a5dea6",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom-p2.webp?alt=media&token=00e03eb8-c733-498b-a1cf-576384662d38",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Washroom.webp?alt=media&token=dc4c7229-8a27-40bf-ac33-faf6a678296a",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-kitchen.webp?alt=media&token=cc783689-c74d-4747-abd7-f9c8947f10e1",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FBalcony.webp?alt=media&token=5ab130de-2a05-4fc7-844f-48ffd775be29",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Cutlery.webp?alt=media&token=8fc82477-9867-4821-a1c6-78c8566eda4f",
     ],
     media: [
@@ -273,7 +273,7 @@ export const plots: Plot[] = [
         type: "video",
         url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-WalkIn-Video.mp4?alt=media&token=73526f36-089a-461e-bd93-160002da47b4",
         thumbnail:
-          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom.webp?alt=media&token=dc06172c-ded9-471d-8e62-cbd0f2a5dea6",
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FBalcony.webp?alt=media&token=5ab130de-2a05-4fc7-844f-48ffd775be29",
       },
     ],
     coordinates: {
@@ -317,8 +317,14 @@ export const plots: Plot[] = [
       },
     ],
     coordinates: {
-      latitude: "17.239721712860494° N",
-      longitude: "73.36298324306279° E",
+      latitude: "16.98539207345052° N",
+      longitude: "73.29602810185092° E",
+    },
+    host: {
+      name: "Prajwal Patil",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2017-01-15",
     },
   },
   {
@@ -350,6 +356,7 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20miscelleneous.webp?alt=media&token=860e36dc-ed9b-4ac2-8e65-ddcf290631a0",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20bathroom.webp?alt=media&token=59fc2d66-c698-4922-9c8d-23842553e935",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20kitchen.webp?alt=media&token=09c62581-96de-4c35-84c9-eed29ce85489",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20hall%20part%201.webp?alt=media&token=88601ba0-9fb9-47c6-983e-2c48d1cb68c9",
     ],
     media: [
       {
@@ -360,8 +367,14 @@ export const plots: Plot[] = [
       },
     ],
     coordinates: {
-      latitude: "17.239721712860494° N",
-      longitude: "73.36298324306279° E",
+      latitude: "16.98539207345052° N",
+      longitude: "73.29602810185092° E",
+    },
+    host: {
+      name: "Prajwal Patil",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2017-01-15",
     },
   },
   {
@@ -403,8 +416,14 @@ export const plots: Plot[] = [
       },
     ],
     coordinates: {
-      latitude: "17.239721712860494° N",
-      longitude: "73.36298324306279° E",
+      latitude: "16.98539207345052° N",
+      longitude: "73.29602810185092° E",
+    },
+    host: {
+      name: "Prajwal Patil",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2017-01-15",
     },
   },
   {
@@ -531,7 +550,7 @@ export const plots: Plot[] = [
     title: "Casa By The Bay Villa ",
     location: "Ratnagiri",
     guests: "6",
-    price: "₹7000",
+    price: "₹10,000",
     phone: "9820926252",
     description:
       "BY THE BAY homestay in Kalbadevi, Ratnagiri, is just 12 km from Ratnagiri city and 19 km from Ganpatipule.Nestled amidst coconut, mango, and jackfruit plantations, it offers a serene eco-friendly stay near the Konkan coast.A virgin beach with deep blue sea lies just 4 minutes away, perfect for couples and families seeking peace.The homestay features a simple kitchen for tea, coffee, and light meals.Experience authentic Konkan village life with pollution-free surroundings and a true tropical paradise vibe.",
@@ -543,7 +562,12 @@ export const plots: Plot[] = [
       "cozy bedrooms",
     ],
     images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-mainphoto.webp?alt=media&token=53e51452-bce9-4e18-92bc-e1e0f0a19e0e",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-frontView.webp?alt=media&token=02442123-9f76-4b31-859c-b2e65dcdf9d3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-attic.webp?alt=media&token=efd3f962-a7cc-4add-a6b2-2833e9e211b2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-Hall.webp?alt=media&token=ae960021-080a-432b-8215-059804404e1b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-aesthetics.webp?alt=media&token=49eb7a1c-8096-4c60-b1e1-86165de6733a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-bedromGroundFloor.webp?alt=media&token=427fb0c0-feb1-43c7-ac83-22c4960c80b2",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2Fcasa-by-the-bay-bedroom2.webp?alt=media&token=01a04f0f-9084-4184-92c0-5172f3ba0210",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-BedroomView.webp?alt=media&token=a17fee8d-e1cc-4fb1-a974-d2b335d9e8fa",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-LivingRoom.webp?alt=media&token=21da18ea-7b1f-4ec2-a335-84fb346deb8f",
@@ -554,7 +578,7 @@ export const plots: Plot[] = [
         type: "video",
         url: "",
         thumbnail:
-          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-frontView.webp?alt=media&token=02442123-9f76-4b31-859c-b2e65dcdf9d3",
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Casa%20by%20the%20bay%20villa%2FCasa-by-the-bay-mainphoto.webp?alt=media&token=53e51452-bce9-4e18-92bc-e1e0f0a19e0e",
       },
     ],
     coordinates: {
