@@ -52,7 +52,9 @@ function buildUrls() {
   ];
 
   const plots = loadPlotsFromTypeScript();
-  const plotPaths = plots.map((p) => `/plots/${p.id}`);
+  const plotPaths = plots.map(
+    (p) => `/${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}`
+  );
 
   return { staticPaths, plotPaths };
 }

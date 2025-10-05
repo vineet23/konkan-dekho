@@ -5,16 +5,18 @@ import { ClientPlotPage } from "@/components/plots/client-plot-page";
 
 export function generateStaticParams() {
   return plots.map((plot) => ({
-    id: plot.id.toString(),
+    slug: `${plot.slug}-${plot.area.toLowerCase().replace(/ /g, "-")}`,
   }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: { id: string };
+  params: { slug: string };
 }): Promise<Metadata> {
-  const plot = plots.find((p) => p.id === parseInt(params.id));
+  const plot = plots.find(
+    (p) => `${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}` === params.slug
+  );
   if (!plot) {
     return {
       title: "Plot Not Found | Konkan Dekho",
@@ -36,13 +38,15 @@ export async function generateMetadata({
 export default function PlotDetailsPage({
   params,
 }: {
-  params: { id: string };
+  params: { slug: string };
 }) {
-  const plot = plots.find((p) => p.id === parseInt(params.id));
+  const plot = plots.find(
+    (p) => `${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}` === params.slug
+  );
 
   if (!plot) {
     notFound();
   }
 
-  return <ClientPlotPage id={params.id} />;
+  return <ClientPlotPage id={plot.id.toString()} />;
 }

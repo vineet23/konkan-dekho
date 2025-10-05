@@ -25,6 +25,8 @@ export interface HostInfo {
 export interface Plot {
   id: number;
   title: string;
+  slug: string;
+  area: string;
   location: string;
   guests: string;
   price: string;
