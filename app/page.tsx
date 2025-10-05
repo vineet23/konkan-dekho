@@ -80,7 +80,12 @@ export default function Home() {
           </h2>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {filteredPlots.map((plot) => (
-              <Link href={`/plots/${plot.id}`} key={plot.id}>
+              <Link
+                href={`/${plot.slug}-${plot.area
+                  .toLowerCase()
+                  .replace(/ /g, "-")}`}
+                key={plot.id}
+              >
                 <Card className="overflow-hidden transition-transform hover:scale-[1.02]">
                   <div className="relative h-48">
                     <Image

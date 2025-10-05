@@ -3,6 +3,8 @@ import { Plot } from "../types";
 export const plotData: Plot = {
   id: 1,
   title: "Beachfront Paradise",
+  slug: "beachfront-paradise",
+  area: "Ratnagiri",
   location: "Ratnagiri",
   phone: "9834069861",
   guests: "8",

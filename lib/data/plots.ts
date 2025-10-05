@@ -4,6 +4,8 @@ export const plots: Plot[] = [
   {
     id: 1,
     title: "Sea Nest Villa : Panaromic Sea View",
+    slug: "sea-nest-villa-panaromic-sea-view",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "8",
     price: "₹10,000",
@@ -49,6 +51,8 @@ export const plots: Plot[] = [
   {
     id: 2,
     title: "Malushte Chafa Seaview Aare Ware",
+    slug: "malushte-chafa-seaview-aare-ware",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "8",
     price: "₹9,000",
@@ -96,6 +100,8 @@ export const plots: Plot[] = [
   {
     id: 3,
     title: "Roots & Wings",
+    slug: "roots-and-wings",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "5",
     price: "₹4,500",
@@ -133,6 +139,8 @@ export const plots: Plot[] = [
   {
     id: 4,
     title: "Sea Breeze",
+    slug: "sea-breeze",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "5",
     price: "₹5,000",
@@ -174,6 +182,8 @@ export const plots: Plot[] = [
   {
     id: 5,
     title: "Luxurious Flat",
+    slug: "luxurious-flat",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "6",
     price: "₹5,000",
@@ -203,6 +213,8 @@ export const plots: Plot[] = [
   {
     id: 6,
     title: "StayCostas @ Rutu 2BHK Bunglow",
+    slug: "staycostas-at-rutu-2bhk-bunglow",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "6",
     price: "₹4,000",
@@ -245,6 +257,8 @@ export const plots: Plot[] = [
   {
     id: 7,
     title: "Amantara Homestay",
+    slug: "amantara-homestay",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "4",
     price: "₹2500",
@@ -284,6 +298,8 @@ export const plots: Plot[] = [
   {
     id: 8,
     title: "Blue Water",
+    slug: "blue-water",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "4",
     price: "₹2500",
@@ -330,6 +346,8 @@ export const plots: Plot[] = [
   {
     id: 9,
     title: "Ac Lux 301",
+    slug: "ac-lux-301",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "4",
     price: "₹3500",
@@ -380,6 +398,8 @@ export const plots: Plot[] = [
   {
     id: 10,
     title: "Sea View lux flat 203",
+    slug: "sea-view-lux-flat-203",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "4",
     price: "₹3500",
@@ -429,6 +449,8 @@ export const plots: Plot[] = [
   {
     id: 11,
     title: "Mrudugandh GuestHouse",
+    slug: "mrudugandh-guesthouse",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "10",
     price: "₹12000",
@@ -468,6 +490,8 @@ export const plots: Plot[] = [
   {
     id: 12,
     title: "Dr Nimkar's Konkan Nest ",
+    slug: "dr-nimkars-konkan-nest",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "5",
     price: "₹3000",
@@ -509,6 +533,8 @@ export const plots: Plot[] = [
   {
     id: 13,
     title: "Khotacha Wada ",
+    slug: "khotacha-wada",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "8",
     price: "₹6000",
@@ -548,6 +574,8 @@ export const plots: Plot[] = [
   {
     id: 14,
     title: "Casa By The Bay Villa ",
+    slug: "casa-by-the-bay-villa",
+    area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "6",
     price: "₹10,000",
