@@ -279,13 +279,16 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom-p2.webp?alt=media&token=00e03eb8-c733-498b-a1cf-576384662d38",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Washroom.webp?alt=media&token=dc4c7229-8a27-40bf-ac33-faf6a678296a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Homestay-hall.webp?alt=media&token=30b76c46-e7d4-4b73-8abc-4fbf95346df5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Homestay-aesthetics.webp?alt=media&token=a370e8d1-e42e-4142-9ddf-f9c478a025d6",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-kitchen.webp?alt=media&token=cc783689-c74d-4747-abd7-f9c8947f10e1",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Cutlery.webp?alt=media&token=8fc82477-9867-4821-a1c6-78c8566eda4f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Washroom.webp?alt=media&token=dc4c7229-8a27-40bf-ac33-faf6a678296a",
     ],
     media: [
       {
         type: "video",
-        url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-WalkIn-Video.mp4?alt=media&token=73526f36-089a-461e-bd93-160002da47b4",
+        url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FPrabhu%20sir_14-10-2025...mp4?alt=media&token=7e867f0a-29e1-4a66-b494-1b63304e45ef",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FBalcony.webp?alt=media&token=5ab130de-2a05-4fc7-844f-48ffd775be29",
       },
