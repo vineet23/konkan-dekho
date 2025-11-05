@@ -276,14 +276,19 @@ export const plots: Plot[] = [
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FBalcony.webp?alt=media&token=5ab130de-2a05-4fc7-844f-48ffd775be29",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom.webp?alt=media&token=dc06172c-ded9-471d-8e62-cbd0f2a5dea6",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Bedroom-p2.webp?alt=media&token=00e03eb8-c733-498b-a1cf-576384662d38",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Washroom.webp?alt=media&token=dc4c7229-8a27-40bf-ac33-faf6a678296a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-balconyView%20(1).webp?alt=media&token=5053fd96-60ea-4072-b7e7-3744119d01af",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Homestay-hall.webp?alt=media&token=30b76c46-e7d4-4b73-8abc-4fbf95346df5",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Homestay-aesthetics.webp?alt=media&token=a370e8d1-e42e-4142-9ddf-f9c478a025d6",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-kitchen.webp?alt=media&token=cc783689-c74d-4747-abd7-f9c8947f10e1",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Cutlery.webp?alt=media&token=8fc82477-9867-4821-a1c6-78c8566eda4f",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Washroom.webp?alt=media&token=dc4c7229-8a27-40bf-ac33-faf6a678296a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-washroom2.webp?alt=media&token=574d6dce-335c-42b7-943a-bdf705cf1a3f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-terrace.webp?alt=media&token=4fae3681-61c3-4fe6-8c74-5451e8627027",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Hallway.webp?alt=media&token=c9ea15a8-ef88-41a4-9f02-1a84054004fc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmanatara-terrace-seaview%20(2).webp?alt=media&token=906574fc-5a73-40b2-b339-912d29e6a08e",
+
     ],
     media: [
       {
