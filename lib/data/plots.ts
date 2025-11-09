@@ -628,4 +628,49 @@ export const plots: Plot[] = [
       listingDate: "2015-01-15",
     },
   },
+  {
+    id: 15,
+    title: "Ocean Bliss",
+    slug: "ocean-bliss-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "6",
+    price: "₹6000",
+    phone: "9270108686",
+    description:
+      "🏖️ Ocean Bliss Beach Villa – Kurli Beach, RatnagiriExperience luxury, serenity, and breathtaking ocean views at Ocean Bliss Villa, Ratnagiri.Located right on Kurli Beach, this beautiful beachfront villa offers an exclusive escape where you can wake up to the soothing sound of waves and the refreshing Konkan sea breeze.Ocean Bliss features spacious and elegantly designed interiors, combining modern comfort with a coastal charm. The villa includes multiple cozy bedrooms, a fully equipped kitchen, a bright living room, and a large outdoor lounging area—perfect for relaxing with family or friends.Guests can enjoy leisurely beach walks, swim in the ocean, or simply unwind in peaceful surroundings far from the city’s noise. With a dedicated caretaker on-site, every detail of your stay is taken care of—ensuring comfort, convenience, and true Konkan hospitality.Whether you’re planning a romantic getaway, a family vacation, or a group retreat, Ocean Bliss Villa in Ratnagiri offers the perfect blend of luxury and nature.",
+    features: [
+      "Beachfront Location on Kurli Beach",
+      "Private Outdoor Lounge & Garden",
+      "Spacious Ocean-View Bedrooms",
+      "Fully Equipped Modern Kitchen",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-Bedroom.webp?alt=media&token=06c5247f-3713-4977-a95a-10daba81442d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-Garden.webp?alt=media&token=8b475313-7318-46fd-9aa8-2aecbefde8b2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-Dining.webp?alt=media&token=3eab1272-4e14-41b1-8ac6-efdc6df8fa24",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-LivingRoom.webp?alt=media&token=b619d106-e012-416d-8c64-005010e114f3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-LivingRoom1.webp?alt=media&token=debaae9f-21cc-4b24-b3a8-2437fa7ee435",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-View.webp?alt=media&token=ebfc80fc-5a5a-4111-8792-2132db7963e3"
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-Bedroom.webp?alt=media&token=06c5247f-3713-4977-a95a-10daba81442d",
+
+      },
+    ],
+    coordinates: {
+      latitude: "16.955961522736498° N",
+      longitude: "73.2924811804057° E",
+    },
+    host: {
+      name: "Amit",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2015-01-15",
+    },
+  },
 ];
