@@ -667,7 +667,7 @@ export const plots: Plot[] = [
       longitude: "73.2924811804057° E",
     },
     host: {
-      name: "Amit",
+      name: "",
       imageUrl: "",
       isPremier: true,
       listingDate: "2015-01-15",
