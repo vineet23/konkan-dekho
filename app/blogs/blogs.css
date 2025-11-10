@@ -1,0 +1,36 @@
+.blog-post-body h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.blog-post-body h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.blog-post-body p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.blog-post-body a {
+  color: #ff385c;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.blog-post-body a:hover {
+  color: #d93b60;
+}
+
+.blog-post-body img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
