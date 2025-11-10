@@ -1,5 +1,4 @@
 import { blogs } from "@/lib/data/blogs";
-import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import { Card } from "@/components/ui/card";
@@ -21,7 +20,7 @@ export default function BlogsPage() {
         </h1>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {blogs.map((blog) => (
-            <Link href={`/blogs/${blog.slug}`} key={blog.id}>
+            <a href={`/blogs/${blog.slug}`} key={blog.id}>
               <Card className="flex h-full flex-col overflow-hidden transition-transform hover:scale-[1.02]">
                 <div className="relative h-48">
                   <Image
@@ -38,7 +37,7 @@ export default function BlogsPage() {
                   </p>
                 </div>
               </Card>
-            </Link>
+            </a>
           ))}
         </div>
       </div>

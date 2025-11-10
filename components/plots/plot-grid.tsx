@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { MapPin, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/card";
@@ -15,7 +14,7 @@ export function PlotGrid({ plots }: PlotGridProps) {
   return (
     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
       {plots.map((plot) => (
-        <Link
+        <a
           href={`/${plot.slug}-${plot.area
             .toLowerCase()
             .replace(/ /g, "-")}`}
@@ -49,7 +48,7 @@ export function PlotGrid({ plots }: PlotGridProps) {
               </div>
             </div>
           </Card>
-        </Link>
+        </a>
       ))}
     </div>
   );

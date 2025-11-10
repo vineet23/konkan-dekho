@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { MapPin, ArrowRight } from "lucide-react";
-import Link from "next/link";
 import Image from "next/image";
 import { plots } from "@/lib/data/plots";
 import { CollapsibleSearchFilters } from "@/components/plots/collapsible-search-filters";
@@ -54,11 +53,11 @@ export default function Home() {
               Explore premium homestays with breathtaking views and excellent
               vacation vibes.
             </p>
-            <Link href="/explore/all-plots">
+            <a href="/explore/all-plots">
               <Button className="mt-8 bg-[#FF385C] hover:bg-[#D93B60]">
                 Explore Homestays
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
@@ -80,7 +79,7 @@ export default function Home() {
           </h2>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {filteredPlots.map((plot) => (
-              <Link
+              <a
                 href={`/${plot.slug}-${plot.area
                   .toLowerCase()
                   .replace(/ /g, "-")}`}
@@ -107,7 +106,9 @@ export default function Home() {
                           {plot.guests} guests
                         </p>
                         <p className="text-lg font-bold text-[#FF385C]">
-                          {formatIndianPrice(convertPriceToNumber(plot.price))}{" "}
+                          {formatIndianPrice(
+                            convertPriceToNumber(plot.price)
+                          )}{" "}
                           per night
                         </p>
                       </div>
@@ -117,7 +118,7 @@ export default function Home() {
                     </div>
                   </div>
                 </Card>
-              </Link>
+              </a>
             ))}
           </div>
         </div>
