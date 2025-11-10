@@ -44,12 +44,10 @@ export function SearchFilters({
 
   useEffect(() => {
     onFiltersChange(filters);
-  }, []);
+  }, [filters, onFiltersChange]);
 
   const handleFilterChange = (newFilters: Partial<FilterOptions>) => {
-    const updatedFilters = { ...filters, ...newFilters };
-    setFilters(updatedFilters);
-    onFiltersChange(updatedFilters);
+    setFilters({ ...filters, ...newFilters });
   };
 
   return (

@@ -6,6 +6,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Toaster } from "@/components/ui/toaster";
 import { Caveat } from "next/font/google";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 const caveat = Caveat({
@@ -29,23 +30,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${caveat.variable}`} suppressHydrationWarning>
-      <head>
-        {/* Google Analytics */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-VWJ22V1GFC"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-VWJ22V1GFC');
-          `,
-          }}
-        />
-      </head>
       <body className={inter.className} suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
@@ -59,6 +43,18 @@ export default function RootLayout({
           </div>
           <Toaster />
         </ThemeProvider>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-VWJ22V1GFC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-VWJ22V1GFC');
+          `}
+        </Script>
       </body>
     </html>
   );

@@ -6,9 +6,15 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { DatePicker } from "@/components/ui/date-picker";
-import { Phone, Mail } from "lucide-react";
+import { DateRangePicker } from "@/components/ui/date-range-picker";
+import { Phone, Mail, Plus, Minus } from "lucide-react";
 import { format } from "date-fns";
+import { DateRange } from "react-day-picker";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 
 interface ContactFormProps {
   phone?: string;
@@ -20,8 +26,12 @@ export function ContactForm({
   email = "advaitkulkarni301@gmail.com",
 }: ContactFormProps) {
   const { toast } = useToast();
-  const [checkInDate, setCheckInDate] = useState<Date>();
-  const [checkOutDate, setCheckOutDate] = useState<Date>();
+  const [dateRange, setDateRange] = useState<DateRange | undefined>();
+  const [guests, setGuests] = useState({
+    adults: 1,
+    children: 0,
+    pets: 0,
+  });
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -36,8 +46,27 @@ export function ContactForm({
     }));
   };
 
+  const handleGuestChange = (
+    type: "adults" | "children" | "pets",
+    value: number
+  ) => {
+    setGuests((prev) => ({
+      ...prev,
+      [type]: Math.max(0, prev[type] + value),
+    }));
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!dateRange?.from || !dateRange?.to) {
+      toast({
+        title: "Incomplete Dates",
+        description: "Please select both a check-in and check-out date.",
+        variant: "destructive",
+      });
+      return;
+    }
 
     // Build the WhatsApp message
     const messageParts = ["*New Homestay Booking Inquiry from Konkan Dekho*"];
@@ -54,17 +83,22 @@ export function ContactForm({
       messageParts.push(`*Phone:* ${formData.phoneNumber.trim()}`);
     }
 
-    if (checkInDate) {
+    if (dateRange?.from) {
       messageParts.push(
-        `*Check-in Date:* ${format(checkInDate, "dd MMM yyyy")}`
+        `*Check-in Date:* ${format(dateRange.from, "dd MMM yyyy")}`
       );
     }
 
-    if (checkOutDate) {
+    if (dateRange?.to) {
       messageParts.push(
-        `*Check-out Date:* ${format(checkOutDate, "dd MMM yyyy")}`
+        `*Check-out Date:* ${format(dateRange.to, "dd MMM yyyy")}`
       );
     }
+
+    messageParts.push(`*Guests:*`);
+    messageParts.push(`  - Adults: ${guests.adults}`);
+    messageParts.push(`  - Children: ${guests.children}`);
+    messageParts.push(`  - Pets: ${guests.pets}`);
 
     if (formData.message.trim()) {
       messageParts.push(`*Message:* ${formData.message.trim()}`);
@@ -93,11 +127,7 @@ export function ContactForm({
 
   return (
     <Card className="p-6">
-      <h2 className="text-xl font-semibold">Enquire Now</h2>
-      <p className="mt-2 text-sm text-gray-600">
-        Interested in this homestay? Fill out the form below and we'll get back
-        to you.
-      </p>
+      <h2 className="text-xl font-semibold">Reserve Now</h2>
       <form onSubmit={handleSubmit} className="mt-4 space-y-4">
         <div>
           <Input
@@ -122,27 +152,115 @@ export function ContactForm({
             onChange={(e) => handleInputChange("phoneNumber", e.target.value)}
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Check-in Date
-            </label>
-            <DatePicker
-              date={checkInDate}
-              onDateChange={setCheckInDate}
-              placeholder="Select date"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Check-out Date
-            </label>
-            <DatePicker
-              date={checkOutDate}
-              onDateChange={setCheckOutDate}
-              placeholder="Select date"
-            />
-          </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Check-in - Check-out Date
+          </label>
+          <DateRangePicker
+            date={dateRange}
+            onDateChange={setDateRange}
+            placeholder="Select a date range"
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Guests
+          </label>
+          <Popover>
+            <PopoverTrigger asChild>
+              <Button
+                variant="outline"
+                className="w-full justify-start text-left font-normal h-10 px-3"
+              >
+                {guests.adults > 0 && <span>{guests.adults} Adults</span>}
+                {guests.children > 0 && (
+                  <span>, {guests.children} Children</span>
+                )}
+                {guests.pets > 0 && <span>, {guests.pets} Pets</span>}
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent className="w-64 p-4">
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="font-medium">Adults</p>
+                    <p className="text-sm text-gray-500">Age 13+</p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="h-8 w-8"
+                      onClick={() => handleGuestChange("adults", -1)}
+                      disabled={guests.adults <= 1}
+                    >
+                      <Minus className="h-4 w-4" />
+                    </Button>
+                    <span>{guests.adults}</span>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="h-8 w-8"
+                      onClick={() => handleGuestChange("adults", 1)}
+                    >
+                      <Plus className="h-4 w-4" />
+                    </Button>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="font-medium">Children</p>
+                    <p className="text-sm text-gray-500">Ages 2–12</p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="h-8 w-8"
+                      onClick={() => handleGuestChange("children", -1)}
+                      disabled={guests.children <= 0}
+                    >
+                      <Minus className="h-4 w-4" />
+                    </Button>
+                    <span>{guests.children}</span>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="h-8 w-8"
+                      onClick={() => handleGuestChange("children", 1)}
+                    >
+                      <Plus className="h-4 w-4" />
+                    </Button>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="font-medium">Pets</p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="h-8 w-8"
+                      onClick={() => handleGuestChange("pets", -1)}
+                      disabled={guests.pets <= 0}
+                    >
+                      <Minus className="h-4 w-4" />
+                    </Button>
+                    <span>{guests.pets}</span>
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="h-8 w-8"
+                      onClick={() => handleGuestChange("pets", 1)}
+                    >
+                      <Plus className="h-4 w-4" />
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </PopoverContent>
+          </Popover>
         </div>
         <div>
           <Textarea
@@ -156,7 +274,7 @@ export function ContactForm({
           type="submit"
           className="w-full bg-[#FF385C] hover:bg-[#D93B60]"
         >
-          Send Message
+          Reserve
         </Button>
       </form>
 

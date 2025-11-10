@@ -41,17 +41,13 @@ export default function AllPlotsPage() {
 
   const handleFiltersChange = (newFilters: FilterOptions) => {
     setFilters(newFilters);
-    const filtered = filterPlots(plots, newFilters);
-    const sorted = sortPlots(filtered, newFilters.sortBy);
-    setFilteredPlots(sorted);
   };
 
-  // Apply initial filters when component mounts
   useEffect(() => {
     const filtered = filterPlots(plots, filters);
     const sorted = sortPlots(filtered, filters.sortBy);
     setFilteredPlots(sorted);
-  }, []);
+  }, [filters]);
 
   return (
     <div className="container mx-auto px-4 py-16">
