@@ -7,6 +7,9 @@ import { Card } from "@/components/ui/card";
 export const metadata: Metadata = {
   title: "Blogs",
   description: "Read our latest blogs about homestays and travel in Konkan.",
+  openGraph: {
+    images: "/image/logo.svg",
+  },
 };
 
 export default function BlogsPage() {

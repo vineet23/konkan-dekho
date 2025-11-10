@@ -26,6 +26,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: blog.title,
     description: blog.description,
+    openGraph: {
+      images:
+        blog.images && blog.images.length > 0
+          ? blog.images[0]
+          : ["/image/logo.svg"],
+    },
   };
 }
 

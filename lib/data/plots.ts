@@ -673,4 +673,48 @@ export const plots: Plot[] = [
       listingDate: "2015-01-15",
     },
   },
+  {
+    id: 16,
+    title: "Ananta Beach Villa",
+    slug: "ananta-beach-villa",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "8",
+    price: "₹8000",
+    phone: "7020390132",
+    description:
+      "🏖 Anant Beach Villa – Sea-View Getaway in Ratnagiri,Escape to peace, comfort, and coastal charm at Anant Beach Villa, a beautiful seaside retreat perfect for families and groups of friends. Located near Kurli Beach, this spacious villa blends homely warmth with modern convenience — making it ideal for a relaxed vacation in the Konkan.The villa features two cozy bedrooms, a large open living area, and a well-equipped kitchen stocked with all the essentials. Whether you want to cook your own meals, enjoy local delicacies, or simply unwind with your favorite music, the villa has everything you need for a comfortable stay.Wake up to the soothing sound of waves and breathtaking sea views from the villa’s outdoor area — perfect for morning tea, evening games, or simply soaking in the breeze. Guests particularly love the villa’s authentic home-cooked food, warm hospitality, and the thoughtful touches that make it feel like a true home away from home.While the nearby beaches could be cleaner, the beauty of the coastline and the peaceful vibe more than make up for it. During low tide, Kurli Beach is perfect for long walks or quiet reflection by the water.Whether you’re looking for a relaxing weekend escape, a friends’ getaway, or quality family time, Anant Beach Villa offers the perfect blend of comfort, nature, and hospitality — with memories that linger long after your stay.",
+    features: [
+      "Breathtaking Sea View on Kurli Beach",
+      "Authentic Local Cuisine",
+      "Spacious Interiors",
+      "Fully Equipped Modern Kitchen",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant%20Villa%2FAnant-Villa-FrontView.webp?alt=media&token=546b142a-128f-4249-ac6e-a0502c576121",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant%20Villa%2FAnant-Villa-GardenView.webp?alt=media&token=2154e478-ee60-4fd3-9e44-4be19ce9a625",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant%20Villa%2FAnant-Villa-Bedroom.jpeg?alt=media&token=3d544963-c179-4f7f-9037-8ab0dc499982",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant%20Villa%2FAnant-Villa-SeaView.webp?alt=media&token=9eca3193-5c19-4827-b620-b9949c6a0db8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant%20Villa%2FAnant-Villa-Seaview2.webp?alt=media&token=ce5fcbdb-6a43-489a-9677-3fac1a4d769d",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant%20Villa%2FAnant-Villa-FrontView.webp?alt=media&token=546b142a-128f-4249-ac6e-a0502c576121",
+
+      },
+    ],
+    coordinates: {
+      latitude: "16.95745133630853° N",
+      longitude: "73.29281950843392° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2018-01-15",
+    },
+  },
 ];
