@@ -10,25 +10,33 @@ const vm = require("vm");
 const ROOT_DIR = process.cwd();
 const SITE_URL = "https://konkandekho.com";
 
-function loadPlotsFromTypeScript() {
-  const tsFile = path.join(ROOT_DIR, "lib", "data", "plots.ts");
+function loadDataFromTypeScript(fileName, exportName) {
+  const tsFile = path.join(ROOT_DIR, "lib", "data", fileName);
   const tsCode = fs.readFileSync(tsFile, "utf8");
 
   // Strip TS imports and type annotations, convert to CommonJS export
   const withoutImports = tsCode.replace(/^import[^\n]*\n/gm, "");
   const commonJsCode = withoutImports.replace(
-    /export\s+const\s+plots\s*:\s*[^=]+=/,
+    new RegExp(`export\\s+const\\s+${exportName}\\s*:\\s*[^=]+=`),
     "module.exports ="
   );
 
   const sandbox = { module: {}, exports: {} };
   vm.createContext(sandbox);
-  vm.runInContext(commonJsCode, sandbox, { filename: "plots.ts" });
+  vm.runInContext(commonJsCode, sandbox, { filename: fileName });
   const data = sandbox.module.exports;
   if (!Array.isArray(data)) {
-    throw new Error("Parsed plots.ts did not export an array");
+    throw new Error(`Parsed ${fileName} did not export an array`);
   }
   return data;
+}
+
+function loadPlotsFromTypeScript() {
+  return loadDataFromTypeScript("plots.ts", "plots");
+}
+
+function loadBlogsFromTypeScript() {
+  return loadDataFromTypeScript("blogs.ts", "blogs");
 }
 
 function formatDateYYYYMMDD(date = new Date()) {
@@ -49,6 +57,7 @@ function buildUrls() {
     "/explore/list-your-plot",
     "/team",
     "/testimonials",
+    "/blogs",
   ];
 
   const plots = loadPlotsFromTypeScript();
@@ -56,10 +65,13 @@ function buildUrls() {
     (p) => `/${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}`
   );
 
-  return { staticPaths, plotPaths };
+  const blogs = loadBlogsFromTypeScript();
+  const blogPaths = blogs.map((b) => `/blogs/${b.slug}`);
+
+  return { staticPaths, plotPaths, blogPaths };
 }
 
-function generateSitemapXml({ staticPaths, plotPaths }) {
+function generateSitemapXml({ staticPaths, plotPaths, blogPaths }) {
   const today = formatDateYYYYMMDD();
 
   const urlEntry = (loc, priority) =>
@@ -69,6 +81,7 @@ function generateSitemapXml({ staticPaths, plotPaths }) {
   for (const p of staticPaths)
     entries.push(urlEntry(p, p === "/" ? "1.0" : "0.7"));
   for (const p of plotPaths) entries.push(urlEntry(p, "0.8"));
+  for (const p of blogPaths) entries.push(urlEntry(p, "0.8"));
 
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join(
     "\n"
