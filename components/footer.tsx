@@ -1,5 +1,6 @@
 import { Phone, Mail } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -28,36 +29,36 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-900">Explore</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a
+                <Link
                   href="/explore/all-plots"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
                   All Homestays
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/explore/featured-locations"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
                   Featured Locations
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/explore/how-it-works"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
                   How We Work
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/explore/list-your-plot"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
                   List Your Plot/Homestay
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -66,36 +67,44 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-900">Company</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a
+                <Link
                   href="/about"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/team"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
                   Our Team
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/testimonials"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
                   Testimonials
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/contact"
                   className="text-sm text-gray-600 hover:text-[#FF385C]"
                 >
                   Contact
-                </a>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blogs"
+                  className="text-sm text-gray-600 hover:text-[#FF385C]"
+                >
+                  Blogs
+                </Link>
               </li>
             </ul>
           </div>

@@ -37,19 +37,24 @@ export default function BlogPage({ params }: Props) {
   }
 
   return (
-    <div className="blog-post-container">
-      <h1>{blog.title}</h1>
-      <Image
-        src={blog.images[0]}
-        alt={blog.title}
-        width={800}
-        height={400}
-        className="blog-post-image"
-      />
-      <article
-        className="blog-post-body"
-        dangerouslySetInnerHTML={{ __html: blog.body }}
-      />
-    </div>
+    <section className="py-16">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h1 className="mb-8 text-4xl font-bold tracking-tight sm:text-5xl">
+          {blog.title}
+        </h1>
+        <div className="relative mt-8 h-96">
+          <Image
+            src={blog.images[0]}
+            alt={blog.title}
+            fill
+            className="rounded-lg object-cover"
+          />
+        </div>
+        <article
+          className="blog-post-body mx-auto mt-8"
+          dangerouslySetInnerHTML={{ __html: blog.body }}
+        />
+      </div>
+    </section>
   );
 }

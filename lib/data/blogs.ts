@@ -15,9 +15,7 @@ export const blogs: Blog[] = [
             "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/blue%20water%2Fblue%20water%20balcony%20part%202.webp?alt=media&token=15b23305-4bab-4cd6-b101-f57fb4735789",
             "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ac%20lux%20301%2Fac%20lux%20301%20hall.webp?alt=media&token=2bc33d3e-0570-481e-8152-13f3b111c949"
         ],
-        body: `<h1>Hidden Homestays in Konkan You Didn't Know About</h1>
-
-    <p>
+        body: `<p>
       When people think of the Konkan coast, they often picture crowded beaches, coconut trees, and well-known tourist spots. But tucked away in the lush greenery and quiet villages are small, family-run homestays that let you experience the region in its truest and purest form.
       These five unique properties in Ratnagiri offer a perfect blend of comfort, local charm, and stunning views.
     </p>
