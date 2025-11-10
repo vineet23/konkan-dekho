@@ -675,8 +675,8 @@ export const plots: Plot[] = [
   },
   {
     id: 16,
-    title: "Ananta Beach Villa",
-    slug: "ananta-beach-villa",
+    title: "Anant Beach Villa",
+    slug: "anant-beach-villa",
     area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "8",
