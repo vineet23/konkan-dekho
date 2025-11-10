@@ -51,3 +51,12 @@ export interface TeamMember {
   email?: string;
   bio: string;
 }
+
+export interface Blog {
+  id: number;
+  title: string;
+  slug: string;
+  description: string;
+  images: string[];
+  body: string
+}
