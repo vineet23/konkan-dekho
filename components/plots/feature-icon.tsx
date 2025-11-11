@@ -1,11 +1,10 @@
 "use client";
 import {
     ParkingCircle,
-    ParkingSquare,
+    Car,
+    Building,
     Bed,
     BedDouble,
-    BedSingle,
-    Sofa,
     Mountain,
     Waves,
     View,
@@ -13,8 +12,6 @@ import {
     Wifi,
     Utensils,
     Dog,
-    Cat,
-    Wind,
     Sun,
     Star,
     Sparkles,
@@ -31,22 +28,37 @@ import {
     if (lowerCaseFeature.includes('parking')) {
       return <ParkingCircle className={className} />;
     }
+    if (lowerCaseFeature.includes('city')) {
+      return <Building className={className} />;
+    }
+    if (lowerCaseFeature.includes('beach')) {
+      return <Sun className={className} />;
+    }
     if (lowerCaseFeature.includes('furnished')) {
       return <BedDouble className={className} />;
     }
     if (lowerCaseFeature.includes('bunglow')) {
         return <Bed className={className} />;
       }
-    if (lowerCaseFeature.includes('view')) {
-      return <View className={className} />;
+    if (lowerCaseFeature.includes('road')) {
+      return <Car className={className} />;
+    }
+    if (lowerCaseFeature.includes('car')) {
+      return <Car className={className} />;
     }
     if (lowerCaseFeature.includes('ocean')) {
       return <Waves className={className} />;
+    }
+    if (lowerCaseFeature.includes('sun')) {
+      return <Sun className={className} />;
     }
     if (lowerCaseFeature.includes('sea')) {
         return <Waves className={className} />;
       }
     if (lowerCaseFeature.includes('mountain')) {
+      return <Mountain className={className} />;
+    }
+    if (lowerCaseFeature.includes('hill')) {
       return <Mountain className={className} />;
     }
     if (lowerCaseFeature.includes('garden')) {
@@ -58,6 +70,12 @@ import {
     if (lowerCaseFeature.includes('kitchen')) {
       return <Utensils className={className} />;
     }
+    if (lowerCaseFeature.includes('dining')) {
+      return <Utensils className={className} />;
+    }
+    if (lowerCaseFeature.includes('food')) {
+      return <Utensils className={className} />;
+    }
     if (lowerCaseFeature.includes('pets')) {
       return <Dog className={className} />;
     }
@@ -66,6 +84,12 @@ import {
     }
     if (lowerCaseFeature.includes('spacious')) {
         return <Sparkles className={className} />;
+    }
+      if (lowerCaseFeature.includes('view')) {
+      return <View className={className} />;
+    }
+    if (lowerCaseFeature.includes('bed')) {
+        return <Bed className={className} />;
       }
     return <Star className={className} />;
   }
