@@ -9,6 +9,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { DatePicker } from "@/components/ui/date-picker";
 import { Phone, Mail } from "lucide-react";
 import { format } from "date-fns";
+import { DateRange } from "react-day-picker";
+import { GuestDropdown } from "../ui/guest-dropdown";
 
 interface ContactFormProps {
   phone?: string;
@@ -20,8 +22,12 @@ export function ContactForm({
   email = "advaitkulkarni301@gmail.com",
 }: ContactFormProps) {
   const { toast } = useToast();
-  const [checkInDate, setCheckInDate] = useState<Date>();
-  const [checkOutDate, setCheckOutDate] = useState<Date>();
+  const [date, setDate] = useState<DateRange | undefined>();
+  const [guests, setGuests] = useState({
+    adults: 1,
+    children: 0,
+    pets: 0,
+  });
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -39,6 +45,15 @@ export function ContactForm({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    if (!date?.from || !date?.to) {
+      toast({
+        title: "Incomplete Dates",
+        description: "Please select both a check-in and check-out date.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     // Build the WhatsApp message
     const messageParts = ["*New Homestay Booking Inquiry from Konkan Dekho*"];
 
@@ -54,17 +69,17 @@ export function ContactForm({
       messageParts.push(`*Phone:* ${formData.phoneNumber.trim()}`);
     }
 
-    if (checkInDate) {
-      messageParts.push(
-        `*Check-in Date:* ${format(checkInDate, "dd MMM yyyy")}`
-      );
+    if (date.from) {
+      messageParts.push(`*Check-in Date:* ${format(date.from, "dd MMM yyyy")}`);
     }
 
-    if (checkOutDate) {
-      messageParts.push(
-        `*Check-out Date:* ${format(checkOutDate, "dd MMM yyyy")}`
-      );
+    if (date.to) {
+      messageParts.push(`*Check-out Date:* ${format(date.to, "dd MMM yyyy")}`);
     }
+
+    messageParts.push(
+      `*Guests:* ${guests.adults} Adults, ${guests.children} Children, ${guests.pets} Pets`
+    );
 
     if (formData.message.trim()) {
       messageParts.push(`*Message:* ${formData.message.trim()}`);
@@ -95,10 +110,28 @@ export function ContactForm({
     <Card className="p-6">
       <h2 className="text-xl font-semibold">Enquire Now</h2>
       <p className="mt-2 text-sm text-gray-600">
-        Interested in this homestay? Fill out the form below and we'll get back
+        Interested in this homestay? Fill out the form below and we&apos;ll get back
         to you.
       </p>
       <form onSubmit={handleSubmit} className="mt-4 space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Check-in / Check-out
+            </label>
+            <DatePicker
+              range={date}
+              onRangeChange={setDate}
+              placeholder="Select your dates"
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Guests
+            </label>
+            <GuestDropdown value={guests} onChange={setGuests} />
+          </div>
+        </div>
         <div>
           <Input
             placeholder="Your Name"
@@ -121,28 +154,6 @@ export function ContactForm({
             value={formData.phoneNumber}
             onChange={(e) => handleInputChange("phoneNumber", e.target.value)}
           />
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Check-in Date
-            </label>
-            <DatePicker
-              date={checkInDate}
-              onDateChange={setCheckInDate}
-              placeholder="Select date"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Check-out Date
-            </label>
-            <DatePicker
-              date={checkOutDate}
-              onDateChange={setCheckOutDate}
-              placeholder="Select date"
-            />
-          </div>
         </div>
         <div>
           <Textarea
