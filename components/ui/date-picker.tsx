@@ -17,8 +17,6 @@ import {
 interface DatePickerProps {
   range?: DateRange;
   onRangeChange?: (range: DateRange | undefined) => void;
-  date?: Date;
-  onDateChange?: (date: Date | undefined) => void;
   placeholder?: string;
   disabled?: boolean;
   className?: string;
@@ -27,25 +25,14 @@ interface DatePickerProps {
 export function DatePicker({
   range,
   onRangeChange,
-  date,
-  onDateChange,
   placeholder = "Pick a date",
   disabled = false,
   className,
 }: DatePickerProps) {
-  const isRange = !!(range && onRangeChange);
-
-  const displayValue = isRange
-    ? range?.from
-      ? range.to
-        ? `${format(range.from, "LLL dd, y")} - ${format(
-            range.to,
-            "LLL dd, y"
-          )}`
-        : format(range.from, "LLL dd, y")
-      : placeholder
-    : date
-    ? format(date, "dd MMM yyyy")
+  const displayValue = range?.from
+    ? range.to
+      ? `${format(range.from, "LLL dd, y")} - ${format(range.to, "LLL dd, y")}`
+      : format(range.from, "LLL dd, y")
     : placeholder;
 
   return (
@@ -55,7 +42,7 @@ export function DatePicker({
           variant="outline"
           className={cn(
             "w-full justify-start text-left font-normal h-10 px-3",
-            !date && !range?.from && "text-muted-foreground",
+            !range?.from && "text-muted-foreground",
             className
           )}
           disabled={disabled}
@@ -66,11 +53,11 @@ export function DatePicker({
       </PopoverTrigger>
       <PopoverContent className="w-auto p-0" align="start">
         <Calendar
-          mode={isRange ? "range" : "single"}
-          selected={isRange ? range : date}
-          onSelect={isRange ? onRangeChange : onDateChange}
+          mode="range"
+          selected={range}
+          onSelect={onRangeChange}
           initialFocus
-          numberOfMonths={isRange ? 2 : 1}
+          numberOfMonths={2}
         />
       </PopoverContent>
     </Popover>
