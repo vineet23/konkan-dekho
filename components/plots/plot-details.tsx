@@ -2,6 +2,7 @@ import { MapPin, SquareDashed, IndianRupee, Map, User } from "lucide-react";
 import { Plot } from "@/lib/types";
 import { MapLink } from "./map-link";
 import { HostSection } from "./host-section";
+import { FeatureIcon } from "./feature-icon";
 
 interface PlotDetailsProps {
   plot: Plot;
@@ -45,7 +46,7 @@ export function PlotDetails({ plot }: PlotDetailsProps) {
               key={index}
               className="flex items-center text-gray-600 text-sm sm:text-base"
             >
-              <span className="mr-2 h-2 w-2 rounded-full bg-[#FF385C] shrink-0" />
+              <FeatureIcon feature={feature} className="mr-2 h-5 w-5 shrink-0" />
               {feature}
             </li>
           ))}
