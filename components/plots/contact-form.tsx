@@ -13,11 +13,13 @@ import { DateRange } from "react-day-picker";
 interface ContactFormProps {
   phone?: string;
   email?: string;
+  name?: string;
 }
 
 export function ContactForm({
   phone = "9834069861",
   email = "advaitkulkarni301@gmail.com",
+  name = "Konkan Dekho",
 }: ContactFormProps) {
   const { toast } = useToast();
   const [dateRange, setDateRange] = useState<DateRange | undefined>();
@@ -54,7 +56,7 @@ export function ContactForm({
     }
 
     // Build the WhatsApp message
-    const messageParts = ["*New Homestay Booking Inquiry from Konkan Dekho*"];
+    const messageParts = [`*New Booking Inquiry for ${name} from Konkan Dekho*`];
 
     if (dateRange?.from) {
       messageParts.push(
@@ -101,39 +103,23 @@ export function ContactForm({
 
   return (
     <Card className="p-6">
-      <h2 className="text-xl font-semibold">Enquire Now</h2>
+      <h2 className="text-xl font-semibold">Reserve Now</h2>
       <p className="mt-2 text-sm text-gray-600">
         Interested in this homestay? Fill out the form below and we&apos;ll get
         back to you.
       </p>
       <form onSubmit={handleSubmit} className="mt-4 space-y-4">
         <div className="flex gap-4">
-          <div className="w-1/2">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Check-in
+          <div className="w-full">
+            <label className="block text-sm font-medium mb-2">
+              Select Dates
             </label>
             <DatePicker
-              mode="single"
-              date={dateRange?.from}
-              onDateChange={(date) =>
-                handleDateChange({ ...dateRange, from: date })
-              }
-              placeholder="Check-in"
               className="w-full"
-            />
-          </div>
-          <div className="w-1/2">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Check-out
-            </label>
-            <DatePicker
-              mode="single"
-              date={dateRange?.to}
-              onDateChange={(date) =>
-                handleDateChange({ ...dateRange, to: date })
-              }
-              placeholder="Check-out"
-              className="w-full"
+              mode="range"
+              date={dateRange}
+              onDateChange={handleDateChange}
+              placeholder="Check-in - Check-out"
             />
           </div>
         </div>

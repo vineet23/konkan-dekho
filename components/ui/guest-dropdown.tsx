@@ -44,6 +44,7 @@ const GuestCounter = ({
     </div>
     <div className="flex items-center gap-4">
       <Button
+        type="button"
         variant="outline"
         size="icon"
         className="h-8 w-8 rounded-full"
@@ -54,6 +55,7 @@ const GuestCounter = ({
       </Button>
       <span className="w-4 text-center">{value}</span>
       <Button
+        type="button"
         variant="outline"
         size="icon"
         className="h-8 w-8 rounded-full"
@@ -84,6 +86,7 @@ export function GuestDropdown({ guest, setGuest }: GuestDropdownProps) {
           <div className="w-full">
             <Label>Guests</Label>
             <Button
+              type="button"
               variant="outline"
               className="w-full justify-start text-left font-normal mt-1"
             >
@@ -98,7 +101,7 @@ export function GuestDropdown({ guest, setGuest }: GuestDropdownProps) {
           <div className="grid gap-4 p-4">
             <GuestCounter
               label="Adults"
-              description="Age 14 or above"
+              description="Age 18 or above"
               value={guest.adults}
               onDecrement={() => handleGuestChange("adults", -1)}
               onIncrement={() => handleGuestChange("adults", 1)}
@@ -106,7 +109,7 @@ export function GuestDropdown({ guest, setGuest }: GuestDropdownProps) {
             />
             <GuestCounter
               label="Children"
-              description="Ages 2–13"
+              description=""
               value={guest.children}
               onDecrement={() => handleGuestChange("children", -1)}
               onIncrement={() => handleGuestChange("children", 1)}
