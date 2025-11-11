@@ -9,6 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { DatePicker } from "@/components/ui/date-picker";
 import { Phone, Mail } from "lucide-react";
 import { format } from "date-fns";
+import { DateRange } from "react-day-picker";
 
 interface ContactFormProps {
   phone?: string;
@@ -20,8 +21,7 @@ export function ContactForm({
   email = "advaitkulkarni301@gmail.com",
 }: ContactFormProps) {
   const { toast } = useToast();
-  const [checkInDate, setCheckInDate] = useState<Date>();
-  const [checkOutDate, setCheckOutDate] = useState<Date>();
+  const [dateRange, setDateRange] = useState<DateRange | undefined>();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -39,6 +39,15 @@ export function ContactForm({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    if (!dateRange || !dateRange.from || !dateRange.to) {
+      toast({
+        title: "Incomplete Date Range",
+        description: "Please select both a check-in and check-out date.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     // Build the WhatsApp message
     const messageParts = ["*New Homestay Booking Inquiry from Konkan Dekho*"];
 
@@ -54,15 +63,15 @@ export function ContactForm({
       messageParts.push(`*Phone:* ${formData.phoneNumber.trim()}`);
     }
 
-    if (checkInDate) {
+    if (dateRange?.from) {
       messageParts.push(
-        `*Check-in Date:* ${format(checkInDate, "dd MMM yyyy")}`
+        `*Check-in Date:* ${format(dateRange.from, "dd MMM yyyy")}`
       );
     }
 
-    if (checkOutDate) {
+    if (dateRange?.to) {
       messageParts.push(
-        `*Check-out Date:* ${format(checkOutDate, "dd MMM yyyy")}`
+        `*Check-out Date:* ${format(dateRange.to, "dd MMM yyyy")}`
       );
     }
 
@@ -95,8 +104,8 @@ export function ContactForm({
     <Card className="p-6">
       <h2 className="text-xl font-semibold">Enquire Now</h2>
       <p className="mt-2 text-sm text-gray-600">
-        Interested in this homestay? Fill out the form below and we'll get back
-        to you.
+        Interested in this homestay? Fill out the form below and we&apos;ll get
+        back to you.
       </p>
       <form onSubmit={handleSubmit} className="mt-4 space-y-4">
         <div>
@@ -122,27 +131,16 @@ export function ContactForm({
             onChange={(e) => handleInputChange("phoneNumber", e.target.value)}
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Check-in Date
-            </label>
-            <DatePicker
-              date={checkInDate}
-              onDateChange={setCheckInDate}
-              placeholder="Select date"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Check-out Date
-            </label>
-            <DatePicker
-              date={checkOutDate}
-              onDateChange={setCheckOutDate}
-              placeholder="Select date"
-            />
-          </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Select Dates
+          </label>
+          <DatePicker
+            mode="range"
+            date={dateRange}
+            onDateChange={setDateRange}
+            placeholder="Check-in - Check-out"
+          />
         </div>
         <div>
           <Textarea
