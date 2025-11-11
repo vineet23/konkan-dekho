@@ -36,6 +36,20 @@ export function ContactForm({
     }));
   };
 
+  const handleDateChange = (date: Date | DateRange | undefined) => {
+    if (!date) {
+      setDateRange(undefined);
+      return;
+    }
+    if (date instanceof Date) {
+      // normalize single Date to a DateRange (from === to)
+      setDateRange({ from: date, to: date });
+      return;
+    }
+    // date is already a DateRange
+    setDateRange(date);
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -138,7 +152,7 @@ export function ContactForm({
           <DatePicker
             mode="range"
             date={dateRange}
-            onDateChange={setDateRange}
+            onDateChange={handleDateChange}
             placeholder="Check-in - Check-out"
           />
         </div>
