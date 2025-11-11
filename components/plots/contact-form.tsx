@@ -39,6 +39,15 @@ export function ContactForm({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    if (!dateRange || !dateRange.from || !dateRange.to) {
+      toast({
+        title: "Incomplete Date Range",
+        description: "Please select both a check-in and check-out date.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     // Build the WhatsApp message
     const messageParts = ["*New Homestay Booking Inquiry from Konkan Dekho*"];
 
