@@ -4,9 +4,8 @@ import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { DatePicker } from "@/components/ui/date-picker";
+import { GuestDropdown } from "@/components/ui/guest-dropdown";
 import { Phone, Mail } from "lucide-react";
 import { format } from "date-fns";
 import { DateRange } from "react-day-picker";
@@ -14,27 +13,21 @@ import { DateRange } from "react-day-picker";
 interface ContactFormProps {
   phone?: string;
   email?: string;
+  name?: string;
 }
 
 export function ContactForm({
   phone = "9834069861",
   email = "advaitkulkarni301@gmail.com",
+  name = "Konkan Dekho",
 }: ContactFormProps) {
   const { toast } = useToast();
   const [dateRange, setDateRange] = useState<DateRange | undefined>();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phoneNumber: "",
-    message: "",
+  const [guest, setGuest] = useState({
+    adults: 1,
+    children: 0,
+    pets: 0,
   });
-
-  const handleInputChange = (field: string, value: string) => {
-    setFormData((prev) => ({
-      ...prev,
-      [field]: value,
-    }));
-  };
 
   const handleDateChange = (date: Date | DateRange | undefined) => {
     if (!date) {
@@ -63,19 +56,7 @@ export function ContactForm({
     }
 
     // Build the WhatsApp message
-    const messageParts = ["*New Homestay Booking Inquiry from Konkan Dekho*"];
-
-    if (formData.name.trim()) {
-      messageParts.push(`*Name:* ${formData.name.trim()}`);
-    }
-
-    if (formData.email.trim()) {
-      messageParts.push(`*Email:* ${formData.email.trim()}`);
-    }
-
-    if (formData.phoneNumber.trim()) {
-      messageParts.push(`*Phone:* ${formData.phoneNumber.trim()}`);
-    }
+    const messageParts = [`*New Booking Inquiry for ${name} from Konkan Dekho*`];
 
     if (dateRange?.from) {
       messageParts.push(
@@ -89,8 +70,14 @@ export function ContactForm({
       );
     }
 
-    if (formData.message.trim()) {
-      messageParts.push(`*Message:* ${formData.message.trim()}`);
+    // Add guest information to the message
+    messageParts.push(`*Guests:*`);
+    messageParts.push(`- Adults: ${guest.adults}`);
+    if (guest.children > 0) {
+      messageParts.push(`- Children: ${guest.children}`);
+    }
+    if (guest.pets > 0) {
+      messageParts.push(`- Pets: ${guest.pets}`);
     }
 
     const whatsappMessage = messageParts.join("\n");
@@ -116,53 +103,28 @@ export function ContactForm({
 
   return (
     <Card className="p-6">
-      <h2 className="text-xl font-semibold">Enquire Now</h2>
+      <h2 className="text-xl font-semibold">Reserve Now</h2>
       <p className="mt-2 text-sm text-gray-600">
         Interested in this homestay? Fill out the form below and we&apos;ll get
         back to you.
       </p>
       <form onSubmit={handleSubmit} className="mt-4 space-y-4">
-        <div>
-          <Input
-            placeholder="Your Name"
-            value={formData.name}
-            onChange={(e) => handleInputChange("name", e.target.value)}
-          />
+        <div className="flex gap-4">
+          <div className="w-full">
+            <label className="block text-sm font-medium mb-2">
+              Select Dates
+            </label>
+            <DatePicker
+              className="w-full"
+              mode="range"
+              date={dateRange}
+              onDateChange={handleDateChange}
+              placeholder="Check-in - Check-out"
+            />
+          </div>
         </div>
         <div>
-          <Input
-            type="email"
-            placeholder="Email Address"
-            value={formData.email}
-            onChange={(e) => handleInputChange("email", e.target.value)}
-          />
-        </div>
-        <div>
-          <Input
-            type="tel"
-            placeholder="Phone Number"
-            value={formData.phoneNumber}
-            onChange={(e) => handleInputChange("phoneNumber", e.target.value)}
-          />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Select Dates
-          </label>
-          <DatePicker
-            mode="range"
-            date={dateRange}
-            onDateChange={handleDateChange}
-            placeholder="Check-in - Check-out"
-          />
-        </div>
-        <div>
-          <Textarea
-            placeholder="Your Message"
-            className="min-h-[100px]"
-            value={formData.message}
-            onChange={(e) => handleInputChange("message", e.target.value)}
-          />
+          <GuestDropdown guest={guest} setGuest={setGuest} />
         </div>
         <Button
           type="submit"
