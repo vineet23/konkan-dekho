@@ -1,6 +1,6 @@
 export const WhatsappIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    fill="#ffffff"
+    fill="#ffffffff"
     width="24px"
     height="24px"
     viewBox="0 0 32 32"

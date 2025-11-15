@@ -129,14 +129,14 @@ export function ContactForm({
         </div>
         <Button
           type="submit"
-          className="w-full bg-[#FF385C] hover:bg-[#D93B60]"
+          className="w-full bg-[#13b551ff] hover:bg-[#13b551dd]"
         >
-          <WhatsappIcon className="mr-2 h-4 w-4" />
+          <WhatsappIcon className="mr-2 h-5 w-5" />
           Send Message
         </Button>
       </form>
-
-      <div className="mt-6 space-y-2">
+      <div className="text-sm mt-4 text-gray-600">Or call directly on</div>
+      <div className="mt-2 space-y-2">
         <button
           onClick={handlePhoneClick}
           className="flex items-center text-sm text-[#FF385C] hover:text-[#D93B60] transition-colors cursor-pointer"
