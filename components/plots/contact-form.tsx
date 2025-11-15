@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { DatePicker } from "@/components/ui/date-picker";
 import { GuestDropdown } from "@/components/ui/guest-dropdown";
-import { Phone, Mail } from "lucide-react";
+import { Phone, MessageSquare } from "lucide-react";
 import { format } from "date-fns";
 import { DateRange } from "react-day-picker";
 
@@ -130,6 +130,7 @@ export function ContactForm({
           type="submit"
           className="w-full bg-[#FF385C] hover:bg-[#D93B60]"
         >
+          <MessageSquare className="mr-2 h-4 w-4" />
           Send Message
         </Button>
       </form>
@@ -137,17 +138,10 @@ export function ContactForm({
       <div className="mt-6 space-y-2">
         <button
           onClick={handlePhoneClick}
-          className="flex items-center text-sm text-gray-600 hover:text-gray-800 transition-colors cursor-pointer"
+          className="flex items-center text-sm text-[#FF385C] hover:text-[#D93B60] transition-colors cursor-pointer"
         >
           <Phone className="mr-2 h-4 w-4" />
           +91 {phone}
-        </button>
-        <button
-          onClick={handleEmailClick}
-          className="flex items-center text-sm text-gray-600 hover:text-gray-800 transition-colors cursor-pointer"
-        >
-          <Mail className="mr-2 h-4 w-4" />
-          {email}
         </button>
       </div>
     </Card>
