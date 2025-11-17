@@ -6,6 +6,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Toaster } from "@/components/ui/toaster";
 import { Caveat } from "next/font/google";
+import GtmLoader from '@/components/GtmLoader'
 
 const inter = Inter({ subsets: ["latin"] });
 const caveat = Caveat({
@@ -47,6 +48,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className} suppressHydrationWarning>
+        <GtmLoader />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

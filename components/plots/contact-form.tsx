@@ -10,17 +10,20 @@ import { Phone } from "lucide-react";
 import { format } from "date-fns";
 import { DateRange } from "react-day-picker";
 import { WhatsappIcon } from "@/components/icons/whatsapp-icon";
+import { sendGTMEvent } from "@/lib/gtm";
 
 interface ContactFormProps {
   phone?: string;
   email?: string;
   name?: string;
+  slug: string;
 }
 
 export function ContactForm({
   phone = "9834069861",
   email = "advaitkulkarni301@gmail.com",
   name = "Konkan Dekho",
+  slug,
 }: ContactFormProps) {
   const { toast } = useToast();
   const [dateRange, setDateRange] = useState<DateRange | undefined>();
@@ -88,6 +91,13 @@ export function ContactForm({
     // Open WhatsApp
     window.open(whatsappUrl, "_blank");
 
+    sendGTMEvent({
+      event: "button_click",
+      category: "Contact",
+      action: "Send Message",
+      label: slug,
+    });
+
     toast({
       title: "Opening WhatsApp!",
       description: "Your message has been prepared and WhatsApp is opening.",
@@ -96,6 +106,12 @@ export function ContactForm({
 
   const handlePhoneClick = () => {
     window.open(`tel:+91${phone}`, "_self");
+    sendGTMEvent({
+      event: "button_click",
+      category: "Contact",
+      action: "Call",
+      label: slug,
+    });
   };
 
   const handleEmailClick = () => {
