@@ -818,4 +818,52 @@ export const plots: Plot[] = [
       listingDate: "2020-01-15",
     },
   },
+  {
+    id: 19,
+    title: "Elysian The Blissfull Stay",
+    slug: "elysian-the-blissfull-stay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "6",
+    price: "₹11000",
+    phone: "9699551919",
+    description:
+      "🌅 The Blissful Stay – Premium 3BHK Nature Villas in Ganpatipule.Escape to comfort, calm, and pure coastal charm at The Blissful Stay, where two beautifully designed 3BHK villas—Kshitij Villa and Koushik Villa—offer the perfect blend of luxury and nature. Located just 2.5 km from the iconic Ganpatipule Temple, these villas provide a peaceful retreat surrounded by rolling landscapes, fresh coastal breeze, and the soothing sounds of nature.Each villa is thoughtfully built with spacious air-conditioned rooms, attached bathrooms, and elegant interiors that ensure a homely yet premium stay. Whether you’re a family, a group of friends, or spiritual travellers exploring Ganpatipule, the villa offers comfort, privacy, and a refreshing ambience throughout your stay.Guests enjoy a warm bed & breakfast experience at an unbeatable price of Rs. 1500 per person, per day, with each villa accommodating up to 6 guests, and an option to host 4 additional guests at a minimal charge. Wake up to morning tea, delicious breakfast, golden sunlight filtering through the hills, and the quiet magic of Konkan’s slow, calming rhythm.Explore Ganpatipule's beaches, visit Jaigad Fort, savour local Konkani cuisine, or simply unwind in your serene villa as the horizon glows during sunset. Whether you choose the panoramic expanse of Kshitij Villa or the serene green escape of Koushik Villa, your stay promises relaxation, beauty, and memories that linger long after you leave.",
+    features: [
+
+      "Bed & Breakfast Package Included",
+      "Modern Attached Bathrooms & Spacious Interiors",
+      "Fresh Coastal Breeze & Nature-Surrounded Ambience",
+      "Ideal for Families & Groups",
+      "Panoramic Views at Kshitij Villa",
+      "Calm, Green Surroundings at Koushik Villa",
+      "Close to Aare-Ware Beach, Jaigad Fort & Scenic Spots",
+      "Perfect for Spiritual Trips, Nature Breaks & Group Vacations"
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Villa.webp?alt=media&token=ad13c842-ced4-4495-a00f-d903771f3642",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Bedroom.webp?alt=media&token=0892117d-be07-4dbd-b1eb-4d4c3cada92b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Hall.webp?alt=media&token=13391768-43b6-4615-bc87-ecf43460749a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-LivingRoom.webp?alt=media&token=765f8ae5-60c0-468c-b908-9de978ce58c9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Aesthetics.webp?alt=media&token=b596f33a-ecf5-47b8-b46a-ed9e61775da1",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Villa.webp?alt=media&token=ad13c842-ced4-4495-a00f-d903771f3642",
+      },
+    ],
+    coordinates: {
+      latitude: "17.137305211324968° N",
+      longitude: "73.28579840116025° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2020-01-15",
+    },
+  },
 ];
