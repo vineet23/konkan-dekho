@@ -846,7 +846,10 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Hall.webp?alt=media&token=13391768-43b6-4615-bc87-ecf43460749a",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-LivingRoom.webp?alt=media&token=765f8ae5-60c0-468c-b908-9de978ce58c9",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Aesthetics.webp?alt=media&token=b596f33a-ecf5-47b8-b46a-ed9e61775da1",
-    ],
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.appspot.com/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Aesthetics.webp?alt=media&token=b596f33a-ecf5-47b8-b46a-ed9e61775da1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Bedroom.webp?alt=media&token=0892117d-be07-4dbd-b1eb-4d4c3cada92b",
+    ]
+    ,
     media: [
       {
         type: "video",
