@@ -717,4 +717,105 @@ export const plots: Plot[] = [
       listingDate: "2018-01-15",
     },
   },
+  {
+    id: 17,
+    title: "Kairi Vishranti Homestay",
+    slug: "kairi-vishranti-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "3",
+    price: "₹2500",
+    phone: "9657932617",
+    description:
+      "🌿 KairiVishranti Homestay – A Peaceful Nature Retreat in RatnagiriReconnect with nature at KairiVishranti Homestay — a serene hillside stay surrounded by greenery, fresh air, and stunning mountain views. Located near Ganpatipule, this cozy 1-bedroom homestay offers the perfect escape for couples, small families, and nature lovers seeking calm, comfort, and authentic Konkan hospitality.Just 5 km from the iconic Ganpatipule Ganesh Temple and 1.5–4 km from thescenic, uncrowded beaches of Aare-Waare and Nevare, the homestay places you close to some of the region’s best natural gems. Ancient petroglyphs (katalshilpe) dating back nearly 20,000 years are also within easy reach, making it a great base for explorers.The homestay features a comfortable bedroom, a private terrace with beautiful hill views, and inviting outdoor spaces where guests can relax by the open-air fireplace or enjoy meals under the sky. With facilities like free WiFi, daily room service, packed lunches, and a 24-hour front desk, your stay is designed to be effortless and enjoyable.Families will appreciate the outdoor play area, while adventure lovers can enjoy hiking, walking tours, or even arrange local travel with the homestay’s car rental service. Whether you want a peaceful weekend break, a nature-filled holiday, or a spiritual retreat near Ganpatipule, KairiVishranti Homestay offers the charm, warmth, and comfort of a true home in the hills.",
+    features: [
+      "Hilltop Stay Surrounded by Nature",
+      "Outdoor Fireplace & Mountain-View Terrace",
+      "Free WiFi, Daily Housekeeping & Packed Lunches",
+      "Buffet Breakfast + Breakfast in Room",
+      "Outdoor Play Area for Children",
+      "Car Rental, Hiking & Walking Tours",
+      "Open Air Parking on Property"
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Bedroom.webp?alt=media&token=f2083a20-e7eb-4b55-a8d5-b3e8eead140a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-FrontView.webp?alt=media&token=2fddb5aa-c65a-492d-96dd-9d84d87dbcd2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Villas.webp?alt=media&token=31b84c03-0b92-46a3-9f48-ca65c155da47",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Aesthetics.webp?alt=media&token=3f9a31b8-3aa7-478a-a02a-f81abee66cd9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Lunch.webp?alt=media&token=3384b9b0-1f85-4930-87c5-5d82987ed279",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Outdoor.webp?alt=media&token=3556a777-39b6-49cb-ae54-94c7b77695e0",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Bedroom.webp?alt=media&token=f2083a20-e7eb-4b55-a8d5-b3e8eead140a",
+
+      },
+    ],
+    coordinates: {
+      latitude: "17.109609896749248° N",
+      longitude: "73.29985627045798° E",
+    },
+    host: {
+      name: "Abhay",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2020-01-15",
+    },
+  },
+  {
+    id: 18,
+    title: "Rama Niwas Homestay Pawas",
+    slug: "rama-niwas-homestay-pawas",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹5000",
+    phone: "9920489878",
+    description:
+      "🌊 Rama Niwas Beach Home Stay – A Serene Seaside Escape in RatnagiriExperience true coastal bliss at Rama Niwas Beach Home Stay, a peaceful beachfront retreat located just 50 steps from the pristine and untouched Ganeshgule Beach. With private beach access, swaying Suru trees, open green spaces, and uninterrupted sea views, this homestay is perfect for families, couples, and travellers seeking calm, comfort, and an authentic Konkan experience.Guests can relax on the spacious terraces, lounge in the garden, or unwind in the cozy outdoor seating areas overlooking the Arabian Sea. The homestay offers comfortable family rooms equipped with air-conditioning, private bathrooms, free WiFi, and balconies or terraces that let you wake up to fresh ocean breeze every morning.children will love the outdoor play area, while adults can enjoy hammocks, long beach walks, or peaceful sunsets on the private shore. The property also includes a shared kitchen, lounge, laundry facilities, and a soothing public bath for complete relaxation.What makes Rama Niwas truly special is the warm hospitality — guests are welcomed with genuine care, delicious homely Malvani and Konkani food, and a peaceful rural ambience that feels like a home away from home. Whether you’re seeking a quiet family holiday, a romantic beach escape, or a restful break close to nature, Rama Niwas Beach Home Stay offers the perfect blend of tranquillity, comfort, and coastal charm.",
+    features: [
+
+      "Private Beach Access & Beachfront Seating",
+      "Family Rooms with Air-Conditioning & Private Bathrooms",
+      "Balconies/Terraces with Sea Views",
+      "Outdoor Play Area & Children’s Playground",
+      "Garden, Lounge, Hammocks & Open Sitting Areas",
+      "Free WiFi (Good 37 Mbps Speed)",
+      "Shared Kitchen & Laundry Service",
+      "Pet-Friendly Homestay",
+      "Fresh Homely Malvani & Konkani Cuisine",
+      "Free On-Site Private Parking"
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Front-View.webp?alt=media&token=3f02cdc8-bb67-4fcf-b43d-628b4ca5b2e8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Bedroom.webp?alt=media&token=7fc792e9-411c-492c-909b-f58ff8251358",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Bedroom2.webp?alt=media&token=9571e486-45c1-4a7e-a8ab-9da0fe79c417",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Bedroom3.webp?alt=media&token=5373c4f3-96d3-4861-918c-9e8697f24d6e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Balcony.webp?alt=media&token=873249b6-175d-4d83-9bd2-eb6fe323feef",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Washroom.webp?alt=media&token=105d3dd8-aedd-4e1f-a49e-5bcad9bb8e8d",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Front-View.webp?alt=media&token=3f02cdc8-bb67-4fcf-b43d-628b4ca5b2e8",
+
+      },
+    ],
+    coordinates: {
+      latitude: "16.86642047117064° N",
+      longitude: "73.29639367086035° E",
+    },
+    host: {
+      name: "Menesh Pawar",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2020-01-15",
+    },
+  },
 ];
