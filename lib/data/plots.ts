@@ -846,10 +846,9 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Hall.webp?alt=media&token=13391768-43b6-4615-bc87-ecf43460749a",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-LivingRoom.webp?alt=media&token=765f8ae5-60c0-468c-b908-9de978ce58c9",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Aesthetics.webp?alt=media&token=b596f33a-ecf5-47b8-b46a-ed9e61775da1",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.appspot.com/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Aesthetics.webp?alt=media&token=b596f33a-ecf5-47b8-b46a-ed9e61775da1",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Bedroom.webp?alt=media&token=0892117d-be07-4dbd-b1eb-4d4c3cada92b",
-    ]
-    ,
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Aesthetics.webp?alt=media&token=b596f33a-ecf5-47b8-b46a-ed9e61775da1",
+    ],
     media: [
       {
         type: "video",
@@ -861,6 +860,49 @@ export const plots: Plot[] = [
     coordinates: {
       latitude: "17.137305211324968° N",
       longitude: "73.28579840116025° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2020-01-15",
+    },
+  },
+  {
+    id: 20,
+    title: "Viki Holiday Home Ganpatipule",
+    slug: "viki-holiday-home-ganpatipule",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "6",
+    price: "₹7000",
+    phone: "9420154139",
+    description:
+      "🌴 Viki Holiday Home – Comfortable Family Villas Near Ganpatipule BeachViki Holiday Home offers a warm, homely, and affordable stay for families and groups visiting the serene coastal town of Ganpatipule. Located just 4.2 km from Ganpatipule Beach, these spacious villas provide the perfect blend of comfort, convenience, and authentic Konkan hospitality.Guests can choose between two types of accommodations: a Non-AC 2-Bedroom Bungalow with a king-sized bed and single bed, or a spacious AC 3-Bedroom Bungalow ideal for larger groups of up to 12 guests. Each unit is thoughtfully designed to offer a cozy, relaxed atmosphere with all essential amenities. The property is pet-friendly, making it an excellent choice for travellers who love vacationing with their furry companions.Guests can enjoy authentic vegetarian regional cuisine through the property's dining service or opt to cook their own meals in the available kitchen facilities—perfect for long stays or family vacations.With top attractions like Prachin Konkan Museum (2.7 km) and Magic Garden (2.7 km) nearby, Viki Holiday Home ensures that your trip is filled with culture, fun, and unforgettable memories. Convenient access from Ganpatipule Bus Stop (3.3 km), Ratnagiri Railway Station (28.6 km), and Ratnagiri Airport (30.1 km) makes it easy for travellers to reach the property.Whether you're planning a peaceful coastal getaway, a family vacation, or a group trip, Viki Holiday Home offers comfort, value, and a welcoming stay close to all major attractions in Ganpatipule.",
+    features: [
+      "Authentic Vegetarian Dining or Self-Cooking Option",
+      "AC 3-Bedroom Bungalow for Up to 12 Guests",
+      "Pet-Friendly Property",
+      "Ideal for Families, Friends & Group Stays",
+      "Perfect for Long Stays & Budget-Friendly Trips"
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Viki%20Holiday%20home%20ganpatipule%2FViki-Holiday-Home-Ganpatipule.webp?alt=media&token=78ec48f8-7596-4ad2-961c-111fee04daa6",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Viki%20Holiday%20home%20ganpatipule%2FViki-Holiday-Home-Ganpatipule-Bedroom.webp?alt=media&token=0f8e6c24-fc47-4869-8cb6-01ed8efd901c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Viki%20Holiday%20home%20ganpatipule%2FViki-Holiday-Home-Ganpatipule-balcony.webp?alt=media&token=c398a09d-17ce-4517-acc8-56a9f5dd7d06",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Viki%20Holiday%20home%20ganpatipule%2FViki-Holiday-Home-Ganpatipule-Garden.webp?alt=media&token=a59c70ea-84a1-4191-81ae-2ab9e58df742",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Viki%20Holiday%20home%20ganpatipule%2FViki-Holiday-Home-Ganpatipule.webp?alt=media&token=78ec48f8-7596-4ad2-961c-111fee04daa6",
+      },
+    ],
+    coordinates: {
+      latitude: "17.165875811290228° N",
+      longitude: "73.27748843925619° E",
     },
     host: {
       name: "",
