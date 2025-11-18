@@ -299,8 +299,8 @@ export const plots: Plot[] = [
       },
     ],
     coordinates: {
-      latitude: "17.239721712860494° N",
-      longitude: "73.36298324306279° E",
+      latitude: "17.326658642860004° N",
+      longitude: "73.12128287874401° E",
     },
   },
   {
@@ -906,6 +906,53 @@ export const plots: Plot[] = [
     },
     host: {
       name: "",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2020-01-15",
+    },
+  },
+  {
+    id: 21,
+    title: "Atithi Parinay Homestay",
+    slug: "atithi-parinay-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "2",
+    price: "₹7000",
+    phone: "9049981309",
+    description:
+      "Tucked away at the heart of the Konkan belt...  Located just 15 kms from Ratnagiri and Ganpatipule, Atithi Parinay is a place where you and your family can relax and unwind. We provide you with an ethnic and traditional stay, accompanied by traditionally cooked food. A simple and humble place to live near nature. Go out and explore the untouched beaches of Kotawade or just sit and relax by the river adjoining the property. Aare & Ware beach is 5 kms from property. We provide our guests with a wholesome experience of living amongst nature and feasting on healthy food. Leave the city behind and come stay in a place spread over 2 acres of lush green land set amidst mango, coconut and banana plantations. We promise to make your stay a memorable one. You come to this place as a guest and leave as our family. Every place and person has a story to tell, come make Atithi Parinay a part of your story.",
+    features: [
+      "Pure Veg Meals - Unlimited Thali System",
+      "Running Hot Water : 24 hrs",
+      "Car Parking : 8 Cars",
+      "Board Game & Small Library",
+      "Pets allowed.",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Atithi%20Parinay%2FAtithi-Parinay-Exclusive-Boutique-Homestay-Bedroom5.webp?alt=media&token=0bb9e351-96d0-4025-b1e9-76ea2225834b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Atithi%20Parinay%2FAtithi-Parinay-Exclusive-Boutique-Homestay-Bedroom1.webp?alt=media&token=047687ec-694c-418e-bc47-33ab827a9c25",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Atithi%20Parinay%2FAtithi-Parinay-Exclusive-Boutique-Homestay-Bedroom2.webp?alt=media&token=0e080bf9-d5f1-4b91-b88d-a68e9aa1a8d2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Atithi%20Parinay%2FAtithi-Parinay-Exclusive-Boutique-Homestay-Villa.webp?alt=media&token=38ff41df-fa21-4655-92d6-5de1e0f84b19",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Atithi%20Parinay%2FAtithi-Parinay-Exclusive-Boutique-Homestay-Washroom.webp?alt=media&token=6ca2a864-2721-4f56-858e-e4fa051fa33a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Atithi%20Parinay%2FAtithi-Parinay-Exclusive-Boutique-Homestay-Washroom2.webp?alt=media&token=90c7775d-8b6b-4a26-86a9-0d8b52a68cfe",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Atithi%20Parinay%2FAtithi-Parinay-Exclusive-Boutique-Homestay-Aesthetics2.webp?alt=media&token=12718b13-0e48-43f8-8fd6-6bff8e96d441",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Atithi%20Parinay%2FAtithi-Parinay-Exclusive-Boutique-Homestay-Aesthetics.webp?alt=media&token=5cade157-2d94-4407-beac-5f480c20ecd9",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Atithi%20Parinay%2FAtithi-Parinay-Exclusive-Boutique-Homestay-Bedroom5.webp?alt=media&token=0bb9e351-96d0-4025-b1e9-76ea2225834b",
+      },
+    ],
+    coordinates: {
+      latitude: "17.096542641105827° N",
+      longitude: "73.31228007784247° E",
+    },
+    host: {
+      name: "Medha Sahasrabudhe",
       imageUrl: "",
       isPremier: true,
       listingDate: "2020-01-15",
