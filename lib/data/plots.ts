@@ -958,4 +958,56 @@ export const plots: Plot[] = [
       listingDate: "2020-01-15",
     },
   },
+  {
+    id: 22,
+    title: "Kaular Atithi's The Grant Resort",
+    slug: "kaular-atithis-the-grant-resort",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "2",
+    price: "₹4000",
+    phone: "7447301301",
+    description:
+      "🌴 The Grand Konkan Resort – Family-Run Since 1998.The Grand Konkan Resort in Ganapatipule offers a warm, homely stay built on the Bhansari family's philosophy of Atithi Devo Bhava — treating every guest as divine. With comfortable rooms, fresh locally sourced food, and heartfelt hospitality, the resort brings you the true essence of Konkan living.Perfect for families, couples, and groups, the resort provides convenience and comfort with amenities like a multi-cuisine restaurant, 24×7 support, car parking for 60 vehicles, and easy access to Ganapatipule’s beaches and water activities. Whether you're visiting for relaxation, exploration, or a spiritual getaway, your stay here promises peace, warmth, and memorable experiences.",
+    features: [
+      "Family-Run Resort Since 1998",
+      "Air-Conditioned Rooms & Daily Housekeeping",
+      "Multi-Cuisine Restaurant with Locally Sourced Ingredients",
+      "60-Car Parking & Pickup/Drop Facility",
+      "Children’s Play Area & Nearby Water Sports"
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR%20Atithi's%20The%20Grand%20Konkan%20Resort-FrontView.webp?alt=media&token=9aabf3f5-64b0-4c1f-8f79-41a7c1b8c159",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom3.webp?alt=media&token=6898d86a-c5b6-4914-9209-d1118e69806c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom.webp?alt=media&token=19b4b6ef-0492-4357-a37e-8a5b2cbcde3d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Stairs.webp?alt=media&token=b26124f2-8c0c-454d-84ad-ab81cfd36730",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Washroom.webp?alt=media&token=d2e85eb4-dc15-4834-a3d2-be3eab69fae3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-SwimmingPool.webp?alt=media&token=d88c5082-5ac2-4fb2-b81f-4afdaede63c7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Reception.webp?alt=media&token=8e002ed6-4d7d-4cce-82b1-e8dc9e73c190",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Veg-Thali.webp?alt=media&token=bd9dc949-6d75-4aff-be2b-fc57cb12921f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Non-Veg-Thali.webp?alt=media&token=476017ec-08a4-4e90-bf86-dbdf00648568",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Washroom2.webp?alt=media&token=2a2e64bc-73a8-4264-9ab2-bcebf7f4e2f9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-beach.webp?alt=media&token=26e9991c-3c95-4530-bec0-82e0e0e52054",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Villa.webp?alt=media&token=2a4ad111-d5ef-452b-9362-aa6b645e72b1",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR%20Atithi's%20The%20Grand%20Konkan%20Resort-FrontView.webp?alt=media&token=9aabf3f5-64b0-4c1f-8f79-41a7c1b8c159",
+      },
+    ],
+    coordinates: {
+      latitude: "17.1471888112971° N",
+      longitude: "73.27190428328679° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2010-01-15",
+    },
+  },
 ];
