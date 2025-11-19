@@ -960,8 +960,8 @@ export const plots: Plot[] = [
   },
   {
     id: 22,
-    title: "Kaular Atithi's The Grant Resort",
-    slug: "kaular-atithis-the-grant-resort",
+    title: "Kaular Atithi's The Grand Resort",
+    slug: "kaular-atithis-the-grand-resort",
     area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "2",
