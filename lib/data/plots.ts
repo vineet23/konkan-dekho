@@ -544,7 +544,7 @@ export const plots: Plot[] = [
     slug: "khotacha-wada",
     area: "Ratnagiri",
     location: "Ratnagiri",
-    guests: "8",
+    guests: "15",
     price: "₹15000",
     phone: "9422537320",
     description:
