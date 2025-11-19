@@ -545,7 +545,7 @@ export const plots: Plot[] = [
     area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "8",
-    price: "₹6000",
+    price: "₹15000",
     phone: "9422537320",
     description:
       "🌴 Khotacha Wada – A Luxury Farm Stay in Konkan,Tucked away in the serene village of Bhandarpule, near Ganpatipule, Khotacha Wada is a boutique farmstay that blends rustic Konkan charm with modern comfort. Surrounded by coconut groves, lush greenery, and the calming sounds of nature, it offers guests a perfect escape from the city rush.Wake up to birdsong, enjoy home-cooked Konkan delicacies, and unwind in cozy, traditionally inspired rooms designed for relaxation. Whether it’s watching the sunset over Ganpatipule beach just minutes away, exploring the local temples, or simply enjoying the peace of the countryside, Khotacha Wada is your home away from home in Ratnagiri.",
