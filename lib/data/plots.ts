@@ -1010,4 +1010,104 @@ export const plots: Plot[] = [
       listingDate: "2010-01-15",
     },
   },
+  {
+    id: 22,
+    title: "Kaular Atithi's The Grand Resort",
+    slug: "kaular-atithis-the-grand-resort",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "2",
+    price: "₹4000",
+    phone: "7447301301",
+    description:
+      "🌴 The Grand Konkan Resort – Family-Run Since 1998.The Grand Konkan Resort in Ganapatipule offers a warm, homely stay built on the Bhansari family's philosophy of Atithi Devo Bhava — treating every guest as divine. With comfortable rooms, fresh locally sourced food, and heartfelt hospitality, the resort brings you the true essence of Konkan living.Perfect for families, couples, and groups, the resort provides convenience and comfort with amenities like a multi-cuisine restaurant, 24×7 support, car parking for 60 vehicles, and easy access to Ganapatipule’s beaches and water activities. Whether you're visiting for relaxation, exploration, or a spiritual getaway, your stay here promises peace, warmth, and memorable experiences.",
+    features: [
+      "Family-Run Resort Since 1998",
+      "Air-Conditioned Rooms & Daily Housekeeping",
+      "Multi-Cuisine Restaurant with Locally Sourced Ingredients",
+      "60-Car Parking & Pickup/Drop Facility",
+      "Children’s Play Area & Nearby Water Sports"
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR%20Atithi's%20The%20Grand%20Konkan%20Resort-FrontView.webp?alt=media&token=9aabf3f5-64b0-4c1f-8f79-41a7c1b8c159",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom3.webp?alt=media&token=6898d86a-c5b6-4914-9209-d1118e69806c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom.webp?alt=media&token=19b4b6ef-0492-4357-a37e-8a5b2cbcde3d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Stairs.webp?alt=media&token=b26124f2-8c0c-454d-84ad-ab81cfd36730",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Washroom.webp?alt=media&token=d2e85eb4-dc15-4834-a3d2-be3eab69fae3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-SwimmingPool.webp?alt=media&token=d88c5082-5ac2-4fb2-b81f-4afdaede63c7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Reception.webp?alt=media&token=8e002ed6-4d7d-4cce-82b1-e8dc9e73c190",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Veg-Thali.webp?alt=media&token=bd9dc949-6d75-4aff-be2b-fc57cb12921f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Non-Veg-Thali.webp?alt=media&token=476017ec-08a4-4e90-bf86-dbdf00648568",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Washroom2.webp?alt=media&token=2a2e64bc-73a8-4264-9ab2-bcebf7f4e2f9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-beach.webp?alt=media&token=26e9991c-3c95-4530-bec0-82e0e0e52054",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Villa.webp?alt=media&token=2a4ad111-d5ef-452b-9362-aa6b645e72b1",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR%20Atithi's%20The%20Grand%20Konkan%20Resort-FrontView.webp?alt=media&token=9aabf3f5-64b0-4c1f-8f79-41a7c1b8c159",
+      },
+    ],
+    coordinates: {
+      latitude: "17.1471888112971° N",
+      longitude: "73.27190428328679° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2010-01-15",
+    },
+  },
+  {
+    id: 23,
+    title: "Riverbreeze Homestay Ratnagiri",
+    slug: "riverbreeze-homestay-ratnagiri",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "2",
+    price: "₹4000",
+    phone: "7447301301",
+    description:
+      "🌿 River Breeze Homestay – Your Comfort Haven in Ratnagiri Welcome to River Breeze Homestay, a peaceful retreat where comfort, care, and Konkan warmth come together. Since April 2023, we have been hosting guests like family, offering three beautifully furnished bedrooms, a serene ambience, and hospitality straight from the heart. As proud Airbnb Superhosts with over 100 five-star reviews, we ensure every guest enjoys a memorable stay filled with privacy, comfort, and local charm.Located in the heart of Ratnagiri, River Breeze is the perfect choice for travellers seeking relaxation, nature, and authentic cultural experiences. Whether you're unwinding by the river, exploring Konkan’s beaches and heritage sites, or simply enjoying the homely comforts of our space, your stay will be wrapped in warmth and personal attention. Visit us once, and River Breeze will stay in your heart forever.",
+    features: [
+      "Airbnb Superhost With 100+ Five-Star Reviews",
+      "Three Well-Furnished and Comfortable Bedrooms",
+      "Calm, Peaceful Ambience With Personalized Hospitality",
+      "Ideal Location for Nature, Culture & Local Experiences",
+      "Focused on Excellence, Sustainability & Community Values"
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-LivingRoom.webp?alt=media&token=877e9da0-c8c0-4ab9-a55e-8625429d612e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-Hall.webp?alt=media&token=8d27dbcf-0668-4a6c-b67d-a80c67fc3357",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri.webp?alt=media&token=82fdc3dc-58bf-4f5f-b11c-f85644a32ae0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-Stairs.webp?alt=media&token=0197d460-ce26-46af-8c83-8319b8a32455",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-Front-View.webp?alt=media&token=5d065a7f-e45b-47bd-b98f-d765d1454fa8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-Bedroom.webp?alt=media&token=29706cdc-4824-48c9-ab28-695208656e87",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-Work-from-home.webp?alt=media&token=747785f7-f79c-45f9-b10a-6ffe5473ce68",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-View.webp?alt=media&token=258d9ce4-5e93-448d-975e-0f35164522b2",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-LivingRoom.webp?alt=media&token=877e9da0-c8c0-4ab9-a55e-8625429d612e",
+      },
+    ],
+    coordinates: {
+      latitude: "17.014372553012656° N",
+      longitude: "73.30923783580454° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2010-01-15",
+    },
+  },
 ];
