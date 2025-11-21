@@ -1064,13 +1064,13 @@ export const plots: Plot[] = [
   },
   {
     id: 23,
-    title: "Riverbreeze Homestay Ratnagiri",
-    slug: "riverbreeze-homestay-ratnagiri",
+    title: "Riverbreeze Homestay ",
+    slug: "riverbreeze-homestay",
     area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "2",
     price: "₹4000",
-    phone: "7447301301",
+    phone: "7774045003",
     description:
       "🌿 River Breeze Homestay – Your Comfort Haven in Ratnagiri Welcome to River Breeze Homestay, a peaceful retreat where comfort, care, and Konkan warmth come together. Since April 2023, we have been hosting guests like family, offering three beautifully furnished bedrooms, a serene ambience, and hospitality straight from the heart. As proud Airbnb Superhosts with over 100 five-star reviews, we ensure every guest enjoys a memorable stay filled with privacy, comfort, and local charm.Located in the heart of Ratnagiri, River Breeze is the perfect choice for travellers seeking relaxation, nature, and authentic cultural experiences. Whether you're unwinding by the river, exploring Konkan’s beaches and heritage sites, or simply enjoying the homely comforts of our space, your stay will be wrapped in warmth and personal attention. Visit us once, and River Breeze will stay in your heart forever.",
     features: [
