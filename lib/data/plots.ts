@@ -978,6 +978,7 @@ export const plots: Plot[] = [
       "Children’s Play Area & Nearby Water Sports"
     ],
     images: [
+
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR%20Atithi's%20The%20Grand%20Konkan%20Resort-FrontView.webp?alt=media&token=9aabf3f5-64b0-4c1f-8f79-41a7c1b8c159",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom3.webp?alt=media&token=6898d86a-c5b6-4914-9209-d1118e69806c",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom.webp?alt=media&token=19b4b6ef-0492-4357-a37e-8a5b2cbcde3d",
@@ -1104,6 +1105,56 @@ export const plots: Plot[] = [
     },
     host: {
       name: "",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2010-01-15",
+    },
+  },
+  {
+    id: 25,
+    title: "Krupasindhu Homestay",
+    slug: "krupasindhu-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "8",
+    price: "₹5000",
+    phone: "9967552743",
+    description:
+      "🌿 Krupasindhu Homestay – Peaceful Getaway in RatnagiriWelcome to Krupasindhu Bungalow, a spacious and modern 3BHK homestay located in Pushpendra City near Mahalaxmi Temple, Khedashi. Designed for families and groups, this cozy villa offers a perfect blend of comfort, privacy, and convenience. With three bedrooms, three bathrooms, and a fully equipped kitchen, the homestay ensures a relaxed and homely experience for up to eight guests.Surrounded by a calm neighborhood and filled with warm Konkani hospitality, Krupasindhu Homestay is ideal for travellers seeking a peaceful break in Ratnagiri. Guests appreciate the cleanliness, spacious interiors, delicious homely food, and the welcoming nature of the hosts. Whether you're planning a weekend getaway or exploring the cultural charm of Ratnagiri, this villa promises a comfortable and memorable stay.",
+
+    features: [
+      "Spacious 3BHK Villa for Up to 8 Guests",
+      "Free WiFi & Air-Conditioned Rooms",
+      "Fully Equipped Kitchen & Refrigerator",
+      "Private Parking on the Property",
+      "Warm Hosts, Homely Food & Peaceful Atmosphere"
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay.webp?alt=media&token=d8dd4795-3551-444a-a179-a61a8d5e71c6",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Bedroom1.webp?alt=media&token=7541436a-5792-423d-9435-fc6322ef482a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Hall.webp?alt=media&token=1fe3e027-8787-45f0-991c-e493c1903099",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-LivingRoom.webp?alt=media&token=c20a4497-3a3a-48a8-8724-67786845f099",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Aesthetics.webp?alt=media&token=2b481fad-b703-4964-bb1d-6f7a044ff08e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Bedroom2.webp?alt=media&token=fc3174af-4984-4108-b434-8fb5f8683ed7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Bedroom3.webp?alt=media&token=b1f097d2-4c5a-4ec9-a639-908573bece82",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Outdoor.webp?alt=media&token=bd1fb460-1292-4bb8-bcb8-63aeb3ae5665",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay.webp?alt=media&token=d8dd4795-3551-444a-a179-a61a8d5e71c6",
+      },
+    ],
+    coordinates: {
+      latitude: "17.00520584862687° N",
+      longitude: "73.3753551814672° E",
+    },
+    host: {
+      name: "Sanket Sansare",
       imageUrl: "",
       isPremier: true,
       listingDate: "2010-01-15",
