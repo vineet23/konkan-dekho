@@ -1205,4 +1205,52 @@ export const plots: Plot[] = [
       listingDate: "2019-01-15",
     },
   },
+  {
+    id: 27,
+    title: "Sea Vista Homestay",
+    slug: "sea-vista-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "8",
+    price: "₹5000",
+    phone: "755923703",
+    description:
+      "🌊 B-5 Sea Vista Apartment Dream Home – A Scenic Getaway in Ganpatipule.Located along the serene coastline of Ganpatipule, B-5 Sea Vista Apartment Dream Home offers a peaceful escape with lush gardens, private balconies, and soothing sea views. Guests love the calm ambiance, spacious outdoor areas, and the perfect mix of comfort and convenience—from relaxing in the garden with a book to enjoying sunsets right from the balcony. With exceptional ratings for value, cleanliness, staff performance, and facilities, this apartment guarantees a memorable stay.Whether you're looking for relaxation or adventure, the property gives you easy access to water sports, walking trails, and beautiful beaches nearby. With thoughtful amenities such as room service, an on-site convenience store, beach access, and fitness options around the property, B-5 Sea Vista ensures every guest enjoys a comfortable, rejuvenating, and delightful coastal holiday.",
+    features: [
+      "Private Balcony/Terrace With Sea Views",
+      "Lush Garden Area for Relaxation & Family Time",
+      "Free WiFi, Room Service & Convenience Store",
+      "Beach Access With Water Sports Nearby",
+      "Spacious, Clean Apartments With Modern Amenities"
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/SeaVista%2FSea-Vista.webp?alt=media&token=e9174962-495b-4073-9f0e-9962447508b2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/SeaVista%2FSea-Vista-LivingRoom.webp?alt=media&token=c5873705-bd86-41d4-b340-7746c464f4f5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/SeaVista%2FSea-Vista-Bedroom4.webp?alt=media&token=1e576231-641f-464a-a3e3-48fe6df5a4c9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/SeaVista%2FSea-Vista-Bedroom.webp?alt=media&token=e5c59464-c451-4e54-a241-357335f3cd9f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/SeaVista%2FSea-Vista-Bedroom2.webp?alt=media&token=cb892bfd-3fe4-4eab-a9c6-f81b0fc0614e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/SeaVista%2FSea-Vista-Bedroom3.webp?alt=media&token=ad1cda48-eb93-42bc-b5aa-170bf05af0e8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/SeaVista%2FSea-Vista-Outdoor.webp?alt=media&token=48253ff8-b27b-4560-b147-47a0e774a1c3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/SeaVista%2FSea-Vista-View.webp?alt=media&token=06cd83f0-a9d2-4806-9ed2-c2cd79193fa5",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/SeaVista%2FSea-Vista.webp?alt=media&token=e9174962-495b-4073-9f0e-9962447508b2",
+      },
+    ],
+    coordinates: {
+      latitude: "17.169135590825846° N",
+      longitude: "73.26998760069796° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: false,
+      listingDate: "2019-01-15",
+    },
+  },
 ];
