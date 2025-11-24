@@ -1160,4 +1160,49 @@ export const plots: Plot[] = [
       listingDate: "2010-01-15",
     },
   },
+  {
+    id: 26,
+    title: "Aayushi Homestay",
+    slug: "aayushi-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "8",
+    price: "₹5000",
+    phone: "7208238534",
+    description:
+      "🌿 Aayushi Homestay – Spacious 3BHK Comfort in Ratnagiri. Welcome to Aayushi Homestay, a warm and inviting 3BHK villa located in the peaceful Pushpendra City near Mahalaxmi Temple, Khedashi. Designed for families and groups, this homestay offers a perfect blend of comfort and convenience with AC bedrooms, clean interiors, and a calm residential atmosphere. With three bedrooms, two bathrooms, and ample space for up to eight guests, it is ideal for getaways, vacations, and long stays.Guests enjoy modern amenities including fast WiFi, a fully equipped kitchen, refrigerator, washing machine, and even a party speaker for relaxed evenings. Private parking, easy check-in/out, and the welcoming hospitality of host Sanket Sansare make every stay smooth and enjoyable. Whether you're exploring Ratnagiri or simply unwinding with loved ones, Aayushi Homestay offers a peaceful, comfortable, and homely stay experience.",
+
+    features: [
+      "Spacious 3BHK Villa for 8 Guests",
+      "AC Bedrooms & Free High-Speed WiFi",
+      "Fully Equipped Kitchen, Refrigerator & Washing Machine",
+      "Private Parking & Easy Check-in/Check-out",
+      "Peaceful Location Near Mahalaxmi Temple, Khedashi"
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Aayushi%20Homestay%2FAayushi-Homestay.webp?alt=media&token=fc755f78-21e6-49f4-b395-e13c0d869ad8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Aayushi%20Homestay%2FAayushi-Homestay-Front-View.webp?alt=media&token=40df2e74-2bda-4fdc-9d8b-b2fccd1e9f5c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Aayushi%20Homestay%2FAayushi-Homestay-bedroom.webp?alt=media&token=ad125b84-af98-467e-ae6c-4fc6ba95bce3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Aayushi%20Homestay%2FAayushi-Homestay-Bedroom2.webp?alt=media&token=6a6e6b15-0f1d-44d0-b6df-8739a10b0ee2",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Aayushi%20Homestay%2FAayushi-Homestay.webp?alt=media&token=fc755f78-21e6-49f4-b395-e13c0d869ad8",
+      },
+    ],
+    coordinates: {
+      latitude: "17.005290665569934° N",
+      longitude: "73.37553709282345° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: false,
+      listingDate: "2019-01-15",
+    },
+  },
 ];
