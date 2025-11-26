@@ -1301,4 +1301,48 @@ export const plots: Plot[] = [
       listingDate: "2021-01-15",
     },
   },
+  {
+    id: 29,
+    title: "Gayatri Niwas",
+    slug: "gayatri-niwas",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "3",
+    price: "₹5000",
+    phone: "9421545456",
+    description:
+      "🌴 Gayatri Niwas – Comfortable Budget Stay Near Ganpatipule.Located in the peaceful village of Malgund, just 3 km from Ganpatipule, Gayatri Niwas offers simple, clean, and homely accommodation ideal for families, couples, and small groups. The property features 3 Non-AC double rooms, each designed for comfort with attached bathrooms, TV, hot water, and daily housekeeping. With a convenient 11:00 am check-in and 10:00 am check-out, guests enjoy a smooth and hassle-free stay.Known for its friendly hospitality and delicious homemade veg and non-veg regional food, Gayatri Niwas provides a relaxing environment close to beaches, temples, and local attractions. Guests appreciate the peaceful setting, room service, and excellent value for money—along with flexible tariffs for seasonal and non-seasonal stays.",
+    features: [
+      "3 Non-AC Double Rooms (Up to 12 Guests)",
+      "Attached Bathrooms, TV & Hot Water",
+      "Delicious Veg & Non-Veg Regional Meals",
+      "Daily Housekeeping & Room Service",
+      "Located 3 km from Ganpatipule Beach"
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gayatri%20Niwas%2FGayatri-Niwas-Homestay.webp?alt=media&token=5c9dc85e-921b-4882-921a-d0a5f52bf70e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gayatri%20Niwas%2FGayatri-Niwas-Homestay-Bedroom2.webp?alt=media&token=92212199-bf07-4d48-8c54-6761000373f8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gayatri%20Niwas%2FGayatri-Niwas-Homestay-Bedroom4.webp?alt=media&token=58d0c53e-33f0-49e0-b8bf-80d43f181f8c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gayatri%20Niwas%2FGayatri-Niwas-Homestay-Washroom.webp?alt=media&token=8d1a09c7-2ed5-41f7-b3c6-c993a4aa1f2c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gayatri%20Niwas%2FGayatri-Niwas-Homestay.webp?alt=media&token=5c9dc85e-921b-4882-921a-d0a5f52bf70e",
+      },
+    ],
+    coordinates: {
+      latitude: "17.171298052468305° N",
+      longitude: "73.2623252766173° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: false,
+      listingDate: "2018-01-15",
+    },
+  },
 ];
