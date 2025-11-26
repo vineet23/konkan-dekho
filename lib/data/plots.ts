@@ -1253,4 +1253,52 @@ export const plots: Plot[] = [
       listingDate: "2019-01-15",
     },
   },
+  {
+    id: 28,
+    title: "Shubhankar Homestay",
+    slug: "shubhankar-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "8",
+    price: "₹5000",
+    phone: "9421545456",
+    description:
+      "🌿 Shubhankar Homestay – A Comfortable Stay in Malgund, Ratnagiri Located in the peaceful coastal village of Mālgund, Shubhankar Homestay offers a warm, homely experience with three comfortable rooms, a serene terrace, and refreshing garden views. Perfect for families, couples, and small groups, the homestay provides clean, spacious rooms with private bathrooms, seating areas in select units, and essential amenities including free WiFi and a flat-screen TV.Guests can make use of the shared kitchen, enjoy quiet evenings on the terrace, or explore the nearby beaches and attractions with convenient bike and car hire facilities available on site. With free private parking and friendly hospitality, Shubhankar Homestay ensures a relaxed and memorable stay for anyone visiting the beautiful coastal region of Ratnagiri.",
+
+    features: [
+      "Comfortable 3 Rooms With Private Bathrooms",
+      "Terrace With Relaxing Garden Views",
+      "Free WiFi, Flat-Screen TV & Shared Kitchen",
+      "Bike & Car Hire Available On-Site",
+      "Free Private Parking for Guests"
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shubhankar%20Homestay%2FShubhankar-Homestay.webp?alt=media&token=cd870ee8-8279-44dd-8107-187657c18da3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shubhankar%20Homestay%2FShubhankar-Homestay-Bedroom2.webp?alt=media&token=d436f9d9-b7e4-4563-83ee-9cd93e9b021a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shubhankar%20Homestay%2FShubhankar-Homestay-Bedroom3.webp?alt=media&token=8404b794-61de-47c8-860c-967b67fe905b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shubhankar%20Homestay%2FShubhankar-Homestay-Bedroom1.webp?alt=media&token=7221be19-328b-42ab-83be-a82b1059e5b4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shubhankar%20Homestay%2FShubhankar-Homestay-Bathroom.webp?alt=media&token=b43a1d6b-b628-43e0-b29e-24b45ae4b019",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shubhankar%20Homestay%2FShubhankar-Homestay-outdoor.webp?alt=media&token=5c417a22-834d-45e3-9d60-47a309fca9e8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shubhankar%20Homestay%2FShubhankar-Homestay-Bedroom.webp?alt=media&token=7964664e-f5f1-4790-81cf-0ac3cc274b7d",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shubhankar%20Homestay%2FShubhankar-Homestay.webp?alt=media&token=cd870ee8-8279-44dd-8107-187657c18da3",
+      },
+    ],
+    coordinates: {
+      latitude: "17.171528183486913° N",
+      longitude: "73.26279460818168° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: false,
+      listingDate: "2021-01-15",
+    },
+  },
 ];
