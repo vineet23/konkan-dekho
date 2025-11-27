@@ -99,7 +99,7 @@ export const plots: Plot[] = [
   },
   {
     id: 3,
-    title: "Roots & Wings",
+    title: "Roots & Wings |2BHK Sea-Facing",
     slug: "roots-and-wings",
     area: "Ratnagiri",
     location: "Ratnagiri",
@@ -107,7 +107,7 @@ export const plots: Plot[] = [
     price: "₹4,500",
     phone: "9421439664",
     description:
-      "Wake up to sweeping views of the sea on one side and a peaceful creek with resting egrets on the other — all from your window. Nestled just a minute from Bhatye Beach, this cozy 2BHK hosted by Dr. Nidhee is your perfect nature escape in Ratnagiri.",
+      "Roots & Wings is a spacious and homely 2BHK flat in Ratnagiri located just a short walk from Bhatye Beach, offering a peaceful stay with the comfort and privacy of a modern home. Ideal for families, couples, friends or solo travellers, this property is one of the best homestay options in Ratnagiri for guests who prefer a relaxed apartment-style stay as an alternative to crowded resorts and hotels. The flat includes two air-conditioned bedrooms, a bright living room, clean bathrooms, a fully equipped kitchen with fridge and essential cooking facilities, Wi-Fi, TV and all practical amenities needed for a short or extended stay. Guests also have access to daily car and scooter rentals, making it easy to explore Ratnagiri’s beaches, historic forts, viewpoints and local Konkan food spots at their own pace.Its location near Bhatye Beach makes it perfect for morning walks, sea breeze evenings and easy access to popular attractions like Mandvi Beach, Thiba Point, Ratnadurg Fort and the city market. For travellers heading towards the coast, Ganpatipule is only about 15 kilometres away, making Roots & Wings a convenient base for those looking for rooms in Ratnagiri while also visiting Ganpatipule and nearby beaches. Whether you are travelling with family, working remotely or simply looking for a peaceful coastal break, this 2BHK homestay provides the comfort of a home, the warmth of local hospitality and the convenience of being centrally located in Ratnagiri. Hosted by Nidhee and Sachin, the stay promises a friendly, safe and memorable experience for all guests.",
     features: [
       "Sea Facing Flat",
       "2BHK Fully Furnished",
