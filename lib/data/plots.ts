@@ -11,13 +11,13 @@ export const plots: Plot[] = [
     price: "₹10,000",
     phone: "9834069861",
     description:
-      "A luxurious sea-facing villa located in the scenic coastal town of Ratnagiri. Sea Nest offers a perfect blend of comfort and elegance with panoramic views of the Arabian Sea. Designed for both relaxation and sophistication, the property includes spacious interiors, a landscaped garden, and modern amenities. Whether you're looking for a peaceful retreat or a vacation home, Sea Nest is your dream destination by the sea.",
+      "Sea Nest Villa is a premium 3BHK sea-facing villa near Ganpatipule offering stunning panoramic views of the Arabian Sea. The villa is designed for families, groups, and couples who want a peaceful Konkan experience with comfort and spacious living. It features airy rooms, breezy balconies, a private garden, and a wide terrace perfect for enjoying sunrise, sunset, and the natural sea breeze. The property is fully furnished with clean attached bathrooms, a comfortable living area, and a relaxing outdoor environment ideal for unwinding.Located approximately 1.5kms  from the nearest Kajirbhati beach, the stay offers very easy access for morning walks and evening outings. Ganpatipule Temple is around 4.5 km from the villa, Aare-Ware Sunset Point is around 4 km, and Bhandarpule Beach is about 4–5 km away. Local markets and essentials are also within 1 km, making it convenient for guests.Guests can enjoy home-style Konkani meals (both veg and non-veg) prepared on request using fresh local ingredients. The villa also offers free parking, direct road access, and a calm environment suitable for families with kids or elders, couples looking for a scenic getaway, and groups planning a relaxed Konkan trip. With its location, sea views, and comfort, Sea Nest Villa is one of the best sea-facing stay options in the Ganpatipule–Ratnagiri region.",
     features: [
-      "Sea Facing Villa",
-      "3BHK Fully Furnished",
-      "Private Garden",
-      "Spacious Terrace",
-      "Direct Road Access",
+      "Panoramic Sea View",
+      "Fully Furnished 3BHK Villa",
+      "Private Garden & Sit-Out",
+      "Sea-Facing Balcony & Terrace",
+      "Easy Road Access & Parking"
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea-Nest-Drone1.webp?alt=media&token=9857fd76-edbd-45b3-aef4-e617a1889f5e",
@@ -143,15 +143,16 @@ export const plots: Plot[] = [
     area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "5",
-    price: "₹5,000",
+    price: "₹4,500",
     phone: "9834069861",
     description:
-      "A luxurious sea-facing flat located in the scenic coastal town of Ratnagiri. Sea Nest offers a perfect blend of comfort and elegance with panoramic views of the Arabian Sea. Designed for both relaxation and sophistication, the property includes spacious interiors, a landscaped garden, and modern amenities. Whether you're looking for a peaceful retreat or a vacation home, Sea Nest is your dream destination by the sea.",
+      "Sea Breeze is a fully furnished 2BHK sea-facing flat located near Thiba Point in Ratnagiri,Perfect for families looking for homestays in ratangiri offering a scenic balcony with views of the Arabian Sea and Bhatye Beach. The apartment provides a calm, homely stay right in the center of the city, making it ideal for families, long-stay guests and travellers who want both convenience and coastal views. The flat includes a sea-facing master bedroom, a spacious living area, a dedicated study room, and a fully equipped kitchen with gas stove, utensils, AquaGuard purifier and refrigerator. It also features a washing machine, WiFi, clean attached bathrooms and comfortable furnishing throughout, giving guests the comfort of a home with the view of a beachside stay.The location is one of the biggest advantages of Sea Breeze. Thiba Point, Thiba Palace, the main market and essential stores are all just minutes away, while Bhatye Beach and Mandvi Beach can be seen directly from the balcony. Guests can enjoy morning tea with a sea view, peaceful evenings with fresh breeze and easy access to popular Ratnagiri attractions.Perfect for families, couples and groups of up to five guests, the flat combines convenience, privacy and sea views, making it a great choice for short vacations, weekend stays, work-from-home trips and extended holidays in Ratnagiri.",
     features: [
-      "Sea Facing Flat",
-      "2BHK Fully Furnished",
-      "Private Parking",
-      "Family Apartment",
+      "Sea-View 2BHK Flat",
+      "Balcony Overlooking Bhatye Beach",
+      "Fully Equipped Kitchen & AquaGuard",
+      "WiFi, Washing Machine & Study Room",
+      "City-Central Location near Thiba Point"
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Breeze%2FSea-Breeze-Wall-Hall.webp?alt=media&token=68818ba5-d4ef-4e90-969d-3d58998a766f",
