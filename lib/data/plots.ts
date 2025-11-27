@@ -1345,4 +1345,51 @@ export const plots: Plot[] = [
       listingDate: "2018-01-15",
     },
   },
+  {
+    id: 30,
+    title: "Bay-View Beach Homestay",
+    slug: "bay-view-beach-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹4500",
+    phone: "7021668001",
+    description:
+      "🌊 Bay View – Beach Home Stay in Kalbadevi, Ratnagiri.Located in the calm coastal village of Kalbadevi, just steps away from the beach, Bay View – Beach Home Stay offers a peaceful retreat surrounded by coconut trees, greenery, and refreshing sea breeze. The homestay provides clean, homely accommodation with cozy rooms, private bathrooms, and simple amenities designed for comfort. Perfect for families, couples, and small groups, it offers free parking, outdoor spaces, and a relaxed setting ideal for unwinding by the coast.Guests love the natural surroundings, quiet ambiance, and the easy walk to the beach for morning strolls and sunset views. With basic kitchen facilities, outdoor seating, and warm local hospitality, Bay View offers a genuine Konkan homestay experience—making it a great choice for travellers looking for a budget-friendly, peaceful stay near Ganpatipule and Kalbadevi’s scenic shoreline.",
+    features: [
+      "Walking Distance to the Beach",
+      "Comfortable Rooms With Private Bathrooms",
+      "Kitchen/Kitchenette & Outdoor Seating Area",
+      "Surrounded by Coconut Trees and Greenery",
+      "Free Parking & Peaceful Coastal Ambience"
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Beach-homestay%2FBay-View%20Beach%20Homestay.webp?alt=media&token=f54dc554-bbd6-44ed-9258-54ba5d90239a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Beach-homestay%2FBay-View%20Beach%20Homestay-Bedroom.webp?alt=media&token=79c2dadc-d253-4205-9496-a08e7f91ef99",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Beach-homestay%2FBay-View%20Beach%20Homestay-Outdoor.webp?alt=media&token=8ecea89d-f7e6-4afc-9a69-07964f770295",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Beach-homestay%2FBay-View%20Beach%20Homestay-Wasroom.webp?alt=media&token=45d608f9-ac6e-493f-9e52-b90fbdfc8408",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Beach-homestay%2FBay-View%20Beach%20Homestay-living.webp?alt=media&token=2c63e467-de9c-4c72-aef5-ceffe20a708d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Beach-homestay%2FBay-View%20Beach%20Homestay-Aesthetics.webp?alt=media&token=4d1a2c82-43c3-4762-ac50-80d5685d46e0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Beach-homestay%2FBay-View%20Beach%20Homestay-Bedroom2.webp?alt=media&token=93ed4e95-f999-4a50-acb0-586b7629357a",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Beach-homestay%2FBay-View%20Beach%20Homestay.webp?alt=media&token=f54dc554-bbd6-44ed-9258-54ba5d90239a",
+      },
+    ],
+    coordinates: {
+      latitude: "17.041443874108182° N",
+      longitude: "73.28044787785886° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      isPremier: false,
+      listingDate: "2015-01-15",
+    },
+  },
 ];
