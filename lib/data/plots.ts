@@ -262,10 +262,10 @@ export const plots: Plot[] = [
     area: "Ratnagiri",
     location: "Ratnagiri",
     guests: "4",
-    price: "₹2500",
+    price: "₹2300",
     phone: "9922562474",
     description:
-      "Experience a serene escape at this comfortable homestay nestled in the heart of Ratnagiri. It's central location offers convenient access city's local attractions. Enjoy a peaceful retreat amidst the vibrant culture during your stay. The property offers ample parking space ensuring convenience for all guests with 24/7 gated security. Furthermore,  you can enjoy the stunning sea view from the building terrace.",
+      "Amanatara Homestay – Affordable & Luxurious 1BHK Flat in Ratnagiri (Near Thiba Palace). Welcome to Amanatara Homestay, a serene and stylish 1BHK serviced apartment offering the perfect blend of comfort, affordability, and luxury. Located in the heart of Ratnagiri, close to the iconic Thiba Palace, this homestay is an excellent alternative to regular hotels, lodges, and guest houses. Enjoy a peaceful retreat with stunning sea views from the building entrance, vibrant local culture, and convenient access to major attractions. The property offers free high-speed Wi-Fi suitable for work, room-controlled air conditioning, 24-hour gym access, CCTV surveillance, 24/7 gated security, and ample parking space. Only pure vegetarian food is allowed at the property. Ideal for families, couples, solo travellers, business guests, and long stays, this homestay provides hotel-like comfort with the privacy of a home. Property Rules: Check-in at 1 PM, Check-out at 11 AM, primary guest must be 18+ years, and valid government ID proof is mandatory. Amanatara Homestay offers a comfortable, secure, and homely experience—making it one of the best homestay flats near Thiba Palace in Ratnagiri. Enjoy your stay!",
     features: [
       "City Center",
       "1BHK Fully Furnished Bunglow",
@@ -300,8 +300,8 @@ export const plots: Plot[] = [
       },
     ],
     coordinates: {
-      latitude: "17.326658642860004° N",
-      longitude: "73.12128287874401° E",
+      latitude: "16.98772701189957° N",
+      longitude: "73.30805986666118° E",
     },
   },
   {
@@ -1391,6 +1391,54 @@ export const plots: Plot[] = [
       imageUrl: "",
       isPremier: false,
       listingDate: "2015-01-15",
+    },
+  },
+  {
+    id: 31,
+    title: "Konkan Homestay Villa Jogai Residence",
+    slug: "konkan-homestay-villa-jogai-residence",
+    area: "Guhagar",
+    location: "Guhagar",
+    guests: "6",
+    price: "₹4500",
+    phone: "9172315714",
+    description:
+      "Welcome to Konkan Homestay – Villa Jogai Residence, a restored heritage Kokani home offering an authentic homestay and holiday rental experience in Hedavi, Guhagar, Ratnagiri. Set amidst serene village surroundings, this 1800s-era ancestral villa blends old-world Konkan charm with essential modern comforts. Unlike typical hotels, lodges, B&Bs, or resorts, Jogai Residence offers a unique chance to live in a true Kokani home featuring traditional architecture—Padvi on all sides, Oti, Mazghar, Devghar, Svaypakghar, and interconnected period rooms. The first floor, added in 1942, includes a vantage balcony with peaceful views. The homestay accommodates up to 6 guests with two queen beds, additional cots, a bathroom, a separate WC, wall and ceiling fans, and complimentary AC for the bedrooms. Amenities include hot water, kettle, crockery, and basic necessities. Only vegetarian food, no smoking, no alcohol, and no non-veg are permitted on the property. Local Konkani eateries are available nearby. Wi-Fi is complimentary but limited due to the remote location, offering a welcome digital detox. Surrounded by 2 acres of nature, the villa is close to the Dashbhuja Laxmi Ganesh Temple, Laxmi Narayan Temple, Swami Samarth Math, Hedavi Beach, and the famous Baman Ghal. Nearby attractions include Guhagar Beach, Lighthouse, Vyadeshwar Temple, Velneshwar Temple, Jaigad Fort, and the Taswal–Jaigad ferry. Pricing starts at ₹3500 per night for 4 guests, with ₹500 per extra guest; the home sleeps a maximum of 6. Check-in is at 2 PM, checkout at 10 AM. A 25% non-refundable booking deposit and full payment 48 hours prior are required. Villa Jogai Residence offers solitude, heritage, and a true Konkan living experience—perfect for families, culture lovers, and anyone seeking peace, authenticity, and a tranquil getaway in coastal Maharashtra.",
+    features: [
+      "Courtyard view",
+      "Wifi – 9 Mbps",
+      "AC – split-type ductless system",
+      "Shared beach access",
+      "Free driveway parking on premises – 3 spaces"
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Homestay-Villa-Jogai-Residence%2FKonkan-Homestay-Villa-Jogai-Residence-Bedroom2.webp?alt=media&token=fe2acd61-f6db-497f-bca4-69638099a66e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Homestay-Villa-Jogai-Residence%2FKonkan-Homestay-Villa-Jogai-Residence-LivingRoom.webp?alt=media&token=b03d9400-c428-45e5-9a23-96e55a19ba9b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Homestay-Villa-Jogai-Residence%2FKonkan-Homestay-Villa-Jogai-Residence-Aesthetics2.webp?alt=media&token=018595a5-56f7-48b1-b591-28fc5cbb6c05",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Homestay-Villa-Jogai-Residence%2FKonkan-Homestay-Villa-Jogai-Residence-Outdoor.webp?alt=media&token=c788e4be-d9a2-4efd-8e62-7cbc31874972",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Homestay-Villa-Jogai-Residence%2FKonkan-Homestay-Villa-Jogai-Residence-wada.webp?alt=media&token=483c490b-6c40-4c18-adfb-84b900143d45",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Homestay-Villa-Jogai-Residence%2FStairs.webp?alt=media&token=919c8bca-27c6-4ed2-b197-87e073cd81cf",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Homestay-Villa-Jogai-Residence%2FKonkan-Homestay-Villa-Jogai-Residence.webp?alt=media&token=4ae006f9-e85a-4ecb-98c9-efb456fa58b2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Homestay-Villa-Jogai-Residence%2FKonkan-Homestay-Villa-Jogai-Residence-Aesthetics.webp?alt=media&token=803631e4-0b6c-44ff-a1f3-780a966eb56d",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Homestay-Villa-Jogai-Residence%2FKonkan-Homestay-Villa-Jogai-Residence-Bedroom2.webp?alt=media&token=fe2acd61-f6db-497f-bca4-69638099a66e",
+      },
+    ],
+    coordinates: {
+      latitude: "17.356414987058947° N",
+      longitude: "73.22700002679767° E",
+    },
+    host: {
+      name: "Adhiraj",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2022-01-15",
     },
   },
 ];
