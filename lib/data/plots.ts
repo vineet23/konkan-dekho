@@ -3,7 +3,7 @@ import { Plot } from "../types";
 export const plots: Plot[] = [
   {
     id: 1,
-    title: "Sea Nest Villa : Panaromic Sea View demo",
+    title: "Sea Nest Villa : Panaromic Sea View",
     slug: "sea-nest-villa-panaromic-sea-view",
     area: "Ratnagiri",
     location: "Ratnagiri",
