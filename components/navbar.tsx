@@ -1,12 +1,17 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { Search } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import Image from "next/image";
+import { SearchDropdown } from "./plots/search-dropdown";
+import { plots } from "@/lib/data/plots";
 
 export function Navbar() {
+  const [searchQuery, setSearchQuery] = useState("");
+
   return (
     <nav className="border-b bg-white">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
@@ -31,6 +36,15 @@ export function Navbar() {
               className="w-full pl-10"
               placeholder="Search for homestays by location..."
               type="search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            <SearchDropdown
+              query={searchQuery}
+              plots={plots}
+              onSelect={(query) => {
+                setSearchQuery(query);
+              }}
             />
           </div>
         </div>

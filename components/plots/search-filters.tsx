@@ -18,6 +18,8 @@ import {
   formatIndianPrice,
   formatIndianNumber,
 } from "@/lib/utils/number-format";
+import { SearchDropdown } from "./search-dropdown";
+import { plots as allPlots } from "@/lib/data/plots";
 
 interface SearchFiltersProps {
   locations: string[];
@@ -58,14 +60,24 @@ export function SearchFilters({
         {/* Search and Sort - Full width on mobile */}
         <div className="md:col-span-2 lg:col-span-3">
           <Label>Search</Label>
-          <Input
-            type="text"
-            placeholder="Search by title, location, or description..."
-            className="mt-1"
-            onChange={(e) =>
-              handleFilterChange({ searchQuery: e.target.value })
-            }
-          />
+          <div className="relative">
+            <Input
+              type="text"
+              placeholder="Search by title, location, or description..."
+              className="mt-1"
+              value={filters.searchQuery}
+              onChange={(e) =>
+                handleFilterChange({ searchQuery: e.target.value })
+              }
+            />
+            <SearchDropdown
+              query={filters.searchQuery}
+              plots={allPlots}
+              onSelect={(searchQuery) => {
+                handleFilterChange({ searchQuery });
+              }}
+            />
+          </div>
         </div>
 
         {/* Sort Dropdown */}
