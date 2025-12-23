@@ -1441,4 +1441,52 @@ export const plots: Plot[] = [
       listingDate: "2022-01-15",
     },
   },
+  {
+    id: 32,
+    title: "Savali Farmstay",
+    slug: "savali-farmstay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "6",
+    price: "₹5000",
+    phone: "9373172995",
+    description:
+      "🌿 Savali Farmstay – A Tranquil Mango Farm Retreat in Bhoke, Ratnagiri,Nestled in the peaceful village of Bhoke, Maharashtra, Savali Farmstay offers a refreshing escape into nature, surrounded by a lush Alphonso mango orchard with nearly 100 trees. This charming 1-bedroom farmstay features a comfortable living room, a functional kitchen, and a spacious terrace balcony where guests can relax, soak in fresh air, and enjoy serene views of greenery all around. Designed to feel like a home away from home, it comfortably accommodates 5 to 6 guests, making it ideal for families and small groups.What truly sets Savali Farmstay apart is its natural setting — a well within the property and a river flowing at the far end, creating a soothing, countryside ambience perfect for unwinding. Whether you’re visiting during mango season to experience farm life, enjoying quiet evenings under the stars, or seeking a peaceful Konkan getaway away from crowds, Savali Farmstay offers simplicity, comfort, and an authentic rural experience in the heart of Ratnagiri.",
+    features: [
+      "Cozy 1-Bedroom Farmstay with Living Room",
+      "Surrounded by 100+ Alphonso Mango Trees",
+      "Private Terrace Balcony with Farm Views",
+      "Private Terrace Balcony with Farm Views",
+      "Ideal for Families & Small Groups"
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Bedroom2.webp?alt=media&token=636cc9ba-06a0-4343-be84-80f954890d38",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Bedroom.webp?alt=media&token=a2167c4c-ced4-4883-b485-d54fdd3d3751",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-LivingRoom2.webp?alt=media&token=c1635181-b95b-4ab4-a494-aa31779f1d5d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-LivingRoom.webp?alt=media&token=7e28b245-2ae4-404d-a72c-48fb719ea70c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Balcony.webp?alt=media&token=e112ea26-80e6-40f7-b144-76edc0604794",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Bathroom.webp?alt=media&token=c9aca849-6d03-4111-978b-63962bee6d9f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Washroom.webp?alt=media&token=bf59c58d-23e4-414f-9a93-3b05a68c5154",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-River.webp?alt=media&token=1065866c-3e6c-41d3-8a88-eeb31ac67c6c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Video.mp4?alt=media&token=faec1ee2-ee74-4fa7-a0e7-aa01dcb49d05",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Bedroom.webp?alt=media&token=a2167c4c-ced4-4883-b485-d54fdd3d3751",
+      },
+    ],
+    coordinates: {
+      latitude: "17.356414987058947° N",
+      longitude: "73.22700002679767° E",
+    },
+    host: {
+      name: "Aditya Bedekar",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2023-01-15",
+    },
+  },
 ];
