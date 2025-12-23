@@ -1479,8 +1479,8 @@ export const plots: Plot[] = [
       },
     ],
     coordinates: {
-      latitude: "17.356414987058947° N",
-      longitude: "73.22700002679767° E",
+      latitude: "17.056163129388832° N",
+      longitude: "73.39763673736056° E",
     },
     host: {
       name: "Aditya Bedekar",
