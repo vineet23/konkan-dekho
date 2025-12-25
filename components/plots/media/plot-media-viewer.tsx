@@ -9,6 +9,9 @@ interface PlotMediaViewerProps {
 
 export function PlotMediaViewer({ media }: PlotMediaViewerProps) {
   if (media.type === 'video') {
+    if (!media.url) {
+      return null;
+    }
     return (
       <video
         src={media.url}

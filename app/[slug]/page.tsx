@@ -12,10 +12,11 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
+  const { slug } = await params;
   const plot = plots.find(
-    (p) => `${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}` === params.slug
+    (p) => `${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}` === slug
   );
   if (!plot) {
     return {
@@ -35,13 +36,14 @@ export async function generateMetadata({
   };
 }
 
-export default function PlotDetailsPage({
+export default async function PlotDetailsPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
+  const { slug } = await params;
   const plot = plots.find(
-    (p) => `${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}` === params.slug
+    (p) => `${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}` === slug
   );
 
   if (!plot) {
