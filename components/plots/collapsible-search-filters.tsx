@@ -12,6 +12,7 @@ interface CollapsibleSearchFiltersProps {
   maxPrice: number;
   maxArea: number;
   initialLocation?: string;
+  isHomePage?: boolean;
 }
 
 export function CollapsibleSearchFilters(props: CollapsibleSearchFiltersProps) {

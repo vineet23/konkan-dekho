@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Search } from "lucide-react";
 import { Button } from "./ui/button";
@@ -11,6 +12,12 @@ import { plots } from "@/lib/data/plots";
 
 export function Navbar() {
   const [searchQuery, setSearchQuery] = useState("");
+  const router = useRouter();
+
+  const handleLocationSelect = (location: string) => {
+    setSearchQuery("");
+    router.push(`/explore/all-plots?location=${encodeURIComponent(location)}`);
+  };
 
   return (
     <nav className="border-b bg-white">
@@ -42,9 +49,7 @@ export function Navbar() {
             <SearchDropdown
               query={searchQuery}
               plots={plots}
-              onSelect={(query) => {
-                setSearchQuery(query);
-              }}
+              onSelect={handleLocationSelect}
             />
           </div>
         </div>

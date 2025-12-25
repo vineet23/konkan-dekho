@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
@@ -27,6 +28,7 @@ interface SearchFiltersProps {
   maxPrice: number;
   maxArea: number;
   initialLocation?: string;
+  isHomePage?: boolean;
 }
 
 export function SearchFilters({
@@ -35,6 +37,7 @@ export function SearchFilters({
   maxPrice,
   maxArea,
   initialLocation = ALL_LOCATIONS,
+  isHomePage = false,
 }: SearchFiltersProps) {
   const [filters, setFilters] = useState<FilterOptions>({
     priceRange: [0, maxPrice],
@@ -44,6 +47,8 @@ export function SearchFilters({
     sortBy: "price-asc",
   });
 
+  const router = useRouter();
+
   useEffect(() => {
     onFiltersChange(filters);
   }, []);
@@ -52,6 +57,15 @@ export function SearchFilters({
     const updatedFilters = { ...filters, ...newFilters };
     setFilters(updatedFilters);
     onFiltersChange(updatedFilters);
+  };
+
+  const handleLocationSelect = (location: string) => {
+    setFilters((prev) => ({ ...prev, searchQuery: "" }));
+    if (isHomePage) {
+      router.push(`/explore/all-plots?location=${encodeURIComponent(location)}`);
+    } else {
+      handleFilterChange({ location });
+    }
   };
 
   return (
@@ -73,9 +87,7 @@ export function SearchFilters({
             <SearchDropdown
               query={filters.searchQuery}
               plots={allPlots}
-              onSelect={(searchQuery) => {
-                handleFilterChange({ searchQuery });
-              }}
+              onSelect={handleLocationSelect}
             />
           </div>
         </div>

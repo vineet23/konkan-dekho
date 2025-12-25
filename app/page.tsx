@@ -66,14 +66,13 @@ export default function Home() {
       {/* Search and Filters */}
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <CollapsibleSearchFilters
-            locations={locations}
-            onFiltersChange={handleFiltersChange}
-            maxPrice={maxPrice}
-            maxArea={maxArea}
-          />
-
-          <h2 className="pt-8 text-4xl font-bold font-caveat mb-8">
+      <CollapsibleSearchFilters
+        locations={locations}
+        onFiltersChange={handleFiltersChange}
+        maxPrice={maxPrice}
+        maxArea={maxArea}
+        isHomePage={true}
+      />          <h2 className="pt-8 text-4xl font-bold font-caveat mb-8">
             {filteredPlots.length === 0
               ? "No homestays found"
               : "Available Homestays"}
