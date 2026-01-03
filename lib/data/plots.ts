@@ -17,7 +17,7 @@ export const plots: Plot[] = [
       "Fully Furnished 3BHK Villa",
       "Private Garden & Sit-Out",
       "Sea-Facing Balcony & Terrace",
-      "Easy Road Access & Parking"
+      "Easy Road Access & Parking",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea-Nest-Drone1.webp?alt=media&token=9857fd76-edbd-45b3-aef4-e617a1889f5e",
@@ -152,7 +152,7 @@ export const plots: Plot[] = [
       "Balcony Overlooking Bhatye Beach",
       "Fully Equipped Kitchen & AquaGuard",
       "WiFi, Washing Machine & Study Room",
-      "City-Central Location near Thiba Point"
+      "City-Central Location near Thiba Point",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Breeze%2FSea-Breeze-Wall-Hall.webp?alt=media&token=68818ba5-d4ef-4e90-969d-3d58998a766f",
@@ -289,7 +289,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Hallway.webp?alt=media&token=c9ea15a8-ef88-41a4-9f02-1a84054004fc",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmanatara-terrace-seaview%20(2).webp?alt=media&token=906574fc-5a73-40b2-b339-912d29e6a08e",
-
     ],
     media: [
       {
@@ -652,7 +651,7 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-Dining.webp?alt=media&token=3eab1272-4e14-41b1-8ac6-efdc6df8fa24",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-LivingRoom.webp?alt=media&token=b619d106-e012-416d-8c64-005010e114f3",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-LivingRoom1.webp?alt=media&token=debaae9f-21cc-4b24-b3a8-2437fa7ee435",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-View.webp?alt=media&token=ebfc80fc-5a5a-4111-8792-2132db7963e3"
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-View.webp?alt=media&token=ebfc80fc-5a5a-4111-8792-2132db7963e3",
     ],
     media: [
       {
@@ -660,7 +659,6 @@ export const plots: Plot[] = [
         url: "",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-Bedroom.webp?alt=media&token=06c5247f-3713-4977-a95a-10daba81442d",
-
       },
     ],
     coordinates: {
@@ -704,7 +702,6 @@ export const plots: Plot[] = [
         url: "",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant%20Villa%2FAnant-Villa-FrontView.webp?alt=media&token=546b142a-128f-4249-ac6e-a0502c576121",
-
       },
     ],
     coordinates: {
@@ -736,7 +733,7 @@ export const plots: Plot[] = [
       "Buffet Breakfast + Breakfast in Room",
       "Outdoor Play Area for Children",
       "Car Rental, Hiking & Walking Tours",
-      "Open Air Parking on Property"
+      "Open Air Parking on Property",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Bedroom.webp?alt=media&token=f2083a20-e7eb-4b55-a8d5-b3e8eead140a",
@@ -745,7 +742,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Aesthetics.webp?alt=media&token=3f9a31b8-3aa7-478a-a02a-f81abee66cd9",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Lunch.webp?alt=media&token=3384b9b0-1f85-4930-87c5-5d82987ed279",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Outdoor.webp?alt=media&token=3556a777-39b6-49cb-ae54-94c7b77695e0",
-
     ],
     media: [
       {
@@ -753,7 +749,6 @@ export const plots: Plot[] = [
         url: "",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Bedroom.webp?alt=media&token=f2083a20-e7eb-4b55-a8d5-b3e8eead140a",
-
       },
     ],
     coordinates: {
@@ -779,7 +774,6 @@ export const plots: Plot[] = [
     description:
       "🌊 Rama Niwas Beach Home Stay – A Serene Seaside Escape in RatnagiriExperience true coastal bliss at Rama Niwas Beach Home Stay, a peaceful beachfront retreat located just 50 steps from the pristine and untouched Ganeshgule Beach. With private beach access, swaying Suru trees, open green spaces, and uninterrupted sea views, this homestay is perfect for families, couples, and travellers seeking calm, comfort, and an authentic Konkan experience.Guests can relax on the spacious terraces, lounge in the garden, or unwind in the cozy outdoor seating areas overlooking the Arabian Sea. The homestay offers comfortable family rooms equipped with air-conditioning, private bathrooms, free WiFi, and balconies or terraces that let you wake up to fresh ocean breeze every morning.children will love the outdoor play area, while adults can enjoy hammocks, long beach walks, or peaceful sunsets on the private shore. The property also includes a shared kitchen, lounge, laundry facilities, and a soothing public bath for complete relaxation.What makes Rama Niwas truly special is the warm hospitality — guests are welcomed with genuine care, delicious homely Malvani and Konkani food, and a peaceful rural ambience that feels like a home away from home. Whether you’re seeking a quiet family holiday, a romantic beach escape, or a restful break close to nature, Rama Niwas Beach Home Stay offers the perfect blend of tranquillity, comfort, and coastal charm.",
     features: [
-
       "Private Beach Access & Beachfront Seating",
       "Family Rooms with Air-Conditioning & Private Bathrooms",
       "Balconies/Terraces with Sea Views",
@@ -789,7 +783,7 @@ export const plots: Plot[] = [
       "Shared Kitchen & Laundry Service",
       "Pet-Friendly Homestay",
       "Fresh Homely Malvani & Konkani Cuisine",
-      "Free On-Site Private Parking"
+      "Free On-Site Private Parking",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Front-View.webp?alt=media&token=3f02cdc8-bb67-4fcf-b43d-628b4ca5b2e8",
@@ -805,7 +799,6 @@ export const plots: Plot[] = [
         url: "",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Front-View.webp?alt=media&token=3f02cdc8-bb67-4fcf-b43d-628b4ca5b2e8",
-
       },
     ],
     coordinates: {
@@ -831,7 +824,6 @@ export const plots: Plot[] = [
     description:
       "🌅 The Blissful Stay – Premium 3BHK Nature Villas in Ganpatipule.Escape to comfort, calm, and pure coastal charm at The Blissful Stay, where two beautifully designed 3BHK villas—Kshitij Villa and Koushik Villa—offer the perfect blend of luxury and nature. Located just 2.5 km from the iconic Ganpatipule Temple, these villas provide a peaceful retreat surrounded by rolling landscapes, fresh coastal breeze, and the soothing sounds of nature.Each villa is thoughtfully built with spacious air-conditioned rooms, attached bathrooms, and elegant interiors that ensure a homely yet premium stay. Whether you’re a family, a group of friends, or spiritual travellers exploring Ganpatipule, the villa offers comfort, privacy, and a refreshing ambience throughout your stay.Guests enjoy a warm bed & breakfast experience at an unbeatable price of Rs. 1500 per person, per day, with each villa accommodating up to 6 guests, and an option to host 4 additional guests at a minimal charge. Wake up to morning tea, delicious breakfast, golden sunlight filtering through the hills, and the quiet magic of Konkan’s slow, calming rhythm.Explore Ganpatipule's beaches, visit Jaigad Fort, savour local Konkani cuisine, or simply unwind in your serene villa as the horizon glows during sunset. Whether you choose the panoramic expanse of Kshitij Villa or the serene green escape of Koushik Villa, your stay promises relaxation, beauty, and memories that linger long after you leave.",
     features: [
-
       "Bed & Breakfast Package Included",
       "Modern Attached Bathrooms & Spacious Interiors",
       "Fresh Coastal Breeze & Nature-Surrounded Ambience",
@@ -839,7 +831,7 @@ export const plots: Plot[] = [
       "Panoramic Views at Kshitij Villa",
       "Calm, Green Surroundings at Koushik Villa",
       "Close to Aare-Ware Beach, Jaigad Fort & Scenic Spots",
-      "Perfect for Spiritual Trips, Nature Breaks & Group Vacations"
+      "Perfect for Spiritual Trips, Nature Breaks & Group Vacations",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Villa.webp?alt=media&token=ad13c842-ced4-4495-a00f-d903771f3642",
@@ -885,7 +877,7 @@ export const plots: Plot[] = [
       "AC 3-Bedroom Bungalow for Up to 12 Guests",
       "Pet-Friendly Property",
       "Ideal for Families, Friends & Group Stays",
-      "Perfect for Long Stays & Budget-Friendly Trips"
+      "Perfect for Long Stays & Budget-Friendly Trips",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Viki%20Holiday%20home%20ganpatipule%2FViki-Holiday-Home-Ganpatipule.webp?alt=media&token=78ec48f8-7596-4ad2-961c-111fee04daa6",
@@ -976,10 +968,9 @@ export const plots: Plot[] = [
       "Air-Conditioned Rooms & Daily Housekeeping",
       "Multi-Cuisine Restaurant with Locally Sourced Ingredients",
       "60-Car Parking & Pickup/Drop Facility",
-      "Children’s Play Area & Nearby Water Sports"
+      "Children’s Play Area & Nearby Water Sports",
     ],
     images: [
-
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR%20Atithi's%20The%20Grand%20Konkan%20Resort-FrontView.webp?alt=media&token=9aabf3f5-64b0-4c1f-8f79-41a7c1b8c159",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom3.webp?alt=media&token=6898d86a-c5b6-4914-9209-d1118e69806c",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom.webp?alt=media&token=19b4b6ef-0492-4357-a37e-8a5b2cbcde3d",
@@ -992,7 +983,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Washroom2.webp?alt=media&token=2a2e64bc-73a8-4264-9ab2-bcebf7f4e2f9",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-beach.webp?alt=media&token=26e9991c-3c95-4530-bec0-82e0e0e52054",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Villa.webp?alt=media&token=2a4ad111-d5ef-452b-9362-aa6b645e72b1",
-
     ],
     media: [
       {
@@ -1029,7 +1019,7 @@ export const plots: Plot[] = [
       "Three Well-Furnished and Comfortable Bedrooms",
       "Calm, Peaceful Ambience With Personalized Hospitality",
       "Ideal Location for Nature, Culture & Local Experiences",
-      "Focused on Excellence, Sustainability & Community Values"
+      "Focused on Excellence, Sustainability & Community Values",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-LivingRoom.webp?alt=media&token=877e9da0-c8c0-4ab9-a55e-8625429d612e",
@@ -1040,7 +1030,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-Bedroom.webp?alt=media&token=29706cdc-4824-48c9-ab28-695208656e87",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-Work-from-home.webp?alt=media&token=747785f7-f79c-45f9-b10a-6ffe5473ce68",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-View.webp?alt=media&token=258d9ce4-5e93-448d-975e-0f35164522b2",
-
     ],
     media: [
       {
@@ -1077,10 +1066,9 @@ export const plots: Plot[] = [
       "Fitness Centre, Badminton Court & Outdoor Play Area",
       "Shared Kitchen, Paid Laundry & Shuttle/Taxi Services",
       "Located Bhatye Beach ,Ratnadurga Fort & Bhagwati Mandir",
-      "Free WiFi, Power Backup, Parking & Doctor-On-Call Facility"
+      "Free WiFi, Power Backup, Parking & Doctor-On-Call Facility",
     ],
     images: [
-
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa.webp?alt=media&token=6bc22f13-be44-45ef-b491-0218891e94b8",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Hall.webp?alt=media&token=35d901b1-b7e0-4558-8686-dbdaa200e459",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Garden.webp?alt=media&token=1e5748b7-2835-448c-b035-05107e13c94f",
@@ -1090,7 +1078,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Bedroom2.webp?alt=media&token=87e3e80d-df6e-450a-aded-f3097aaf7d3d",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Modak.webp?alt=media&token=798024ef-ec05-45df-b78d-79ff3fbd13b0",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Washroom.webp?alt=media&token=e32026e2-00b4-4244-ba94-729b50504d8a",
-
     ],
     media: [
       {
@@ -1128,7 +1115,7 @@ export const plots: Plot[] = [
       "Free WiFi & Air-Conditioned Rooms",
       "Fully Equipped Kitchen & Refrigerator",
       "Private Parking on the Property",
-      "Warm Hosts, Homely Food & Peaceful Atmosphere"
+      "Warm Hosts, Homely Food & Peaceful Atmosphere",
     ],
 
     images: [
@@ -1140,7 +1127,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Bedroom2.webp?alt=media&token=fc3174af-4984-4108-b434-8fb5f8683ed7",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Bedroom3.webp?alt=media&token=b1f097d2-4c5a-4ec9-a639-908573bece82",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Outdoor.webp?alt=media&token=bd1fb460-1292-4bb8-bcb8-63aeb3ae5665",
-
     ],
     media: [
       {
@@ -1178,7 +1164,7 @@ export const plots: Plot[] = [
       "AC Bedrooms & Free High-Speed WiFi",
       "Fully Equipped Kitchen, Refrigerator & Washing Machine",
       "Private Parking & Easy Check-in/Check-out",
-      "Peaceful Location Near Mahalaxmi Temple, Khedashi"
+      "Peaceful Location Near Mahalaxmi Temple, Khedashi",
     ],
 
     images: [
@@ -1222,7 +1208,7 @@ export const plots: Plot[] = [
       "Lush Garden Area for Relaxation & Family Time",
       "Free WiFi, Room Service & Convenience Store",
       "Beach Access With Water Sports Nearby",
-      "Spacious, Clean Apartments With Modern Amenities"
+      "Spacious, Clean Apartments With Modern Amenities",
     ],
 
     images: [
@@ -1271,7 +1257,7 @@ export const plots: Plot[] = [
       "Terrace With Relaxing Garden Views",
       "Free WiFi, Flat-Screen TV & Shared Kitchen",
       "Bike & Car Hire Available On-Site",
-      "Free Private Parking for Guests"
+      "Free Private Parking for Guests",
     ],
 
     images: [
@@ -1318,7 +1304,7 @@ export const plots: Plot[] = [
       "Attached Bathrooms, TV & Hot Water",
       "Delicious Veg & Non-Veg Regional Meals",
       "Daily Housekeeping & Room Service",
-      "Located 3 km from Ganpatipule Beach"
+      "Located 3 km from Ganpatipule Beach",
     ],
 
     images: [
@@ -1362,7 +1348,7 @@ export const plots: Plot[] = [
       "Comfortable Rooms With Private Bathrooms",
       "Kitchen/Kitchenette & Outdoor Seating Area",
       "Surrounded by Coconut Trees and Greenery",
-      "Free Parking & Peaceful Coastal Ambience"
+      "Free Parking & Peaceful Coastal Ambience",
     ],
 
     images: [
@@ -1409,7 +1395,7 @@ export const plots: Plot[] = [
       "Wifi – 9 Mbps",
       "AC – split-type ductless system",
       "Shared beach access",
-      "Free driveway parking on premises – 3 spaces"
+      "Free driveway parking on premises – 3 spaces",
     ],
 
     images: [
@@ -1457,7 +1443,7 @@ export const plots: Plot[] = [
       "Surrounded by 100+ Alphonso Mango Trees",
       "Private Terrace Balcony with Farm Views",
       "Private Terrace Balcony with Farm Views",
-      "Ideal for Families & Small Groups"
+      "Ideal for Families & Small Groups",
     ],
 
     images: [
@@ -1487,6 +1473,50 @@ export const plots: Plot[] = [
       imageUrl: "",
       isPremier: true,
       listingDate: "2023-01-15",
+    },
+  },
+  {
+    id: 33,
+    title: "IRA Cozy 1BHK Near City Fully Equipped Kitchen",
+    slug: "ira-cozy-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹2700",
+    phone: "9082046979",
+    description:
+      "Welcome to Eera, a cozy and comfortable 1BHK apartment designed for a relaxing city stay. The flat features a bedroom, living area with TV, high-speed Wi-Fi, and a fully equipped kitchen for home-style cooking. Enjoy the convenience of Swiggy and Zomato delivery, dedicated car parking, and easy access to the main city. Ideal for Family with kids, solo travelers, or business guests seeking comfort, privacy, and convenience.",
+    features: [
+      "Cozy 1-Bedroom Flat",
+      "Fully equipped kitchen",
+      "Near City",
+      "Wifi",
+      "Free Parking",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Main-Photo.webp?alt=media&token=dd60b272-9e2d-4a31-9261-9440013ae2b7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Bedroom.webp?alt=media&token=5b7e001d-8922-47d5-83fa-91b13f51e03d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Aesthetics.webp?alt=media&token=b24a7434-a148-4d8e-a7d7-ce7828f5ec42",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-LivingRoom.webp?alt=media&token=9c2e62d1-073d-453e-b65a-c45f0a11398e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Aqua-Guard.webp?alt=media&token=e4e9d1c0-1e7b-48b9-a296-7557077cf16b",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Main-Photo.webp?alt=media&token=dd60b272-9e2d-4a31-9261-9440013ae2b7",
+      },
+    ],
+    coordinates: {
+      latitude: "16.992323631862515° N",
+      longitude: "73.3127511627366° E",
+    },
+    host: {
+      name: "Tanmay Joshi",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-02",
     },
   },
 ];
