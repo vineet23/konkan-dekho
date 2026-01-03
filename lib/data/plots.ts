@@ -1519,4 +1519,53 @@ export const plots: Plot[] = [
       listingDate: "2026-01-02",
     },
   },
+    {
+    id: 34,
+    title: "Sunrise Apartment – Spacious 2BHK Near Railway Station",
+    slug: "sunrise-apartment",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹4000",
+    phone: "9145174975",
+    description:
+      "Sunrise Apartment – Spacious 2BHK A thoughtfully designed 2BHK City facing apartment near Railway station that blends comfort, space, and convenience perfect for families, groups, professionals, and long-stay travelers. Located close to the railway station, the apartment offers excellent connectivity while still providing a calm, relaxing environment with refreshing coastal views.The apartment features three generously sized, well-ventilated bedrooms, each designed to ensure a restful stay.",
+    features: [
+      "Cozy and well-lit 2BHK apartment",
+      "Large, fully functional kitchen with ample space",
+      "Near Railway Station",
+      "Wifi",
+      "High-speed Wi-Fi for work or leisure",
+      "Free parking available inside the premises",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bed.webp?alt=media&token=07e47bd6-ef02-4dec-8399-745302ca0d46",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bedroom1.webp?alt=media&token=dbf016ef-a6c5-4560-91b6-2fb62dfac450",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bedroom2.webp?alt=media&token=93e3aa2d-73c4-4d41-a700-7437ea1faed5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bedroom3.webp?alt=media&token=24cd8d97-46bd-401d-acfe-3b6a39eafd76",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-dining-table.webp?alt=media&token=f7fdb5e2-ba58-40ca-9d75-e36371ed1336",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-geyser.webp?alt=media&token=df7b2623-55bf-4916-bd54-f71c0f5d047f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-hall.webp?alt=media&token=e6d95a4b-f091-439a-9577-510da1769dc4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-wall-hanging.webp?alt=media&token=be7945e8-3481-45ec-906c-ad2b7957a671",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-washroom.webp?alt=media&token=1dac1a7e-231b-4131-a0e2-ba1fc73afb1f",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bedroom.webp?alt=media&token=bd820bcb-239b-41b3-952e-117b62cb99fc",
+      },
+    ],
+    coordinates: {
+      latitude: "17.004710638032126° N",
+      longitude: "73.36970567301312° E",
+    },
+    host: {
+      name: "Tanmay Joshi",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-02",
+    },
+  },
 ];
