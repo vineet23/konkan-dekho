@@ -1598,7 +1598,7 @@ export const plots: Plot[] = [
     ],
     media: [
       {
-        type: "image",
+        type: "video",
         url: "",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-house.webp?alt=media&token=b551ca18-05f2-41b0-b902-db67c3b69f60",
