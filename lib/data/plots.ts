@@ -1568,4 +1568,51 @@ export const plots: Plot[] = [
       listingDate: "2026-01-02",
     },
   },
+  {
+    id: 35,
+    title: "Verandah Solitude By The Sea (Homestay)",
+    slug: "verandah-solitude-by-the-sea-homestay",
+    area: "Velneshwar",
+    location: "Guhagar",
+    guests: "11",
+    price: "₹3200",
+    phone: "9881075150",
+    description:
+      "Verandah Solitude By The Sea is a charming coastal homestay nestled in the serene village of Velaneshwar, Guhagar, Maharashtra, just a short distance from the Arabian Sea. This peaceful retreat is perfect for couples, families, and travelers seeking a tranquil getaway amidst nature and sea breezes.Located in a scenic seaside area, this well-appointed villa-style homestay offers comfortable AC rooms with Wi-Fi, private verandahs overlooking lush garden views, and easy access to local beaches and attractions. Guests can choose from Deluxe Double, Twin, and Triple rooms, all featuring attached bathrooms, daily housekeeping, and optional meal services on request. The property emphasizes a relaxed, homely ambiance with thoughtful amenities such as a kitchenette, parking, power backup, and balcony sit-outs, making it an ideal base for exploring the unhindered beauty of Konkan’s beaches, temples, and coastal scenery. Whether you’re planning a family vacation, romantic escape, or a nature-centric holiday, Verandah Solitude By The Sea combines comfort, convenience, and peace — ensuring every stay is memorable.",
+    features: [
+      "5 rooms: 4 double occupancy rooms and 1 triple occupancy room",
+      "Indoor games available",
+      "Garden",
+      "Free Wifi",
+      "Free Parking",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-balcony.webp?alt=media&token=9e75b1f2-e46b-48ee-8e5a-3aa92bf7e1c3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-bedroom1.webp?alt=media&token=0c8ea10e-569e-4dfe-8eee-317aff6a36ec",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-bedroom2.webp?alt=media&token=31acf8ff-839e-442a-916e-862b6bbf0185",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-dining-room.webp?alt=media&token=ceab1a14-90d3-4d2b-b9e6-9fbda0124fa4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-house-night-time.webp?alt=media&token=ab35bbdd-1a15-4cca-97ca-fbea304bfccc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-outside-decoration.webp?alt=media&token=052ddfd6-95e4-4a22-8650-add396f37335",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-outside.webp?alt=media&token=ca20fca7-1122-465d-94c4-8dbedb82c3fd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-seaview.webp?alt=media&token=7c2371e3-c6e7-48a2-9bd1-159f1f552be5",
+    ],
+    media: [
+      {
+        type: "image",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-house.webp?alt=media&token=b551ca18-05f2-41b0-b902-db67c3b69f60",
+      },
+    ],
+    coordinates: {
+      latitude: "17.38450816905302° N",
+      longitude: "73.20807202883552° E",
+    },
+    host: {
+      name: "Verandah Solitude By The Sea (Homestay)",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-05",
+    },
+  },
 ];
