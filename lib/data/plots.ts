@@ -1662,4 +1662,53 @@ export const plots: Plot[] = [
       listingDate: "2026-01-08",
     },
   },
+  {
+    id: 37,
+    title: "Gopikanta Home Stays",
+    slug: "gopikanta-home-stays",
+    area: "Guhagar",
+    location: "Guhagar",
+    guests: "4",
+    price: "₹2000",
+    phone: "9421137132",
+    description:
+      "Gopikanta Home Stays is a highly rated homestay in Guhagar located near Bank of India, Khalchapat, offering a warm and welcoming stay for families, couples, and beach lovers. Nestled in a peaceful village setting, this comfortable accommodation provides easy access to local attractions and the beautiful beaches of Guhagar. 🏡 Enjoy neat, clean, and budget-friendly rooms with thoughtful amenities, friendly hosts, and a tranquil ambiance that makes you feel right at home. Guests appreciate the cozy rooms, greenery, and attentive service that enhances your seaside getaway. 🍽️ Relish tasty homemade meals and local flavors, while soaking in the coastal atmosphere just moments from your stay. Whether you’re here to relax or explore, Gopikanta Home Stays is one of the best places to stay in Guhagar for an authentic Konkan experience.",
+    features: [
+      "Delicious Food",
+      "Sea View",
+      "Hot and COld Water",
+      "Garden Area",
+      "Air Conditioning",
+      "Free Parking available",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-house.webp?alt=media&token=4e8a6c12-1aeb-4940-925c-19eb0fb514c9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-bedroom2.webp?alt=media&token=aaae37da-00af-4b1b-acfc-f52e2b9bbecd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-bedroom1.webp?alt=media&token=4ec7949b-2362-45c5-bbbb-40ce57e4a1bc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-outside-nature.webp?alt=media&token=23f5647c-3cc9-46bc-937c-014ff56bad99",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-parking.webp?alt=media&token=891647a5-8b20-4cbf-ba80-62dfda07df5d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-sea-view.webp?alt=media&token=8242362c-9346-4eb6-88d5-4dc680009f87",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-surroundings.webp?alt=media&token=254e4634-39eb-42b1-a0e0-74d5acd0807b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-table.webp?alt=media&token=9eff7f56-5573-45f9-8508-8a69d831f7bf",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-washroom.webp?alt=media&token=89d59512-3e27-44e1-8e94-11c99abf824d",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-house.webp?alt=media&token=4e8a6c12-1aeb-4940-925c-19eb0fb514c9",
+      },
+    ],
+    coordinates: {
+      latitude: "17.48051238321162° N",
+      longitude: "73.19120894109281° E",
+    },
+    host: {
+      name: "Pankaj Gopinath Chavan",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-08",
+    },
+  },
 ];
