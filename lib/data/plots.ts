@@ -1615,4 +1615,51 @@ export const plots: Plot[] = [
       listingDate: "2026-01-05",
     },
   },
+  {
+    id: 36,
+    title: "Bayoakkas Cottage",
+    slug: "bayoakkas-cottage",
+    area: "Guhagar",
+    location: "Guhagar",
+    guests: "4",
+    price: "₹2700",
+    phone: "9322186948",
+    description:
+      "Bayoakkas Cottage is a delightful budget-friendly cottage stay in Guhagar, located near Varati Mandir in the peaceful Khalchapat area. This charming property is ideal for travellers and families looking for a relaxing retreat while exploring the beautiful Konkan coast and Guhagar Beach. 🛏️ The cottage offers comfortable Deluxe rooms with air conditioning, attached bathrooms, and serene garden views — perfect for unwinding after a day of sightseeing. Guests can enjoy thoughtful amenities like free parking, housekeeping, dining area, and helpful on-site staff to ensure a pleasant stay. 🍽️ Local veg & non-veg meals are available, and the flexible policies and friendly management make Bayoakkas Cottage one of the recommended stays in Guhagar for both short stays and extended holidays.",
+    features: [
+      "Doctor on Call",
+      "Power Backup",
+      "Housekeeping",
+      "Kids' Play Area",
+      "Free Wifi",
+      "Onsite Free Parking is available",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-bedroom.webp?alt=media&token=c54ee4b4-76d5-4364-82cc-b8c7c4122ab2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-front-view.webp?alt=media&token=a495edd0-a28f-4285-9aa2-c43714dc4b27",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-outside-dining.webp?alt=media&token=6f21ebd4-61d8-480d-9073-36966430f5b5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-outside-house.webp?alt=media&token=7580b40c-9cd5-40ff-9cc5-f8dc7bcdfcbd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-sea-view.webp?alt=media&token=e4a66f05-c0d1-4e96-9784-1a90a05a088b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-sunset-view.webp?alt=media&token=d8f4267e-73fa-458c-9592-aa84b6fd0e31",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-washroom.webp?alt=media&token=068eb771-3473-4a7b-9318-e4422b0cec2c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-house.webp?alt=media&token=351ca71a-ca64-48e3-aeca-4996d369b134",
+      },
+    ],
+    coordinates: {
+      latitude: "17.47251864017266° N",
+      longitude: "73.19263472386994° E",
+    },
+    host: {
+      name: "Bayoakkas Cottage",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-08",
+    },
+  },
 ];
