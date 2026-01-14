@@ -1711,4 +1711,52 @@ export const plots: Plot[] = [
       listingDate: "2026-01-08",
     },
   },
+  {
+    id: 38,
+    title: "Malvankar Homestay",
+    slug: "malvankar-homestay",
+    area: "Malvan",
+    location: "malvan",
+    guests: "4",
+    price: "₹3750",
+    phone: "8879581406",
+    description:
+      "Malvankar Home Stay – A Cozy Homestay Near Chivla Beach, Malvan. Experience warm hospitality and authentic Malvani culture at Malvankar Home Stay, a peaceful and family-friendly homestay located just 600 meters from Chivla Beach, Malvan. Ideal for couples, families, and solo travelers, our homestay offers a perfect blend of comfort, convenience, and traditional coastal charm. Hosted by Shailaja, a welcoming host since 2023, Malvankar Home Stay is known for its homely Malvani food, personalized service, and relaxing atmosphere. Guests can enjoy fresh local breakfast options every morning, prepared with care and local flavors. The property features a beautiful garden, barbecue facilities, outdoor fireplace, and a children’s playground, making it a great choice for families. An on-site restaurant, free private parking, free Wi-Fi, and full-day security ensure a safe and comfortable stay.",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Free Breakfast",
+      "Swimming Pool",
+      "Air Conditioning",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-BalconyView.webp?alt=media&token=e2e0402f-8d23-4ab5-9d3a-5f66bc4e34a5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-Bedroom-p2.webp?alt=media&token=31edd0a5-e2fe-4f87-a988-b75b0bbe1bea",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-Bedroom.webp?alt=media&token=3d142bae-95d4-4f1c-a11c-4bc2283c7802",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-DayView.webp?alt=media&token=6116718b-1ef5-47a7-9cb3-aa5959315628",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-Garden.webp?alt=media&token=2a72231f-4001-4ff8-a1e2-004f669d8cd1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-NightView.webp?alt=media&token=92539682-1267-482c-b895-3361de3cc38e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-ParkingArea.webp?alt=media&token=aa3c807e-eb60-4c3e-951b-80d82592231f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-Poster.webp?alt=media&token=7fd6ae4c-b5f1-40bd-a05a-d81b788e1dd0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-UpperArea.webp?alt=media&token=d88aa800-b32e-470a-b69e-04fc5eeb35e8",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-DayView.webp?alt=media&token=6116718b-1ef5-47a7-9cb3-aa5959315628",
+      },
+    ],
+    coordinates: {
+      latitude: "16.070580059031727° N",
+      longitude: "73.46854638753875° E",
+    },
+    host: {
+      name: "Shalaka",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-14",
+    },
+  },
 ];
