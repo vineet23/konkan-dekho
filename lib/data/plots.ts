@@ -1766,7 +1766,7 @@ export const plots: Plot[] = [
     area: "Guhagar",
     location: "guhagar",
     guests: "5",
-    price: "₹3000",
+    price: "₹2000",
     phone: "9403249261",
     description:
       "Durvankur Homestay is a welcoming homestay in Guhagar, Maharashtra, offering a relaxed and cozy getaway just a short walk from the scenic Guhagar beach. Surrounded by gentle coastal breezes, lush greenery and traditional Konkani vibes, this charming stay is perfect for families, couples, and beach lovers seeking comfort and tranquillity.🏡 Comfortable & Cozy Rooms Enjoy clean, comfortable rooms with essential amenities, warm hospitality, and a serene environment that makes you feel right at home. The homestay’s coastal location lets guests soak in the peace of the Konkan shoreline and explore the nearby sandy beaches and local attractions with ease.🌅 Ideal for Relaxing Getaways Whether you’re planning a weekend trip, a romantic escape, or a family vacation near the Guhagar beach coast, Durvankur Homestay promises a memorable stay with friendly hosts and a laid-back atmosphere perfect for unwinding after a day of adventure.",
@@ -1800,7 +1800,52 @@ export const plots: Plot[] = [
       longitude: "73.19058903937433° E",
     },
     host: {
-      name: " Dhanraj Oak",
+      name: "Dhanraj Oak",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-18",
+    },
+  },
+  {
+    id: 40,
+    title: "Chaitanya Niwas",
+    slug: "chaitanya-niwas",
+    area: "Guhagar",
+    location: "guhagar",
+    guests: "4",
+    price: "₹1300",
+    phone: "9421137954",
+    description:
+      "Chaitanya Niwas (MTDC Approved Holiday Home) is a highly recommended homestay in Guhagar offering a peaceful and scenic getaway just minutes from the beautiful Guhagar beach and local attractions. With a strong reputation among travellers for its warm hospitality, this cozy holiday home is perfect for families, couples, and nature lovers seeking a relaxing stay by the Konkan coast. 🏡 Homely Comfort & Rooms : Choose from well-maintained AC and non-AC rooms with essential amenities like free Wi-Fi, daily housekeeping, seating areas, and mineral water. The property is surrounded by lush greenery and offers shared spaces including a terrace with sun deck and bonfire area — ideal for evening relaxation. 🍽️ Convenient Facilities : Guests can enjoy on-site parking, friendly staff assistance, and optional meals available at extra charges, making it one of the best budget-friendly places to stay in Guhagar for both short and extended vacations.",
+    features: [
+      "Free Wifi",
+      "Free Parking & Peaceful Surroundings",
+      "Close to Guhagar Beach",
+      "MTDC Approved & Trusted Stay",
+      "Comfortable AC & Non-AC Rooms",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Balcony-view.webp?alt=media&token=086fc658-5a2f-4c47-93c8-0bf86726b3c8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Bedroom.webp?alt=media&token=fbcfa970-7a47-4618-8d8e-f4fb25136e25",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Bedroom1.webp?alt=media&token=b81923de-b50d-4df4-9b55-85e4b952e112",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Bedroom2.webp?alt=media&token=267df83b-3b91-4bec-ad0c-2796ccaa5cf8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Front-View.webp?alt=media&token=cb09ab5d-383f-4695-b04a-0ee582086ad5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Visitors.webp?alt=media&token=5fb26bdf-a558-47ad-9567-35ffd93e14b3",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Front-View.webp?alt=media&token=cb09ab5d-383f-4695-b04a-0ee582086ad5",
+      },
+    ],
+    coordinates: {
+      latitude: "17.48662503413811° N",
+      longitude: "73.19912172546219° E",
+    },
+    host: {
+      name: "Vidya",
       imageUrl: "",
       isPremier: true,
       listingDate: "2026-01-18",
