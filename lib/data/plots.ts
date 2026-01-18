@@ -1851,4 +1851,51 @@ export const plots: Plot[] = [
       listingDate: "2026-01-18",
     },
   },
+  {
+    id: 41,
+    title: "Dr. Birmole Farms Mountain Explorers",
+    slug: "dr-birmole-farms-mountain-explorers",
+    area: "Ghumade",
+    location: "Malvan",
+    guests: "4",
+    price: "₹3750",
+    phone: "9594249710",
+    description:
+      "Birmole Farms Mountain Explosers is a peaceful farmstay near Malvan, set in a quiet valley surrounded by hills, mango orchards, coconut, and supari trees. It offers a refreshing escape for guests who want to relax close to nature. Guests can enjoy warm hospitality, delicious home-cooked Malvani and Konkani food, and a calm village atmosphere. The location is ideal for exploring nearby beaches, water sports spots, scenic walks, and trekking routes. Perfect for couples, families, and solo travelers, this farmstay blends village life, natural beauty, and coastal charm for a relaxing and memorable stay..",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Free Breakfast",
+      "Good Farm",
+      "Air Conditioning",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-BedRoom-P2.webp?alt=media&token=bf03a116-3155-4190-b345-b821171fa465",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-BedRoom.webp?alt=media&token=60769091-b4c9-4c75-a0ac-75f84b92e79b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-LivingRoom.webp?alt=media&token=ace17549-f62c-4a9a-afef-4eee94595135",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-NatureView-P2.webp?alt=media&token=382e90d0-054b-4e0d-82c2-78800867e49e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-NatureView.webp?alt=media&token=43342ba3-b612-4e41-85de-752206a7ab0f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-Night-View.webp?alt=media&token=eececa5d-90d4-4f52-a44e-87883860372c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-OuterView.webp?alt=media&token=09e6e6ed-052b-4324-a739-27b62589c310",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-Washroom.webp?alt=media&token=d0d34e82-c9a6-4c66-833e-cd982f90b0c3",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-OuterView.webp?alt=media&token=09e6e6ed-052b-4324-a739-27b62589c310",
+      },
+    ],
+    coordinates: {
+      latitude: "16.07191652402576° N",
+      longitude: "73.49634492406211° E",
+    },
+    host: {
+      name: "Dr. Birmole",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-18",
+    },
+  },
 ];
