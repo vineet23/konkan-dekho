@@ -1898,4 +1898,53 @@ export const plots: Plot[] = [
       listingDate: "2026-01-18",
     },
   },
+  {
+    id: 42,
+    title: "Neelkranti Backwater Guest House",
+    slug: "neelkranti-backwater-guest-house",
+    area: "Kolamb",
+    location: "Malvan",
+    guests: "4",
+    price: "₹2000",
+    phone: "9404900303",
+    description:
+      "Neelkranti Backwater Guest House is a great choice for travellers looking for a star hotel in Malvan. This Hotel stands out as one of the highly recommended hotel in Malvan. Hotel is rated 3.5 out of 5, which is considered as very good. From all the Budget hotels in Malvan, this property is very much popular among the tourists. A smooth check-in/check-out process, flexible policies and friendly management garner great customer satisfaction for this property. The Hotel has standard Check-In time as 02:00 PM and Check-Out time as 12:00 PM. Amenities consist of a garden and BBQ facilities, plus a library, a gym and event space. Parking is available. You can find numerous hotels in Malvan under different categories and this property is one the best hotel under its category.",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Fitness Center",
+      "Free Breakfast",
+      "Outside Pool",
+      "Laundry Service",
+      "Beach Access",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-BedRoom.webp?alt=media&token=d02441c2-ab0c-40ec-8df5-88c887793a77",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-NightView.webp?alt=media&token=6565100e-474a-4e87-b9fe-67aada1e0a36",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-OuterView.webp?alt=media&token=ecde99fb-ad7a-4cc3-991f-88558ea18c1a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-PoolArea.webp?alt=media&token=506902c0-156c-439f-8f5b-73881825261c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-Poolside-View.webp?alt=media&token=8cd4c01d-0d23-41f1-8a41-70a3bcfb7b6a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-RiverView.webp?alt=media&token=8f22cd8f-ddf1-4835-9353-b1d6fec8e35a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-Riverside-Walkway.webp?alt=media&token=fc892b81-07a9-44c1-a974-f9a579d14051",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-SunsetView.webp?alt=media&token=b97457b5-1cec-4f17-8905-29e8f52bd9ba",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-OuterView.webp?alt=media&token=ecde99fb-ad7a-4cc3-991f-88558ea18c1a",
+      },
+    ],
+    coordinates: {
+      latitude: "16.07544980268867° N",
+      longitude: "73.46910854645736° E",
+    },
+    host: {
+      name: "Neelkranti Backwater Guest House",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-18",
+    },
+  },
 ];
