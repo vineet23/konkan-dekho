@@ -1759,4 +1759,51 @@ export const plots: Plot[] = [
       listingDate: "2026-01-14",
     },
   },
+  {
+    id: 39,
+    title: "Durvankur Homestay",
+    slug: "durvankur-homestay",
+    area: "Guhagar",
+    location: "guhagar",
+    guests: "5",
+    price: "₹3000",
+    phone: "9403249261",
+    description:
+      "Durvankur Homestay is a welcoming homestay in Guhagar, Maharashtra, offering a relaxed and cozy getaway just a short walk from the scenic Guhagar beach. Surrounded by gentle coastal breezes, lush greenery and traditional Konkani vibes, this charming stay is perfect for families, couples, and beach lovers seeking comfort and tranquillity.🏡 Comfortable & Cozy Rooms Enjoy clean, comfortable rooms with essential amenities, warm hospitality, and a serene environment that makes you feel right at home. The homestay’s coastal location lets guests soak in the peace of the Konkan shoreline and explore the nearby sandy beaches and local attractions with ease.🌅 Ideal for Relaxing Getaways Whether you’re planning a weekend trip, a romantic escape, or a family vacation near the Guhagar beach coast, Durvankur Homestay promises a memorable stay with friendly hosts and a laid-back atmosphere perfect for unwinding after a day of adventure.",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Garden View",
+      "2 Minutes from Vyadeshvar Temple",
+      "Air Conditioning",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Collidor.webp?alt=media&token=683c7984-eaea-4ff5-a803-eda79ebbb437",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Beach.webp?alt=media&token=ffbfba45-246e-4dd2-b5ca-23ce5ec00c58",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Bedroom.webp?alt=media&token=b4b2bf33-4a96-4ff0-b66f-5ec47cd0757d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Front-View.webp?alt=media&token=d1c47cdb-9ace-4f2a-bfe1-b61ad0160474",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Garden-view.webp?alt=media&token=872ebd22-a886-457e-bbb5-f92a1a4bc1ed",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Washroom.webp?alt=media&token=c5ec337e-e53c-45ac-a529-3ca8f341ef25",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Working-table.webp?alt=media&token=00c64931-7bfd-4ecb-a144-fee8df695b74",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Visiting-Card.webp?alt=media&token=1ac13e9f-dd40-4915-9716-3fe613dacac9",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Front-View.webp?alt=media&token=d1c47cdb-9ace-4f2a-bfe1-b61ad0160474",
+      },
+    ],
+    coordinates: {
+      latitude: "17.482463290088113° N",
+      longitude: "73.19058903937433° E",
+    },
+    host: {
+      name: " Dhanraj Oak",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-18",
+    },
+  },
 ];
