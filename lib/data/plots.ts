@@ -1997,4 +1997,53 @@ export const plots: Plot[] = [
       listingDate: "2026-01-20",
     },
   },
+  {
+    id: 44,
+    title: "Chivla sea face",
+    slug: "chivla-sea-face",
+    area: "Chivla",
+    location: "Malvan",
+    guests: "4",
+    price: "₹3750",
+    phone: "8087428260",
+    description:
+      "beach, Chivla, Malvan, Maharashtra 416606 - Comfortable Accommodation: Chivla sea face in Malvan offers a homestay with sea views, air-conditioning, and private bathrooms. The property is pet-friendly, welcoming guests with their furry companions. Convenient Facilities: Guests enjoy free on-site private parking, ensuring easy access to the property. The reception staff communicate in Hindi, assisting with any needs. Prime Location: Located a few steps from Chiwla Beach, the homestay is 17 km from Sindhudurg Airport. Nearby attractions include Malvan Fort and Tarkarli Beach, providing ample opportunities for exploration.",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Swimming Pool",
+      "Laundry Service",
+      "Beach Access",
+      "Room Service",
+      "kitchens in some rooms",
+      "Fitness Center",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-BedRoom.webp?alt=media&token=612a0684-da1a-4f1d-94ba-f3e46aa9ec3e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-BedRoom-p2.webp?alt=media&token=fae13556-8de3-44fa-80cf-e4d6f7425bd1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-BedRoom-p3.webp?alt=media&token=fe19beb8-f06e-4047-b8f9-5e419b5f58d1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-EveningView.webp?alt=media&token=29730fe7-20fe-4156-913a-44a6700e9582",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-RoadView.webp?alt=media&token=68a44b43-5225-47b7-9c45-8e8682d2ecc0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-SeaView.webp?alt=media&token=ad4a1999-aaeb-40d5-83b9-10667f2525b0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-WashRoom.webp?alt=media&token=e0e45ddf-b487-49a4-b9ef-45a974fdc2ec",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-SeaView.webp?alt=media&token=ad4a1999-aaeb-40d5-83b9-10667f2525b0",
+      },
+    ],
+    coordinates: {
+      latitude: "16.065530279313336° N",
+      longitude: "73.46384594376646° E",
+    },
+    host: {
+      name: "Chivla sea face",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-20",
+    },
+  },
 ];
