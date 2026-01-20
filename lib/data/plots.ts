@@ -1947,4 +1947,54 @@ export const plots: Plot[] = [
       listingDate: "2026-01-18",
     },
   },
+  {
+    id: 43,
+    title: "Mody Villa",
+    slug: "mody-villa",
+    area: "Guhagar",
+    location: "Guhagar",
+    guests: "4 - 5",
+    price: "₹2000",
+    phone: "9892091313",
+    description:
+      "Mody Villa – Beach Resort & Villa Stay in Guhagar is a tranquil and scenic beachside accommodation in Guhagar, Maharashtra, perfect for travellers and families looking to experience the serene Konkan coast. Located just steps from Guhagar’s pristine shoreline, this peaceful villa-style resort offers easy access to the quiet beach and local attractions, making it an ideal base for a relaxing seaside holiday. 🏡 Comfortable Rooms & Homely Ambience: Enjoy spacious, well-lit rooms and bungalows with essential amenities and a rustic vibe, surrounded by lush coconut and betel-nut groves — bringing you close to nature on your coastal getaway. 🍽️ Delicious Meals & Local Flavours: The villa provides a variety of tasty veg and non-veg meals prepared with fresh local ingredients, enhancing your stay with authentic Konkan cuisine.🌿 Perfect for Nature Lovers & Beach Getaways: With a broad veranda, sea-facing garden space, outdoor games, and guided tours to nearby attractions like local villages and natural parks, it’s a complete holiday experience for every visitor.",
+    features: [
+      "Laundry Service",
+      "Free Parking",
+      "Room Service",
+      "On-site cooking facilities",
+      "Wake-up call",
+      "Luggage storage",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Bedroom.webp?alt=media&token=4c23e02d-5a0f-4361-b620-0cdd0942fda7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Back-View-Beach.webp?alt=media&token=7b0b4a6f-f000-44d3-8f7d-328d0cdb720f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Balcony.webp?alt=media&token=38a22868-9eb0-4bdb-9a53-3cdb26d4d997",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Beach.webp?alt=media&token=062c9e26-379e-41a8-88ed-03e9096c9151",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Bedroom2.webp?alt=media&token=55848bd3-b4dc-42a6-8b0d-8e83021a0d13",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Colidoor.webp?alt=media&token=dbbf13e3-1651-4a2a-8f5e-b9ba2881eeb4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Front-View.webp?alt=media&token=5e6508a4-5eb8-4c11-86d9-a97ea07db003",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Front-View2.webp?alt=media&token=e4aae829-fbf6-42f3-aa5a-4d37bcf05563",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Garden-View%20(1).webp?alt=media&token=dce87417-12ec-4ae2-886c-6f640c191655",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Parking.webp?alt=media&token=40a747b6-fd15-42e7-9c29-fb2b4b311266",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Front-View2.webp?alt=media&token=e4aae829-fbf6-42f3-aa5a-4d37bcf05563",
+      },
+    ],
+    coordinates: {
+      latitude: "17.49956825184696° N",
+      longitude: "73.18428149780402° E",
+    },
+    host: {
+      name: "Mody Villa",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-20",
+    },
+  },
 ];
