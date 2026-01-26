@@ -2158,4 +2158,56 @@ export const plots: Plot[] = [
       listingDate: "2026-01-21",
     },
   },
+  {
+    id: 47,
+    title: "Chandrakant Beach Home Stay",
+    slug: "chandrakant-beach-home-stay",
+    area: "Tarkarli",
+    location: "Malvan",
+    guests: "4",
+    price: "₹3500",
+    phone: "7947414261",
+    description:
+      "Chandrakant Homestay – Comfortable Stay in Bharad Naka, Malvan : Located in the well-connected area of Bharad Naka, Malvan, Chandrakant Homestay is a trusted and popular choice for travelers seeking a comfortable and affordable homestay in Malvan. Known for its warm hospitality and reliable service, the property caters to both local guests and visitors from across the region. With a strong reputation built over the years, Chandrakant Homestay offers a peaceful environment ideal for family stays and group stays in Malvan. The homestay is easily accessible, with multiple transport options available nearby, making commuting simple for first-time visitors. Guests can expect courteous staff, prompt assistance, and a homely atmosphere that ensures a relaxed stay. The property focuses on guest satisfaction, cleanliness, and convenience, making it a dependable choice for travelers exploring Malvan and nearby attractions. Whether you are planning a leisure trip to Malvan, a group vacation, or a budget-friendly homestay near Bharad Naka, Chandrakant Homestay provides a comfortable base for a pleasant and hassle-free stay.",
+    features: [
+      "Free Wifi",
+      "Free Breakfast",
+      "Free Parking",
+      "Swimming Pool",
+      "Air Conditioning",
+      "Laundry Service",
+      "Pet Friendly",
+      "Beach Access",
+      "Room Service",
+      "Child Friendly",
+      "Restaurant",
+      "Airport Shuttle",
+      "Fitness Center",
+      "Smoke Free",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-BedRoom-p2.webp?alt=media&token=1179a107-3a63-47a2-b5fc-340a1fa49f2a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-BedDecor.webp?alt=media&token=31063545-22a0-43a5-b697-1e493413759c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-BedRoom.webp?alt=media&token=4f24599d-a141-46ff-a73f-b67b993d1351",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-Hall.webp?alt=media&token=79fe2739-beda-475b-847b-699aa57b5b2c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-BedRoom.webp?alt=media&token=4f24599d-a141-46ff-a73f-b67b993d1351",
+      },
+    ],
+    coordinates: {
+      latitude: "15.97486690675561° N",
+      longitude: "73.49827759212035° E",
+    },
+    host: {
+      name: "Chandrakant Beach Home Stay",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-26",
+    },
+  },
 ];
