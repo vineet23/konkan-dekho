@@ -2516,4 +2516,54 @@ export const plots: Plot[] = [
       listingDate: "2026-01-31",
     },
   },
+  {
+    id: 54,
+    title: "Tuka Anandi Niwas",
+    slug: "tuka-anandi-niwas",
+    area: "Dapoli",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹1500",
+    phone: "9892239380",
+    description:
+      "Tuka Anandi Stay, Basni is a charming village homestay that feels less like accommodation and more like visiting your own relatives. Run by the sweetest uncle and aunty, this peaceful stay welcomes guests with heartfelt hospitality, warm smiles, and a truly homely atmosphere. The rooms are clean, comfortable, and surrounded by greenery, making it a perfect escape from busy city life. Wake up to fresh air, birdsong, and lush Konkan landscapes, followed by a delicious homemade Konkan-style breakfast that brings out authentic local flavors. Located just a few minutes away from the scenic Aare Ware Beach, Tuka Anandi Stay offers the perfect balance of nature, comfort, and affordability. Ideal for families, couples, and solo travelers seeking quiet, simplicity, and genuine village vibes, this homestay is highly recommended for a soulful Konkan experience.",
+    features: [
+      "Parking",
+      "Power backup",
+      "Wi fi",
+      "room services",
+      "Doctor on call",
+      "News paper",
+      "Mineral water",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P6.webp?alt=media&token=3d583166-8fc1-4dda-8615-58aadc395fb4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-Bedroom-P2.webp?alt=media&token=6d92a2c0-0f39-4785-8b4c-ffde2b39779c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-Bedroom-P3.webp?alt=media&token=b83efe63-00bb-4972-835f-e6b7f35ef80d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-Bedroom-P4.webp?alt=media&token=00ea6631-2898-4781-9d6e-33632e13b6fa",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P2.webp?alt=media&token=79dfe8ac-d4f4-4ac0-9e87-5d1c3a576f99",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P3.webp?alt=media&token=72f958b8-b06d-42e4-8f95-aea4a3aaf00c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P4.webp?alt=media&token=c56bf71f-7383-428f-a16d-7a3d4b99e61b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P5.webp?alt=media&token=8cb76e46-4955-4d87-9f5c-0652e64f9867",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P7.webp?alt=media&token=f82a7b23-b3cf-48cb-8dd7-167deff87c95",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P1.webp?alt=media&token=44b657f9-49bb-4f10-8e3c-c6c69ccd6a35",
+      },
+    ],
+    coordinates: {
+      latitude: "17.06080493939973° N",
+      longitude: "73.29995707301235° E",
+    },
+    host: {
+      name: "Tuka Anandi Niwas",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
 ];
