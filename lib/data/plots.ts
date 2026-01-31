@@ -2621,4 +2621,53 @@ export const plots: Plot[] = [
       listingDate: "2026-01-31",
     },
   },
+  {
+    id: 56,
+    title: "Ashirwaad Home Stay",
+    slug: "ashirwaad-home-stay",
+    area: "Basni",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹1480",
+    phone: "8779756696",
+    description:
+      "aashirwad HOME STAY lodging near RATNAGIRI railway station FOB MTDC APPD BEAD AND BREAKFAST Maharashtra रत्नागिरी+मध्ये+निवास represents a notable option for families seeking elder care in Khedashi, Ratnagiri, Maharashtra. With its 4.9-star rating from 108 families, the facility demonstrates various features that families look for in quality elder care, including accessibility considerations, multiple service options, and flexible communication channels. The facility’s location in Khedashi, Ratnagiri provides access to local healthcare resources and community connections that can enhance the quality of life for elderly residents. While every elderly person has unique needs, preferences, and health considerations that require personalized assessment, the information available about {name} provides a foundation for families to begin their evaluation process.",
+    features: [
+      "Parking",
+      "Power backup",
+      "Wi fi",
+      "room services",
+      "Doctor on call",
+      "News paper",
+      "Mineral water",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Parking-Area-P2.webp?alt=media&token=a442f8b8-776b-4ab2-96c9-8b1d738511cd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Bedroom-P2.webp?alt=media&token=11a3ad12-d95f-46bc-87d3-2bf483fed072",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Bedroom.webp?alt=media&token=9c17f071-49aa-4ef0-b430-63c8c7ff3aea",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Parking-Area.webp?alt=media&token=02e6fcd6-3182-4447-b66c-b021e1c06f5a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Sitting-Area-P2.webp?alt=media&token=16918428-5e0b-4f90-a6e1-6c8be521c262",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Sitting-Area-P3.webp?alt=media&token=0515ad66-f61b-4a48-83b4-6798ad441ae7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Sitting-Area.webp?alt=media&token=3ec36637-2416-4d08-9ed8-4fb523f8345c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-View.webp?alt=media&token=3c4b7968-8de7-4cf2-9e77-ad043b0a4230",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Sitting-Area-P3.webp?alt=media&token=0515ad66-f61b-4a48-83b4-6798ad441ae7",
+      },
+    ],
+    coordinates: {
+      latitude: "17.060187624030334° N",
+      longitude: "73.29952731122044° E",
+    },
+    host: {
+      name: "Ashirwaad Home Stay",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
 ];
