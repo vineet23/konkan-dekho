@@ -2670,4 +2670,54 @@ export const plots: Plot[] = [
       listingDate: "2026-01-31",
     },
   },
+  {
+    id: 57,
+    title: "Saijeet Beach Touch Resort",
+    slug: "saijeet-beach-touch-resort",
+    area: "Kalbadevi",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹1480",
+    phone: "7280801414",
+    description:
+      "Saijeet Beach Touch Resort, Kalbadevi, Ratnagiri is a perfect seaside getaway for travelers looking for comfort, relaxation, and scenic beauty. Located near the serene beaches of Kalbadevi, this resort offers a peaceful stay surrounded by nature, making it ideal for families, couples, and solo travelers. With well-maintained rooms, warm hospitality, and easy accessibility, Saijeet Beach Touch Resort ensures a memorable experience for every guest. Known for its excellent service and customer satisfaction, the resort provides a calm environment away from city noise while still being well-connected to major areas of Ratnagiri. Guests can enjoy beachside views, fresh coastal air, and a relaxing atmosphere that truly reflects the charm of the Konkan region. Whether you are planning a weekend escape or a longer vacation, Saijeet Beach Touch Resort in Ratnagiri is a great choice for a comfortable and refreshing stay.",
+    features: [
+      "Parking",
+      "Power backup",
+      "Wi fi",
+      "room services",
+      "Doctor on call",
+      "News paper",
+      "Mineral water",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-FrontView.webp?alt=media&token=784bbeb0-2048-437e-bd3a-8cf45e5ec17f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-Bedroom-p2.webp?alt=media&token=b7593528-5cf5-4cb5-81b7-de435a40fca7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-Bedroom.webp?alt=media&token=f48728a0-80a7-4e0c-8bc5-af5aac105ccf",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-OverView.webp?alt=media&token=8fd398d6-c7fe-4830-896a-60b5d2be3cb4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-SeaShore.webp?alt=media&token=a13b8708-42d0-421f-a79a-5d24286823fa",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-SeaSide.webp?alt=media&token=cb61b3ef-fe07-4f6c-9254-b160bc8ea429",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-SideView.webp?alt=media&token=dd4ba2f2-cb69-4c68-9873-1c9d5d2a1bee",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-SittingArea.webp?alt=media&token=faebb8d4-88ad-4cc4-88db-9592beac4ecb",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-Washroom.webp?alt=media&token=0a4913c0-7914-45fa-9363-0ae5cb246f1b",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-NightView.webp?alt=media&token=88341b7d-2c4a-4823-9847-ce7d6cc54ec2",
+      },
+    ],
+    coordinates: {
+      latitude: "17.05176728652038° N",
+      longitude: "73.28789208428746° E",
+    },
+    host: {
+      name: "Saijeet Beach Touch Resort",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
 ];
