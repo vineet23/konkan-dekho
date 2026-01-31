@@ -2414,4 +2414,52 @@ export const plots: Plot[] = [
       listingDate: "2026-01-31",
     },
   },
+  {
+    id: 52,
+    title: "Amantran Holiday Homes",
+    slug: "amantran-holiday-homes",
+    area: "Phansop",
+    location: "Ratnagiri",
+    guests: "2",
+    price: "₹2248",
+    phone: "",
+    description:
+      "Greetings Experience a serene escape at this comfy homestay nestled in the heart of Ratnagiri. It's central location offers convenient access to city's local attractions. Enjoy a peaceful retreat amidst the vibrant culture during your stay. The property offers ample parking space ensuring convenience for all guests with 24/7 gated security. Furthermore, you can enjoy the stunning sea view from the building entrance. A warm welcome awaits you at this inviting homestay. Enjoy your stay! Comfortable Accommodation: Amantara Homestay in Ratnagiri offers a one-bedroom apartment with a terrace and free WiFi. The property features sea views, air-conditioning, and a balcony. Modern Amenities: Guests enjoy a fully equipped kitchen, bathroom with free toiletries, and a sofa. Additional facilities include a lift, minimarket, hairdresser/beautician, family rooms, full-day security, and car hire. Convenient Location: Located 2.3 km from Bhatye Beach and 46 km from Jaigad Fort, the apartment is 141 km from Kolhapur Airport. Reception staff speak German, English, and Hindi.",
+    features: [
+      "free wifi",
+      "gym",
+      "parking",
+      "Air conditioner",
+      "CCTV",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-Holiday-Homes-P3.webp?alt=media&token=172ff460-4668-4fc6-b47e-5e9e8b885903",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-Holiday-Homes-NamePlate.webp?alt=media&token=f4fd67f9-4149-4486-8553-edfeeba44b53",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Bedroom.webp?alt=media&token=572a6f9f-265b-4106-8cd7-950d236f7414",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Living%20-Area-P2.webp?alt=media&token=69a78aa3-314d-45bf-aa35-6e376db14e34",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Living-Area.webp?alt=media&token=11cf4104-6127-4e82-8770-5cfbc7601fbd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-NamePlate-P2.webp?alt=media&token=a528fc89-a08c-4414-ad6e-bf70311df8ba",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Outer-Area.webp?alt=media&token=791375ab-005c-48e5-872f-234141742a23",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Parking-Area.webp?alt=media&token=a5ae8686-0445-4888-9467-bed48203b12c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Washroom.webp?alt=media&token=fa16d6fd-dcb4-43c5-9c70-abe40cb2229c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-Holiday-Homes-NamePlate.webp?alt=media&token=f4fd67f9-4149-4486-8553-edfeeba44b53",
+      },
+    ],
+    coordinates: {
+      latitude: "16.95118353353634° N",
+      longitude: "73.29974994866613° E",
+    },
+    host: {
+      name: "nikhil",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
 ];
