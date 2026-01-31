@@ -2268,4 +2268,52 @@ export const plots: Plot[] = [
       listingDate: "2026-01-26",
     },
   },
+  {
+    id: 49,
+    title: "Shivalay- Nature’s Stay",
+    slug: "shivalay-natures-stay",
+    area: "Bhogwe",
+    location: "Vengurla",
+    guests: "4",
+    price: "₹3500",
+    phone: "",
+    description:
+      "Shivalay Nature’s Stay – Peaceful Homestay in Bhogwe, Maharashtra : Escape into nature at Shivalay Nature’s Stay, a serene homestay in Bhogwe offering beautiful garden views and a relaxing terrace surrounded by greenery. Perfect for travelers seeking a calm Konkan nature stay, this property features free Wi-Fi, garden space, free parking, and pet-friendly accommodation. Located just 48 km from Tiracol Fort and 60 km from Manohar Parrikar International Airport, it’s an ideal getaway for families, couples, and nature lovers. Check-in from 1:00 PM and check-out by 10:00 AM for a smooth and comfortable stay.",
+    features: [
+      "Free Wifi",
+      "Free Internet",
+      "Free Parking",
+      "Pet Friendly",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView-p2.webp?alt=media&token=1dca1957-cb0e-42f2-b20d-e72ddb3d9e26",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-Bedroom-p2.webp?alt=media&token=7ad51d50-7d02-4429-8a5c-ce9b01855f60",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-Bedroom-p3.webp?alt=media&token=06b8901a-28f8-4b43-ac03-8d63f6552266",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-Bedroom-p4.webp?alt=media&token=9d2c96c9-c4e2-4425-868d-cdf2afdbd0fc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView-p3.webp?alt=media&token=add5e47e-0bd3-4216-9c07-f72bca2da91f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView-p4.webp?alt=media&token=c1763b56-cf41-4d97-8491-d7c9809fe1d3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView-p5.webp?alt=media&token=526b1582-0292-4523-835d-7556521ca5e9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-SittingArea.webp?alt=media&token=cca86aa0-d56e-48ad-86a5-0f6ed793d9f9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-SunsetView.webp?alt=media&token=6d06d8be-3d38-41c1-ab03-8bd238390a9f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-Terrace.webp?alt=media&token=b86afc65-fe7d-4831-8f29-2d87ab6a1d4c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView.webp?alt=media&token=e5d9bc08-3dda-452a-9b7d-e96ce994dcec",
+      },
+    ],
+    coordinates: {
+      latitude: "15.938281566614847° N",
+      longitude: "73.53999512912192° E",
+    },
+    host: {
+      name: "Shivalay- Nature’s Stay",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
 ];
