@@ -2316,4 +2316,57 @@ export const plots: Plot[] = [
       listingDate: "2026-01-31",
     },
   },
+  {
+    id: 50,
+    title: "ANANT Residancy",
+    slug: "anant-residancy",
+    area: "Malvan",
+    location: "Malvan",
+    guests: "4",
+    price: "₹2442",
+    phone: "8856022000",
+    description:
+      "Set in Malvan, Maharashtra, ANANT Residency offers a comfortable and peaceful stay for travelers. Complimentary WiFi is available throughout the property. The residency is well-suited for families and small groups looking to relax while staying close to the beach and local attractions. This air-conditioned homestay includes a fully equipped kitchen, dining area, and a satellite flat-screen TV. Free private parking is available on-site. The reception provides 24/7 assistance to ensure a smooth and hassle-free stay. Guests can also relax in the garden area.",
+    features: [
+      "Air-conditioned rooms",
+      "Complimentary WiFi",
+      "Fully equipped kitchen",
+      "Dining area",
+      "Satellite flat-screen TV",
+      "Free private parking",
+      "24/7 reception support",
+      "Peaceful garden area",
+      "Bicycle and car rental available",
+      "Close to water sports area",
+      "Ideal for snorkeling",
+      "fishing, and hiking",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency.jpeg?alt=media&token=24a410a1-77eb-4114-9e14-93484316374d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Bedroom.jpeg?alt=media&token=0b171956-cea4-41e4-a6de-9ce9eada0d8b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Corridor.jpeg?alt=media&token=8e612b0e-2499-47f8-9794-d745f20691ac",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Entrance.jpeg?alt=media&token=06af76dc-5303-4379-9e57-5dcfc3fcd2c5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Morning-View.jpeg?alt=media&token=2500dcdc-ebe8-42fc-8597-3d3e9a6633db",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Outdoor-Candlelight-Dining.jpeg?alt=media&token=8161d9ba-bce3-45e2-9903-4b2e1673136e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Upper-View.jpeg?alt=media&token=4287ec61-1997-43ee-960c-e58de89d6986",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Entrance.jpeg?alt=media&token=06af76dc-5303-4379-9e57-5dcfc3fcd2c5",
+      },
+    ],
+    coordinates: {
+      latitude: "16.052742953384254° N",
+      longitude: "73.47147029221583° E",
+    },
+    host: {
+      name: "Tushar",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
 ];
