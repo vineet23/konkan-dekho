@@ -2369,4 +2369,49 @@ export const plots: Plot[] = [
       listingDate: "2026-01-31",
     },
   },
+  {
+    id: 51,
+    title: "Riverdale Resort",
+    slug: "riverdale-resort",
+    area: "Achra",
+    location: "Malvan",
+    guests: "4",
+    price: "₹5775",
+    phone: "",
+    description:
+      "Riverdale Resort – Riverside Comfort in Masūra, Maharashtra : Located in the peaceful village of Masūra, Riverdale Resort offers a relaxing riverside stay in Maharashtra, perfect for families and nature lovers. Surrounded by greenery, the resort features a beautiful garden, a welcoming on-site restaurant, and free Wi-Fi in all rooms, ensuring a comfortable and connected stay. The resort provides spacious family rooms with air-conditioning, private bathrooms, free toiletries, and soothing river views, creating a calm and refreshing atmosphere. Guests can enjoy a delicious vegetarian and Asian breakfast, served fresh each morning in a serene garden setting. Additional conveniences such as free private parking, room service, and non-smoking rooms make Riverdale Resort an ideal choice for a peaceful Konkan getaway. The property is easily accessible, located just 26 km from Sindhudurg Airport, offering smooth travel connections. Whether you’re planning a family vacation in Konkan, a riverside resort stay in Masūra, or a quiet nature retreat in Maharashtra, Riverdale Resort promises comfort, scenic views, and a memorable stay.",
+    features: [
+      "Free WiFi",
+      "Room service",
+      "Free parking",
+      "Non-smoking rooms",
+      "Family rooms",
+      "Breakfast",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-ExteriorView-p2.webp?alt=media&token=b342adc2-927f-4997-bc5d-d1ab93fc5093",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-Bedroom-p2.webp?alt=media&token=6ed9a90e-0415-4bad-8a99-c28435215656",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-Bedroom.webp?alt=media&token=11d8b690-45dc-4c0f-9ee4-59c7a52ab874",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-ExteriorView-p3.webp?alt=media&token=56dd4657-a60a-4455-b142-de40741f90a0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-ExteriorView.webp?alt=media&token=2e1c59ce-29ec-42e3-b3dc-3fd6c97792c7",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-ExteriorView.webp?alt=media&token=2e1c59ce-29ec-42e3-b3dc-3fd6c97792c7",
+      },
+    ],
+    coordinates: {
+      latitude: "16.146117060505627° N",
+      longitude: "73.46657032617519° E",
+    },
+    host: {
+      name: "Riverdale Resort",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
 ];
