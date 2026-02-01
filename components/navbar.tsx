@@ -14,7 +14,7 @@ export function Navbar() {
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
 
-  const handleLocationSelect = (location: string) => {
+  const handleSearchSelect = (location: string) => {
     setSearchQuery("");
     router.push(`/explore/all-plots?location=${encodeURIComponent(location)}`);
   };
@@ -41,7 +41,7 @@ export function Navbar() {
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 transform text-gray-400" />
             <Input
               className="w-full pl-10"
-              placeholder="Search for homestays by location..."
+              placeholder="Search by homestay name or location..."
               type="search"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -49,7 +49,7 @@ export function Navbar() {
             <SearchDropdown
               query={searchQuery}
               plots={plots}
-              onSelect={handleLocationSelect}
+              onSelect={handleSearchSelect}
             />
           </div>
         </div>
