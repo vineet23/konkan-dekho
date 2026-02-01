@@ -138,11 +138,11 @@ export default function ListYourPlotPage() {
           <div className="grid md:grid-cols-2 gap-6">
             <div>
               <Label>Plot/Homestay Area (sq ft)</Label>
-              <Input type="number" min="0" placeholder="Area in square feet" required />
+              <Input type="number" placeholder="Area in square feet" required />
             </div>
             <div>
               <Label>Expected Price (₹)</Label>
-              <Input type="number" min="0" placeholder="Price in INR" required />
+              <Input type="number" placeholder="Price in INR" required />
             </div>
           </div>
 
