@@ -1,126 +1,111 @@
 "use client";
 
 import { useState } from "react";
+import { TripPlanner } from "@/components/trip-planner";
+import { plots } from "@/lib/data/plots";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { MapPin, ArrowRight } from "lucide-react";
+import { Heart } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { plots } from "@/lib/data/plots";
-import { CollapsibleSearchFilters } from "@/components/plots/collapsible-search-filters";
-import { filterPlots } from "@/lib/utils/filters";
-import { sortPlots } from "@/lib/utils/sorting";
-import { FilterOptions, Plot } from "@/lib/types";
-import { convertPriceToNumber, convertAreaToNumber } from "@/lib/utils/filters";
+import { convertPriceToNumber } from "@/lib/utils/filters";
 import { formatIndianPrice } from "@/lib/utils/number-format";
 
 export default function Home() {
-  const [filteredPlots, setFilteredPlots] = useState<Plot[]>(plots);
+  const [filteredPlots, setFilteredPlots] = useState(plots);
 
-  const locations = Array.from(new Set(plots.map((plot) => plot.location)));
-  const maxPrice = Math.max(
-    ...plots.map((plot) => convertPriceToNumber(plot.price))
-  );
-  const maxArea = Math.max(
-    ...plots.map((plot) => convertAreaToNumber(plot.guests))
-  );
+  const handleSearch = (filters: {
+    location?: string;
+    guest: { adults: number; children: number; pets: number };
+  }) => {
+    let result = [...plots];
 
-  const handleFiltersChange = (filters: FilterOptions) => {
-    const filtered = filterPlots(plots, filters);
-    const sorted = sortPlots(filtered, filters.sortBy);
-    setFilteredPlots(sorted);
+    // Filter by Location
+    if (filters.location && filters.location !== "all") {
+      result = result.filter((p) => p.location === filters.location);
+    }
+
+    // Filter by Guests
+    const totalGuests = filters.guest.adults + filters.guest.children;
+    if (totalGuests > 0) {
+      result = result.filter((p) => {
+        const capacity = parseInt(p.guests, 10) || 0;
+        return capacity >= totalGuests;
+      });
+    }
+
+    setFilteredPlots(result);
   };
 
   return (
-    <div>
-      {/* Hero Section */}
-      <section className="relative h-[600px]">
-        <div className="absolute inset-0">
-          <Image
-            src="https://images.unsplash.com/photo-1667807876919-3a493bd565a3"
-            alt="Konkan landscape"
-            fill
-            priority
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-black/40" />
+    <div className="min-h-screen bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Trip Planner Component */}
+        <div className="flex justify-center mb-8 sticky top-4 z-40">
+          <TripPlanner onSearch={handleSearch} />
         </div>
-        <div className="relative mx-auto max-w-7xl px-4 py-32 sm:px-6 lg:px-8">
-          <div className="max-w-2xl text-white">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              Find Your Perfect Homestay in Konkan
-            </h1>
-            <p className="mt-4 text-xl">
-              Explore premium homestays with breathtaking views and excellent
-              vacation vibes.
-            </p>
-            <Link href="/explore/all-plots">
-              <Button className="mt-8 bg-[#FF385C] hover:bg-[#D93B60]">
-                Explore Homestays
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
 
-      {/* Search and Filters */}
-      <section className="py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <CollapsibleSearchFilters
-        locations={locations}
-        onFiltersChange={handleFiltersChange}
-        maxPrice={maxPrice}
-        maxArea={maxArea}
-        isHomePage={true}
-      />          <h2 className="pt-8 text-4xl font-bold font-caveat mb-8">
-            {filteredPlots.length === 0
-              ? "No homestays found"
-              : "Available Homestays"}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">
+            {filteredPlots.length === 0 ? "No homestays found" : "Available Homestays"}
           </h2>
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
             {filteredPlots.map((plot) => (
               <Link
                 href={`/${plot.slug}-${plot.area
                   .toLowerCase()
                   .replace(/ /g, "-")}`}
                 key={plot.id}
+                className="group block"
               >
-                <Card className="overflow-hidden transition-transform hover:scale-[1.02]">
-                  <div className="relative h-48">
-                    <Image
-                      src={plot.images[0]}
-                      alt={plot.title}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="p-4">
-                    <h3 className="text-xl font-semibold">{plot.title}</h3>
-                    <div className="mt-2 flex items-center text-gray-600">
-                      <MapPin className="mr-1 h-4 w-4" />
-                      {plot.location}
+                <div className="relative aspect-[20/19] overflow-hidden rounded-xl bg-gray-200 mb-3">
+                  <Image
+                    src={plot.images[0]}
+                    alt={plot.title}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  {/* <Button
+                    variant="ghost"
+                    size="icon"
+                    className="absolute top-3 right-3 rounded-full bg-transparent hover:bg-transparent text-white hover:text-white"
+                  >
+                    <Heart className="h-6 w-6 stroke-[2px] transition-transform active:scale-90" />
+                  </Button> */}
+                  {plot.host?.isPremier && (
+                    <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-md shadow-sm">
+                      <span className="text-xs font-semibold text-gray-900">Premier Host</span>
                     </div>
-                    <div className="mt-4 flex items-center justify-between">
-                      <div>
-                        <p className="text-sm text-gray-600">
-                          {plot.guests} guests
-                        </p>
-                        <p className="text-lg font-bold text-[#FF385C]">
-                          {formatIndianPrice(convertPriceToNumber(plot.price))}{" "}
-                          per night
-                        </p>
-                      </div>
-                      <Button variant="ghost" size="icon">
-                        <ArrowRight className="h-4 w-4" />
-                      </Button>
-                    </div>
+                  )}
+                </div>
+
+                <div className="space-y-1">
+                  <div className="flex justify-between items-start">
+                    <h3 className="font-semibold text-gray-900 truncate pr-2">{plot.title}</h3>
+                    {/* <div className="flex items-center gap-1 text-sm">
+                                            <span className="text-black">★</span>
+                                            <span>4.9</span>
+                                        </div> */}
                   </div>
-                </Card>
+                  <div>
+                    <p className="text-gray-500 text-sm truncate">{plot.location}</p>
+                    <p className="text-gray-500 text-sm">{plot.guests} guests</p>
+                  </div>
+                  <div className="text-left">
+                    <span className="font-semibold text-gray-900">
+                      {formatIndianPrice(convertPriceToNumber(plot.price))}
+                    </span>
+                    <span className="text-gray-500 text-sm ml-1">night</span>
+                  </div>
+
+                </div>
               </Link>
             ))}
           </div>
         </div>
-      </section>
+      </div>
+      <div className="col-span-full text-center text-gray-400 py-10">
+        Map and more listings coming soon...
+      </div>
     </div>
   );
 }

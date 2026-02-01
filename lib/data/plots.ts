@@ -17,7 +17,7 @@ export const plots: Plot[] = [
       "Fully Furnished 3BHK Villa",
       "Private Garden & Sit-Out",
       "Sea-Facing Balcony & Terrace",
-      "Easy Road Access & Parking"
+      "Easy Road Access & Parking",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Nest%2FSea-Nest-Drone1.webp?alt=media&token=9857fd76-edbd-45b3-aef4-e617a1889f5e",
@@ -152,7 +152,7 @@ export const plots: Plot[] = [
       "Balcony Overlooking Bhatye Beach",
       "Fully Equipped Kitchen & AquaGuard",
       "WiFi, Washing Machine & Study Room",
-      "City-Central Location near Thiba Point"
+      "City-Central Location near Thiba Point",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sea%20Breeze%2FSea-Breeze-Wall-Hall.webp?alt=media&token=68818ba5-d4ef-4e90-969d-3d58998a766f",
@@ -289,7 +289,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Hallway.webp?alt=media&token=c9ea15a8-ef88-41a4-9f02-1a84054004fc",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmantara-Apartment.webp?alt=media&token=04152d15-6d00-4c00-8b23-c8cca92e21fc",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantara%20Homestay%2FAmanatara-terrace-seaview%20(2).webp?alt=media&token=906574fc-5a73-40b2-b339-912d29e6a08e",
-
     ],
     media: [
       {
@@ -652,7 +651,7 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-Dining.webp?alt=media&token=3eab1272-4e14-41b1-8ac6-efdc6df8fa24",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-LivingRoom.webp?alt=media&token=b619d106-e012-416d-8c64-005010e114f3",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-LivingRoom1.webp?alt=media&token=debaae9f-21cc-4b24-b3a8-2437fa7ee435",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-View.webp?alt=media&token=ebfc80fc-5a5a-4111-8792-2132db7963e3"
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-View.webp?alt=media&token=ebfc80fc-5a5a-4111-8792-2132db7963e3",
     ],
     media: [
       {
@@ -660,7 +659,6 @@ export const plots: Plot[] = [
         url: "",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ocean%20Bliss%2FOcean-Bliss-Bedroom.webp?alt=media&token=06c5247f-3713-4977-a95a-10daba81442d",
-
       },
     ],
     coordinates: {
@@ -704,7 +702,6 @@ export const plots: Plot[] = [
         url: "",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant%20Villa%2FAnant-Villa-FrontView.webp?alt=media&token=546b142a-128f-4249-ac6e-a0502c576121",
-
       },
     ],
     coordinates: {
@@ -736,7 +733,7 @@ export const plots: Plot[] = [
       "Buffet Breakfast + Breakfast in Room",
       "Outdoor Play Area for Children",
       "Car Rental, Hiking & Walking Tours",
-      "Open Air Parking on Property"
+      "Open Air Parking on Property",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Bedroom.webp?alt=media&token=f2083a20-e7eb-4b55-a8d5-b3e8eead140a",
@@ -745,7 +742,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Aesthetics.webp?alt=media&token=3f9a31b8-3aa7-478a-a02a-f81abee66cd9",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Lunch.webp?alt=media&token=3384b9b0-1f85-4930-87c5-5d82987ed279",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Outdoor.webp?alt=media&token=3556a777-39b6-49cb-ae54-94c7b77695e0",
-
     ],
     media: [
       {
@@ -753,7 +749,6 @@ export const plots: Plot[] = [
         url: "",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Kairi%20Vishranti%20Homestay%2FKairi-Vishranti-Homestay-Bedroom.webp?alt=media&token=f2083a20-e7eb-4b55-a8d5-b3e8eead140a",
-
       },
     ],
     coordinates: {
@@ -779,7 +774,6 @@ export const plots: Plot[] = [
     description:
       "🌊 Rama Niwas Beach Home Stay – A Serene Seaside Escape in RatnagiriExperience true coastal bliss at Rama Niwas Beach Home Stay, a peaceful beachfront retreat located just 50 steps from the pristine and untouched Ganeshgule Beach. With private beach access, swaying Suru trees, open green spaces, and uninterrupted sea views, this homestay is perfect for families, couples, and travellers seeking calm, comfort, and an authentic Konkan experience.Guests can relax on the spacious terraces, lounge in the garden, or unwind in the cozy outdoor seating areas overlooking the Arabian Sea. The homestay offers comfortable family rooms equipped with air-conditioning, private bathrooms, free WiFi, and balconies or terraces that let you wake up to fresh ocean breeze every morning.children will love the outdoor play area, while adults can enjoy hammocks, long beach walks, or peaceful sunsets on the private shore. The property also includes a shared kitchen, lounge, laundry facilities, and a soothing public bath for complete relaxation.What makes Rama Niwas truly special is the warm hospitality — guests are welcomed with genuine care, delicious homely Malvani and Konkani food, and a peaceful rural ambience that feels like a home away from home. Whether you’re seeking a quiet family holiday, a romantic beach escape, or a restful break close to nature, Rama Niwas Beach Home Stay offers the perfect blend of tranquillity, comfort, and coastal charm.",
     features: [
-
       "Private Beach Access & Beachfront Seating",
       "Family Rooms with Air-Conditioning & Private Bathrooms",
       "Balconies/Terraces with Sea Views",
@@ -789,7 +783,7 @@ export const plots: Plot[] = [
       "Shared Kitchen & Laundry Service",
       "Pet-Friendly Homestay",
       "Fresh Homely Malvani & Konkani Cuisine",
-      "Free On-Site Private Parking"
+      "Free On-Site Private Parking",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Front-View.webp?alt=media&token=3f02cdc8-bb67-4fcf-b43d-628b4ca5b2e8",
@@ -805,7 +799,6 @@ export const plots: Plot[] = [
         url: "",
         thumbnail:
           "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Rama-Niwas-Beach-Homestay-Pawas%2FRama-Niwas-Beach-Homestay-Pawas-Front-View.webp?alt=media&token=3f02cdc8-bb67-4fcf-b43d-628b4ca5b2e8",
-
       },
     ],
     coordinates: {
@@ -831,7 +824,6 @@ export const plots: Plot[] = [
     description:
       "🌅 The Blissful Stay – Premium 3BHK Nature Villas in Ganpatipule.Escape to comfort, calm, and pure coastal charm at The Blissful Stay, where two beautifully designed 3BHK villas—Kshitij Villa and Koushik Villa—offer the perfect blend of luxury and nature. Located just 2.5 km from the iconic Ganpatipule Temple, these villas provide a peaceful retreat surrounded by rolling landscapes, fresh coastal breeze, and the soothing sounds of nature.Each villa is thoughtfully built with spacious air-conditioned rooms, attached bathrooms, and elegant interiors that ensure a homely yet premium stay. Whether you’re a family, a group of friends, or spiritual travellers exploring Ganpatipule, the villa offers comfort, privacy, and a refreshing ambience throughout your stay.Guests enjoy a warm bed & breakfast experience at an unbeatable price of Rs. 1500 per person, per day, with each villa accommodating up to 6 guests, and an option to host 4 additional guests at a minimal charge. Wake up to morning tea, delicious breakfast, golden sunlight filtering through the hills, and the quiet magic of Konkan’s slow, calming rhythm.Explore Ganpatipule's beaches, visit Jaigad Fort, savour local Konkani cuisine, or simply unwind in your serene villa as the horizon glows during sunset. Whether you choose the panoramic expanse of Kshitij Villa or the serene green escape of Koushik Villa, your stay promises relaxation, beauty, and memories that linger long after you leave.",
     features: [
-
       "Bed & Breakfast Package Included",
       "Modern Attached Bathrooms & Spacious Interiors",
       "Fresh Coastal Breeze & Nature-Surrounded Ambience",
@@ -839,7 +831,7 @@ export const plots: Plot[] = [
       "Panoramic Views at Kshitij Villa",
       "Calm, Green Surroundings at Koushik Villa",
       "Close to Aare-Ware Beach, Jaigad Fort & Scenic Spots",
-      "Perfect for Spiritual Trips, Nature Breaks & Group Vacations"
+      "Perfect for Spiritual Trips, Nature Breaks & Group Vacations",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Elysian-The-Blissfull-Stay%2FElysian-The-Blissful-Stay-Villa.webp?alt=media&token=ad13c842-ced4-4495-a00f-d903771f3642",
@@ -885,7 +877,7 @@ export const plots: Plot[] = [
       "AC 3-Bedroom Bungalow for Up to 12 Guests",
       "Pet-Friendly Property",
       "Ideal for Families, Friends & Group Stays",
-      "Perfect for Long Stays & Budget-Friendly Trips"
+      "Perfect for Long Stays & Budget-Friendly Trips",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Viki%20Holiday%20home%20ganpatipule%2FViki-Holiday-Home-Ganpatipule.webp?alt=media&token=78ec48f8-7596-4ad2-961c-111fee04daa6",
@@ -976,10 +968,9 @@ export const plots: Plot[] = [
       "Air-Conditioned Rooms & Daily Housekeeping",
       "Multi-Cuisine Restaurant with Locally Sourced Ingredients",
       "60-Car Parking & Pickup/Drop Facility",
-      "Children’s Play Area & Nearby Water Sports"
+      "Children’s Play Area & Nearby Water Sports",
     ],
     images: [
-
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR%20Atithi's%20The%20Grand%20Konkan%20Resort-FrontView.webp?alt=media&token=9aabf3f5-64b0-4c1f-8f79-41a7c1b8c159",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom3.webp?alt=media&token=6898d86a-c5b6-4914-9209-d1118e69806c",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Bedroom.webp?alt=media&token=19b4b6ef-0492-4357-a37e-8a5b2cbcde3d",
@@ -992,7 +983,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Washroom2.webp?alt=media&token=2a2e64bc-73a8-4264-9ab2-bcebf7f4e2f9",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-beach.webp?alt=media&token=26e9991c-3c95-4530-bec0-82e0e0e52054",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/KAULAR-Atithi's-The-Grand-Konkan-Resort%2FKAULAR-Atithi's-The-Grand-Konkan-Resort-Villa.webp?alt=media&token=2a4ad111-d5ef-452b-9362-aa6b645e72b1",
-
     ],
     media: [
       {
@@ -1029,7 +1019,7 @@ export const plots: Plot[] = [
       "Three Well-Furnished and Comfortable Bedrooms",
       "Calm, Peaceful Ambience With Personalized Hospitality",
       "Ideal Location for Nature, Culture & Local Experiences",
-      "Focused on Excellence, Sustainability & Community Values"
+      "Focused on Excellence, Sustainability & Community Values",
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-LivingRoom.webp?alt=media&token=877e9da0-c8c0-4ab9-a55e-8625429d612e",
@@ -1040,7 +1030,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-Bedroom.webp?alt=media&token=29706cdc-4824-48c9-ab28-695208656e87",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-Work-from-home.webp?alt=media&token=747785f7-f79c-45f9-b10a-6ffe5473ce68",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverbreeze%2FRiverbreeze-Homestay-Ratnagiri-View.webp?alt=media&token=258d9ce4-5e93-448d-975e-0f35164522b2",
-
     ],
     media: [
       {
@@ -1077,10 +1066,9 @@ export const plots: Plot[] = [
       "Fitness Centre, Badminton Court & Outdoor Play Area",
       "Shared Kitchen, Paid Laundry & Shuttle/Taxi Services",
       "Located Bhatye Beach ,Ratnadurga Fort & Bhagwati Mandir",
-      "Free WiFi, Power Backup, Parking & Doctor-On-Call Facility"
+      "Free WiFi, Power Backup, Parking & Doctor-On-Call Facility",
     ],
     images: [
-
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa.webp?alt=media&token=6bc22f13-be44-45ef-b491-0218891e94b8",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Hall.webp?alt=media&token=35d901b1-b7e0-4558-8686-dbdaa200e459",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Garden.webp?alt=media&token=1e5748b7-2835-448c-b035-05107e13c94f",
@@ -1090,7 +1078,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Bedroom2.webp?alt=media&token=87e3e80d-df6e-450a-aded-f3097aaf7d3d",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Modak.webp?alt=media&token=798024ef-ec05-45df-b78d-79ff3fbd13b0",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/The%20Mango%20Villa%2FThe-Mango-Villa-Washroom.webp?alt=media&token=e32026e2-00b4-4244-ba94-729b50504d8a",
-
     ],
     media: [
       {
@@ -1128,7 +1115,7 @@ export const plots: Plot[] = [
       "Free WiFi & Air-Conditioned Rooms",
       "Fully Equipped Kitchen & Refrigerator",
       "Private Parking on the Property",
-      "Warm Hosts, Homely Food & Peaceful Atmosphere"
+      "Warm Hosts, Homely Food & Peaceful Atmosphere",
     ],
 
     images: [
@@ -1140,7 +1127,6 @@ export const plots: Plot[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Bedroom2.webp?alt=media&token=fc3174af-4984-4108-b434-8fb5f8683ed7",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Bedroom3.webp?alt=media&token=b1f097d2-4c5a-4ec9-a639-908573bece82",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Krupasindhu-Homestay%2FKrupasindhu-Homestay-Outdoor.webp?alt=media&token=bd1fb460-1292-4bb8-bcb8-63aeb3ae5665",
-
     ],
     media: [
       {
@@ -1178,7 +1164,7 @@ export const plots: Plot[] = [
       "AC Bedrooms & Free High-Speed WiFi",
       "Fully Equipped Kitchen, Refrigerator & Washing Machine",
       "Private Parking & Easy Check-in/Check-out",
-      "Peaceful Location Near Mahalaxmi Temple, Khedashi"
+      "Peaceful Location Near Mahalaxmi Temple, Khedashi",
     ],
 
     images: [
@@ -1222,7 +1208,7 @@ export const plots: Plot[] = [
       "Lush Garden Area for Relaxation & Family Time",
       "Free WiFi, Room Service & Convenience Store",
       "Beach Access With Water Sports Nearby",
-      "Spacious, Clean Apartments With Modern Amenities"
+      "Spacious, Clean Apartments With Modern Amenities",
     ],
 
     images: [
@@ -1271,7 +1257,7 @@ export const plots: Plot[] = [
       "Terrace With Relaxing Garden Views",
       "Free WiFi, Flat-Screen TV & Shared Kitchen",
       "Bike & Car Hire Available On-Site",
-      "Free Private Parking for Guests"
+      "Free Private Parking for Guests",
     ],
 
     images: [
@@ -1318,7 +1304,7 @@ export const plots: Plot[] = [
       "Attached Bathrooms, TV & Hot Water",
       "Delicious Veg & Non-Veg Regional Meals",
       "Daily Housekeeping & Room Service",
-      "Located 3 km from Ganpatipule Beach"
+      "Located 3 km from Ganpatipule Beach",
     ],
 
     images: [
@@ -1362,7 +1348,7 @@ export const plots: Plot[] = [
       "Comfortable Rooms With Private Bathrooms",
       "Kitchen/Kitchenette & Outdoor Seating Area",
       "Surrounded by Coconut Trees and Greenery",
-      "Free Parking & Peaceful Coastal Ambience"
+      "Free Parking & Peaceful Coastal Ambience",
     ],
 
     images: [
@@ -1409,7 +1395,7 @@ export const plots: Plot[] = [
       "Wifi – 9 Mbps",
       "AC – split-type ductless system",
       "Shared beach access",
-      "Free driveway parking on premises – 3 spaces"
+      "Free driveway parking on premises – 3 spaces",
     ],
 
     images: [
@@ -1439,6 +1425,1299 @@ export const plots: Plot[] = [
       imageUrl: "",
       isPremier: true,
       listingDate: "2022-01-15",
+    },
+  },
+  {
+    id: 32,
+    title: "Savali Farmstay",
+    slug: "savali-farmstay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "6",
+    price: "₹5000",
+    phone: "9373172995",
+    description:
+      "🌿 Savali Farmstay – A Tranquil Mango Farm Retreat in Bhoke, Ratnagiri,Nestled in the peaceful village of Bhoke, Maharashtra, Savali Farmstay offers a refreshing escape into nature, surrounded by a lush Alphonso mango orchard with nearly 100 trees. This charming 1-bedroom farmstay features a comfortable living room, a functional kitchen, and a spacious terrace balcony where guests can relax, soak in fresh air, and enjoy serene views of greenery all around. Designed to feel like a home away from home, it comfortably accommodates 5 to 6 guests, making it ideal for families and small groups.What truly sets Savali Farmstay apart is its natural setting — a well within the property and a river flowing at the far end, creating a soothing, countryside ambience perfect for unwinding. Whether you’re visiting during mango season to experience farm life, enjoying quiet evenings under the stars, or seeking a peaceful Konkan getaway away from crowds, Savali Farmstay offers simplicity, comfort, and an authentic rural experience in the heart of Ratnagiri.",
+    features: [
+      "Cozy 1-Bedroom Farmstay with Living Room",
+      "Surrounded by 100+ Alphonso Mango Trees",
+      "Private Terrace Balcony with Farm Views",
+      "Private Terrace Balcony with Farm Views",
+      "Ideal for Families & Small Groups",
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Bedroom2.webp?alt=media&token=636cc9ba-06a0-4343-be84-80f954890d38",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Bedroom.webp?alt=media&token=a2167c4c-ced4-4883-b485-d54fdd3d3751",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-LivingRoom2.webp?alt=media&token=c1635181-b95b-4ab4-a494-aa31779f1d5d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-LivingRoom.webp?alt=media&token=7e28b245-2ae4-404d-a72c-48fb719ea70c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Balcony.webp?alt=media&token=e112ea26-80e6-40f7-b144-76edc0604794",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Bathroom.webp?alt=media&token=c9aca849-6d03-4111-978b-63962bee6d9f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Washroom.webp?alt=media&token=bf59c58d-23e4-414f-9a93-3b05a68c5154",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-River.webp?alt=media&token=1065866c-3e6c-41d3-8a88-eeb31ac67c6c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Video.mp4?alt=media&token=faec1ee2-ee74-4fa7-a0e7-aa01dcb49d05",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Savali%20Farmstay%2FSavali-Farmstay-Bedroom.webp?alt=media&token=a2167c4c-ced4-4883-b485-d54fdd3d3751",
+      },
+    ],
+    coordinates: {
+      latitude: "17.056163129388832° N",
+      longitude: "73.39763673736056° E",
+    },
+    host: {
+      name: "Aditya Bedekar",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2023-01-15",
+    },
+  },
+  {
+    id: 33,
+    title: "IRA Cozy 1BHK Near City Fully Equipped Kitchen",
+    slug: "ira-cozy-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹2700",
+    phone: "9082046979",
+    description:
+      "Welcome to Eera, a cozy and comfortable 1BHK apartment designed for a relaxing city stay. The flat features a bedroom, living area with TV, high-speed Wi-Fi, and a fully equipped kitchen for home-style cooking. Enjoy the convenience of Swiggy and Zomato delivery, dedicated car parking, and easy access to the main city. Ideal for Family with kids, solo travelers, or business guests seeking comfort, privacy, and convenience.",
+    features: [
+      "Cozy 1-Bedroom Flat",
+      "Fully equipped kitchen",
+      "Near City",
+      "Wifi",
+      "Free Parking",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Main-Photo.webp?alt=media&token=dd60b272-9e2d-4a31-9261-9440013ae2b7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Bedroom.webp?alt=media&token=5b7e001d-8922-47d5-83fa-91b13f51e03d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Aesthetics.webp?alt=media&token=b24a7434-a148-4d8e-a7d7-ce7828f5ec42",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-LivingRoom.webp?alt=media&token=9c2e62d1-073d-453e-b65a-c45f0a11398e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Aqua-Guard.webp?alt=media&token=e4e9d1c0-1e7b-48b9-a296-7557077cf16b",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Main-Photo.webp?alt=media&token=dd60b272-9e2d-4a31-9261-9440013ae2b7",
+      },
+    ],
+    coordinates: {
+      latitude: "16.992323631862515° N",
+      longitude: "73.3127511627366° E",
+    },
+    host: {
+      name: "Tanmay Joshi",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-02",
+    },
+  },
+    {
+    id: 34,
+    title: "Sunrise Apartment – Spacious 2BHK Near Railway Station",
+    slug: "sunrise-apartment",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹4000",
+    phone: "9145174975",
+    description:
+      "Sunrise Apartment – Spacious 2BHK A thoughtfully designed 2BHK City facing apartment near Railway station that blends comfort, space, and convenience perfect for families, groups, professionals, and long-stay travelers. Located close to the railway station, the apartment offers excellent connectivity while still providing a calm, relaxing environment with refreshing coastal views.The apartment features three generously sized, well-ventilated bedrooms, each designed to ensure a restful stay.",
+    features: [
+      "Cozy and well-lit 2BHK apartment",
+      "Large, fully functional kitchen with ample space",
+      "Near Railway Station",
+      "Wifi",
+      "High-speed Wi-Fi for work or leisure",
+      "Free parking available inside the premises",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bed.webp?alt=media&token=07e47bd6-ef02-4dec-8399-745302ca0d46",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bedroom1.webp?alt=media&token=dbf016ef-a6c5-4560-91b6-2fb62dfac450",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bedroom2.webp?alt=media&token=93e3aa2d-73c4-4d41-a700-7437ea1faed5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bedroom3.webp?alt=media&token=24cd8d97-46bd-401d-acfe-3b6a39eafd76",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-dining-table.webp?alt=media&token=f7fdb5e2-ba58-40ca-9d75-e36371ed1336",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-geyser.webp?alt=media&token=df7b2623-55bf-4916-bd54-f71c0f5d047f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-hall.webp?alt=media&token=e6d95a4b-f091-439a-9577-510da1769dc4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-wall-hanging.webp?alt=media&token=be7945e8-3481-45ec-906c-ad2b7957a671",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-washroom.webp?alt=media&token=1dac1a7e-231b-4131-a0e2-ba1fc73afb1f",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Sunrise-Apartment%2Fsunrise-apartment-bedroom.webp?alt=media&token=bd820bcb-239b-41b3-952e-117b62cb99fc",
+      },
+    ],
+    coordinates: {
+      latitude: "17.004710638032126° N",
+      longitude: "73.36970567301312° E",
+    },
+    host: {
+      name: "Tanmay Joshi",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-02",
+    },
+  },
+  {
+    id: 35,
+    title: "Verandah Solitude By The Sea (Homestay)",
+    slug: "verandah-solitude-by-the-sea-homestay",
+    area: "Velneshwar",
+    location: "Guhagar",
+    guests: "11",
+    price: "₹3200",
+    phone: "9881075150",
+    description:
+      "Verandah Solitude By The Sea is a charming coastal homestay nestled in the serene village of Velaneshwar, Guhagar, Maharashtra, just a short distance from the Arabian Sea. This peaceful retreat is perfect for couples, families, and travelers seeking a tranquil getaway amidst nature and sea breezes.Located in a scenic seaside area, this well-appointed villa-style homestay offers comfortable AC rooms with Wi-Fi, private verandahs overlooking lush garden views, and easy access to local beaches and attractions. Guests can choose from Deluxe Double, Twin, and Triple rooms, all featuring attached bathrooms, daily housekeeping, and optional meal services on request. The property emphasizes a relaxed, homely ambiance with thoughtful amenities such as a kitchenette, parking, power backup, and balcony sit-outs, making it an ideal base for exploring the unhindered beauty of Konkan’s beaches, temples, and coastal scenery. Whether you’re planning a family vacation, romantic escape, or a nature-centric holiday, Verandah Solitude By The Sea combines comfort, convenience, and peace — ensuring every stay is memorable.",
+    features: [
+      "5 rooms: 4 double occupancy rooms and 1 triple occupancy room",
+      "Indoor games available",
+      "Garden",
+      "Free Wifi",
+      "Free Parking",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-balcony.webp?alt=media&token=9e75b1f2-e46b-48ee-8e5a-3aa92bf7e1c3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-bedroom1.webp?alt=media&token=0c8ea10e-569e-4dfe-8eee-317aff6a36ec",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-bedroom2.webp?alt=media&token=31acf8ff-839e-442a-916e-862b6bbf0185",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-dining-room.webp?alt=media&token=ceab1a14-90d3-4d2b-b9e6-9fbda0124fa4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-house-night-time.webp?alt=media&token=ab35bbdd-1a15-4cca-97ca-fbea304bfccc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-outside-decoration.webp?alt=media&token=052ddfd6-95e4-4a22-8650-add396f37335",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-outside.webp?alt=media&token=ca20fca7-1122-465d-94c4-8dbedb82c3fd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-seaview.webp?alt=media&token=7c2371e3-c6e7-48a2-9bd1-159f1f552be5",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/verandah-solitude-by-the-sea%2Fvarandah-homestay-house.webp?alt=media&token=b551ca18-05f2-41b0-b902-db67c3b69f60",
+      },
+    ],
+    coordinates: {
+      latitude: "17.38450816905302° N",
+      longitude: "73.20807202883552° E",
+    },
+    host: {
+      name: "Verandah Solitude By The Sea (Homestay)",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-05",
+    },
+  },
+  {
+    id: 36,
+    title: "Bayoakkas Cottage",
+    slug: "bayoakkas-cottage",
+    area: "Guhagar",
+    location: "Guhagar",
+    guests: "4",
+    price: "₹2700",
+    phone: "9322186948",
+    description:
+      "Bayoakkas Cottage is a delightful budget-friendly cottage stay in Guhagar, located near Varati Mandir in the peaceful Khalchapat area. This charming property is ideal for travellers and families looking for a relaxing retreat while exploring the beautiful Konkan coast and Guhagar Beach. 🛏️ The cottage offers comfortable Deluxe rooms with air conditioning, attached bathrooms, and serene garden views — perfect for unwinding after a day of sightseeing. Guests can enjoy thoughtful amenities like free parking, housekeeping, dining area, and helpful on-site staff to ensure a pleasant stay. 🍽️ Local veg & non-veg meals are available, and the flexible policies and friendly management make Bayoakkas Cottage one of the recommended stays in Guhagar for both short stays and extended holidays.",
+    features: [
+      "Doctor on Call",
+      "Power Backup",
+      "Housekeeping",
+      "Kids' Play Area",
+      "Free Wifi",
+      "Onsite Free Parking is available",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-bedroom.webp?alt=media&token=c54ee4b4-76d5-4364-82cc-b8c7c4122ab2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-front-view.webp?alt=media&token=a495edd0-a28f-4285-9aa2-c43714dc4b27",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-outside-dining.webp?alt=media&token=6f21ebd4-61d8-480d-9073-36966430f5b5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-outside-house.webp?alt=media&token=7580b40c-9cd5-40ff-9cc5-f8dc7bcdfcbd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-sea-view.webp?alt=media&token=e4a66f05-c0d1-4e96-9784-1a90a05a088b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-sunset-view.webp?alt=media&token=d8f4267e-73fa-458c-9592-aa84b6fd0e31",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-washroom.webp?alt=media&token=068eb771-3473-4a7b-9318-e4422b0cec2c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bayoakkas-Cottage%2FBayoakkas-Cottage-house.webp?alt=media&token=351ca71a-ca64-48e3-aeca-4996d369b134",
+      },
+    ],
+    coordinates: {
+      latitude: "17.47251864017266° N",
+      longitude: "73.19263472386994° E",
+    },
+    host: {
+      name: "Bayoakkas Cottage",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-08",
+    },
+  },
+  {
+    id: 37,
+    title: "Gopikanta Home Stays",
+    slug: "gopikanta-home-stays",
+    area: "Guhagar",
+    location: "Guhagar",
+    guests: "4",
+    price: "₹2000",
+    phone: "9421137132",
+    description:
+      "Gopikanta Home Stays is a highly rated homestay in Guhagar located near Bank of India, Khalchapat, offering a warm and welcoming stay for families, couples, and beach lovers. Nestled in a peaceful village setting, this comfortable accommodation provides easy access to local attractions and the beautiful beaches of Guhagar. 🏡 Enjoy neat, clean, and budget-friendly rooms with thoughtful amenities, friendly hosts, and a tranquil ambiance that makes you feel right at home. Guests appreciate the cozy rooms, greenery, and attentive service that enhances your seaside getaway. 🍽️ Relish tasty homemade meals and local flavors, while soaking in the coastal atmosphere just moments from your stay. Whether you’re here to relax or explore, Gopikanta Home Stays is one of the best places to stay in Guhagar for an authentic Konkan experience.",
+    features: [
+      "Delicious Food",
+      "Sea View",
+      "Hot and COld Water",
+      "Garden Area",
+      "Air Conditioning",
+      "Free Parking available",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-house.webp?alt=media&token=4e8a6c12-1aeb-4940-925c-19eb0fb514c9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-bedroom2.webp?alt=media&token=aaae37da-00af-4b1b-acfc-f52e2b9bbecd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-bedroom1.webp?alt=media&token=4ec7949b-2362-45c5-bbbb-40ce57e4a1bc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-outside-nature.webp?alt=media&token=23f5647c-3cc9-46bc-937c-014ff56bad99",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-parking.webp?alt=media&token=891647a5-8b20-4cbf-ba80-62dfda07df5d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-sea-view.webp?alt=media&token=8242362c-9346-4eb6-88d5-4dc680009f87",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-surroundings.webp?alt=media&token=254e4634-39eb-42b1-a0e0-74d5acd0807b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-table.webp?alt=media&token=9eff7f56-5573-45f9-8508-8a69d831f7bf",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-washroom.webp?alt=media&token=89d59512-3e27-44e1-8e94-11c99abf824d",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Gopikanta-Home-Stays%2FGopikanta-Home-Stays-house.webp?alt=media&token=4e8a6c12-1aeb-4940-925c-19eb0fb514c9",
+      },
+    ],
+    coordinates: {
+      latitude: "17.48051238321162° N",
+      longitude: "73.19120894109281° E",
+    },
+    host: {
+      name: "Pankaj Gopinath Chavan",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-08",
+    },
+  },
+  {
+    id: 38,
+    title: "Malvankar Homestay",
+    slug: "malvankar-homestay",
+    area: "Malvan",
+    location: "malvan",
+    guests: "4",
+    price: "₹3750",
+    phone: "8879581406",
+    description:
+      "Malvankar Home Stay – A Cozy Homestay Near Chivla Beach, Malvan. Experience warm hospitality and authentic Malvani culture at Malvankar Home Stay, a peaceful and family-friendly homestay located just 600 meters from Chivla Beach, Malvan. Ideal for couples, families, and solo travelers, our homestay offers a perfect blend of comfort, convenience, and traditional coastal charm. Hosted by Shailaja, a welcoming host since 2023, Malvankar Home Stay is known for its homely Malvani food, personalized service, and relaxing atmosphere. Guests can enjoy fresh local breakfast options every morning, prepared with care and local flavors. The property features a beautiful garden, barbecue facilities, outdoor fireplace, and a children’s playground, making it a great choice for families. An on-site restaurant, free private parking, free Wi-Fi, and full-day security ensure a safe and comfortable stay.",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Free Breakfast",
+      "Swimming Pool",
+      "Air Conditioning",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-BalconyView.webp?alt=media&token=e2e0402f-8d23-4ab5-9d3a-5f66bc4e34a5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-Bedroom-p2.webp?alt=media&token=31edd0a5-e2fe-4f87-a988-b75b0bbe1bea",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-Bedroom.webp?alt=media&token=3d142bae-95d4-4f1c-a11c-4bc2283c7802",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-DayView.webp?alt=media&token=6116718b-1ef5-47a7-9cb3-aa5959315628",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-Garden.webp?alt=media&token=2a72231f-4001-4ff8-a1e2-004f669d8cd1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-NightView.webp?alt=media&token=92539682-1267-482c-b895-3361de3cc38e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-ParkingArea.webp?alt=media&token=aa3c807e-eb60-4c3e-951b-80d82592231f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-Poster.webp?alt=media&token=7fd6ae4c-b5f1-40bd-a05a-d81b788e1dd0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-UpperArea.webp?alt=media&token=d88aa800-b32e-470a-b69e-04fc5eeb35e8",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Malvankars-Homestay%2FMalvankar-Homestay-DayView.webp?alt=media&token=6116718b-1ef5-47a7-9cb3-aa5959315628",
+      },
+    ],
+    coordinates: {
+      latitude: "16.070580059031727° N",
+      longitude: "73.46854638753875° E",
+    },
+    host: {
+      name: "Shalaka",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-14",
+    },
+  },
+  {
+    id: 39,
+    title: "Durvankur Homestay",
+    slug: "durvankur-homestay",
+    area: "Guhagar",
+    location: "Guhagar",
+    guests: "5",
+    price: "₹2000",
+    phone: "9403249261",
+    description:
+      "Durvankur Homestay is a welcoming homestay in Guhagar, Maharashtra, offering a relaxed and cozy getaway just a short walk from the scenic Guhagar beach. Surrounded by gentle coastal breezes, lush greenery and traditional Konkani vibes, this charming stay is perfect for families, couples, and beach lovers seeking comfort and tranquillity.🏡 Comfortable & Cozy Rooms Enjoy clean, comfortable rooms with essential amenities, warm hospitality, and a serene environment that makes you feel right at home. The homestay’s coastal location lets guests soak in the peace of the Konkan shoreline and explore the nearby sandy beaches and local attractions with ease.🌅 Ideal for Relaxing Getaways Whether you’re planning a weekend trip, a romantic escape, or a family vacation near the Guhagar beach coast, Durvankur Homestay promises a memorable stay with friendly hosts and a laid-back atmosphere perfect for unwinding after a day of adventure.",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Garden View",
+      "2 Minutes from Vyadeshvar Temple",
+      "Air Conditioning",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Collidor.webp?alt=media&token=683c7984-eaea-4ff5-a803-eda79ebbb437",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Beach.webp?alt=media&token=ffbfba45-246e-4dd2-b5ca-23ce5ec00c58",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Bedroom.webp?alt=media&token=b4b2bf33-4a96-4ff0-b66f-5ec47cd0757d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Front-View.webp?alt=media&token=d1c47cdb-9ace-4f2a-bfe1-b61ad0160474",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Garden-view.webp?alt=media&token=872ebd22-a886-457e-bbb5-f92a1a4bc1ed",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Washroom.webp?alt=media&token=c5ec337e-e53c-45ac-a529-3ca8f341ef25",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Working-table.webp?alt=media&token=00c64931-7bfd-4ecb-a144-fee8df695b74",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Visiting-Card.webp?alt=media&token=1ac13e9f-dd40-4915-9716-3fe613dacac9",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Durvankur%20Homestay%2FDurvankur-Homestay-Front-View.webp?alt=media&token=d1c47cdb-9ace-4f2a-bfe1-b61ad0160474",
+      },
+    ],
+    coordinates: {
+      latitude: "17.482463290088113° N",
+      longitude: "73.19058903937433° E",
+    },
+    host: {
+      name: "Dhanraj Oak",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-18",
+    },
+  },
+  {
+    id: 40,
+    title: "Chaitanya Niwas",
+    slug: "chaitanya-niwas",
+    area: "Guhagar",
+    location: "Guhagar",
+    guests: "4",
+    price: "₹1300",
+    phone: "9421137954",
+    description:
+      "Chaitanya Niwas (MTDC Approved Holiday Home) is a highly recommended homestay in Guhagar offering a peaceful and scenic getaway just minutes from the beautiful Guhagar beach and local attractions. With a strong reputation among travellers for its warm hospitality, this cozy holiday home is perfect for families, couples, and nature lovers seeking a relaxing stay by the Konkan coast. 🏡 Homely Comfort & Rooms : Choose from well-maintained AC and non-AC rooms with essential amenities like free Wi-Fi, daily housekeeping, seating areas, and mineral water. The property is surrounded by lush greenery and offers shared spaces including a terrace with sun deck and bonfire area — ideal for evening relaxation. 🍽️ Convenient Facilities : Guests can enjoy on-site parking, friendly staff assistance, and optional meals available at extra charges, making it one of the best budget-friendly places to stay in Guhagar for both short and extended vacations.",
+    features: [
+      "Free Wifi",
+      "Free Parking & Peaceful Surroundings",
+      "Close to Guhagar Beach",
+      "MTDC Approved & Trusted Stay",
+      "Comfortable AC & Non-AC Rooms",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Balcony-view.webp?alt=media&token=086fc658-5a2f-4c47-93c8-0bf86726b3c8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Bedroom.webp?alt=media&token=fbcfa970-7a47-4618-8d8e-f4fb25136e25",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Bedroom1.webp?alt=media&token=b81923de-b50d-4df4-9b55-85e4b952e112",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Bedroom2.webp?alt=media&token=267df83b-3b91-4bec-ad0c-2796ccaa5cf8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Front-View.webp?alt=media&token=cb09ab5d-383f-4695-b04a-0ee582086ad5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Visitors.webp?alt=media&token=5fb26bdf-a558-47ad-9567-35ffd93e14b3",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chaitanya%20Niwas%2FChaitanya-Niwas-Front-View.webp?alt=media&token=cb09ab5d-383f-4695-b04a-0ee582086ad5",
+      },
+    ],
+    coordinates: {
+      latitude: "17.48662503413811° N",
+      longitude: "73.19912172546219° E",
+    },
+    host: {
+      name: "Vidya",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-18",
+    },
+  },
+  {
+    id: 41,
+    title: "Dr. Birmole Farms Mountain Explorers",
+    slug: "dr-birmole-farms-mountain-explorers",
+    area: "Ghumade",
+    location: "Malvan",
+    guests: "4",
+    price: "₹3750",
+    phone: "9594249710",
+    description:
+      "Birmole Farms Mountain Explosers is a peaceful farmstay near Malvan, set in a quiet valley surrounded by hills, mango orchards, coconut, and supari trees. It offers a refreshing escape for guests who want to relax close to nature. Guests can enjoy warm hospitality, delicious home-cooked Malvani and Konkani food, and a calm village atmosphere. The location is ideal for exploring nearby beaches, water sports spots, scenic walks, and trekking routes. Perfect for couples, families, and solo travelers, this farmstay blends village life, natural beauty, and coastal charm for a relaxing and memorable stay..",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Free Breakfast",
+      "Good Farm",
+      "Air Conditioning",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-BedRoom-P2.webp?alt=media&token=bf03a116-3155-4190-b345-b821171fa465",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-BedRoom.webp?alt=media&token=60769091-b4c9-4c75-a0ac-75f84b92e79b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-LivingRoom.webp?alt=media&token=ace17549-f62c-4a9a-afef-4eee94595135",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-NatureView-P2.webp?alt=media&token=382e90d0-054b-4e0d-82c2-78800867e49e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-NatureView.webp?alt=media&token=43342ba3-b612-4e41-85de-752206a7ab0f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-Night-View.webp?alt=media&token=eececa5d-90d4-4f52-a44e-87883860372c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-OuterView.webp?alt=media&token=09e6e6ed-052b-4324-a739-27b62589c310",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-Washroom.webp?alt=media&token=d0d34e82-c9a6-4c66-833e-cd982f90b0c3",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Dr.%20Birmole-Farm-Mountain-Explorers%2FDr.%20Birmole-Farms-Mountain%20-Explorers-OuterView.webp?alt=media&token=09e6e6ed-052b-4324-a739-27b62589c310",
+      },
+    ],
+    coordinates: {
+      latitude: "16.07191652402576° N",
+      longitude: "73.49634492406211° E",
+    },
+    host: {
+      name: "Dr. Birmole",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-18",
+    },
+  },
+  {
+    id: 42,
+    title: "Neelkranti Backwater Guest House",
+    slug: "neelkranti-backwater-guest-house",
+    area: "Kolamb",
+    location: "Malvan",
+    guests: "4",
+    price: "₹2000",
+    phone: "9404900303",
+    description:
+      "Neelkranti Backwater Guest House is a great choice for travellers looking for a star hotel in Malvan. This Hotel stands out as one of the highly recommended hotel in Malvan. Hotel is rated 3.5 out of 5, which is considered as very good. From all the Budget hotels in Malvan, this property is very much popular among the tourists. A smooth check-in/check-out process, flexible policies and friendly management garner great customer satisfaction for this property. The Hotel has standard Check-In time as 02:00 PM and Check-Out time as 12:00 PM. Amenities consist of a garden and BBQ facilities, plus a library, a gym and event space. Parking is available. You can find numerous hotels in Malvan under different categories and this property is one the best hotel under its category.",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Fitness Center",
+      "Free Breakfast",
+      "Outside Pool",
+      "Laundry Service",
+      "Beach Access",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-BedRoom.webp?alt=media&token=d02441c2-ab0c-40ec-8df5-88c887793a77",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-NightView.webp?alt=media&token=6565100e-474a-4e87-b9fe-67aada1e0a36",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-OuterView.webp?alt=media&token=ecde99fb-ad7a-4cc3-991f-88558ea18c1a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-PoolArea.webp?alt=media&token=506902c0-156c-439f-8f5b-73881825261c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-Poolside-View.webp?alt=media&token=8cd4c01d-0d23-41f1-8a41-70a3bcfb7b6a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-RiverView.webp?alt=media&token=8f22cd8f-ddf1-4835-9353-b1d6fec8e35a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-Riverside-Walkway.webp?alt=media&token=fc892b81-07a9-44c1-a974-f9a579d14051",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-SunsetView.webp?alt=media&token=b97457b5-1cec-4f17-8905-29e8f52bd9ba",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Neelkranti-Backwater-Guest-House%2FNeelkranti-Backwater-Guest-House-OuterView.webp?alt=media&token=ecde99fb-ad7a-4cc3-991f-88558ea18c1a",
+      },
+    ],
+    coordinates: {
+      latitude: "16.07544980268867° N",
+      longitude: "73.46910854645736° E",
+    },
+    host: {
+      name: "Neelkranti Backwater Guest House",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-18",
+    },
+  },
+  {
+    id: 43,
+    title: "Mody Villa",
+    slug: "mody-villa",
+    area: "Guhagar",
+    location: "Guhagar",
+    guests: "4 - 5",
+    price: "₹2000",
+    phone: "9892091313",
+    description:
+      "Mody Villa – Beach Resort & Villa Stay in Guhagar is a tranquil and scenic beachside accommodation in Guhagar, Maharashtra, perfect for travellers and families looking to experience the serene Konkan coast. Located just steps from Guhagar’s pristine shoreline, this peaceful villa-style resort offers easy access to the quiet beach and local attractions, making it an ideal base for a relaxing seaside holiday. 🏡 Comfortable Rooms & Homely Ambience: Enjoy spacious, well-lit rooms and bungalows with essential amenities and a rustic vibe, surrounded by lush coconut and betel-nut groves — bringing you close to nature on your coastal getaway. 🍽️ Delicious Meals & Local Flavours: The villa provides a variety of tasty veg and non-veg meals prepared with fresh local ingredients, enhancing your stay with authentic Konkan cuisine.🌿 Perfect for Nature Lovers & Beach Getaways: With a broad veranda, sea-facing garden space, outdoor games, and guided tours to nearby attractions like local villages and natural parks, it’s a complete holiday experience for every visitor.",
+    features: [
+      "Laundry Service",
+      "Free Parking",
+      "Room Service",
+      "On-site cooking facilities",
+      "Wake-up call",
+      "Luggage storage",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Bedroom.webp?alt=media&token=4c23e02d-5a0f-4361-b620-0cdd0942fda7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Back-View-Beach.webp?alt=media&token=7b0b4a6f-f000-44d3-8f7d-328d0cdb720f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Balcony.webp?alt=media&token=38a22868-9eb0-4bdb-9a53-3cdb26d4d997",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Beach.webp?alt=media&token=062c9e26-379e-41a8-88ed-03e9096c9151",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Bedroom2.webp?alt=media&token=55848bd3-b4dc-42a6-8b0d-8e83021a0d13",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Colidoor.webp?alt=media&token=dbbf13e3-1651-4a2a-8f5e-b9ba2881eeb4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Front-View.webp?alt=media&token=5e6508a4-5eb8-4c11-86d9-a97ea07db003",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Front-View2.webp?alt=media&token=e4aae829-fbf6-42f3-aa5a-4d37bcf05563",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Garden-View%20(1).webp?alt=media&token=dce87417-12ec-4ae2-886c-6f640c191655",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Parking.webp?alt=media&token=40a747b6-fd15-42e7-9c29-fb2b4b311266",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Mody%20Villa%2FMody-Villa-Front-View2.webp?alt=media&token=e4aae829-fbf6-42f3-aa5a-4d37bcf05563",
+      },
+    ],
+    coordinates: {
+      latitude: "17.49956825184696° N",
+      longitude: "73.18428149780402° E",
+    },
+    host: {
+      name: "Mody Villa",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-20",
+    },
+  },
+  {
+    id: 44,
+    title: "Chivla sea face",
+    slug: "chivla-sea-face",
+    area: "Chivla",
+    location: "Malvan",
+    guests: "4",
+    price: "₹3750",
+    phone: "8087428260",
+    description:
+      "beach, Chivla, Malvan, Maharashtra 416606 - Comfortable Accommodation: Chivla sea face in Malvan offers a homestay with sea views, air-conditioning, and private bathrooms. The property is pet-friendly, welcoming guests with their furry companions. Convenient Facilities: Guests enjoy free on-site private parking, ensuring easy access to the property. The reception staff communicate in Hindi, assisting with any needs. Prime Location: Located a few steps from Chiwla Beach, the homestay is 17 km from Sindhudurg Airport. Nearby attractions include Malvan Fort and Tarkarli Beach, providing ample opportunities for exploration.",
+    features: [
+      "Free Wifi",
+      "Free Parking",
+      "Swimming Pool",
+      "Laundry Service",
+      "Beach Access",
+      "Room Service",
+      "kitchens in some rooms",
+      "Fitness Center",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-BedRoom.webp?alt=media&token=612a0684-da1a-4f1d-94ba-f3e46aa9ec3e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-BedRoom-p2.webp?alt=media&token=fae13556-8de3-44fa-80cf-e4d6f7425bd1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-BedRoom-p3.webp?alt=media&token=fe19beb8-f06e-4047-b8f9-5e419b5f58d1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-EveningView.webp?alt=media&token=29730fe7-20fe-4156-913a-44a6700e9582",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-RoadView.webp?alt=media&token=68a44b43-5225-47b7-9c45-8e8682d2ecc0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-SeaView.webp?alt=media&token=ad4a1999-aaeb-40d5-83b9-10667f2525b0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-WashRoom.webp?alt=media&token=e0e45ddf-b487-49a4-b9ef-45a974fdc2ec",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chivla-sea-face%2FChivla-sea-face-SeaView.webp?alt=media&token=ad4a1999-aaeb-40d5-83b9-10667f2525b0",
+      },
+    ],
+    coordinates: {
+      latitude: "16.065530279313336° N",
+      longitude: "73.46384594376646° E",
+    },
+    host: {
+      name: "Chivla sea face",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-20",
+    },
+  },
+  {
+    id: 45,
+    title: "Konkan Kinara Home Stay",
+    slug: "konkan-kinara-home-stay",
+    area: "Dhuriwada",
+    location: "Malvan",
+    guests: "4",
+    price: "₹1242",
+    phone: "9422821143",
+    description:
+      "Kokan Kinara Resort, Tarkarli – Affordable Beachside Stay with Modern Comforts - Nestled in the serene seaside town of Tarkarli, Kokan Kinara Resort offers an affordable and comfortable stay, perfect for families, couples, and leisure travelers seeking great value near the beach. Located just 300 meters from Wairy Ubhatwadi Beach, the resort combines modern décor with warm hospitality to ensure a relaxing coastal getaway. Guests can unwind in the lush lawn and seating areas, enjoy cozy evenings with a bonfire, or relax on the resort’s wide verandahs. Children have their own dedicated play area, while adventure lovers can indulge in water sports, snorkelling, boat rides, indoor and outdoor games, and even golf on-site. The resort features a multi-cuisine restaurant and dining area, serving delicious meals throughout the day. All rooms are thoughtfully designed and equipped with queen-size beds, TV, closets, geyser, ceiling fan, room service, toiletries, and housekeeping, ensuring a comfortable and hassle-free stay. Additional amenities include free parking, 24×7 CCTV surveillance, and attentive service for complete peace of mind. Kinara Resort also helps guests explore the region with tours and treks, making it easy to discover nearby attractions such as Sindhudurg Fort (6.2 km), Talashil Peninsula (8.5 km), and Kolamb Creek (7 km). Whether you’re planning a beach holiday, a family vacation, or an adventure-filled escape, Kinara Resort in Tarkarli is the perfect blend of comfort, convenience, and coastal charm.",
+    features: [
+      "Free Wifi",
+      "Breakfast",
+      "Free Parking",
+      "Swimming Pool",
+      "Air Conditioning",
+      "Laundry Service",
+      "Business Center",
+      "Pet Friendly",
+      "Beach Access",
+      "Room Service",
+      "Child Friendly",
+      "kitchens in some rooms",
+      "Fitness Center",
+      "Smoke Free",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Kinara-Home-Stay%2FKonkan-Kinara-Home-Stay-Entrance.webp?alt=media&token=2dedcdc5-27b9-423e-b439-e95721eb7408",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Kinara-Home-Stay%2FKonkan-Kinara-Home-Stay-BedRoom.webp?alt=media&token=21a10f94-e551-43bd-9c27-aa367a2be718",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Kinara-Home-Stay%2FKonkan-Kinara-Home-Stay-DiningArea.webp?alt=media&token=c7956bd8-ece7-457a-8f33-786c11593a5b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Kinara-Home-Stay%2FKonkan-Kinara-Home-Stay-GardenArea.webp?alt=media&token=11a10d1e-e6e4-4360-96d1-4daf3f4e93e1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Kinara-Home-Stay%2FKonkan-Kinara-Home-Stay-NightView-p2.webp?alt=media&token=ac0d06c3-0838-4340-a5c5-4c4d9f2772eb",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Kinara-Home-Stay%2FKonkan-Kinara-Home-Stay-NightView.webp?alt=media&token=4be0e221-050d-4cd8-96b2-138cf7a3ca40",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Kinara-Home-Stay%2FKonkan-Kinara-Home-Stay-SideView.webp?alt=media&token=e0254f21-62d7-486e-a929-48f56acd8819",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Kinara-Home-Stay%2FKonkan-Kinara-Home-Stay-WashRoom.webp?alt=media&token=348dcd7e-13bb-4456-a119-b6dc5de65de2",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Konkan-Kinara-Home-Stay%2FKonkan-Kinara-Home-Stay-GardenArea.webp?alt=media&token=11a10d1e-e6e4-4360-96d1-4daf3f4e93e1",
+      },
+    ],
+    coordinates: {
+      latitude: "16.06373308656191° N",
+      longitude: "73.46301909770891° E",
+    },
+    host: {
+      name: "Konkan Kinara Home Stay",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-20",
+    },
+  },
+  {
+    id: 46,
+    title: "Oro Vista",
+    slug: "oro-vista",
+    area: "Tarkarli",
+    location: "Malvan",
+    guests: "4",
+    price: "₹3500",
+    phone: "7722036762",
+    description:
+      "ORO VISTA – Serene 3-Star Stay Near Devbag Beach, Malvan - Conveniently located in the peaceful Devbag area of Malvan, ORO VISTA is a comfortable 3-star property near Devbag Beach, offering easy access to popular attractions, dining options, and nature experiences. Thoughtfully designed with modern in-house facilities, the property ensures a relaxing and enjoyable stay for leisure travelers, couples, and families. Set near the scenic meeting point of the Arabian Sea and Karli River, ORO VISTA places guests close to the pristine Devbag Beach, known for its golden sands, clear waters, and calm atmosphere. Guests can enjoy beach walks, swimming, water sports, and stunning coastal views, making it a perfect choice for those seeking both adventure and tranquility. The property is also ideally located for exploring Malvan’s cultural heritage, including the historic Sindhudurg Fort, built by Chhatrapati Shivaji Maharaj, and nearby fishing villages where travelers can experience authentic local life and fresh seafood. ORO VISTA is easily accessible from Goa International Airport (Dabolim), located approximately 100 km away, with convenient taxi and bus options available for a smooth journey. The scenic drive through lush greenery and coastal landscapes adds to the overall travel experience. Whether you’re planning a beach holiday in Malvan, a peaceful stay near Devbag Beach, or a comfortable 3-star hotel experience in Konkan, ORO VISTA offers the perfect blend of location, comfort, and coastal charm.",
+    features: [
+      "Free Wifi",
+      "Free Breakfast",
+      "Free Parking",
+      "Swimming Pool",
+      "Air Conditioning",
+      "Laundry Service",
+      "Pet Friendly",
+      "Beach Access",
+      "Room Service",
+      "Child Friendly",
+      "Restaurant",
+      "Airport Shuttle",
+      "Fitness Center",
+      "Smoke Free",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/ORO-VISTA%2FORO-VISTA-BedRoom-p2.webp?alt=media&token=17beee3f-11a3-4e52-8e29-644e875ac82c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/ORO-VISTA%2FORO-VISTA-BedRoom.webp?alt=media&token=d19c2b24-f030-4583-baaa-20817e45b5a9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/ORO-VISTA%2FORO-VISTA-Entrance.webp?alt=media&token=fa1983d3-a15e-4794-b990-e79e85b5d52b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/ORO-VISTA%2FORO-VISTA-Food.webp?alt=media&token=3b1a32c4-b48c-467b-b300-5359f3ba6ee1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/ORO-VISTA%2FORO-VISTA-Hall.webp?alt=media&token=9880b799-17e8-4e2f-b13d-7aab6447400e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/ORO-VISTA%2FORO-VISTA-NamePlate.webp?alt=media&token=a3cb90ed-6687-48d9-a9ad-4f45bfeec4f4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/ORO-VISTA%2FORO-VISTA-OuterView.webp?alt=media&token=1831c3c7-390a-4f71-b47f-db90c56e2748",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/ORO-VISTA%2FORO-VISTA-ParkingArea.webp?alt=media&token=dae34c8c-defb-4054-8d24-ed32c66bd411",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/ORO-VISTA%2FORO-VISTA-OuterView.webp?alt=media&token=1831c3c7-390a-4f71-b47f-db90c56e2748",
+      },
+    ],
+    coordinates: {
+      latitude: "15.977736772544013° N",
+      longitude: "73.49656408893661° E",
+    },
+    host: {
+      name: "Oro Vista",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-21",
+    },
+  },
+  {
+    id: 47,
+    title: "Chandrakant Beach Home Stay",
+    slug: "chandrakant-beach-home-stay",
+    area: "Tarkarli",
+    location: "Malvan",
+    guests: "4",
+    price: "₹3500",
+    phone: "7947414261",
+    description:
+      "Chandrakant Homestay – Comfortable Stay in Bharad Naka, Malvan : Located in the well-connected area of Bharad Naka, Malvan, Chandrakant Homestay is a trusted and popular choice for travelers seeking a comfortable and affordable homestay in Malvan. Known for its warm hospitality and reliable service, the property caters to both local guests and visitors from across the region. With a strong reputation built over the years, Chandrakant Homestay offers a peaceful environment ideal for family stays and group stays in Malvan. The homestay is easily accessible, with multiple transport options available nearby, making commuting simple for first-time visitors. Guests can expect courteous staff, prompt assistance, and a homely atmosphere that ensures a relaxed stay. The property focuses on guest satisfaction, cleanliness, and convenience, making it a dependable choice for travelers exploring Malvan and nearby attractions. Whether you are planning a leisure trip to Malvan, a group vacation, or a budget-friendly homestay near Bharad Naka, Chandrakant Homestay provides a comfortable base for a pleasant and hassle-free stay.",
+    features: [
+      "Free Wifi",
+      "Free Breakfast",
+      "Free Parking",
+      "Swimming Pool",
+      "Air Conditioning",
+      "Laundry Service",
+      "Pet Friendly",
+      "Beach Access",
+      "Room Service",
+      "Child Friendly",
+      "Restaurant",
+      "Airport Shuttle",
+      "Fitness Center",
+      "Smoke Free",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-BedRoom-p2.webp?alt=media&token=1179a107-3a63-47a2-b5fc-340a1fa49f2a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-BedDecor.webp?alt=media&token=31063545-22a0-43a5-b697-1e493413759c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-BedRoom.webp?alt=media&token=4f24599d-a141-46ff-a73f-b67b993d1351",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-Hall.webp?alt=media&token=79fe2739-beda-475b-847b-699aa57b5b2c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Chandrakant-Beach-Home-Stay%2FChandrakant-Beach-Home-Stay-BedRoom.webp?alt=media&token=4f24599d-a141-46ff-a73f-b67b993d1351",
+      },
+    ],
+    coordinates: {
+      latitude: "15.97486690675561° N",
+      longitude: "73.49827759212035° E",
+    },
+    host: {
+      name: "Chandrakant Beach Home Stay",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-26",
+    },
+  },
+  {
+    id: 48,
+    title: "LA CASA ROYALE",
+    slug: "la-casa-royale",
+    area: "Devbag",
+    location: "Malvan",
+    guests: "4",
+    price: "₹6614",
+    phone: "7776958476",
+    description:
+      "LA CASA ROYALE – Premium 3-Star Hotel Near Beach in Malvan : LA CASA ROYALE is a highly rated 3-star hotel in Malvan, popular among tourists for its comfort, hospitality, and excellent location near the beach. With an impressive 4.4/5 guest rating, the hotel is known for smooth check-in and check-out, flexible policies, and friendly management that ensures a satisfying stay experience. Located in Malvan, Sindhudurg, this well-maintained hotel offers lush garden views and a refreshing outdoor swimming pool, making it an ideal choice for families, couples, and leisure travelers. Guests can enjoy delicious meals at the in-house multi-cuisine restaurant, along with exciting outdoor and beach activities. The hotel features modern amenities including free Wi-Fi, air-conditioned rooms, room service, free parking, power backup, and an elevator. Well-appointed rooms come with a mini fridge, sofa seating, work desk, TV, private balcony/terrace, and premium toiletries for a comfortable stay. For adventure lovers, water sports, snorkeling, cycling, and beach activities are easily accessible. Additional conveniences such as laundry service, doctor on call, paid transfers, CCTV security, and fire safety systems ensure both comfort and safety. With a standard check-in time of 2:00 PM and check-out at 12:00 PM, LA CASA ROYALE stands out as one of the best 3-star hotels in Malvan, offering a perfect blend of relaxation, convenience, and coastal charm. Whether you’re planning a beach vacation in Malvan, a family holiday, or a comfortable Konkan getaway, LA CASA ROYALE promises a memorable and hassle-free stay.",
+    features: [
+      "Free Wifi",
+      "Free Breakfast",
+      "Free Parking",
+      "Outoor Pool",
+      "Air Conditioning",
+      "Laundry Service",
+      "Pet Friendly",
+      "Beach Access",
+      "Room Service",
+      "Child Friendly",
+      "Restaurant",
+      "Airport Shuttle",
+      "Fitness Center",
+      "Smoke Free",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-Entrance.webp?alt=media&token=1b98182e-3038-4dbd-937f-5c4849ade385",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-BalconyView.webp?alt=media&token=cf6bca92-1189-4ab4-a7df-7cd732cf561a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-BedRoom-p2.webp?alt=media&token=05ed7699-2fec-4158-9c66-f0ac0969d30f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-BedRoom.webp?alt=media&token=07b4178c-7ae2-4668-a59e-eadefeaa1bf8",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-DiningArea.webp?alt=media&token=a21d9695-bd51-4e9d-91ad-23210b4e64b1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-GardenArea.webp?alt=media&token=b19a15fc-4d5b-441c-afd3-44edf5c39ef1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-OuterView.webp?alt=media&token=ee2fbdaf-2115-49b8-b26a-bdf333369a4a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-ParkingArea.webp?alt=media&token=7b89c75d-e537-41b2-be73-810cb8825ea3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-SwimmingPool-p2.webp?alt=media&token=ef6edcea-7600-40ed-9dab-cdabec09e58f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-SwimmingPool.webp?alt=media&token=7d11a907-8591-4b2d-94aa-4df346a1cea2",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/LA-CASA-ROYALE%2FLA-CASA-ROYALE-OuterView.webp?alt=media&token=ee2fbdaf-2115-49b8-b26a-bdf333369a4a",
+      },
+    ],
+    coordinates: {
+      latitude: "15.974981490936322° N",
+      longitude: "73.4987318050533° E",
+    },
+    host: {
+      name: "LA CASA ROYALE",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-26",
+    },
+  },
+  {
+    id: 49,
+    title: "Shivalay- Nature’s Stay",
+    slug: "shivalay-natures-stay",
+    area: "Bhogwe",
+    location: "Vengurla",
+    guests: "4",
+    price: "₹3500",
+    phone: "",
+    description:
+      "Shivalay Nature’s Stay – Peaceful Homestay in Bhogwe, Maharashtra : Escape into nature at Shivalay Nature’s Stay, a serene homestay in Bhogwe offering beautiful garden views and a relaxing terrace surrounded by greenery. Perfect for travelers seeking a calm Konkan nature stay, this property features free Wi-Fi, garden space, free parking, and pet-friendly accommodation. Located just 48 km from Tiracol Fort and 60 km from Manohar Parrikar International Airport, it’s an ideal getaway for families, couples, and nature lovers. Check-in from 1:00 PM and check-out by 10:00 AM for a smooth and comfortable stay.",
+    features: [
+      "Free Wifi",
+      "Free Internet",
+      "Free Parking",
+      "Pet Friendly",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView-p2.webp?alt=media&token=1dca1957-cb0e-42f2-b20d-e72ddb3d9e26",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-Bedroom-p2.webp?alt=media&token=7ad51d50-7d02-4429-8a5c-ce9b01855f60",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-Bedroom-p3.webp?alt=media&token=06b8901a-28f8-4b43-ac03-8d63f6552266",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-Bedroom-p4.webp?alt=media&token=9d2c96c9-c4e2-4425-868d-cdf2afdbd0fc",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView-p3.webp?alt=media&token=add5e47e-0bd3-4216-9c07-f72bca2da91f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView-p4.webp?alt=media&token=c1763b56-cf41-4d97-8491-d7c9809fe1d3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView-p5.webp?alt=media&token=526b1582-0292-4523-835d-7556521ca5e9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-SittingArea.webp?alt=media&token=cca86aa0-d56e-48ad-86a5-0f6ed793d9f9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-SunsetView.webp?alt=media&token=6d06d8be-3d38-41c1-ab03-8bd238390a9f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-Terrace.webp?alt=media&token=b86afc65-fe7d-4831-8f29-2d87ab6a1d4c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shivalay-Nature's-Stay%2FShivalay-Nature%E2%80%99s-Stay-OuterView.webp?alt=media&token=e5d9bc08-3dda-452a-9b7d-e96ce994dcec",
+      },
+    ],
+    coordinates: {
+      latitude: "15.938281566614847° N",
+      longitude: "73.53999512912192° E",
+    },
+    host: {
+      name: "Shivalay- Nature’s Stay",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
+  {
+    id: 50,
+    title: "ANANT Residancy",
+    slug: "anant-residancy",
+    area: "Malvan",
+    location: "Malvan",
+    guests: "4",
+    price: "₹2442",
+    phone: "8856022000",
+    description:
+      "Set in Malvan, Maharashtra, ANANT Residency offers a comfortable and peaceful stay for travelers. Complimentary WiFi is available throughout the property. The residency is well-suited for families and small groups looking to relax while staying close to the beach and local attractions. This air-conditioned homestay includes a fully equipped kitchen, dining area, and a satellite flat-screen TV. Free private parking is available on-site. The reception provides 24/7 assistance to ensure a smooth and hassle-free stay. Guests can also relax in the garden area.",
+    features: [
+      "Air-conditioned rooms",
+      "Complimentary WiFi",
+      "Fully equipped kitchen",
+      "Dining area",
+      "Satellite flat-screen TV",
+      "Free private parking",
+      "24/7 reception support",
+      "Peaceful garden area",
+      "Bicycle and car rental available",
+      "Close to water sports area",
+      "Ideal for snorkeling",
+      "fishing, and hiking",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency.jpeg?alt=media&token=24a410a1-77eb-4114-9e14-93484316374d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Bedroom.jpeg?alt=media&token=0b171956-cea4-41e4-a6de-9ce9eada0d8b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Corridor.jpeg?alt=media&token=8e612b0e-2499-47f8-9794-d745f20691ac",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Entrance.jpeg?alt=media&token=06af76dc-5303-4379-9e57-5dcfc3fcd2c5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Morning-View.jpeg?alt=media&token=2500dcdc-ebe8-42fc-8597-3d3e9a6633db",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Outdoor-Candlelight-Dining.jpeg?alt=media&token=8161d9ba-bce3-45e2-9903-4b2e1673136e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Upper-View.jpeg?alt=media&token=4287ec61-1997-43ee-960c-e58de89d6986",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Anant-Residency%2FAnant-Residency-Entrance.jpeg?alt=media&token=06af76dc-5303-4379-9e57-5dcfc3fcd2c5",
+      },
+    ],
+    coordinates: {
+      latitude: "16.052742953384254° N",
+      longitude: "73.47147029221583° E",
+    },
+    host: {
+      name: "Tushar",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
+  {
+    id: 51,
+    title: "Riverdale Resort",
+    slug: "riverdale-resort",
+    area: "Achra",
+    location: "Malvan",
+    guests: "4",
+    price: "₹5775",
+    phone: "",
+    description:
+      "Riverdale Resort – Riverside Comfort in Masūra, Maharashtra : Located in the peaceful village of Masūra, Riverdale Resort offers a relaxing riverside stay in Maharashtra, perfect for families and nature lovers. Surrounded by greenery, the resort features a beautiful garden, a welcoming on-site restaurant, and free Wi-Fi in all rooms, ensuring a comfortable and connected stay. The resort provides spacious family rooms with air-conditioning, private bathrooms, free toiletries, and soothing river views, creating a calm and refreshing atmosphere. Guests can enjoy a delicious vegetarian and Asian breakfast, served fresh each morning in a serene garden setting. Additional conveniences such as free private parking, room service, and non-smoking rooms make Riverdale Resort an ideal choice for a peaceful Konkan getaway. The property is easily accessible, located just 26 km from Sindhudurg Airport, offering smooth travel connections. Whether you’re planning a family vacation in Konkan, a riverside resort stay in Masūra, or a quiet nature retreat in Maharashtra, Riverdale Resort promises comfort, scenic views, and a memorable stay.",
+    features: [
+      "Free WiFi",
+      "Room service",
+      "Free parking",
+      "Non-smoking rooms",
+      "Family rooms",
+      "Breakfast",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-ExteriorView-p2.webp?alt=media&token=b342adc2-927f-4997-bc5d-d1ab93fc5093",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-Bedroom-p2.webp?alt=media&token=6ed9a90e-0415-4bad-8a99-c28435215656",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-Bedroom.webp?alt=media&token=11d8b690-45dc-4c0f-9ee4-59c7a52ab874",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-ExteriorView-p3.webp?alt=media&token=56dd4657-a60a-4455-b142-de40741f90a0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-ExteriorView.webp?alt=media&token=2e1c59ce-29ec-42e3-b3dc-3fd6c97792c7",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Riverdale-Resort%2FRiverdale-Resort-ExteriorView.webp?alt=media&token=2e1c59ce-29ec-42e3-b3dc-3fd6c97792c7",
+      },
+    ],
+    coordinates: {
+      latitude: "16.146117060505627° N",
+      longitude: "73.46657032617519° E",
+    },
+    host: {
+      name: "Riverdale Resort",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
+  {
+    id: 52,
+    title: "Amantran Holiday Homes",
+    slug: "amantran-holiday-homes",
+    area: "Phansop",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹2248",
+    phone: "",
+    description:
+      "Greetings Experience a serene escape at this comfy homestay nestled in the heart of Ratnagiri. It's central location offers convenient access to city's local attractions. Enjoy a peaceful retreat amidst the vibrant culture during your stay. The property offers ample parking space ensuring convenience for all guests with 24/7 gated security. Furthermore, you can enjoy the stunning sea view from the building entrance. A warm welcome awaits you at this inviting homestay. Enjoy your stay! Comfortable Accommodation: Amantara Homestay in Ratnagiri offers a one-bedroom apartment with a terrace and free WiFi. The property features sea views, air-conditioning, and a balcony. Modern Amenities: Guests enjoy a fully equipped kitchen, bathroom with free toiletries, and a sofa. Additional facilities include a lift, minimarket, hairdresser/beautician, family rooms, full-day security, and car hire. Convenient Location: Located 2.3 km from Bhatye Beach and 46 km from Jaigad Fort, the apartment is 141 km from Kolhapur Airport. Reception staff speak German, English, and Hindi.",
+    features: [
+      "free wifi",
+      "gym",
+      "parking",
+      "Air conditioner",
+      "CCTV",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-Holiday-Homes-P3.webp?alt=media&token=172ff460-4668-4fc6-b47e-5e9e8b885903",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-Holiday-Homes-NamePlate.webp?alt=media&token=f4fd67f9-4149-4486-8553-edfeeba44b53",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Bedroom.webp?alt=media&token=572a6f9f-265b-4106-8cd7-950d236f7414",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Living%20-Area-P2.webp?alt=media&token=69a78aa3-314d-45bf-aa35-6e376db14e34",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Living-Area.webp?alt=media&token=11cf4104-6127-4e82-8770-5cfbc7601fbd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-NamePlate-P2.webp?alt=media&token=a528fc89-a08c-4414-ad6e-bf70311df8ba",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Outer-Area.webp?alt=media&token=791375ab-005c-48e5-872f-234141742a23",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Parking-Area.webp?alt=media&token=a5ae8686-0445-4888-9467-bed48203b12c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-HolidayHomes-Washroom.webp?alt=media&token=fa16d6fd-dcb4-43c5-9c70-abe40cb2229c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Amantran-Holiday-Homes%2FAmantran-Holiday-Homes-NamePlate.webp?alt=media&token=f4fd67f9-4149-4486-8553-edfeeba44b53",
+      },
+    ],
+    coordinates: {
+      latitude: "16.95118353353634° N",
+      longitude: "73.29974994866613° E",
+    },
+    host: {
+      name: "Nikhil",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
+  {
+    id: 53,
+    title: "Shree Balaji nature’s lap villa",
+    slug: "shree-balaji-natures-lap-villa",
+    area: "Basni",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹2000",
+    phone: "8591811492",
+    description:
+      "Shree Balaji Natures Lap Villa…Charming 2-bedroom villa Your home away from home in Basni with a fabulous villa featuring 2 bedrooms - one with a king bed and the other with a twin bed. Enjoy the enchanting bathroom with a shower, WiFi, and AC. Our place is equipped for both long or short stays to make your holiday one to remember. Ratnagiri is home to this villa. Ganeshghule Beach and Ratnagiri Lighthouse are local landmarks, and the area's natural beauty can be seen at Bhatye Beach and Ganpatipule Beach. Spacious Living: Shree Balaji Natures lap villa in Basni offers a spacious apartment with one bedroom, two bathrooms, and a comfortable living room. The property features a private entrance and a garden view. Modern Amenities: Guests enjoy free WiFi, air-conditioning, a fully equipped kitchen, a refrigerator, a work desk, and a TV. Free on-site private parking is available. Breakfast and Location: A vegetarian breakfast is served daily. The apartment is situated behind Marathi school, 415629, Basni, India. Kolhapur airport is 151 km away. Aare Ware Beach is a 17-minute walk, and Jaigad Fort is 33 km from the property.",
+    features: [
+      "Wi-Fi",
+      "Paid breakfast",
+      "free parking",
+      "Accessible",
+      "Swimming Pool",
+      "Air conditioned",
+      "pet friendly",
+      "room services","fitness center",
+      "smoke free",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-P1.webp?alt=media&token=5c9f3a98-e6fb-4d18-8db9-f414430612da",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-Basing.webp?alt=media&token=9ef6a6eb-e86c-491f-8bc5-1e66b1a4ee29",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-Bedroom-P2.webp?alt=media&token=5e37d47e-0ebc-4a62-9541-dd4836d6745e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-Bedroom.webp?alt=media&token=125ee46b-7e39-446e-b23f-68c4074b3065",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-Ground.webp?alt=media&token=208cbd96-ff1b-462b-91f2-3ae1658c2dae",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-Kitchen.webp?alt=media&token=d948033a-9e03-457f-b574-3e1bdc1aaba4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-Living-Area-P2.webp?alt=media&token=5043c96a-7d71-4368-804f-8920a200f699",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-Living-Area.webp?alt=media&token=850e7794-dacf-4250-aa3c-9a1ad1dea503",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-P3.webp?alt=media&token=7ebefee5-047a-47c8-ae59-47953a4c5dd5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-Rainy-View.webp?alt=media&token=0a00721f-ff48-4509-b89d-4a0b0a368133",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-Room.webp?alt=media&token=b6cbe428-8690-4bfc-8188-83c6b07cbd16",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Shree-Balaji-Natures-Lap-Villa%2FShree-Balaji-Natures-Lap-Villa-P2.webp?alt=media&token=9df9947b-c2ae-4715-b39b-b7d9afad5495",
+      },
+    ],
+    coordinates: {
+      latitude: "17.06192916114213° N",
+      longitude: "73.29902487055641° E",
+    },
+    host: {
+      name: "Vihang bhagat",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
+  {
+    id: 54,
+    title: "Tuka Anandi Niwas",
+    slug: "tuka-anandi-niwas",
+    area: "Dapoli",
+    location: "Ratnagiri",
+    guests: "5",
+    price: "₹1500",
+    phone: "9892239380",
+    description:
+      "Tuka Anandi Stay, Basni is a charming village homestay that feels less like accommodation and more like visiting your own relatives. Run by the sweetest uncle and aunty, this peaceful stay welcomes guests with heartfelt hospitality, warm smiles, and a truly homely atmosphere. The rooms are clean, comfortable, and surrounded by greenery, making it a perfect escape from busy city life. Wake up to fresh air, birdsong, and lush Konkan landscapes, followed by a delicious homemade Konkan-style breakfast that brings out authentic local flavors. Located just a few minutes away from the scenic Aare Ware Beach, Tuka Anandi Stay offers the perfect balance of nature, comfort, and affordability. Ideal for families, couples, and solo travelers seeking quiet, simplicity, and genuine village vibes, this homestay is highly recommended for a soulful Konkan experience.",
+    features: [
+      "Parking",
+      "Power backup",
+      "Wi fi",
+      "room services",
+      "Doctor on call",
+      "News paper",
+      "Mineral water",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P6.webp?alt=media&token=3d583166-8fc1-4dda-8615-58aadc395fb4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-Bedroom-P2.webp?alt=media&token=6d92a2c0-0f39-4785-8b4c-ffde2b39779c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-Bedroom-P3.webp?alt=media&token=b83efe63-00bb-4972-835f-e6b7f35ef80d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-Bedroom-P4.webp?alt=media&token=00ea6631-2898-4781-9d6e-33632e13b6fa",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P2.webp?alt=media&token=79dfe8ac-d4f4-4ac0-9e87-5d1c3a576f99",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P3.webp?alt=media&token=72f958b8-b06d-42e4-8f95-aea4a3aaf00c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P4.webp?alt=media&token=c56bf71f-7383-428f-a16d-7a3d4b99e61b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P5.webp?alt=media&token=8cb76e46-4955-4d87-9f5c-0652e64f9867",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P7.webp?alt=media&token=f82a7b23-b3cf-48cb-8dd7-167deff87c95",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Tuka-Anandi-Niwas%2FTuka-Anandi-Niwas-P1.webp?alt=media&token=44b657f9-49bb-4f10-8e3c-c6c69ccd6a35",
+      },
+    ],
+    coordinates: {
+      latitude: "17.06080493939973° N",
+      longitude: "73.29995707301235° E",
+    },
+    host: {
+      name: "Tuka Anandi Niwas",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
+  {
+    id: 55,
+    title: "Ratnavihar Residency",
+    slug: "ratnavihar-residency",
+    area: "Ganpatipule",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹3360",
+    phone: "9325220382",
+    description:
+      "Cozy 2BHK amidst lush greenery, just 900m from a serene beach. AC rooms + large hall for 10 guests. Enjoy terrace stargazing, birdsong mornings, and peaceful nights. Explore mango orchards, nearby hills, or unwind with a book. Fully equipped kitchen, pet-friendly gated space, open seating. Delicious seafood by in-house chef. Perfect for families & nature lovers seeking calm, comfort, and a slice of coastal charm. The space A Forest-View Hideaway by the Sea: Where Nature Whispers & Comfort Embraces Welcome to your dream getaway, nestled amidst lush green forests, whispering trees, and rolling hills, this spacious 2-bedroom retreat offers the perfect blend of tranquility and comfort. Just 900 meters from the beach, it’s a space where time slows down, and the heart feels at home. The Home: Our haven includes two cozy bedrooms, one with an attached bathroom and another with a common one, accompanied by a roomy living area that’s fully air-conditioned and perfect for gathering. The hall comfortably hosts up to 10 guests, making it ideal for families and close-knit groups. Each bedroom can sleep 4, and we offer 2 folding mattresses to accommodate extra guests. The Experience: Wake up to the melody of birdsong, breathe in the cool morning breeze, or stargaze from the open terrace as silence wraps around you like a soft blanket. The Alphonso mango orchard right next door invites you to pluck fresh mangoes straight from the tree, nature’s treat, untouched and sweet. Take a scenic sunrise hike in the nearby hills, wander through local village trails, or simply bask in the evening glow with a leisurely stroll to the beach. The gentle sea breeze, just a short walk away, is the perfect balm after a day of exploring. The Essentials & Extras: • Fully equipped kitchen",
+    features: [
+      "Kitchenette",
+      "Restaurant",
+      "Indoor games",
+      "Free parking",
+      "Power backup",
+      "Washing Machine",
+      "Swimming Pool",
+      "Meditation room",
+      "Yoga",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-OuterView.webp?alt=media&token=0cfdfb64-eac8-4896-81e8-cea4bac1ee94",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Bedroom-p2.webp?alt=media&token=070e630b-fea8-4c18-adee-291ebffc94e7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Bedroom-p3.webp?alt=media&token=27738352-0895-4fd7-b9f5-8f4558139da5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Bedroom-p4.webp?alt=media&token=9dbc108a-9635-4d96-8bb4-6b870ddd6b95",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Bedroom-p6.webp?alt=media&token=ee342c56-b485-4793-8798-c0a6be658fa9",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Kitchen-p2.webp?alt=media&token=29f88724-2912-4062-a88e-97cbfd13517e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Kitchen.webp?alt=media&token=4641d376-0655-4328-b33d-f8da0e4f2fd1",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Livingroom-p2.webp?alt=media&token=f69fe075-dab2-4127-9094-8cffc4d67a38",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Livingroom.webp?alt=media&token=d26cfa03-497b-4c7e-91c2-55b1feb4f473",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Terrace.webp?alt=media&token=87ec6de4-a3c7-4ed6-b267-3beab4539b46",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Washroom-p2.webp?alt=media&token=3e98fec0-9794-46c1-a9c9-80cd9669826e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Washroom.webp?alt=media&token=14a819d6-6a3a-4b85-a95d-6632b975b0f9",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnavihar-Residency%2FRatnavihar-Residency-Bedroom-p5.webp?alt=media&token=d36f6171-6040-4529-a479-5c635e9784cc",
+      },
+    ],
+    coordinates: {
+      latitude: "17.06196173098847° N",
+      longitude: "73.29955306738742° E",
+    },
+    host: {
+      name: "Ratnavihar Residency",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
+  {
+    id: 56,
+    title: "Ashirwaad Home Stay",
+    slug: "ashirwaad-home-stay",
+    area: "Basni",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹1480",
+    phone: "8779756696",
+    description:
+      "aashirwad HOME STAY lodging near RATNAGIRI railway station FOB MTDC APPD BEAD AND BREAKFAST Maharashtra रत्नागिरी+मध्ये+निवास represents a notable option for families seeking elder care in Khedashi, Ratnagiri, Maharashtra. With its 4.9-star rating from 108 families, the facility demonstrates various features that families look for in quality elder care, including accessibility considerations, multiple service options, and flexible communication channels. The facility’s location in Khedashi, Ratnagiri provides access to local healthcare resources and community connections that can enhance the quality of life for elderly residents. While every elderly person has unique needs, preferences, and health considerations that require personalized assessment, the information available about {name} provides a foundation for families to begin their evaluation process.",
+    features: [
+      "Parking",
+      "Power backup",
+      "Wi fi",
+      "room services",
+      "Doctor on call",
+      "News paper",
+      "Mineral water",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Parking-Area-P2.webp?alt=media&token=a442f8b8-776b-4ab2-96c9-8b1d738511cd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Bedroom-P2.webp?alt=media&token=11a3ad12-d95f-46bc-87d3-2bf483fed072",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Bedroom.webp?alt=media&token=9c17f071-49aa-4ef0-b430-63c8c7ff3aea",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Parking-Area.webp?alt=media&token=02e6fcd6-3182-4447-b66c-b021e1c06f5a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Sitting-Area-P2.webp?alt=media&token=16918428-5e0b-4f90-a6e1-6c8be521c262",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Sitting-Area-P3.webp?alt=media&token=0515ad66-f61b-4a48-83b4-6798ad441ae7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Sitting-Area.webp?alt=media&token=3ec36637-2416-4d08-9ed8-4fb523f8345c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-View.webp?alt=media&token=3c4b7968-8de7-4cf2-9e77-ad043b0a4230",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ashirwad-Homestay%2FAshirwad-Homestay-Sitting-Area-P3.webp?alt=media&token=0515ad66-f61b-4a48-83b4-6798ad441ae7",
+      },
+    ],
+    coordinates: {
+      latitude: "17.060187624030334° N",
+      longitude: "73.29952731122044° E",
+    },
+    host: {
+      name: "Ashirwaad Home Stay",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
+    },
+  },
+  {
+    id: 57,
+    title: "Saijeet Beach Touch Resort",
+    slug: "saijeet-beach-touch-resort",
+    area: "Kalbadevi",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹1480",
+    phone: "7280801414",
+    description:
+      "Saijeet Beach Touch Resort, Kalbadevi, Ratnagiri is a perfect seaside getaway for travelers looking for comfort, relaxation, and scenic beauty. Located near the serene beaches of Kalbadevi, this resort offers a peaceful stay surrounded by nature, making it ideal for families, couples, and solo travelers. With well-maintained rooms, warm hospitality, and easy accessibility, Saijeet Beach Touch Resort ensures a memorable experience for every guest. Known for its excellent service and customer satisfaction, the resort provides a calm environment away from city noise while still being well-connected to major areas of Ratnagiri. Guests can enjoy beachside views, fresh coastal air, and a relaxing atmosphere that truly reflects the charm of the Konkan region. Whether you are planning a weekend escape or a longer vacation, Saijeet Beach Touch Resort in Ratnagiri is a great choice for a comfortable and refreshing stay.",
+    features: [
+      "Parking",
+      "Power backup",
+      "Wi fi",
+      "room services",
+      "Doctor on call",
+      "News paper",
+      "Mineral water",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-FrontView.webp?alt=media&token=784bbeb0-2048-437e-bd3a-8cf45e5ec17f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-Bedroom-p2.webp?alt=media&token=b7593528-5cf5-4cb5-81b7-de435a40fca7",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-Bedroom.webp?alt=media&token=f48728a0-80a7-4e0c-8bc5-af5aac105ccf",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-OverView.webp?alt=media&token=8fd398d6-c7fe-4830-896a-60b5d2be3cb4",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-SeaShore.webp?alt=media&token=a13b8708-42d0-421f-a79a-5d24286823fa",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-SeaSide.webp?alt=media&token=cb61b3ef-fe07-4f6c-9254-b160bc8ea429",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-SideView.webp?alt=media&token=dd4ba2f2-cb69-4c68-9873-1c9d5d2a1bee",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-SittingArea.webp?alt=media&token=faebb8d4-88ad-4cc4-88db-9592beac4ecb",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-Washroom.webp?alt=media&token=0a4913c0-7914-45fa-9363-0ae5cb246f1b",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Saijeet-Beach-Touch-Resort%2FSaijeet-Beach-Touch-Resort-NightView.webp?alt=media&token=88341b7d-2c4a-4823-9847-ce7d6cc54ec2",
+      },
+    ],
+    coordinates: {
+      latitude: "17.05176728652038° N",
+      longitude: "73.28789208428746° E",
+    },
+    host: {
+      name: "Saijeet Beach Touch Resort",
+      imageUrl: "",
+      isPremier: true,
+      listingDate: "2026-01-31",
     },
   },
 ];
