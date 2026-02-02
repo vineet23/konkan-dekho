@@ -174,7 +174,7 @@ export default function ListYourPlotPage() {
             <li>• Professional property listing</li>
             <li>• Dedicated support team</li>
             <li>• Maximum visibility</li>
-          </ul>
+          </ul> 
         </Card>
 
         <Card className="p-6">
