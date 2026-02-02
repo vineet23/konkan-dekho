@@ -1,14 +1,8 @@
 "use client";
 
 import { Plot } from "@/lib/types";
-import { Card } from "@/components/ui/card";
-import { MapPin, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import Link from "next/link";
+import { HomestayCard } from "@/components/homestay-card";
 import { parseCoordinates, calculateDistance } from "@/lib/utils/geo-distance";
-import { convertPriceToNumber } from "@/lib/utils/filters";
-import { formatIndianPrice } from "@/lib/utils/number-format";
 
 interface SimilarPlotsProps {
   currentPlot: Plot;
@@ -44,48 +38,9 @@ export function SimilarPlots({ currentPlot, allPlots }: SimilarPlotsProps) {
       <h2 className="pt-8 text-3xl font-bold mb-6 font-caveat">
         Similar homestays near by
       </h2>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10">
         {similarPlots.map((plot) => (
-          <Link
-            href={`/${plot.slug}-${plot.area
-              .toLowerCase()
-              .replace(/ /g, "-")}`}
-            key={plot.id}
-          >
-            <Card className="overflow-hidden transition-transform hover:scale-[1.02]">
-              <div className="relative h-48">
-                <Image
-                  src={plot.images[0]}
-                  alt={plot.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="text-xl font-semibold">{plot.title}</h3>
-                <div className="mt-2 flex items-center text-gray-600">
-                  <MapPin className="mr-1 h-4 w-4" />
-                  <span>{plot.location}</span>
-                  <span className="ml-2 text-sm">
-                    ({Math.round(plot.distance * 10) / 10} km away)
-                  </span>
-                </div>
-                <div className="mt-4 flex items-center justify-between">
-                  <div>
-                    <p className="text-sm text-gray-600">
-                      {plot.guests} guests
-                    </p>
-                    <p className="text-lg font-bold text-[#FF385C]">
-                      {formatIndianPrice(convertPriceToNumber(plot.price))}
-                    </p>
-                  </div>
-                  <Button variant="ghost" size="icon">
-                    <ArrowRight className="h-4 w-4" />
-                  </Button>
-                </div>
-              </div>
-            </Card>
-          </Link>
+          <HomestayCard key={plot.id} plot={plot} distance={plot.distance} />
         ))}
       </div>
     </div>

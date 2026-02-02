@@ -1519,7 +1519,7 @@ export const plots: Plot[] = [
       listingDate: "2026-01-02",
     },
   },
-    {
+  {
     id: 34,
     title: "Sunrise Apartment – Spacious 2BHK Near Railway Station",
     slug: "sunrise-apartment",
@@ -1716,7 +1716,7 @@ export const plots: Plot[] = [
     title: "Malvankar Homestay",
     slug: "malvankar-homestay",
     area: "Malvan",
-    location: "malvan",
+    location: "Malvan",
     guests: "4",
     price: "₹3750",
     phone: "8879581406",
@@ -1953,7 +1953,7 @@ export const plots: Plot[] = [
     slug: "mody-villa",
     area: "Guhagar",
     location: "Guhagar",
-    guests: "4 - 5",
+    guests: "5",
     price: "₹2000",
     phone: "9892091313",
     description:
@@ -2481,7 +2481,7 @@ export const plots: Plot[] = [
       "Swimming Pool",
       "Air conditioned",
       "pet friendly",
-      "room services","fitness center",
+      "room services", "fitness center",
       "smoke free",
     ],
     images: [

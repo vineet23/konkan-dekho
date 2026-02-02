@@ -1,73 +1,80 @@
 "use client";
 
-import { plots } from "@/lib/data/plots";
-import { CollapsibleSearchFilters } from "@/components/plots/collapsible-search-filters";
-import { PlotGrid } from "@/components/plots/plot-grid";
 import { useState, useEffect } from "react";
-import { FilterOptions, Plot } from "@/lib/types";
-import { filterPlots } from "@/lib/utils/filters";
-import { sortPlots } from "@/lib/utils/sorting";
-import { convertPriceToNumber, convertAreaToNumber } from "@/lib/utils/filters";
 import { useSearchParams } from "next/navigation";
+import { plots } from "@/lib/data/plots";
+import { TripPlanner } from "@/components/trip-planner";
+import { HomestayCard } from "@/components/homestay-card";
 import { ALL_LOCATIONS } from "@/lib/constants";
 
 export default function AllPlotsPage() {
   const searchParams = useSearchParams();
   const locationParam = searchParams.get("location");
 
-  const [filters, setFilters] = useState<FilterOptions>({
-    priceRange: [
-      0,
-      Math.max(...plots.map((plot) => convertPriceToNumber(plot.price))),
-    ],
-    areaRange: [
-      0,
-      Math.max(...plots.map((plot) => convertAreaToNumber(plot.guests))),
-    ],
-    location: locationParam || ALL_LOCATIONS,
-    searchQuery: "",
-    sortBy: "price-asc",
-  });
+  const [filteredPlots, setFilteredPlots] = useState(plots);
 
-  const [filteredPlots, setFilteredPlots] = useState<Plot[]>(plots);
+  useEffect(() => {
+    if (locationParam && locationParam !== ALL_LOCATIONS) {
+      setFilteredPlots((prev) =>
+        prev.filter((p) => p.location === locationParam),
+      );
+    } else {
+      // Reset if no location or all
+      setFilteredPlots(plots);
+    }
+  }, [locationParam]);
 
-  const locations = Array.from(new Set(plots.map((plot) => plot.location)));
-  const maxPrice = Math.max(
-    ...plots.map((plot) => convertPriceToNumber(plot.price))
-  );
-  const maxArea = Math.max(
-    ...plots.map((plot) => convertAreaToNumber(plot.guests))
-  );
+  const handleSearch = (filters: {
+    location?: string;
+    guest: { adults: number; children: number; pets: number };
+  }) => {
+    let result = [...plots];
 
-  const handleFiltersChange = (newFilters: FilterOptions) => {
-    setFilters(newFilters);
-    const filtered = filterPlots(plots, newFilters);
-    const sorted = sortPlots(filtered, newFilters.sortBy);
-    setFilteredPlots(sorted);
+    // Filter by Location
+    if (filters.location && filters.location !== "all") {
+      result = result.filter((p) => p.location === filters.location);
+    }
+
+    // Filter by Guests
+    const totalGuests = filters.guest.adults + filters.guest.children;
+    if (totalGuests > 0) {
+      result = result.filter((p) => {
+        const capacity = parseInt(p.guests, 10) || 0;
+        return capacity >= totalGuests;
+      });
+    }
+
+    setFilteredPlots(result);
   };
 
-  // Apply initial filters when component mounts
-  useEffect(() => {
-    const filtered = filterPlots(plots, filters);
-    const sorted = sortPlots(filtered, filters.sortBy);
-    setFilteredPlots(sorted);
-  }, []);
-
   return (
-    <div className="container mx-auto px-4 py-16">
-      <h1 className="text-5xl font-bold font-caveat mb-8">
-        All Available Homestays
-      </h1>
+    <div className="min-h-screen bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Trip Planner Component */}
+        <div className="flex justify-center mb-8 sticky top-4 z-40">
+          <TripPlanner
+            key={locationParam || 'default'}
+            onSearch={handleSearch}
+            initialLocation={locationParam || undefined}
+          />
+        </div>
 
-      <CollapsibleSearchFilters
-        locations={locations}
-        onFiltersChange={handleFiltersChange}
-        maxPrice={maxPrice}
-        maxArea={maxArea}
-        initialLocation={locationParam || ALL_LOCATIONS}
-      />
-
-      <PlotGrid plots={filteredPlots} />
+        <div className="mt-12">
+          <h2 className="text-4xl font-bold font-caveat mb-8">
+            {filteredPlots.length === 0
+              ? "No homestays found"
+              : "Available Homestays"}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
+            {filteredPlots.map((plot) => (
+              <HomestayCard key={plot.id} plot={plot} />
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="col-span-full text-center text-gray-400 py-10">
+        Map and more listings coming soon...
+      </div>
     </div>
   );
 }

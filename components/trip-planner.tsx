@@ -72,14 +72,16 @@ const GuestCounter = ({
 
 export function TripPlanner({
     onSearch,
+    initialLocation,
 }: {
     onSearch?: (filters: {
         location?: string;
         dateRange?: DateRange;
         guest: { adults: number; children: number; pets: number };
     }) => void;
+    initialLocation?: string;
 }) {
-    const [location, setLocation] = useState<string | undefined>(undefined);
+    const [location, setLocation] = useState<string | undefined>(initialLocation);
     const [dateRange, setDateRange] = useState<DateRange | undefined>();
     const [guest, setGuest] = useState({
         adults: 1,
