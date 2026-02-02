@@ -8,9 +8,10 @@ import { formatIndianPrice } from "@/lib/utils/number-format";
 
 interface HomestayCardProps {
   plot: Plot;
+  distance?: number;
 }
 
-export function HomestayCard({ plot }: HomestayCardProps) {
+export function HomestayCard({ plot, distance }: HomestayCardProps) {
   return (
     <Link
       href={`/${plot.slug}-${plot.area.toLowerCase().replace(/ /g, "-")}`}
@@ -50,7 +51,14 @@ export function HomestayCard({ plot }: HomestayCardProps) {
                                         </div> */}
         </div>
         <div>
-          <p className="text-gray-500 text-sm truncate">{plot.location}</p>
+          <p className="text-gray-500 text-sm truncate">
+            {plot.location}
+            {distance !== undefined && (
+              <span className="ml-1">
+                ({Math.round(distance * 10) / 10} km away)
+              </span>
+            )}
+          </p>
           <p className="text-gray-500 text-sm">{plot.guests} guests</p>
         </div>
         <div className="text-left">

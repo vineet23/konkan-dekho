@@ -3,6 +3,7 @@ import { Plot } from "@/lib/types";
 import { MapLink } from "./map-link";
 import { HostSection } from "./host-section";
 import { FeatureIcon } from "./feature-icon";
+import { DescriptionWithReadMore } from "./description-read-more";
 
 interface PlotDetailsProps {
   plot: Plot;
@@ -32,9 +33,7 @@ export function PlotDetails({ plot }: PlotDetailsProps) {
       {/* Description */}
       <div className="mt-6">
         <h2 className="text-lg sm:text-xl font-semibold">Description</h2>
-        <p className="mt-2 text-gray-600 text-sm sm:text-base">
-          {plot.description}
-        </p>
+        <DescriptionWithReadMore text={plot.description} />
       </div>
 
       {/* Features */}
