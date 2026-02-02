@@ -38,7 +38,7 @@ export default function FeaturedLocationsPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
         {featuredLocations.map((location) => (
           <Link
-            href={`/explore/all-plots?location=${location.name}`}
+            href={`/explore/featured-locations/${encodeURIComponent(location.name)}`}
             key={location.name}
             className="group block"
           >
