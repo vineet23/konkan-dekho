@@ -33,7 +33,7 @@ export function HomestayCard({ plot, distance }: HomestayCardProps) {
                   </Button> */}
         {plot.host?.isPremier && (
           <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-md shadow-sm">
-            <span className="text-xs font-semibold text-gray-900">
+            <span className="text-[10px] sm:text-xs font-semibold text-gray-900">
               Premier Host
             </span>
           </div>
@@ -42,7 +42,7 @@ export function HomestayCard({ plot, distance }: HomestayCardProps) {
 
       <div className="space-y-1">
         <div className="flex justify-between items-start">
-          <h3 className="font-semibold text-gray-900 truncate pr-2">
+          <h3 className="text-sm sm:text-base font-semibold text-gray-900 truncate pr-2">
             {plot.title}
           </h3>
           {/* <div className="flex items-center gap-1 text-sm">
@@ -62,10 +62,10 @@ export function HomestayCard({ plot, distance }: HomestayCardProps) {
           <p className="text-gray-500 text-sm">{plot.guests} guests</p>
         </div>
         <div className="text-left">
-          <span className="font-semibold text-gray-900">
+          <span className="text-sm sm:text-base font-semibold text-gray-900">
             {formatIndianPrice(convertPriceToNumber(plot.price))}
           </span>
-          <span className="text-gray-500 text-sm ml-1">night</span>
+          <span className="text-gray-500 text-xs sm:text-sm ml-1">night</span>
         </div>
       </div>
     </Link>
