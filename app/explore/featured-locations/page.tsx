@@ -16,9 +16,31 @@ export default function FeaturedLocationsPage() {
     // Create location objects with count
     return locations.map((location) => {
       const count = plots.filter((p) => p.location === location).length;
+      let image =
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef";
+
+      switch (location) {
+        case "Ratnagiri":
+          image =
+            "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Locations%2Fratnagiri.webp.webp?alt=media&token=d2f39023-b6e7-45d7-9280-56b16e07a610";
+          break;
+        case "Guhagar":
+          image =
+            "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Locations%2Fguhagar.webp.webp?alt=media&token=8b9c14a7-a295-450e-98e2-ff4372379cab";
+          break;
+        case "Malvan":
+          image =
+            "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Locations%2Fmalvan.webp.webp?alt=media&token=084ece1e-f598-4c10-abcb-d5694ffa3239";
+          break;
+        case "Vengurla":
+          image =
+            "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Locations%2Fvengurla.webp.webp?alt=media&token=ef3747c6-9d18-45e2-848a-29d023cb593e";
+          break;
+      }
+
       return {
         name: location,
-        image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef",
+        image,
         plotCount: count,
       };
     });
