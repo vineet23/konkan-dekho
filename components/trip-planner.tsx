@@ -118,7 +118,7 @@ export function TripPlanner({
     }, [guest]);
 
     const dateSummary = useMemo(() => {
-        if (!dateRange?.from) return "Add dates";
+        if (!dateRange?.from) return "Start date - End date";
         if (dateRange.to) {
             return `${format(dateRange.from, "MMM dd")} - ${format(dateRange.to, "MMM dd")}`;
         }
