@@ -38,7 +38,7 @@ export function SimilarPlots({ currentPlot, allPlots }: SimilarPlotsProps) {
       <h2 className="pt-8 text-3xl font-bold mb-6 font-caveat">
         Similar homestays near by
       </h2>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10">
         {similarPlots.map((plot) => (
           <HomestayCard key={plot.id} plot={plot} distance={plot.distance} />
         ))}

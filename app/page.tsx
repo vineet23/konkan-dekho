@@ -44,7 +44,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-6 text-gray-900">
             {filteredPlots.length === 0 ? "No homestays found" : "Available Homestays"}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
             {filteredPlots.map((plot) => (
               <HomestayCard key={plot.id} plot={plot} />
             ))}

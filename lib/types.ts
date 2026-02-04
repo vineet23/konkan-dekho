@@ -40,6 +40,7 @@ export interface Plot {
     longitude: string;
   };
   host?: HostInfo;
+  ical?: string[];
 }
 
 // Define the TeamMember type

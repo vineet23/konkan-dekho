@@ -47,6 +47,7 @@ export const plots: Plot[] = [
       isPremier: true,
       listingDate: "2023-01-15",
     },
+    ical: ["demo-url-ical1", "demo-url-ical2"],
   },
   {
     id: 2,
