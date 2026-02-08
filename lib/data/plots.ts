@@ -2721,4 +2721,50 @@ export const plots: Plot[] = [
       listingDate: "2026-01-31",
     },
   },
+  {
+    id: 58,
+    title: "Bamboo Homestay",
+    slug: "bamboo-homestay",
+    area: "Vengurla",
+    location: "Vengurla",
+    guests: "4",
+    price: "₹3450",
+    phone: "9423301333",
+    description:
+
+      "Bamboo Homestay, Vengurla 🌿Tucked away in the serene coastal town of Vengurla, Bamboo Homestay is a peaceful escape where nature sets the rhythm of your day. Crafted thoughtfully with bamboo and eco-friendly materials, the homestay blends rustic charm with modern comfort, offering a warm, earthy vibe that instantly relaxes you.Wake up to birdsong, gentle sea breezes, and lush greenery all around. The calm beaches of Vengurla, local temples, and untouched Konkan landscapes are just a short stroll or drive away—perfect for slow mornings, sunset walks, and soulful evenings.",
+
+    features: [
+      "Beach Access",
+      "Wi fi",
+      "Room service",
+      "Child friendly ",
+      "Fitness Center",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bamboo-Homestay%2FBamboo-HomeStay-outerView.webp?alt=media&token=b600a62e-9ee9-4d65-b5da-628fc9e2d38c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bamboo-Homestay%2FBamboo-HomeStay-OverView.webp?alt=media&token=eea572e2-db5b-4a7d-b289-c363f1c15f08",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bamboo-Homestay%2FBamboo-HomeStay-Bedroom-p2.webp?alt=media&token=7b1fb420-814a-4181-a80e-7b227025150e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bamboo-Homestay%2FBamboo-HomeStay-Aesthetic.webp?alt=media&token=36eb7f39-43d7-431a-88ce-6f074912fbda",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bamboo-Homestay%2FBamboo-HomeStay-outerView-p3.webp?alt=media&token=3dbf4830-ed56-4912-ac03-21001a2f120a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bamboo-Homestay%2FBamboo-HomeStay-outerView-p4.webp?alt=media&token=f5dc1da4-bb54-40b1-b05f-7da712ca38e2",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Bamboo-Homestay%2FBamboo-HomeStay-outerView.webp?alt=media&token=b600a62e-9ee9-4d65-b5da-628fc9e2d38c",
+      },
+    ],
+    coordinates: {
+      latitude: "15.845770385115973° N",
+      longitude: "73.63238790192528° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      listingDate: "2026-02-09",
+    },
+  },
 ];
