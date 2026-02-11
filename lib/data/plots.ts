@@ -2767,4 +2767,65 @@ export const plots: Plot[] = [
       listingDate: "2026-02-09",
     },
   },
+  {
+    id: 59,
+    title: "Vengurla-The creek side Home Stay",
+    slug: "vengurla-the-creek-side-home-stay",
+    area: "Vengurla",
+    location: "Vengurla",
+    guests: "4",
+    price: "₹3250",
+    phone: "9421267825",
+    description:
+
+      "The Creek Side - Vengurla is a homestay located at Vengurla - Shiroda Road, Vengurla, Sindhudurg Konkan Division, Maharashtra, India 416516. Enjoy your stay with our 24h Lobby, Washing Machine, and Kitchen Amenities.The Creek Side-Vengurla is also nearby to various landmarks and places: Rock Garden Vengurla Light House Nivati Fort	Amboli WaterfallThe Creek Side is a great choice for travellers looking for a star hotel in Vengurla. This Hotel stands out as one of the highly recommended hotel in Vengurla. Hotel is rated 4.5 out of 5, which is considered as very good.From all the Budget hotels in Vengurla, this property is very much popular among the tourists.A smooth check-in/check-out process, flexible policies and friendly management garner great customer satisfaction for this property. The Hotel has standard Check-In time as 02:00 PM and Check-Out time as 12:00 PM.You can find numerous hotels in Vengurla under different categories and this property is one the best hotel under its category.",
+
+
+    features: [
+      "Housekepping ",
+      "Wi fi",
+      "Room service",
+      "Child friendly ",
+      "Luggage Assistance",
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-OuterView-p4.webp?alt=media&token=bead1246-262a-436c-8699-c83bbe6bd1e7",
+
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-DiningArea-p2.webp?alt=media&token=54691b75-7a51-496c-a2e9-c235ffb5cb18",
+
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-Bedroom.webp?alt=media&token=78756f33-c83a-48a2-ba80-d724acfe661c",
+
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-Bedroom-p4.webp?alt=media&token=35c12b8e-e2f0-45c9-8ff3-cfbe15144df7",
+
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-Bedroom-p3.webp?alt=media&token=f093ebc0-8d01-46b8-a90d-ed0a6cb730eb",
+
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-Basin-p2.webp?alt=media&token=7f69739d-45a7-4a3e-9f3e-4623f3e55cc7",
+
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-OuterView-p3.webp?alt=media&token=15031275-b6c3-4fc1-8f0e-0763c60301aa",
+
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-OuterView.webp?alt=media&token=aef50aa2-761e-4293-8d5a-64bb63676d2c",
+
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-Washroom.webp?alt=media&token=edc68cb1-8302-4364-9820-7e4716faeb7c",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Vengurla-The-creek-side-Home-Stay%2FVengurla-The-creek-side-Home-Stay-OuterView-p4.webp?alt=media&token=bead1246-262a-436c-8699-c83bbe6bd1e7",
+      },
+    ],
+    coordinates: {
+      latitude: "15.852029315868023° N",
+      longitude: "73.64061179172973° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      listingDate: "2026-02-09",
+    },
+  },
+
+
+
 ];
