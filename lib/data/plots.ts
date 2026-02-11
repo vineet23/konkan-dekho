@@ -2825,6 +2825,54 @@ export const plots: Plot[] = [
       listingDate: "2026-02-09",
     },
   },
+  {
+    id: 60,
+    title: "Turtle Beach House",
+    slug: "turtle-beach-house",
+    area: "Vengurla",
+    location: "Vengurla",
+    guests: "4",
+    price: "₹3650",
+    phone: "",
+    description:
+
+      "Turtle Beach House is a private single AC beach house located exactly on a quiet, virgin beach in Vengurla, surrounded by greenery. With direct beach access and beautiful sea views, it offers a peaceful and relaxing stay away from crowds.The beach house is ideal for guests who want to relax as well as work remotely, with reliable Wi-Fi available. It functions like a service apartment and includes a living room, a comfortable bedroom, and a fully equipped kitchenette with basic cooking amenities such as a gas stove, fridge, microwave, and cutlery. A spacious balcony allows guests to enjoy the sound of waves and fresh sea breeze.Local food is served on pre-order. Guests can enjoy a serene garden setting, outdoor seating, and a calm beachside atmosphere. Turtle Beach House is perfect for couples, solo travelers, and small families looking for privacy, comfort, and a true beachfront experience",
+
+
+    features: [
+      "Direct beach access",
+      "Private virgin beach location",
+      "Free Wi-Fi (ideal for work from home)",
+      "Smoke-free property",
+      "Indoor pool",
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Turtle-Beach-House%2FTurtle-Beach-House-P4.webp?alt=media&token=7b312cd8-fe4f-47a1-be82-798fb82e27a5",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Turtle-Beach-House%2FTurtle-Beach-House-P5.webp?alt=media&token=dbbf57b1-0293-4297-84ba-4ee85829a3de",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Turtle-Beach-House%2FTurtle-Beach-House-Sunset-View.webp?alt=media&token=8f29f0df-4e5e-441c-8e6a-71591fec0199",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Turtle-Beach-House%2FTurtle-Beach-House-P2.webp?alt=media&token=2bd620a2-6371-400c-9a19-39c2d45f1306",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Turtle-Beach-House%2FTurtle-Beach-House-Night-View.webp?alt=media&token=a96218ae-28c8-48b8-bb88-eb492821a1d2",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Turtle-Beach-House%2FTurtle-Beach-House-P4.webp?alt=media&token=7b312cd8-fe4f-47a1-be82-798fb82e27a5",
+      },
+    ],
+    coordinates: {
+      latitude: "15.870548775018314° N",
+      longitude: "73.60872513783272° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      listingDate: "2026-02-09",
+    },
+  },
+
 
 
 
