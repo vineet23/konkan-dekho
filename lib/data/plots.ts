@@ -2873,7 +2873,53 @@ export const plots: Plot[] = [
     },
   },
 
+  {
+    id: 61,
+    title: "Yuvaan Homestay",
+    slug: "yuvaan-homestay",
+    area: "Vengurla",
+    location: "Vengurla",
+    guests: "4",
+    price: "₹3000",
+    phone: "9869524671",
+    description:
 
+      "B, Yuvaan, 849, near Christian wadi, Ubhadanda, Vengurla, Maharashtra 416516Yuvaan Homestay is a family-owned business dedicated to providing guests with a memorable and authentic,experience in the serene surroundings of Vengurla, Maharashtra. Our passion for hospitality and commitment to customer satisfaction drive us to deliver exceptional service to every guest",
 
+    features: [
+      "Beach Access",
+      "Pet Friendly",
+      "Free Gated Parking",
+      "Transportation Services",
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Yuvaan-Homestay%2FYuvaan-Homestay-SittingArea-p2.webp?alt=media&token=4cf57189-9400-4c0c-b36d-343ab3a7ea8c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Yuvaan-Homestay%2FYuvaan-Homestay-Bedroom-p2.webp?alt=media&token=543bd731-a079-4070-97ac-e236adc3e491",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Yuvaan-Homestay%2FYuvaan-Homestay-Bedroom-p3.webp?alt=media&token=6017776e-9734-4072-9b66-eac6815e3faf",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Yuvaan-Homestay%2FYuvaan-Homestay-DiningArea-p2.webp?alt=media&token=21d00440-692e-4c13-960b-5ede65da536a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Yuvaan-Homestay%2FYuvaan-Homestay-KitchenArea.webp?alt=media&token=bb90645c-86b6-4f77-884d-52dc3e0a1111",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Yuvaan-Homestay%2FYuvaan-Homestay-NightView-p2.webp?alt=media&token=9c2b7b89-ba04-4fdd-8905-3598e1444993",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Yuvaan-Homestay%2FYuvaan-Homestay-hall.webp?alt=media&token=6e4208b3-2d56-4ad6-9f16-8418bdd4da94",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Yuvaan-Homestay%2FYuvaan-Homestay-Well.webp?alt=media&token=482b8c59-bc0f-4a34-850c-52484d0b1b37",
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Yuvaan-Homestay%2FYuvaan-Homestay-SittingArea-p2.webp?alt=media&token=4cf57189-9400-4c0c-b36d-343ab3a7ea8c",
+      },
+    ],
+    coordinates: {
+      latitude: "15.835151504808294° N",
+      longitude: "73.63775782894453° E",
+    },
+    host: {
+      name: "Ramdas Pednekar",
+      imageUrl: "",
+      listingDate: "2026-02-09",
+    },
+  },
 
 ];
