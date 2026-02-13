@@ -2922,4 +2922,120 @@ export const plots: Plot[] = [
     },
   },
 
+
+{
+    id: 62,
+    title: "Ratnaraj Homestay",
+    slug: "ratnaraj-homestay",
+    area: "Ratnagiri",
+    location: "Ratnagiri",
+    guests: "4",
+    price: "₹3000",
+    phone: "9422391182",
+    description:
+
+      "Ratnagiri offers a variety of homestay accommodations in nearby localities, providing travelers with comfortable and affordable lodging options. Areas such as Nachane Ratnagiri, Shanti Nagar, Ramesh Nagar Road, Salvistop Nachne Link Road, Nutan Nagar, and Ramesh Nagar are well-known for their residential surroundings and convenient access to essential facilities. These locations are situated close to local markets, transportation routes, and popular attractions, making them ideal for visitors seeking a peaceful stay with easy connectivity. Homestays in these areas often provide a homely atmosphere, personalized hospitality, and essential amenities, ensuring a pleasant and convenient experience for guests",
+
+    features: [
+      "Free wifi",
+      "Best Parking",
+      "Balcony",
+      "Room services",
+      "Doctor in Call",
+      "Pet Friendly",
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-OuterView.webp?alt=media&token=cf91410b-9ea7-4713-bb5e-a2568d915b8e",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall.webp?alt=media&token=4f0c3f22-e996-49ec-ba6d-501fc7b8c6d6",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p4.webp?alt=media&token=8160b8ee-5075-44e3-9bd5-062fb1c43b9f",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p3.webp?alt=media&token=9de4cd55-7800-49d4-9c37-e65df3d3fa86",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p2.webp?alt=media&token=f7b42474-5632-4d6c-81d5-6172074859de",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom.webp?alt=media&token=4dcd2218-6f69-4dae-b0e7-3666bece436f",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p5.webp?alt=media&token=b442be09-cf55-4f4f-b6e0-f54616ba31e2",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p4.webp?alt=media&token=dbf8a002-d39a-423a-b315-16ccc717cc51",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p3.webp?alt=media&token=5a5a4cdb-e36e-4778-aa4a-2c91fabceb42",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p2.webp?alt=media&token=ae897bd9-1270-49ab-8e25-4a2e76a3d38a",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Kitchen.webp?alt=media&token=f133cbed-f572-45ba-b9cc-1b0f33ebde68",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p3.webp?alt=media&token=28810a11-3c1c-44b4-8f3b-64c7b2c64a14",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p2.webp?alt=media&token=4cca9144-2716-4a10-8838-31d2d31147ad",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom.webp?alt=media&token=764221ca-d08c-458d-ae52-b0fa8cb29f0e",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-OuterView.webp?alt=media&token=cf91410b-9ea7-4713-bb5e-a2568d915b8e",
+      },
+    ],
+    coordinates: {
+      latitude: "16.987980064854934° N",
+      longitude: "73.33724852883587° E",
+    },
+    host: {
+      name: "Mander",
+      imageUrl: "",
+      listingDate: "2026-02-13",
+    },
+  },
+
+
+  {
+    id: 63,
+    title: "Ranjanghar",
+    slug: "ranjanghar",
+    area: " Gimavi",
+    location: " Gimavi",
+    guests: "4",
+    price: "₹3392",
+    phone: "7738991333",
+    description:
+
+      "Ratnagiri offers a variety of homestay accommodations in nearby localities, providing travelers with comfortable and affordable lodging options. Areas such as Nachane Ratnagiri, Shanti Nagar, Ramesh Nagar Road, Salvistop Nachne Link Road, Nutan Nagar, and Ramesh Nagar are well-known for their residential surroundings and convenient access to essential facilities. These locations are situated close to local markets, transportation routes, and popular attractions, making them ideal for visitors seeking a peaceful stay with easy connectivity. Homestays in these areas often provide a homely atmosphere, personalized hospitality, and essential amenities, ensuring a pleasant and convenient experience for guests",
+
+    features: [
+      "Free wifi",
+      "free Parking",
+      "Room services",
+      "Pet Friendly",
+    ],
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-OuterView.webp?alt=media&token=cf91410b-9ea7-4713-bb5e-a2568d915b8e",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall.webp?alt=media&token=4f0c3f22-e996-49ec-ba6d-501fc7b8c6d6",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p4.webp?alt=media&token=8160b8ee-5075-44e3-9bd5-062fb1c43b9f",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p3.webp?alt=media&token=9de4cd55-7800-49d4-9c37-e65df3d3fa86",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p2.webp?alt=media&token=f7b42474-5632-4d6c-81d5-6172074859de",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom.webp?alt=media&token=4dcd2218-6f69-4dae-b0e7-3666bece436f",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p5.webp?alt=media&token=b442be09-cf55-4f4f-b6e0-f54616ba31e2",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p4.webp?alt=media&token=dbf8a002-d39a-423a-b315-16ccc717cc51",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p3.webp?alt=media&token=5a5a4cdb-e36e-4778-aa4a-2c91fabceb42",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p2.webp?alt=media&token=ae897bd9-1270-49ab-8e25-4a2e76a3d38a",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Kitchen.webp?alt=media&token=f133cbed-f572-45ba-b9cc-1b0f33ebde68",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p3.webp?alt=media&token=28810a11-3c1c-44b4-8f3b-64c7b2c64a14",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p2.webp?alt=media&token=4cca9144-2716-4a10-8838-31d2d31147ad",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom.webp?alt=media&token=764221ca-d08c-458d-ae52-b0fa8cb29f0e",
+
+    ],
+    media: [
+      {
+        type: "video",
+        url: "",
+        thumbnail:
+          "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-OuterView.webp?alt=media&token=cf91410b-9ea7-4713-bb5e-a2568d915b8e",
+      },
+    ],
+    coordinates: {
+      latitude: "17.488107324090866° N",
+      longitude: "73.3275980918631° E",
+    },
+    host: {
+      name: "",
+      imageUrl: "",
+      listingDate: "2026-02-13",
+    },
+  },
+
 ];
