@@ -13,11 +13,19 @@ function Calendar({
   className,
   classNames,
   showOutsideDays = true,
+  disabled,
   ...props
 }: CalendarProps) {
+  const mergedDisabled = React.useMemo(() => {
+    const baseDisabled = { before: new Date() };
+    if (!disabled) return baseDisabled;
+    if (Array.isArray(disabled)) return [baseDisabled, ...disabled];
+    return [baseDisabled, disabled as any];
+  }, [disabled]);
+
   return (
     <DayPicker
-      disabled={{ before: new Date() }}
+      disabled={mergedDisabled}
       showOutsideDays={showOutsideDays}
       className={cn('p-3', className)}
       classNames={{
@@ -53,6 +61,12 @@ function Calendar({
           'aria-selected:bg-accent aria-selected:text-accent-foreground',
         day_hidden: 'invisible',
         ...classNames,
+      }}
+      modifiers={{
+        booked: Array.isArray(disabled) ? disabled : [],
+      }}
+      modifiersClassNames={{
+        booked: 'text-red-500 hover:text-red-500 opacity-100 font-semibold line-through',
       }}
       components={{
         IconLeft: ({ ...props }) => <ChevronLeft className="h-4 w-4" />,

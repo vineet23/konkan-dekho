@@ -46,8 +46,7 @@ export const plots: Plot[] = [
       imageUrl: "/image/advait.jpg",
       isPremier: true,
       listingDate: "2023-01-15",
-    },
-    ical: ["demo-url-ical1", "demo-url-ical2"],
+    }
   },
   {
     id: 2,
@@ -97,6 +96,7 @@ export const plots: Plot[] = [
       isPremier: false,
       listingDate: "2025-07-30",
     },
+    ical: ["https://www.airbnb.com/calendar/ical/763465650367201304.ics?s=994aad10fae88b9e0ffc1d81e9dc1141&locale=en-GB"],
   },
   {
     id: 3,
@@ -180,6 +180,7 @@ export const plots: Plot[] = [
       latitude: "16.98659826644164° N",
       longitude: "73.30654537792053° E",
     },
+    ical: ["https://www.airbnb.com/calendar/ical/1100063319972809771.ics?t=5ba2b68455a24d3ab8f7ed6c2f4b64c9&locale=en-IN"],
   },
   {
     id: 5,
@@ -254,6 +255,7 @@ export const plots: Plot[] = [
       latitude: "16.9838761° N",
       longitude: "73.3375922° E",
     },
+    ical: ["https://www.airbnb.com/calendar/ical/1464486263813763853.ics?t=6ca46687e9f84c19812e56d8ccd32985&locale=en-IN"],
   },
 
   {
@@ -2923,7 +2925,7 @@ export const plots: Plot[] = [
   },
 
 
-{
+  {
     id: 62,
     title: "Ratnaraj Homestay",
     slug: "ratnaraj-homestay",
@@ -2947,19 +2949,19 @@ export const plots: Plot[] = [
 
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-OuterView.webp?alt=media&token=cf91410b-9ea7-4713-bb5e-a2568d915b8e",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall.webp?alt=media&token=4f0c3f22-e996-49ec-ba6d-501fc7b8c6d6",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p4.webp?alt=media&token=8160b8ee-5075-44e3-9bd5-062fb1c43b9f",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p3.webp?alt=media&token=9de4cd55-7800-49d4-9c37-e65df3d3fa86",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p2.webp?alt=media&token=f7b42474-5632-4d6c-81d5-6172074859de",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom.webp?alt=media&token=4dcd2218-6f69-4dae-b0e7-3666bece436f",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p5.webp?alt=media&token=b442be09-cf55-4f4f-b6e0-f54616ba31e2",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p4.webp?alt=media&token=dbf8a002-d39a-423a-b315-16ccc717cc51",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p3.webp?alt=media&token=5a5a4cdb-e36e-4778-aa4a-2c91fabceb42",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p2.webp?alt=media&token=ae897bd9-1270-49ab-8e25-4a2e76a3d38a",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Kitchen.webp?alt=media&token=f133cbed-f572-45ba-b9cc-1b0f33ebde68",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p3.webp?alt=media&token=28810a11-3c1c-44b4-8f3b-64c7b2c64a14",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p2.webp?alt=media&token=4cca9144-2716-4a10-8838-31d2d31147ad",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom.webp?alt=media&token=764221ca-d08c-458d-ae52-b0fa8cb29f0e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall.webp?alt=media&token=4f0c3f22-e996-49ec-ba6d-501fc7b8c6d6",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p4.webp?alt=media&token=8160b8ee-5075-44e3-9bd5-062fb1c43b9f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p3.webp?alt=media&token=9de4cd55-7800-49d4-9c37-e65df3d3fa86",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p2.webp?alt=media&token=f7b42474-5632-4d6c-81d5-6172074859de",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom.webp?alt=media&token=4dcd2218-6f69-4dae-b0e7-3666bece436f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p5.webp?alt=media&token=b442be09-cf55-4f4f-b6e0-f54616ba31e2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p4.webp?alt=media&token=dbf8a002-d39a-423a-b315-16ccc717cc51",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p3.webp?alt=media&token=5a5a4cdb-e36e-4778-aa4a-2c91fabceb42",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p2.webp?alt=media&token=ae897bd9-1270-49ab-8e25-4a2e76a3d38a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Kitchen.webp?alt=media&token=f133cbed-f572-45ba-b9cc-1b0f33ebde68",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p3.webp?alt=media&token=28810a11-3c1c-44b4-8f3b-64c7b2c64a14",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p2.webp?alt=media&token=4cca9144-2716-4a10-8838-31d2d31147ad",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom.webp?alt=media&token=764221ca-d08c-458d-ae52-b0fa8cb29f0e",
 
     ],
     media: [
@@ -3004,19 +3006,19 @@ export const plots: Plot[] = [
 
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-OuterView.webp?alt=media&token=cf91410b-9ea7-4713-bb5e-a2568d915b8e",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall.webp?alt=media&token=4f0c3f22-e996-49ec-ba6d-501fc7b8c6d6",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p4.webp?alt=media&token=8160b8ee-5075-44e3-9bd5-062fb1c43b9f",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p3.webp?alt=media&token=9de4cd55-7800-49d4-9c37-e65df3d3fa86",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p2.webp?alt=media&token=f7b42474-5632-4d6c-81d5-6172074859de",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom.webp?alt=media&token=4dcd2218-6f69-4dae-b0e7-3666bece436f",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p5.webp?alt=media&token=b442be09-cf55-4f4f-b6e0-f54616ba31e2",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p4.webp?alt=media&token=dbf8a002-d39a-423a-b315-16ccc717cc51",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p3.webp?alt=media&token=5a5a4cdb-e36e-4778-aa4a-2c91fabceb42",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p2.webp?alt=media&token=ae897bd9-1270-49ab-8e25-4a2e76a3d38a",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Kitchen.webp?alt=media&token=f133cbed-f572-45ba-b9cc-1b0f33ebde68",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p3.webp?alt=media&token=28810a11-3c1c-44b4-8f3b-64c7b2c64a14",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p2.webp?alt=media&token=4cca9144-2716-4a10-8838-31d2d31147ad",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom.webp?alt=media&token=764221ca-d08c-458d-ae52-b0fa8cb29f0e",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall.webp?alt=media&token=4f0c3f22-e996-49ec-ba6d-501fc7b8c6d6",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p4.webp?alt=media&token=8160b8ee-5075-44e3-9bd5-062fb1c43b9f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p3.webp?alt=media&token=9de4cd55-7800-49d4-9c37-e65df3d3fa86",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Hall-p2.webp?alt=media&token=f7b42474-5632-4d6c-81d5-6172074859de",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom.webp?alt=media&token=4dcd2218-6f69-4dae-b0e7-3666bece436f",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p5.webp?alt=media&token=b442be09-cf55-4f4f-b6e0-f54616ba31e2",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p4.webp?alt=media&token=dbf8a002-d39a-423a-b315-16ccc717cc51",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p3.webp?alt=media&token=5a5a4cdb-e36e-4778-aa4a-2c91fabceb42",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-BedRoom-p2.webp?alt=media&token=ae897bd9-1270-49ab-8e25-4a2e76a3d38a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-Kitchen.webp?alt=media&token=f133cbed-f572-45ba-b9cc-1b0f33ebde68",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p3.webp?alt=media&token=28810a11-3c1c-44b4-8f3b-64c7b2c64a14",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom-p2.webp?alt=media&token=4cca9144-2716-4a10-8838-31d2d31147ad",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Ratnaraj-Homestay%2FRatnaraj-Homestay-WashRoom.webp?alt=media&token=764221ca-d08c-458d-ae52-b0fa8cb29f0e",
 
     ],
     media: [

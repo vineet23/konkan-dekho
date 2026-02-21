@@ -19,6 +19,7 @@ interface DatePickerProps {
   onDateChange?: (date: Date | DateRange | undefined) => void;
   placeholder?: string;
   disabled?: boolean;
+  disabledDates?: Date[];
   className?: string;
   mode?: "single" | "range";
 }
@@ -28,6 +29,7 @@ export function DatePicker({
   onDateChange,
   placeholder = "Pick a date",
   disabled = false,
+  disabledDates,
   className,
   mode = "single",
 }: DatePickerProps) {
@@ -69,7 +71,29 @@ export function DatePicker({
           <Calendar
             mode="range"
             selected={date as DateRange | undefined}
-            onSelect={onDateChange as (date: DateRange | undefined) => void}
+            onSelect={(selectedRange: DateRange | undefined) => {
+              if (selectedRange?.from && selectedRange?.to && disabledDates) {
+                const start = selectedRange.from < selectedRange.to ? selectedRange.from : selectedRange.to;
+                const end = selectedRange.from > selectedRange.to ? selectedRange.from : selectedRange.to;
+
+                const isInvalid = disabledDates.some((d) => {
+                  const dateTime = new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+                  const startTime = new Date(start.getFullYear(), start.getMonth(), start.getDate()).getTime();
+                  const endTime = new Date(end.getFullYear(), end.getMonth(), end.getDate()).getTime();
+                  return dateTime >= startTime && dateTime <= endTime;
+                });
+
+                if (isInvalid) {
+                  // Prevent the range selection and keep only the latest selected date as the new start date
+                  if (onDateChange) {
+                    onDateChange({ from: selectedRange.to, to: undefined });
+                  }
+                  return;
+                }
+              }
+              if (onDateChange) onDateChange(selectedRange);
+            }}
+            disabled={disabledDates}
             initialFocus
           />
         ) : (
@@ -77,6 +101,7 @@ export function DatePicker({
             mode="single"
             selected={date as Date | undefined}
             onSelect={onDateChange as (date: Date | undefined) => void}
+            disabled={disabledDates}
             initialFocus
           />
         )}

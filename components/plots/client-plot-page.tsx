@@ -27,6 +27,7 @@ export function ClientPlotPage({ id }: { id: string }) {
               phone={plot.phone}
               name={plot.title}
               slug={plot.slug}
+              icalUrls={plot.ical}
             />
           </div>
           <SimilarPlots currentPlot={plot} allPlots={plots} />
@@ -38,6 +39,7 @@ export function ClientPlotPage({ id }: { id: string }) {
               phone={plot.phone}
               name={plot.title}
               slug={plot.slug}
+              icalUrls={plot.ical}
             />
           </div>
         </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -17,6 +17,7 @@ interface ContactFormProps {
   email?: string;
   name?: string;
   slug: string;
+  icalUrls?: string[];
 }
 
 export function ContactForm({
@@ -24,14 +25,33 @@ export function ContactForm({
   email = "advaitkulkarni301@gmail.com",
   name = "Konkan Dekho",
   slug,
+  icalUrls,
 }: ContactFormProps) {
   const { toast } = useToast();
   const [dateRange, setDateRange] = useState<DateRange | undefined>();
+  const [disabledDates, setDisabledDates] = useState<Date[]>([]);
   const [guest, setGuest] = useState({
     adults: 1,
     children: 0,
     pets: 0,
   });
+
+  useEffect(() => {
+    if (icalUrls && icalUrls.length > 0) {
+      fetch('/api/ical', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ urls: icalUrls })
+      })
+        .then(res => res.json())
+        .then(data => {
+          if (data.dates) {
+            setDisabledDates(data.dates.map((d: string) => new Date(d)));
+          }
+        })
+        .catch(console.error);
+    }
+  }, [icalUrls]);
 
   const handleDateChange = (date: Date | DateRange | undefined) => {
     if (!date) {
@@ -136,6 +156,7 @@ export function ContactForm({
               mode="range"
               date={dateRange}
               onDateChange={handleDateChange}
+              disabledDates={disabledDates}
               placeholder="Check-in - Check-out"
             />
           </div>
