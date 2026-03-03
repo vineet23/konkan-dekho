@@ -353,6 +353,7 @@ export const plots: Plot[] = [
       isPremier: true,
       listingDate: "2017-01-15",
     },
+    ical: ["https://www.airbnb.com/calendar/ical/1463850075840259584.ics?t=0934aad2b9024351a2809c5290f876fa&locale=en-GB"]
   },
   {
     id: 9,
@@ -405,6 +406,7 @@ export const plots: Plot[] = [
       isPremier: true,
       listingDate: "2017-01-15",
     },
+    ical: ["https://www.airbnb.com/calendar/ical/1305574671130973863.ics?t=980f8971ee694bceb0d4aa7d2c75b94e&locale=en-GB"]
   },
   {
     id: 10,
@@ -456,6 +458,7 @@ export const plots: Plot[] = [
       isPremier: true,
       listingDate: "2017-01-15",
     },
+    ical: ["https://www.airbnb.com/calendar/ical/1524795683337900843.ics?t=93be36e59ca94674887fa9e47df9619b&locale=en-GB"]
   },
   {
     id: 11,
@@ -1521,6 +1524,7 @@ export const plots: Plot[] = [
       isPremier: true,
       listingDate: "2026-01-02",
     },
+    ical: ["https://www.airbnb.co.in/calendar/ical/1589952595497486136.ics?t=9f353d97f9e04cbfb2fc29fcad1a42c4"]
   },
   {
     id: 34,
@@ -1570,6 +1574,7 @@ export const plots: Plot[] = [
       isPremier: true,
       listingDate: "2026-01-02",
     },
+    ical: ["https://www.airbnb.co.in/calendar/ical/1577513220549157727.ics?t=9f12e62fb10c43ffb25f6ff7e7915af0"]
   },
   {
     id: 35,
