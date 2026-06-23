@@ -61,3 +61,16 @@ export interface Blog {
   images: string[];
   body: string
 }
+
+export interface Experience {
+  id: number;
+  name: string;
+  slug: string;
+  description: string;
+  rate: string | number;
+  guideline?: string;
+  language: string | string[];
+  photos: string[];
+  location: string;
+  phone: string;
+}

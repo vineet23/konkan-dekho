@@ -36,6 +36,9 @@ export function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center space-x-4">
+          <Link href="/experiences">
+            <Button variant="ghost">Experiences</Button>
+          </Link>
           <Link href="/explore/list-your-plot">
             <Button variant="ghost">List Your Plot/Homestay</Button>
           </Link>

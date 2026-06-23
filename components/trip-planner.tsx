@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import {
@@ -11,6 +11,7 @@ import {
     SelectValue,
 } from "@/components/ui/select";
 import { plots } from "@/lib/data/plots";
+import { experiences } from "@/lib/data/experiences";
 import { DateRange } from "react-day-picker";
 import { Search, Minus, Plus, X } from "lucide-react";
 import {
@@ -91,8 +92,54 @@ export function TripPlanner({
     const [isMobileExpanded, setIsMobileExpanded] = useState(false);
 
     const uniqueLocations = useMemo(() => {
-        const locs = plots.map((p) => p.location).filter(Boolean);
+        const locs = [
+            ...plots.map((p) => p.location),
+            ...experiences.map((e) => e.location)
+        ].filter(Boolean);
         return Array.from(new Set(locs)).sort();
+    }, []);
+
+    // Initialize from sessionStorage on mount
+    useEffect(() => {
+        const storedState = sessionStorage.getItem("tripPlannerState");
+        let restoredLocation = initialLocation;
+        let restoredDateRange = undefined;
+        let restoredGuest = { adults: 1, children: 0, pets: 0 };
+
+        if (storedState) {
+            try {
+                const parsed = JSON.parse(storedState);
+                
+                if (!initialLocation && parsed.location) {
+                    restoredLocation = parsed.location;
+                    setLocation(parsed.location);
+                }
+                
+                if (parsed.dateRange) {
+                    restoredDateRange = {
+                        from: parsed.dateRange.from ? new Date(parsed.dateRange.from) : undefined,
+                        to: parsed.dateRange.to ? new Date(parsed.dateRange.to) : undefined,
+                    };
+                    setDateRange(restoredDateRange);
+                }
+                
+                if (parsed.guest) {
+                    restoredGuest = parsed.guest;
+                    setGuest(parsed.guest);
+                }
+
+                if (onSearch) {
+                    onSearch({
+                        location: restoredLocation,
+                        dateRange: restoredDateRange,
+                        guest: restoredGuest
+                    });
+                }
+            } catch (e) {
+                console.error("Failed to parse trip planner state", e);
+            }
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleGuestChange = (type: keyof typeof guest, delta: number) => {
@@ -102,9 +149,10 @@ export function TripPlanner({
     };
 
     const handleSearch = () => {
-        console.log("Searching with:", { location, dateRange, guest });
+        const stateToSave = { location, dateRange, guest };
+        sessionStorage.setItem("tripPlannerState", JSON.stringify(stateToSave));
         if (onSearch) {
-            onSearch({ location, dateRange, guest });
+            onSearch(stateToSave);
         }
         setIsMobileExpanded(false);
     };
