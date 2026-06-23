@@ -106,7 +106,8 @@ export function ContactForm({
 
     const whatsappMessage = messageParts.join("\n");
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappUrl = `https://wa.me/91${phone}?text=${encodedMessage}`;
+    //const whatsappUrl = `https://wa.me/91${phone}?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/919588688856?text=${encodedMessage}`;
 
     // Open WhatsApp
     window.open(whatsappUrl, "_blank");
