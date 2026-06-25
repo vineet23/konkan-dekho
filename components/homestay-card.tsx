@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Plot } from "@/lib/types";
+import { CardImageSlider } from "@/components/ui/card-image-slider";
 import { convertPriceToNumber } from "@/lib/utils/filters";
 import { formatIndianPrice } from "@/lib/utils/number-format";
 
@@ -18,26 +19,15 @@ export function HomestayCard({ plot, distance }: HomestayCardProps) {
       className="group block"
     >
       <div className="relative aspect-[20/19] overflow-hidden rounded-xl bg-gray-200 mb-3">
-        <Image
-          src={plot.images[0]}
-          alt={plot.title}
-          fill
-          className="object-cover transition-transform duration-300 group-hover:scale-105"
-        />
-        {/* <Button
-                    variant="ghost"
-                    size="icon"
-                    className="absolute top-3 right-3 rounded-full bg-transparent hover:bg-transparent text-white hover:text-white"
-                  >
-                    <Heart className="h-6 w-6 stroke-[2px] transition-transform active:scale-90" />
-                  </Button> */}
-        {plot.host?.isPremier && (
-          <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-md shadow-sm">
-            <span className="text-[10px] sm:text-xs font-semibold text-gray-900">
-              Premier Host
-            </span>
-          </div>
-        )}
+        <CardImageSlider images={plot.images || []} alt={plot.title}>
+          {plot.host?.isPremier && (
+            <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-md shadow-sm pointer-events-none z-10">
+              <span className="text-[10px] sm:text-xs font-semibold text-gray-900">
+                Premier Host
+              </span>
+            </div>
+          )}
+        </CardImageSlider>
       </div>
 
       <div className="space-y-1">

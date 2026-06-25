@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Experience } from "@/lib/types";
+import { CardImageSlider } from "@/components/ui/card-image-slider";
 
 interface ExperienceCardProps {
   experience: Experience;
@@ -15,18 +16,7 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
       className="group block"
     >
       <div className="relative aspect-[20/19] overflow-hidden rounded-xl bg-gray-200 mb-3">
-        {experience.photos && experience.photos.length > 0 ? (
-          <Image
-            src={experience.photos[0]}
-            alt={experience.name}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gray-300">
-            <span className="text-gray-500">No Image</span>
-          </div>
-        )}
+        <CardImageSlider images={experience.photos || []} alt={experience.name} />
       </div>
 
       <div className="space-y-1">
