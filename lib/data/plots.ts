@@ -1632,9 +1632,11 @@ export const plots: Plot[] = [
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Main-Photo.webp?alt=media&token=dd60b272-9e2d-4a31-9261-9440013ae2b7",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Bedroom.webp?alt=media&token=5b7e001d-8922-47d5-83fa-91b13f51e03d",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Aesthetics.webp?alt=media&token=b24a7434-a148-4d8e-a7d7-ce7828f5ec42",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-LivingRoom.webp?alt=media&token=9c2e62d1-073d-453e-b65a-c45f0a11398e",
+      "https://console.firebase.google.com/project/konkandekho-158ab/storage/konkandekho-158ab.firebasestorage.app/files/~2FIRA%20Homestay",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FWhatsApp%20Image%202026-06-28%20at%2011.34.19.webp?alt=media&token=d3b1f43f-1385-40bf-9f09-7f30999d1ab3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FWhatsApp%20Image%202026-06-28%20at%2011.34.40.webp?alt=media&token=e3ae8cf5-fa61-43d6-b31e-c58c997c4ae0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FWhatsApp%20Image%202026-06-28%20at%2011.34.18%20(1).webp?alt=media&token=22ccb1e8-f50a-4771-aa9e-249bef0f4649",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FWhatsApp%20Image%202026-06-28%20at%2011.34.17%20(1).webp?alt=media&token=9fad6e3d-39d9-46db-8548-674397add173",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Aqua-Guard.webp?alt=media&token=e4e9d1c0-1e7b-48b9-a296-7557077cf16b",
     ],
     media: [
