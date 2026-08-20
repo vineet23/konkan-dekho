@@ -9,7 +9,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "8",
     price: "₹10,000",
-    phone: "9429690134",
+    phone: "9834069861",
     description:
       "Sea Nest Villa is a premium 3BHK sea-facing villa near Ganpatipule offering stunning panoramic views of the Arabian Sea. The villa is designed for families, groups, and couples who want a peaceful Konkan experience with comfort and spacious living. It features airy rooms, breezy balconies, a private garden, and a wide terrace perfect for enjoying sunrise, sunset, and the natural sea breeze. The property is fully furnished with clean attached bathrooms, a comfortable living area, and a relaxing outdoor environment ideal for unwinding.Located approximately 1.5kms  from the nearest Kajirbhati beach, the stay offers very easy access for morning walks and evening outings. Ganpatipule Temple is around 4.5 km from the villa, Aare-Ware Sunset Point is around 4 km, and Bhandarpule Beach is about 4–5 km away. Local markets and essentials are also within 1 km, making it convenient for guests.Guests can enjoy home-style Konkani meals (both veg and non-veg) prepared on request using fresh local ingredients. The villa also offers free parking, direct road access, and a calm environment suitable for families with kids or elders, couples looking for a scenic getaway, and groups planning a relaxed Konkan trip. With its location, sea views, and comfort, Sea Nest Villa is one of the best sea-facing stay options in the Ganpatipule–Ratnagiri region.",
     features: [
@@ -1620,7 +1620,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "4",
     price: "₹2700",
-    phone: "9429690134",
+    phone: "9145174975",
     description:
       "Welcome to Eera, a cozy and comfortable 1BHK apartment designed for a relaxing city stay. The flat features a bedroom, living area with TV, high-speed Wi-Fi, and a fully equipped kitchen for home-style cooking. Enjoy the convenience of Swiggy and Zomato delivery, dedicated car parking, and easy access to the main city. Ideal for Family with kids, solo travelers, or business guests seeking comfort, privacy, and convenience.",
     features: [
@@ -1631,13 +1631,10 @@ export const plots: Plot[] = [
       "Free Parking",
     ],
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Main-Photo.webp?alt=media&token=dd60b272-9e2d-4a31-9261-9440013ae2b7",
-      "https://console.firebase.google.com/project/konkandekho-158ab/storage/konkandekho-158ab.firebasestorage.app/files/~2FIRA%20Homestay",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FWhatsApp%20Image%202026-06-28%20at%2011.34.19.webp?alt=media&token=d3b1f43f-1385-40bf-9f09-7f30999d1ab3",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FWhatsApp%20Image%202026-06-28%20at%2011.34.40.webp?alt=media&token=e3ae8cf5-fa61-43d6-b31e-c58c997c4ae0",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FWhatsApp%20Image%202026-08-20%20at%2010.39.30.jpeg?alt=media&token=ee266be6-ce30-4252-a122-d863eaaa6152",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FWhatsApp%20Image%202026-06-28%20at%2011.34.18%20(1).webp?alt=media&token=22ccb1e8-f50a-4771-aa9e-249bef0f4649",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FWhatsApp%20Image%202026-06-28%20at%2011.34.17%20(1).webp?alt=media&token=9fad6e3d-39d9-46db-8548-674397add173",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/IRA%20Homestay%2FIRA-Homestay-Aqua-Guard.webp?alt=media&token=e4e9d1c0-1e7b-48b9-a296-7557077cf16b",
     ],
     media: [
       {

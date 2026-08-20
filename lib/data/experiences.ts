@@ -3,47 +3,52 @@ import { Experience } from "../types";
 export const experiences: Experience[] = [
   {
     id: 1,
-    name: "Scuba Diving in Malvan",
-    slug: "scuba-diving-in-malvan",
-    description: "Experience the mesmerizing underwater world of the Konkan coast. Our certified instructors will guide you through the beautiful coral reefs and vibrant marine life near Sindhudurg Fort. Perfect for beginners and experienced divers alike. Safety gear, brief training, and underwater photos are included in the package.",
-    rate: "₹2,500",
-    guideline: "Participants must be physically fit. Please avoid heavy meals before diving. Children below 10 years are not allowed.",
+    name: "Hatwadi Circuilar Spillway Dam Near Ganpatipule",
+    slug: "spillway-dam-near-ganpatipule",
+    description: "Experience the scenic beauty of the Hatwadi Circular Spillway Dam near Ganpatipule. Enjoy the tranquil waters and lush surroundings, perfect for a peaceful retreat or a family outing.",
+    rate: " ",
+    guideline: "Please maintain quiet behavior to respect the natural environment, Do not jump from bridge,No alcohol and smoking, Wear comfortable shoes for walking, Follow the marked paths and trails, Respect local wildlife and vegetation",
     language: ["English", "Marathi", "Hindi"],
     photos: [
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1682687982501-1e58b814714c?q=80&w=2070&auto=format&fit=crop"
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FDhamanse%20Spillway%20Dam%2FWhatsApp%20Image%202026-08-20%20at%2010.50.29%20(2).jpeg?alt=media&token=d8948601-9670-4f99-92c6-974bdcaf8e3a",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FDhamanse%20Spillway%20Dam%2FWhatsApp%20Image%202026-08-20%20at%2010.50.29%20(1).jpeg?alt=media&token=6f6627cf-85b3-43e6-be46-2bc555a316de",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FDhamanse%20Spillway%20Dam%2FWhatsApp%20Image%202026-08-20%20at%2010.50.29.jpeg?alt=media&token=cbf3bcca-f40a-4f4c-b45e-ec5a8546bab5",
     ],
-    location: "Malvan, Sindhudurg",
-    phone: "9876543210"
+    location: "Dhamanse, Ratnagiri",
+    phone: "9145174975"
   },
   {
     id: 2,
-    name: "Mangrove Safari at Ratnagiri",
-    slug: "mangrove-safari-at-ratnagiri",
-    description: "Take a peaceful boat ride through the lush green mangroves of Ratnagiri. Witness diverse bird species, unique flora, and the tranquil backwaters of the Konkan region. The guided tour offers insights into the local ecosystem and the importance of mangrove conservation.",
-    rate: "₹800",
+    name: "Khorninko Dam",
+    slug: "khorninko-dam",
+    description: "Experience the beauty of Khorninko Dam, a scenic spot near Ratnagiri. Enjoy the serene environment, lush greenery, and the tranquil waters of the dam. Perfect for a peaceful retreat or a family outing.",
+    rate: "",
     guideline: "Carry sunglasses and hats. Keep noise levels low to avoid disturbing the wildlife.",
     language: ["Marathi", "Hindi"],
     photos: [
-      "https://images.unsplash.com/photo-1628126235206-5260b9ea6441?q=80&w=1974&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop"
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKhorninko%20Dam%2FWhatsApp%20Image%202026-08-20%20at%2011.01.49%20(2).jpeg?alt=media&token=9fcb40a1-a500-4acb-bfc6-4d0b091c4bae",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKhorninko%20Dam%2FWhatsApp%20Image%202026-08-20%20at%2011.01.49%20(1).jpeg?alt=media&token=2f70bb11-7fad-4da0-ba73-952d12553049",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKhorninko%20Dam%2FWhatsApp%20Image%202026-08-20%20at%2011.01.49.jpeg?alt=media&token=3dda08e8-3861-44ba-8cc7-43a67d537e97",
     ],
-    location: "Ratnagiri",
-    phone: "9876543211"
+    location: "Lanja",
+    phone: ""
   },
   {
     id: 3,
-    name: "Authentic Konkani Cooking Masterclass",
-    slug: "authentic-konkani-cooking-masterclass",
-    description: "Learn to cook authentic Konkani dishes like Sol Kadhi, Fish Curry, and Modak from a local expert. This hands-on experience includes selecting fresh ingredients, understanding local spices, and enjoying the meal you prepare together in a traditional Konkani home.",
-    rate: "₹1,500",
-    guideline: "Please inform us of any food allergies in advance.",
+    name: "Kasheli Sunset Point Near Pawas",
+    slug: "kasheli-sunset-point-near-pawas",
+    description: "Enjoy the breathtaking sunset views at Kasheli, a scenic spot near Pawas. The golden hour lighting creates a magical atmosphere, perfect for photography and relaxation.",
+    rate: "",
+    guideline: "Please maintain quiet behavior to respect the natural environment.",
     language: ["English", "Marathi"],
     photos: [
-      "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop"
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKasheli%20sunset%20Point%2FWhatsApp%20Image%202026-08-20%20at%2011.05.34.jpeg?alt=media&token=c5e6c2b2-cbef-4c67-8684-b8921444bea3",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKasheli%20sunset%20Point%2FWhatsApp%20Image%202026-08-20%20at%2011.05.34%20(1).jpeg?alt=media&token=3da40212-c74b-4307-940e-d23c0df1102c",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKasheli%20sunset%20Point%2FWhatsApp%20Image%202026-08-20%20at%2011.05.33.jpeg?alt=media&token=b90c663f-5068-4eb3-b55e-c05cb6354285",
+
     ],
-    location: "Ganpatipule",
-    phone: "9876543212"
+    location: "Pawas, Ratnagiri",
+    phone: ""
   }
+
 ];
