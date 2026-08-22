@@ -7,37 +7,64 @@ import { CardImageSlider } from "@/components/ui/card-image-slider";
 
 interface ExperienceCardProps {
   experience: Experience;
+  distance?: number;
+  compact?: boolean;
 }
 
-export function ExperienceCard({ experience }: ExperienceCardProps) {
+export function ExperienceCard({
+  experience,
+  distance,
+  compact = false,
+}: ExperienceCardProps) {
   return (
     <Link
       href={`/experiences/${experience.slug}`}
-      className="group block"
+      className="group flex h-full flex-col"
     >
-      <div className="relative aspect-[20/19] overflow-hidden rounded-xl bg-gray-200 mb-3">
+      <div className="relative mb-3 aspect-[20/19] overflow-hidden rounded-xl bg-gray-200">
         <CardImageSlider images={experience.photos || []} alt={experience.name} />
       </div>
 
-      <div className="space-y-1">
-        <div className="flex justify-between items-start">
-          <h3 className="text-sm sm:text-base font-semibold text-gray-900 truncate pr-2">
+      <div className="flex flex-1 flex-col space-y-1">
+        <div className="flex items-start justify-between">
+          <h3 className="truncate pr-2 text-sm font-semibold text-gray-900 sm:text-base">
             {experience.name}
           </h3>
         </div>
         <div>
-          <p className="text-gray-500 text-sm truncate">
+          <p className="truncate text-sm text-gray-500">
             {experience.location}
+            {distance !== undefined && (
+              <span className="ml-1">
+                ({Math.round(distance * 10) / 10} km away)
+              </span>
+            )}
           </p>
-          <p className="text-gray-500 text-sm truncate">
-            Language: {Array.isArray(experience.language) ? experience.language.join(', ') : experience.language}
+          <p className="truncate text-sm text-gray-500">
+            {compact
+              ? Array.isArray(experience.language)
+                ? experience.language.join(", ")
+                : experience.language
+              : `Language: ${
+                  Array.isArray(experience.language)
+                    ? experience.language.join(", ")
+                    : experience.language
+                }`}
           </p>
         </div>
-        <div className="text-left mt-1">
-          <span className="text-sm sm:text-base font-semibold text-gray-900">
-            {experience.rate}
-          </span>
-          <span className="text-gray-500 text-xs sm:text-sm ml-1">per person</span>
+        <div className="text-left">
+          {experience.rate && String(experience.rate).trim() ? (
+            <>
+              <span className="text-sm font-semibold text-gray-900 sm:text-base">
+                {experience.rate}
+              </span>
+              <span className="ml-1 text-xs text-gray-500 sm:text-sm">
+                per person
+              </span>
+            </>
+          ) : compact ? (
+            <span className="text-sm text-gray-500">Experience</span>
+          ) : null}
         </div>
       </div>
     </Link>

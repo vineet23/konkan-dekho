@@ -73,4 +73,8 @@ export interface Experience {
   photos: string[];
   location: string;
   phone: string;
+  coordinates?: {
+    latitude: string;
+    longitude: string;
+  };
 }

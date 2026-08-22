@@ -1,9 +1,11 @@
 "use client";
 
 import { experiences } from "@/lib/data/experiences";
+import { plots } from "@/lib/data/plots";
 import { PlotMediaGallery } from "@/components/plots/media/plot-media-gallery";
 import { ExperienceDetails } from "./experience-details";
 import { ExperienceContactForm } from "./experience-contact-form";
+import { NearbyPlots } from "./nearby-plots";
 
 export function ClientExperiencePage({ slug }: { slug: string }) {
   const experience = experiences.find((e) => e.slug === slug);
@@ -20,6 +22,13 @@ export function ClientExperiencePage({ slug }: { slug: string }) {
         <div className="lg:col-span-2 space-y-6">
           <PlotMediaGallery media={[]} images={experience.photos} />
           <ExperienceDetails experience={experience} />
+          {experience.coordinates && (
+            <NearbyPlots
+              latitude={experience.coordinates.latitude}
+              longitude={experience.coordinates.longitude}
+              allPlots={plots}
+            />
+          )}
           {/* Mobile Contact Form */}
           <div className="block lg:hidden">
             <ExperienceContactForm

@@ -1,9 +1,10 @@
 import { Experience } from "../types";
 
+// Optional coordinates use the same format as plots, e.g. "17.10451480888077° N"
 export const experiences: Experience[] = [
   {
     id: 1,
-    name: "Hatwadi Circuilar Spillway Dam Near Ganpatipule",
+    name: "Hatwadi Circular Spillway Dam Near Ganpatipule",
     slug: "spillway-dam-near-ganpatipule",
     description: "Experience the scenic beauty of the Hatwadi Circular Spillway Dam near Ganpatipule. Enjoy the tranquil waters and lush surroundings, perfect for a peaceful retreat or a family outing.",
     rate: " ",
@@ -15,7 +16,11 @@ export const experiences: Experience[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FDhamanse%20Spillway%20Dam%2FWhatsApp%20Image%202026-08-20%20at%2010.50.29.jpeg?alt=media&token=cbf3bcca-f40a-4f4c-b45e-ec5a8546bab5",
     ],
     location: "Dhamanse, Ratnagiri",
-    phone: "9145174975"
+    phone: "9145174975",
+    coordinates: {
+      latitude: "17.134434° N",
+      longitude: "73.336250° E",
+    },
   },
   {
     id: 2,
@@ -31,7 +36,11 @@ export const experiences: Experience[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKhorninko%20Dam%2FWhatsApp%20Image%202026-08-20%20at%2011.01.49.jpeg?alt=media&token=3dda08e8-3861-44ba-8cc7-43a67d537e97",
     ],
     location: "Lanja",
-    phone: ""
+    phone: "",
+    coordinates: {
+      latitude: "16.868977° N",
+      longitude: "73.732273° E",
+    },
   },
   {
     id: 3,
@@ -48,7 +57,11 @@ export const experiences: Experience[] = [
 
     ],
     location: "Pawas, Ratnagiri",
-    phone: ""
+    phone: "",
+    coordinates: {
+      latitude: "16.727052° N",
+      longitude: "73.309846° E",
+    },
   },
   {
     id: 4,
@@ -67,7 +80,11 @@ export const experiences: Experience[] = [
 
     ],
     location: "Ori, Ratnagiri",
-    phone: ""
+    phone: "",
+    coordinates: {
+      latitude: "17.124308° N",
+      longitude: "73.310085° E",
+    },
   },
   {
     id: 5,
@@ -86,7 +103,11 @@ export const experiences: Experience[] = [
 
     ],
     location: "Malgund, Ratnagiri",
-    phone: ""
+    phone: "",
+    coordinates: {
+      latitude: "17.150561° N",
+      longitude: "73.266200° E",
+    },
   },
   {
     id: 6,
@@ -105,11 +126,15 @@ export const experiences: Experience[] = [
 
     ],
     location: "Nivendi, Ratnagiri",
-    phone: ""
+    phone: "",
+    coordinates: {
+      latitude: "17.165403° N",
+      longitude: "73.302416° E",
+    },
   },
   {
     id: 7,
-    name: "Zipline in aare ware",
+    name: "Zipline in Aare Ware",
     slug: "zipline-in-aare-ware",
     description: "Experience the thrill of ziplining in the scenic landscapes of Aare Ware.",
     rate: "",
@@ -124,7 +149,34 @@ export const experiences: Experience[] = [
 
     ],
     location: "Aare Ware, Ratnagiri",
-    phone: ""
+    phone: "",
+    coordinates: {
+      latitude: "17.079232° N",
+      longitude: "73.288281° E",
+    },
+  },
+  {
+    id: 8,
+    name: "Shimgotsav at Phansop",
+    slug: "shimgotsav-at-phansop",
+    description: "Celebrate the vibrant Shimgotsav festival at Phansop, a traditional event filled with music, dance, and cultural performances.",
+    rate: "",
+    guideline: "Please respect local customs and traditions during the festival.",
+    language: ["English", "Marathi"],
+    photos: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FShimgotsav%2FWhatsApp%20Image%202026-08-20%20at%2021.52.53.jpeg?alt=media&token=82692755-8cfa-41b3-8995-3687430b1afe",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FShimgotsav%2FWhatsApp%20Image%202026-08-20%20at%2021.52.51.jpeg?alt=media&token=d25af4d5-5341-4e47-956d-6fc810673eba",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FShimgotsav%2FWhatsApp%20Image%202026-08-20%20at%2021.52.52.jpeg?alt=media&token=e7feeccd-8dff-48ef-a10d-0166a7a02060",
+
+
+    ],
+    location: "Phansop, Ratnagiri",
+    phone: "",
+    coordinates: {
+      latitude: "17.079232° N",
+      longitude: "73.288281° E",
+    },
+
   },
 
 

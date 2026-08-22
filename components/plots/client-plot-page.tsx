@@ -5,6 +5,7 @@ import { ContactForm } from "./contact-form";
 import { plots } from "@/lib/data/plots";
 import { PlotMediaGallery } from "./media/plot-media-gallery";
 import { SimilarPlots } from "./similar-plots";
+import { NearbyExperiences } from "./nearby-experiences";
 
 export function ClientPlotPage({ id }: { id: string }) {
   const plot = plots.find((p) => p.id === parseInt(id));
@@ -30,6 +31,7 @@ export function ClientPlotPage({ id }: { id: string }) {
               icalUrls={plot.ical}
             />
           </div>
+          <NearbyExperiences plot={plot} />
           <SimilarPlots currentPlot={plot} allPlots={plots} />
         </div>
         {/* Contact Form - Sticky on desktop */}
