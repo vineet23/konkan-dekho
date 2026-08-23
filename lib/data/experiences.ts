@@ -4,7 +4,7 @@ import { Experience } from "../types";
 export const experiences: Experience[] = [
   {
     id: 1,
-    name: "Hatwadi Circular Spillway Dam Near Ganpatipule",
+    name: "Hatwadiii Circular Spillway Dam Near Ganpatipule",
     slug: "spillway-dam-near-ganpatipule",
     description: "Experience the scenic beauty of the Hatwadi Circular Spillway Dam near Ganpatipule. Enjoy the tranquil waters and lush surroundings, perfect for a peaceful retreat or a family outing.",
     rate: " ",
@@ -173,9 +173,107 @@ export const experiences: Experience[] = [
     location: "Phansop, Ratnagiri",
     phone: "",
     coordinates: {
-      latitude: "17.079232° N",
-      longitude: "73.288281° E",
+      latitude: "16.95258801167241° N",
+      longitude: "73.3113518358121° E",
     },
+
+  },
+  {
+    id: 9,
+    name: "Bhatye Beach",
+    slug: "bhatye-beach",
+    description: "White Sand Beach near Ratnagiri city , famous for it sunset and serene location, 2 Kms from Ratnagiri Bus stand, Do enjoy chat ",
+    rate: "",
+    guideline: "",
+    language: ["English", "Marathi"],
+    photos: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FBhatye%20Beach%2FBhatye_beach.webp?alt=media&token=2a694652-738e-4d5e-92df-2b5555dea12b",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FBhatye%20Beach%2FSunset_Bhatye_Beach.webp?alt=media&token=19b75e68-84fc-46f6-b55d-1e8a9cc305e3",
+      
+    ],
+    location: "Ratnagiri",
+    phone: "",
+    coordinates: {
+      latitude: "16.97861287729902° N",
+      longitude: "73.2937592676574° E",
+    },
+  },
+    
+    {
+    id: 10,
+    name: "Ganpatipule Temple",
+    slug: "ganpatipule-temple",
+    description: "Ganpatipule Temple, one of Maharashtra’s most revered Ganesh temples, is a beautiful spiritual destination on the Konkan coast. Famous for its Swayambhu Ganpati idol and scenic location near Ganpatipule Beach, the temple attracts devotees and travellers throughout the year. A must-visit destination for experiencing Konkan’s culture, spirituality, and coastal beauty.",
+    rate: "",
+    guideline: "",
+    language: ["English", "Marathi"],
+    photos: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FGanpatipule%20Temple%2FGanpatipule%20Temple%20front%20view.webp?alt=media&token=7e338035-786d-4979-a9e9-c3ca627ccccd",
+    ],
+    location: "Ratnagiri",
+    phone: "",
+    coordinates: {
+      latitude: "17.144490673574722° N",
+      longitude: "73.26688424167061° E",
+    },
+  },
+    {
+    id: 10,
+    name: "Thiba Palace",
+    slug: "thiba-palace",
+    description: "",
+    rate: "",
+    guideline: "",
+    language: ["English", "Marathi"],
+    photos: [
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FThiba%20Palace%2FThiba%20Palace.webp?alt=media&token=7a03fcb3-c128-4813-850a-f2a76a14007d",
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FThiba%20Palace%2FThiba_Palace_Interiors.webp?alt=media&token=d4c5d4aa-a059-4e95-941a-be54400eaa4c",    ],
+    location: "Ratnagiri",
+    phone: "",
+    coordinates: {
+      latitude: "16.983568360557932° N",
+      longitude: "73.31167297883579° E",
+    },
+  
+
+  },
+  {
+    id: 11,
+    name: "Table Point",
+    slug: "table-point",
+    description: "Table Point in Ratnagiri is a scenic coastal viewpoint offering beautiful views of the Arabian Sea and Konkan coastline. Surrounded by lush greenery and peaceful natural beauty, it is a perfect spot for enjoying sunsets, photography, and a relaxing escape. A great place to experience the natural charm of Ratnagiri and Konkan.",
+    rate: "",
+    guideline: "",
+    language: ["English", "Marathi"],
+    photos: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FGanpatipule%20Temple%2FGanpatipule%20Temple%20front%20view.webp?alt=media&token=7e338035-786d-4979-a9e9-c3ca627ccccd",
+    ],
+    location: "Ratnagiri",
+    phone: "",
+    coordinates: {
+      latitude: "17.144490673574722° N",
+      longitude: "73.26688424167061° E",
+    },
+  
+
+  },
+   {
+    id: 12,
+    name: "Swami Swaroopanand math pawas",
+    slug: "swami-swaroopanand-math-pawas",
+    description: "Pawas in Ratnagiri is home to the revered Swami Swaroopanand Math, a significant spiritual centre in the Konkan region. The Math is associated with Swami Swaroopanand (Rambhau Maharaj), a respected spiritual teacher whose teachings continue to inspire devotees.Surrounded by the peaceful greenery of rural Konkan, the Math offers a quiet atmosphere for darshan, meditation and reflection. The simple village setting, coconut and areca-nut plantations, and the calm Konkan landscape make a visit to Pawas a soulful experience.A meaningful stop for those exploring the spiritual heritage, culture and natural beauty of Ratnagiri.",
+    rate: "",
+    guideline: "",
+    language: ["English", "Marathi"],
+    photos: [
+"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Fpawas%20math%2FPawas-2.webp?alt=media&token=9451da98-f8dc-4634-8d02-d340263b5a89",    ],
+    location: "Ratnagiri",
+    phone: "",
+    coordinates: {
+      latitude: "16.86624139770066° N",
+      longitude: "73.32871893253626dir° E",
+    },
+  
 
   },
 
