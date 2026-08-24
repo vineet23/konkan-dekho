@@ -133,7 +133,7 @@ export const blogs: Blog[] = [
     description: "Planning a 2-day Ratnagiri trip? Explore beautiful beaches, historic forts, temples, local food, adventure activities and authentic Konkan experiences with this carefully planned day-wise Ratnagiri itinerary.",
 
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2F081c9151-19d5-4c12-b497-af9112f1ed8f.png?alt=media&token=6f1da083-4656-498b-8036-daefa24f8443"
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2F081c9151-19d5-4c12-b497-af9112f1ed8f.png?alt=media&token=6f1da083-4656-498b-8036-daefa24f8443",
     ],
 
     body: `<p>Looking for the perfect <strong>Ratnagiri 2-day trip itinerary</strong>? From golden beaches and scenic coastal roads to historic forts, spiritual places, authentic Konkan food and local experiences, Ratnagiri offers everything you need for a memorable weekend getaway.</p>
@@ -152,7 +152,7 @@ export const blogs: Blog[] = [
 
   <h3>08:00 AM — Ganpatipule Temple & Beach</h3>
 
-  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FGanpatipule%20Temple%2FGanpatipule%20Temple%20front%20view.webp?alt=media&token=7e338035-786d-4979-a9e9-c3ca627ccccd" alt="Ganpatipule Temple and Beach Ratnagiri" /></p>
+  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FGanpatipule%20Temple%2FGanpatipule%20Temple%20front%20view.webp?alt=media&token=7e338035-786d-4979-a9e9-c3ca627ccccd" alt="Ganpatipule Temple in Ratnagiri Konkan" /></p>
 
   <p>Begin your morning at the famous <strong>Ganpatipule Temple</strong>, home to the revered Swayambhu Ganpati idol. After darshan, spend some time at Ganpatipule Beach and enjoy the peaceful Arabian Sea coastline.</p>
 
@@ -161,6 +161,8 @@ export const blogs: Blog[] = [
   <p><a href="https://www.konkandekho.com/experiences/ganpatipule-temple" target="_blank"><strong>Explore Ganpatipule Temple on KonkanDekho →</strong></a></p>
 
   <h3>10:00 AM — Prachin Konkan</h3>
+
+  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FPrachin%20konkan%2FIMG-20260823-WA0041.webp?alt=media&token=1335271a-503d-4dcb-9454-4874bc86cadb" alt="Prachin Konkan Museum in Ratnagiri" /></p>
 
   <p>Next, visit <strong>Prachin Konkan</strong>, a unique open-air museum that showcases the traditional lifestyle, culture and heritage of the Konkan region.</p>
 
@@ -178,7 +180,7 @@ export const blogs: Blog[] = [
 
   <p>Take a break from sightseeing and enjoy an authentic <strong>Konkan lunch</strong>. Local food is an important part of experiencing Ratnagiri, and this is the perfect time to try traditional Maharashtrian and Konkan-style dishes.</p>
 
-  <p><strong>KonkanDekho Tip:</strong> Don't rush through your meals. Food is one of the best ways to experience the culture of a destination.</p>
+  <p><strong>Recommended:</strong> Mehendale Swad Dining.</p>
 
   <h3>02:30 PM — Aare-Ware Coastal Drive</h3>
 
@@ -187,24 +189,32 @@ export const blogs: Blog[] = [
   <p>The winding road between green hills and the Arabian Sea offers breathtaking views and excellent photography opportunities. Take your time here and enjoy the journey itself rather than simply treating Aare-Ware as a stop on the map.</p>
 
   <h3>03:30 PM — Aare-Ware Adventure</h3>
-  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FZipline%20near%20Aare%20ware%2FWhatsApp%20Image%202026-08-20%20at%2017.55.47%20(1).jpeg?alt=media&token=339ae573-828c-4308-bf2c-71553b779791" /></p>
 
+  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FZipline%20near%20Aare%20ware%2FWhatsApp%20Image%202026-08-20%20at%2017.55.47%20(1).jpeg?alt=media&token=339ae573-828c-4308-bf2c-71553b779791" alt="Zipline adventure at Aare-Ware Ratnagiri" /></p>
 
-  <p>For adventure lovers, add a <strong>zipline experience at Aare-Ware</strong> and enjoy the Konkan coastline from a completely different perspective.</p>
+  <p>For adventure lovers, add a <strong>zipline experience at Aare-Ware</strong> and enjoy the scenic Konkan landscape from a completely different perspective.</p>
 
   <p>Adventure activities may depend on weather, season and local availability, so check availability before planning this part of your itinerary.</p>
 
-  <h3>05:00 PM — Kajirbhati Beach & Watersports</h3>
+  <p><a href="https://www.konkandekho.com/experiences/zipline-in-aare-ware" target="_blank"><strong>Explore Aare-Ware Zipline on KonkanDekho →</strong></a></p>
+
+  <h3>04:30 PM — Optional Kayaking at Malgund</h3>
+
+  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKayaking%20in%20Malgund%2Fkayaking%20malgund.jpg?alt=media&token=0af8cf1b-8507-4a42-a820-fd09a7023256" alt="Kayaking near Ganpatipule at Malgund" /></p>
+
+  <p>If you prefer a water-based adventure, you can include <strong>kayaking near Ganpatipule at Malgund</strong> as an optional experience. Depending on timing and availability, this can be added before or instead of another activity.</p>
+
+  <p><a href="https://www.konkandekho.com/experiences/kayaking-near-ganpatipule" target="_blank"><strong>Explore Kayaking near Ganpatipule →</strong></a></p>
+
+  <h3>05:30 PM — Kajirbhati Beach & Watersports</h3>
 
   <p>Spend the afternoon at <strong>Kajirbhati Beach</strong>, a beautiful coastal destination known for its peaceful surroundings and scenic shoreline.</p>
 
-  <p>Depending on seasonal availability and weather conditions, you can enjoy local watersports and beach activities. After the adventure, slow down by the sea and enjoy the sunset.</p>
+  <p>Depending on seasonal availability and weather conditions, you can enjoy local watersports and beach activities. After the adventure, slow down by the sea and enjoy the evening.</p>
 
-  <h3>07:30 PM — Dinner & Local Konkan Food</h3>
+  <h3>07:30 PM — Dinner at Mehendale Swad Dining</h3>
 
-  <p>No Ratnagiri trip is complete without authentic local food. End your first day with a traditional Konkan-style meal and experience the flavours of the region.</p>
-
-  <p><strong>Recommended:</strong> Mehendale Swad Dining.</p>
+  <p>No Ratnagiri trip is complete without authentic local food. End your first day with a traditional meal at <strong>Mehendale Swad Dining</strong> and experience the flavours of the Konkan region.</p>
 
   <h2>Day 2 — Heritage, Forts, Beaches & Spiritual Konkan</h2>
 
@@ -234,9 +244,13 @@ export const blogs: Blog[] = [
 
   <h3>01:00 PM — Bhatye Beach</h3>
 
+  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FBhatye%20Beach%2FBhatye_beach.webp?alt=media&token=2a694652-738e-4d5e-92df-2b5555dea12b" alt="Bhatye Beach Ratnagiri Konkan" /></p>
+
   <p>After exploring the fort, make your way to <strong>Bhatye Beach</strong>.</p>
 
   <p>The long stretch of sandy coastline is ideal for a relaxed afternoon walk, photography and enjoying the sea breeze. If you have time, simply slow down here and enjoy the peaceful side of Ratnagiri.</p>
+
+  <p><a href="https://www.konkandekho.com/experiences/bhatye-beach" target="_blank"><strong>Explore Bhatye Beach on KonkanDekho →</strong></a></p>
 
   <h3>02:30 PM — Local Konkan Lunch</h3>
 
@@ -246,27 +260,35 @@ export const blogs: Blog[] = [
 
   <h3>04:00 PM — Pawas — Swami Swaroopanand Math</h3>
 
-  <p>Continue your journey towards <strong>Pawas</strong> and visit the revered Swami Swaroopanand Math.</p>
+  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Fpawas%20math%2FPawas-2.webp?alt=media&token=9451da98-f8dc-4634-8d02-d340263b5a89" alt="Swami Swaroopanand Math at Pawas Ratnagiri" /></p>
+
+  <p>Continue your journey towards <strong>Pawas</strong> and visit the revered <strong>Swami Swaroopanand Math</strong>.</p>
 
   <p>Surrounded by greenery and the peaceful atmosphere of rural Konkan, Pawas offers a completely different experience from the busy tourist spots.</p>
 
   <p>Take some quiet time for darshan, reflection and experiencing the spiritual heritage of Konkan.</p>
 
-  <h3>05:30 PM — Kasheli — A Peaceful Konkan Escape</h3>
+  <p><a href="https://www.konkandekho.com/experiences/swami-swaroopanand-math-pawas" target="_blank"><strong>Explore Swami Swaroopanand Math on KonkanDekho →</strong></a></p>
+
+  <h3>05:30 PM — Kasheli Sunset Point</h3>
+
+  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKasheli%20sunset%20Point%2FWhatsApp%20Image%202026-08-20%20at%2011.05.34.jpeg?alt=media&token=c5e6c2b2-cbef-4c67-8684-b8921444bea3" alt="Kasheli Sunset Point near Pawas Ratnagiri" /></p>
 
   <p>If time permits, finish your journey towards <strong>Kasheli</strong>, a beautiful and relatively peaceful coastal village in Ratnagiri district.</p>
 
   <p>Known for its serene coastal surroundings, traditional Konkan landscape and peaceful atmosphere, Kasheli is an excellent final stop for travellers looking to experience the quieter side of Konkan.</p>
 
+  <p><a href="https://www.konkandekho.com/experiences/kasheli-sunset-point-near-pawas" target="_blank"><strong>Explore Kasheli Sunset Point on KonkanDekho →</strong></a></p>
+
   <h2>Ratnagiri 2-Day Trip at a Glance</h2>
 
-  <p><strong>Day 1:</strong> Ganpatipule Temple & Beach → Prachin Konkan → Kavi Keshavsoot Smarak → Aare-Ware → Adventure → Kajirbhati Beach → Local Konkan Dinner</p>
+  <p><strong>Day 1:</strong> Ganpatipule Temple & Beach → Prachin Konkan → Kavi Keshavsoot Smarak → Aare-Ware → Zipline / Kayaking → Kajirbhati Beach → Mehendale Swad Dining</p>
 
-  <p><strong>Day 2:</strong> Patit Pavan Mandir → Lokmanya Tilak Janmasthan → Rasraj Misal → Ratnadurga Fort → Bhatye Beach → Pawas → Kasheli</p>
+  <p><strong>Day 2:</strong> Patit Pavan Mandir → Lokmanya Tilak Janmasthan → Rasraj Misal → Ratnadurga Fort → Bhatye Beach → Pawas Math → Kasheli Sunset</p>
 
   <h2>Where to Stay in Ratnagiri</h2>
 
-  <p>For a comfortable Ratnagiri weekend getaway, choose a local homestay that allows you to explore the beaches, temples, forts and local attractions conveniently.</p>
+  <p>For a comfortable <strong>Ratnagiri weekend getaway</strong>, choose a local homestay that allows you to explore the beaches, temples, forts and local attractions conveniently.</p>
 
   <p>Staying at a local Konkan homestay also gives you an opportunity to experience authentic hospitality, local food and the relaxed pace of Konkan life.</p>
 
@@ -280,18 +302,19 @@ export const blogs: Blog[] = [
 
   <h2>Why This Ratnagiri Itinerary Works</h2>
 
-  <p>This itinerary combines the best of Ratnagiri tourism — <strong>spirituality, history, beaches, adventure, local food and authentic Konkan culture.</strong></p>
+  <p>This itinerary combines the best of <strong>Ratnagiri tourism</strong> — spirituality, history, beaches, adventure, local food and authentic Konkan culture.</p>
 
   <p>In just two days, you can experience both popular attractions and quieter places that make Ratnagiri special.</p>
 
-  <p>From Ganpatipule's spiritual charm to Aare-Ware's coastal beauty, Ratnadurga's history and Pawas's peaceful atmosphere, this is Ratnagiri beyond just a weekend trip.</p>
+  <p>From Ganpatipule's spiritual charm to Aare-Ware's coastal beauty, Ratnadurga's history and Pawas's peaceful atmosphere, this is <strong>Ratnagiri beyond just a weekend trip.</strong></p>
 
   <h2>Experience Ratnagiri Like a Local</h2>
 
   <p>At <strong>KonkanDekho</strong>, we believe travelling through Konkan should be more than visiting places on a map. It should be about discovering local stays, eating authentic food, meeting local people and experiencing the region in a more meaningful way.</p>
 
   <p><a href="https://www.konkandekho.com/" target="_blank"><strong>Discover authentic stays and experiences on KonkanDekho →</strong></a></p>`
-  }
+  },
+
 
 
 
