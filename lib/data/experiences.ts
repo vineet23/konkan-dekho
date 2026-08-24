@@ -189,7 +189,7 @@ export const experiences: Experience[] = [
     photos: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FBhatye%20Beach%2FBhatye_beach.webp?alt=media&token=2a694652-738e-4d5e-92df-2b5555dea12b",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FBhatye%20Beach%2FSunset_Bhatye_Beach.webp?alt=media&token=19b75e68-84fc-46f6-b55d-1e8a9cc305e3",
-      
+
     ],
     location: "Ratnagiri",
     phone: "",
@@ -198,8 +198,8 @@ export const experiences: Experience[] = [
       longitude: "73.2937592676574° E",
     },
   },
-    
-    {
+
+  {
     id: 10,
     name: "Ganpatipule Temple",
     slug: "ganpatipule-temple",
@@ -217,7 +217,7 @@ export const experiences: Experience[] = [
       longitude: "73.26688424167061° E",
     },
   },
-    {
+  {
     id: 10,
     name: "Thiba Palace",
     slug: "thiba-palace",
@@ -226,15 +226,15 @@ export const experiences: Experience[] = [
     guideline: "",
     language: ["English", "Marathi"],
     photos: [
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FThiba%20Palace%2FThiba%20Palace.webp?alt=media&token=7a03fcb3-c128-4813-850a-f2a76a14007d",
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FThiba%20Palace%2FThiba_Palace_Interiors.webp?alt=media&token=d4c5d4aa-a059-4e95-941a-be54400eaa4c",    ],
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FThiba%20Palace%2FThiba%20Palace.webp?alt=media&token=7a03fcb3-c128-4813-850a-f2a76a14007d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FThiba%20Palace%2FThiba_Palace_Interiors.webp?alt=media&token=d4c5d4aa-a059-4e95-941a-be54400eaa4c",],
     location: "Ratnagiri",
     phone: "",
     coordinates: {
       latitude: "16.983568360557932° N",
       longitude: "73.31167297883579° E",
     },
-  
+
 
   },
   {
@@ -246,18 +246,18 @@ export const experiences: Experience[] = [
     guideline: "",
     language: ["English", "Marathi"],
     photos: [
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FGanpatipule%20Temple%2FGanpatipule%20Temple%20front%20view.webp?alt=media&token=7e338035-786d-4979-a9e9-c3ca627ccccd",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Ftable%20point%2FIMG-20260823-WA0080.webp?alt=media&token=1736acab-dbc0-4bee-b58a-1f8b597f877f",
     ],
     location: "Ratnagiri",
     phone: "",
     coordinates: {
-      latitude: "17.144490673574722° N",
-      longitude: "73.26688424167061° E",
+      latitude: "16.96313086335966° N",
+      longitude: "73.29369215099318° E",
     },
-  
+
 
   },
-   {
+  {
     id: 12,
     name: "Swami Swaroopanand math pawas",
     slug: "swami-swaroopanand-math-pawas",
@@ -266,14 +266,36 @@ export const experiences: Experience[] = [
     guideline: "",
     language: ["English", "Marathi"],
     photos: [
-"https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Fpawas%20math%2FPawas-2.webp?alt=media&token=9451da98-f8dc-4634-8d02-d340263b5a89",    ],
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Fpawas%20math%2FPawas-2.webp?alt=media&token=9451da98-f8dc-4634-8d02-d340263b5a89",],
     location: "Ratnagiri",
     phone: "",
     coordinates: {
       latitude: "16.86624139770066° N",
       longitude: "73.32871893253626dir° E",
     },
-  
+
+
+  },
+  {
+    id: 13,
+    name: "Prachin Konkan Museum",
+    slug: "prachin-konkan-museum",
+    description: "The Prachin Konkan Museum in Ratnagiri showcases the rich cultural heritage and historical significance of the Konkan region. Housed in a beautiful colonial building, the museum features artifacts, exhibits, and displays that highlight the area's unique traditions, art, and history.",
+    rate: "",
+    guideline: "",
+    language: ["English", "Marathi"],
+    photos: [
+
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FPrachin%20konkan%2FIMG-20260823-WA0041.webp?alt=media&token=1335271a-503d-4dcb-9454-4874bc86cadb",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FPrachin%20konkan%2FIMG-20260823-WA0039.webp?alt=media&token=7e527a65-28ed-41d4-8dc4-8b336656a64d",
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FPrachin%20konkan%2FIMG-20260823-WA0038.webp?alt=media&token=901ff110-717b-4180-bba8-5de16a155d3a",
+    ],
+    location: "Ratnagiri",
+    phone: "",
+    coordinates: {
+      latitude: "17.15007599085225° N",
+      longitude: "73.27548628168218° E",
+    },
 
   },
 

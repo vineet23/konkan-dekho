@@ -56,7 +56,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "3",
     price: "₹4,000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       `Nestled in the peaceful village of Malgund, just minutes away from the famous Ganpatipule Temple and pristine beaches, The Zen Cottage offers the perfect blend of comfort, style, and convenience.
       This charming pinewood 1 BHK cottage is thoughtfully designed for couples, families, and small groups looking for a relaxing coastal getaway. The cottage features a comfortable air-conditioned bedroom, a stylish living space, high-speed Wi-Fi, Smart TV, and a private balcony where you can unwind amidst serene surroundings.
@@ -117,7 +117,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "5",
     price: "₹4,500",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "Sea Breeze is a fully furnished 2BHK sea-facing flat located near Thiba Point in Ratnagiri,Perfect for families looking for homestays in ratangiri offering a scenic balcony with views of the Arabian Sea and Bhatye Beach. The apartment provides a calm, homely stay right in the center of the city, making it ideal for families, long-stay guests and travellers who want both convenience and coastal views. The flat includes a sea-facing master bedroom, a spacious living area, a dedicated study room, and a fully equipped kitchen with gas stove, utensils, AquaGuard purifier and refrigerator. It also features a washing machine, WiFi, clean attached bathrooms and comfortable furnishing throughout, giving guests the comfort of a home with the view of a beachside stay.The location is one of the biggest advantages of Sea Breeze. Thiba Point, Thiba Palace, the main market and essential stores are all just minutes away, while Bhatye Beach and Mandvi Beach can be seen directly from the balcony. Guests can enjoy morning tea with a sea view, peaceful evenings with fresh breeze and easy access to popular Ratnagiri attractions.Perfect for families, couples and groups of up to five guests, the flat combines convenience, privacy and sea views, making it a great choice for short vacations, weekend stays, work-from-home trips and extended holidays in Ratnagiri.",
     features: [
@@ -168,7 +168,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "3",
     price: "₹1,500",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       `Welcome to Madhuri Vijay Homestay, a comfortable and affordable accommodation located in the peaceful town of Pawas, Ratnagiri. Whether you're visiting for a spiritual retreat, a beach getaway, or a Konkan road trip, our homestay offers a convenient and relaxing stay for families, couples, and solo travelers.
       We offer both AC and Non-AC rooms, designed to provide a comfortable experience for every guest. The property is equipped with modern amenities including 24×7 hot water, inverter backup, generator backup during power outages, and dedicated caretaker support. For your safety and peace of mind, a security guard is available on the premises during the night.
@@ -232,7 +232,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "8",
     price: "₹9,000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "Malushte Chafa Sea View Villa is a premium 2BHK sea-facing luxury villa near Ganpatipule, located in the scenic Aare Ware coastline of Ratnagiri. Known for its warm wooden-themed interiors, peaceful setting and breathtaking hillside ocean views, this villa offers an elegant yet homely stay for families, couples and small groups looking for villas near Ganpatipule with privacy and comfort. The villa features two spacious bedrooms, a sea-facing balcony, a cosy wooden swing, and a terrace that opens directly towards the Arabian Sea, making it one of the most picturesque villa stays in the area.Designed for longer stays and relaxed vacations, the villa includes a fully working kitchen with utensils, refrigerator, gas stove and AquaGuard water purifier, along with essential comforts such as WiFi, a washing machine and a dedicated study space. Guests can enjoy a peaceful garden area, a private entrance and clean attached bathrooms. The living room and outdoor spaces capture stunning views of Aare Ware’s famous sunset points, allowing guests to enjoy the changing colours of the sea throughout the day. around 10–15 minutes from Ganpatipule Temple and Bhandarpule Beach, the villa provides easy access to popular tourist spots while maintaining a quiet and private atmosphere away from crowds. The hillside surroundings and open sea breeze make it ideal for get-togethers, small celebrations, work-from-vacation stays, photo-friendly vacations and peaceful retreats. With its comfort-focused layout, scenic ambience and premium location on the Aare Ware cliffside, Malushte Chafa Sea View Villa stands out as one of the best luxury villas near Ganpatipule for families and groups seeking a relaxing Konkan escape.",
     features: [
@@ -282,7 +282,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "5",
     price: "₹4,500",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "Roots & Wings is a spacious and homely 2BHK flat in Ratnagiri located just a short walk from Bhatye Beach, offering a peaceful stay with the comfort and privacy of a modern home. Ideal for families, couples, friends or solo travellers, this property is one of the best homestay options in Ratnagiri for guests who prefer a relaxed apartment-style stay as an alternative to crowded resorts and hotels. The flat includes two air-conditioned bedrooms, a bright living room, clean bathrooms, a fully equipped kitchen with fridge and essential cooking facilities, Wi-Fi, TV and all practical amenities needed for a short or extended stay. Guests also have access to daily car and scooter rentals, making it easy to explore Ratnagiri’s beaches, historic forts, viewpoints and local Konkan food spots at their own pace.Its location near Bhatye Beach makes it perfect for morning walks, sea breeze evenings and easy access to popular attractions like Mandvi Beach, Thiba Point, Ratnadurg Fort and the city market. For travellers heading towards the coast, Ganpatipule is only about 15 kilometres away, making Roots & Wings a convenient base for those looking for rooms in Ratnagiri while also visiting Ganpatipule and nearby beaches. Whether you are travelling with family, working remotely or simply looking for a peaceful coastal break, this 2BHK homestay provides the comfort of a home, the warmth of local hospitality and the convenience of being centrally located in Ratnagiri. Hosted by Nidhee and Sachin, the stay promises a friendly, safe and memorable experience for all guests.",
     features: [
@@ -321,7 +321,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "6",
     price: "₹5,000",
-    phone: "9429690134",
+    phone: "9588688856",
     description: "A luxurious 2 BHK flat in the heart of Ratnagiri.",
     features: ["2BHK Fully Furnished", "Private Parking", "Family Apartment"],
     images: [
@@ -352,7 +352,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "6",
     price: "₹4,000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "A home that brings the essence of seasons indoors,  Rutu is a warm, wooden-themed 2BHK retreat set amidst a lush landscaped garden. The house offers the charm of nature, with ample space, cozy interiors, and calm surroundings – ideal for a family or small group looking for a peaceful stay close to the city. Whether you're sipping tea on the balcony or unwinding in the earthy-toned living room, Rutu promises tranquility and a touch of Konkan's seasonal soul.",
     features: [
@@ -397,7 +397,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "4",
     price: "₹2300",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "Amanatara Homestay – Affordable & Luxurious 1BHK Flat in Ratnagiri (Near Thiba Palace). Welcome to Amanatara Homestay, a serene and stylish 1BHK serviced apartment offering the perfect blend of comfort, affordability, and luxury. Located in the heart of Ratnagiri, close to the iconic Thiba Palace, this homestay is an excellent alternative to regular hotels, lodges, and guest houses. Enjoy a peaceful retreat with stunning sea views from the building entrance, vibrant local culture, and convenient access to major attractions. The property offers free high-speed Wi-Fi suitable for work, room-controlled air conditioning, 24-hour gym access, CCTV surveillance, 24/7 gated security, and ample parking space. Only pure vegetarian food is allowed at the property. Ideal for families, couples, solo travellers, business guests, and long stays, this homestay provides hotel-like comfort with the privacy of a home. Property Rules: Check-in at 1 PM, Check-out at 11 AM, primary guest must be 18+ years, and valid government ID proof is mandatory. Amanatara Homestay offers a comfortable, secure, and homely experience—making it one of the best homestay flats near Thiba Palace in Ratnagiri. Enjoy your stay!",
     features: [
@@ -445,7 +445,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "6",
     price: "₹6000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "A mesmerising sea view from the 4th floor of the building, and access to Beach just outside the building compund.Apartment is fully furnished, & comprises 1 Master Bedroom + 1 Bedroom + 1 Spacious Living + 1 Dinning Room + 1 Full Glass Lounge Deck overlooking sea view + Open Sky Deck 185 sq. ft",
     features: [
@@ -494,7 +494,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "4",
     price: "₹3500",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "Discover serenity, refreshment, and a unique relaxation experience with our beautiful homestay located in the city, offering the perfect blend of comfort, uniqueness, and tranquility. Every room in the property is fully air-conditioned and meticulously designed with a distinct theme to create a one-of-a-kind living experience for every guest. Whether it’s the rustic charm of a coastal-inspired suite, the elegance of a modern minimalistic room, or the warmth of a bohemian haven.The space This Homestay offers a unique experience that accommodates the whole family. We offer the best 24-hour housekeeping service, the best quality linen, and rooms designed for maximum comfort. And has Air conditioning in all rooms like living kitchen and bedroom.",
 
@@ -547,7 +547,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "4",
     price: "₹3500",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "1BHK Sea View Flat in Ratnagiri with Elegant Interiors Wake up to the soothing sound of waves and unwind with ocean views—this beautifully designed 1BHK flat in Ratnagiri city offers a perfect blend of comfort, style, and serenity. Premium interiors with tasteful design Balcony/Window sit-out to enjoy the sea breeze and sunset views also the city Centre is nearby and all amenities and services like Zomato is available",
 
@@ -599,7 +599,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "10",
     price: "₹12000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "Mrudugandha Guest House is a spacious coastal villa located just minutes from the pristine Aare Ware Beach in Ganpatipule. Surrounded by greenery and offering glimpses of the Arabian Sea, it’s the perfect escape for a peaceful holiday. The villa features comfortable rooms, multiple living spaces, a beautiful white-sand courtyard, and in-house authentic Konkani meals.Number of Rooms:Full Villa: 4 Bedrooms + 3 Living Rooms,Ground Floor Option: 2 Bedrooms + 2 Living Rooms",
 
@@ -640,7 +640,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "5",
     price: "₹3000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌴 Welcome to Konkan Nest Resort! 🌴,🏨 Location: Ganpatipule 🏨,Escape to the serene coastal paradise of Ganpatipule and experience the ultimate relaxation at Konkan Nest Resort, your tranquil haven nestled amidst nature's beauty.",
 
@@ -683,7 +683,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "15",
     price: "₹15000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌴 Khotacha Wada – A Luxury Farm Stay in Konkan,Tucked away in the serene village of Bhandarpule, near Ganpatipule, Khotacha Wada is a boutique farmstay that blends rustic Konkan charm with modern comfort. Surrounded by coconut groves, lush greenery, and the calming sounds of nature, it offers guests a perfect escape from the city rush.Wake up to birdsong, enjoy home-cooked Konkan delicacies, and unwind in cozy, traditionally inspired rooms designed for relaxation. Whether it’s watching the sunset over Ganpatipule beach just minutes away, exploring the local temples, or simply enjoying the peace of the countryside, Khotacha Wada is your home away from home in Ratnagiri.",
     features: [
@@ -724,7 +724,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "6",
     price: "₹10,000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "BY THE BAY homestay in Kalbadevi, Ratnagiri, is just 12 km from Ratnagiri city and 19 km from Ganpatipule.Nestled amidst coconut, mango, and jackfruit plantations, it offers a serene eco-friendly stay near the Konkan coast.A virgin beach with deep blue sea lies just 4 minutes away, perfect for couples and families seeking peace.The homestay features a simple kitchen for tea, coffee, and light meals.Experience authentic Konkan village life with pollution-free surroundings and a true tropical paradise vibe.",
     features: [
@@ -773,7 +773,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "6",
     price: "₹6000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🏖️ Ocean Bliss Beach Villa – Kurli Beach, RatnagiriExperience luxury, serenity, and breathtaking ocean views at Ocean Bliss Villa, Ratnagiri.Located right on Kurli Beach, this beautiful beachfront villa offers an exclusive escape where you can wake up to the soothing sound of waves and the refreshing Konkan sea breeze.Ocean Bliss features spacious and elegantly designed interiors, combining modern comfort with a coastal charm. The villa includes multiple cozy bedrooms, a fully equipped kitchen, a bright living room, and a large outdoor lounging area—perfect for relaxing with family or friends.Guests can enjoy leisurely beach walks, swim in the ocean, or simply unwind in peaceful surroundings far from the city’s noise. With a dedicated caretaker on-site, every detail of your stay is taken care of—ensuring comfort, convenience, and true Konkan hospitality.Whether you’re planning a romantic getaway, a family vacation, or a group retreat, Ocean Bliss Villa in Ratnagiri offers the perfect blend of luxury and nature.",
     features: [
@@ -817,7 +817,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "8",
     price: "₹8000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🏖 Anant Beach Villa – Sea-View Getaway in Ratnagiri,Escape to peace, comfort, and coastal charm at Anant Beach Villa, a beautiful seaside retreat perfect for families and groups of friends. Located near Kurli Beach, this spacious villa blends homely warmth with modern convenience — making it ideal for a relaxed vacation in the Konkan.The villa features two cozy bedrooms, a large open living area, and a well-equipped kitchen stocked with all the essentials. Whether you want to cook your own meals, enjoy local delicacies, or simply unwind with your favorite music, the villa has everything you need for a comfortable stay.Wake up to the soothing sound of waves and breathtaking sea views from the villa’s outdoor area — perfect for morning tea, evening games, or simply soaking in the breeze. Guests particularly love the villa’s authentic home-cooked food, warm hospitality, and the thoughtful touches that make it feel like a true home away from home.While the nearby beaches could be cleaner, the beauty of the coastline and the peaceful vibe more than make up for it. During low tide, Kurli Beach is perfect for long walks or quiet reflection by the water.Whether you’re looking for a relaxing weekend escape, a friends’ getaway, or quality family time, Anant Beach Villa offers the perfect blend of comfort, nature, and hospitality — with memories that linger long after your stay.",
     features: [
@@ -860,7 +860,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "3",
     price: "₹2500",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌿 KairiVishranti Homestay – A Peaceful Nature Retreat in RatnagiriReconnect with nature at KairiVishranti Homestay — a serene hillside stay surrounded by greenery, fresh air, and stunning mountain views. Located near Ganpatipule, this cozy 1-bedroom homestay offers the perfect escape for couples, small families, and nature lovers seeking calm, comfort, and authentic Konkan hospitality.Just 5 km from the iconic Ganpatipule Ganesh Temple and 1.5–4 km from thescenic, uncrowded beaches of Aare-Waare and Nevare, the homestay places you close to some of the region’s best natural gems. Ancient petroglyphs (katalshilpe) dating back nearly 20,000 years are also within easy reach, making it a great base for explorers.The homestay features a comfortable bedroom, a private terrace with beautiful hill views, and inviting outdoor spaces where guests can relax by the open-air fireplace or enjoy meals under the sky. With facilities like free WiFi, daily room service, packed lunches, and a 24-hour front desk, your stay is designed to be effortless and enjoyable.Families will appreciate the outdoor play area, while adventure lovers can enjoy hiking, walking tours, or even arrange local travel with the homestay’s car rental service. Whether you want a peaceful weekend break, a nature-filled holiday, or a spiritual retreat near Ganpatipule, KairiVishranti Homestay offers the charm, warmth, and comfort of a true home in the hills.",
     features: [
@@ -907,7 +907,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "5",
     price: "₹5000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌊 Rama Niwas Beach Home Stay – A Serene Seaside Escape in RatnagiriExperience true coastal bliss at Rama Niwas Beach Home Stay, a peaceful beachfront retreat located just 50 steps from the pristine and untouched Ganeshgule Beach. With private beach access, swaying Suru trees, open green spaces, and uninterrupted sea views, this homestay is perfect for families, couples, and travellers seeking calm, comfort, and an authentic Konkan experience.Guests can relax on the spacious terraces, lounge in the garden, or unwind in the cozy outdoor seating areas overlooking the Arabian Sea. The homestay offers comfortable family rooms equipped with air-conditioning, private bathrooms, free WiFi, and balconies or terraces that let you wake up to fresh ocean breeze every morning.children will love the outdoor play area, while adults can enjoy hammocks, long beach walks, or peaceful sunsets on the private shore. The property also includes a shared kitchen, lounge, laundry facilities, and a soothing public bath for complete relaxation.What makes Rama Niwas truly special is the warm hospitality — guests are welcomed with genuine care, delicious homely Malvani and Konkani food, and a peaceful rural ambience that feels like a home away from home. Whether you’re seeking a quiet family holiday, a romantic beach escape, or a restful break close to nature, Rama Niwas Beach Home Stay offers the perfect blend of tranquillity, comfort, and coastal charm.",
     features: [
@@ -957,7 +957,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "6",
     price: "₹11000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌅 The Blissful Stay – Premium 3BHK Nature Villas in Ganpatipule.Escape to comfort, calm, and pure coastal charm at The Blissful Stay, where two beautifully designed 3BHK villas—Kshitij Villa and Koushik Villa—offer the perfect blend of luxury and nature. Located just 2.5 km from the iconic Ganpatipule Temple, these villas provide a peaceful retreat surrounded by rolling landscapes, fresh coastal breeze, and the soothing sounds of nature.Each villa is thoughtfully built with spacious air-conditioned rooms, attached bathrooms, and elegant interiors that ensure a homely yet premium stay. Whether you’re a family, a group of friends, or spiritual travellers exploring Ganpatipule, the villa offers comfort, privacy, and a refreshing ambience throughout your stay.Guests enjoy a warm bed & breakfast experience at an unbeatable price of Rs. 1500 per person, per day, with each villa accommodating up to 6 guests, and an option to host 4 additional guests at a minimal charge. Wake up to morning tea, delicious breakfast, golden sunlight filtering through the hills, and the quiet magic of Konkan’s slow, calming rhythm.Explore Ganpatipule's beaches, visit Jaigad Fort, savour local Konkani cuisine, or simply unwind in your serene villa as the horizon glows during sunset. Whether you choose the panoramic expanse of Kshitij Villa or the serene green escape of Koushik Villa, your stay promises relaxation, beauty, and memories that linger long after you leave.",
     features: [
@@ -1006,7 +1006,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "6",
     price: "₹7000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌴 Viki Holiday Home – Comfortable Family Villas Near Ganpatipule BeachViki Holiday Home offers a warm, homely, and affordable stay for families and groups visiting the serene coastal town of Ganpatipule. Located just 4.2 km from Ganpatipule Beach, these spacious villas provide the perfect blend of comfort, convenience, and authentic Konkan hospitality.Guests can choose between two types of accommodations: a Non-AC 2-Bedroom Bungalow with a king-sized bed and single bed, or a spacious AC 3-Bedroom Bungalow ideal for larger groups of up to 12 guests. Each unit is thoughtfully designed to offer a cozy, relaxed atmosphere with all essential amenities. The property is pet-friendly, making it an excellent choice for travellers who love vacationing with their furry companions.Guests can enjoy authentic vegetarian regional cuisine through the property's dining service or opt to cook their own meals in the available kitchen facilities—perfect for long stays or family vacations.With top attractions like Prachin Konkan Museum (2.7 km) and Magic Garden (2.7 km) nearby, Viki Holiday Home ensures that your trip is filled with culture, fun, and unforgettable memories. Convenient access from Ganpatipule Bus Stop (3.3 km), Ratnagiri Railway Station (28.6 km), and Ratnagiri Airport (30.1 km) makes it easy for travellers to reach the property.Whether you're planning a peaceful coastal getaway, a family vacation, or a group trip, Viki Holiday Home offers comfort, value, and a welcoming stay close to all major attractions in Ganpatipule.",
     features: [
@@ -1049,7 +1049,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "2",
     price: "₹7000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "Tucked away at the heart of the Konkan belt...  Located just 15 kms from Ratnagiri and Ganpatipule, Atithi Parinay is a place where you and your family can relax and unwind. We provide you with an ethnic and traditional stay, accompanied by traditionally cooked food. A simple and humble place to live near nature. Go out and explore the untouched beaches of Kotawade or just sit and relax by the river adjoining the property. Aare & Ware beach is 5 kms from property. We provide our guests with a wholesome experience of living amongst nature and feasting on healthy food. Leave the city behind and come stay in a place spread over 2 acres of lush green land set amidst mango, coconut and banana plantations. We promise to make your stay a memorable one. You come to this place as a guest and leave as our family. Every place and person has a story to tell, come make Atithi Parinay a part of your story.",
     features: [
@@ -1097,7 +1097,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "2",
     price: "₹4000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌴 The Grand Konkan Resort – Family-Run Since 1998.The Grand Konkan Resort in Ganapatipule offers a warm, homely stay built on the Bhansari family's philosophy of Atithi Devo Bhava — treating every guest as divine. With comfortable rooms, fresh locally sourced food, and heartfelt hospitality, the resort brings you the true essence of Konkan living.Perfect for families, couples, and groups, the resort provides convenience and comfort with amenities like a multi-cuisine restaurant, 24×7 support, car parking for 60 vehicles, and easy access to Ganapatipule’s beaches and water activities. Whether you're visiting for relaxation, exploration, or a spiritual getaway, your stay here promises peace, warmth, and memorable experiences.",
     features: [
@@ -1148,7 +1148,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "2",
     price: "₹4000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌿 River Breeze Homestay – Your Comfort Haven in Ratnagiri Welcome to River Breeze Homestay, a peaceful retreat where comfort, care, and Konkan warmth come together. Since April 2023, we have been hosting guests like family, offering three beautifully furnished bedrooms, a serene ambience, and hospitality straight from the heart. As proud Airbnb Superhosts with over 100 five-star reviews, we ensure every guest enjoys a memorable stay filled with privacy, comfort, and local charm.Located in the heart of Ratnagiri, River Breeze is the perfect choice for travellers seeking relaxation, nature, and authentic cultural experiences. Whether you're unwinding by the river, exploring Konkan’s beaches and heritage sites, or simply enjoying the homely comforts of our space, your stay will be wrapped in warmth and personal attention. Visit us once, and River Breeze will stay in your heart forever.",
     features: [
@@ -1195,7 +1195,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "2",
     price: "₹2500",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌿 The Mango Villa – A Homestay Born From Passion & Purpose.Founded by Dr. Amit and Dr. Neeti Salvi, The Mango Villa is the result of a dream fueled by passion, research, and a deep love for hospitality. Believing that travellers prefer warm, well-kept, homelike stays over glitzy commercial hotels, the couple created a retreat that blends modern comfort with the natural beauty of Konkan. Over the last 10 years, The Mango Villa has grown into one of Ratnagiri’s most sought-after homestays—offering peaceful surroundings, artistic decor, spacious rooms with large sit-outs, and luxurious touches like jacuzzi bathtubs and walk-in closets.Spread across three green, beautifully designed floors, the homestay offers amenities such as a fitness centre, badminton court, shared kitchen, premium furnishings, free WiFi, parking, shuttle services, and more. Whether you’re soaking in a jacuzzi, relaxing on a private balcony, exploring nearby beaches and forts, or experiencing the warmth of Konkan hospitality, The Mango Villa gives you a uniquely memorable holiday experience—where comfort, culture, and nature come together.",
     features: [
@@ -1243,7 +1243,7 @@ export const plots: Plot[] = [
     location: "Ratnagiri",
     guests: "8",
     price: "₹5000",
-    phone: "9429690134",
+    phone: "9588688856",
     description:
       "🌿 Krupasindhu Homestay – Peaceful Getaway in RatnagiriWelcome to Krupasindhu Bungalow, a spacious and modern 3BHK homestay located in Pushpendra City near Mahalaxmi Temple, Khedashi. Designed for families and groups, this cozy villa offers a perfect blend of comfort, privacy, and convenience. With three bedrooms, three bathrooms, and a fully equipped kitchen, the homestay ensures a relaxed and homely experience for up to eight guests.Surrounded by a calm neighborhood and filled with warm Konkani hospitality, Krupasindhu Homestay is ideal for travellers seeking a peaceful break in Ratnagiri. Guests appreciate the cleanliness, spacious interiors, delicious homely food, and the welcoming nature of the hosts. Whether you're planning a weekend getaway or exploring the cultural charm of Ratnagiri, this villa promises a comfortable and memorable stay.",
 
