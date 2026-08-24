@@ -125,6 +125,175 @@ export const blogs: Blog[] = [
   </ul>
 
   <p>Sea Nest is more than just a stay — it’s a soulful retreat where Konkan’s natural beauty meets warm hospitality. Whether you’re planning a family vacation, a romantic escape, or a weekend with friends, Sea Nest provides the perfect backdrop.</p>`
+  },
+  {
+    id: 3,
+    title: "Ratnagiri 2-Day Trip Itinerary: Beaches, Food & Konkan Experiences",
+    slug: "ratnagiri-2-day-trip-itinerary-beaches-food-konkan-experiences",
+    description: "Planning a 2-day Ratnagiri trip? Explore beautiful beaches, historic forts, temples, local food, adventure activities and authentic Konkan experiences with this carefully planned day-wise Ratnagiri itinerary.",
+
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2F081c9151-19d5-4c12-b497-af9112f1ed8f.png?alt=media&token=6f1da083-4656-498b-8036-daefa24f8443"
+    ],
+
+    body: `<p>Looking for the perfect <strong>Ratnagiri 2-day trip itinerary</strong>? From golden beaches and scenic coastal roads to historic forts, spiritual places, authentic Konkan food and local experiences, Ratnagiri offers everything you need for a memorable weekend getaway.</p>
+
+  <p>This carefully planned <strong>2-day Ratnagiri itinerary</strong> combines some of the region’s popular attractions with authentic Konkan experiences. The journey takes you through Ganpatipule, Prachin Konkan, Aare-Ware, Kajirbhati, Ratnadurga, Bhatye, Pawas and Kasheli while giving you time to enjoy local food, culture and the peaceful beauty of the Arabian Sea.</p>
+
+  <p><strong>Our recommendation:</strong> Don't treat this as just a sightseeing checklist. Slow down, eat local, meet local people and experience Konkan like a local.</p>
+
+  <h2>Ratnagiri 2-Day Itinerary</h2>
+
+  <p><strong>Day 1:</strong> Ganpatipule → Prachin Konkan → Kavi Keshavsoot Smarak → Aare-Ware → Adventure → Kajirbhati Beach → Local Konkan Dinner</p>
+
+  <p><strong>Day 2:</strong> Patit Pavan Mandir → Lokmanya Tilak Janmasthan → Rasraj Misal → Ratnadurga Fort → Bhatye Beach → Pawas → Kasheli</p>
+
+  <h2>Day 1 — Ganpatipule, Coastal Adventures & Local Food</h2>
+
+  <h3>08:00 AM — Ganpatipule Temple & Beach</h3>
+
+  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FGanpatipule%20Temple%2FGanpatipule%20Temple%20front%20view.webp?alt=media&token=7e338035-786d-4979-a9e9-c3ca627ccccd" alt="Ganpatipule Temple and Beach Ratnagiri" /></p>
+
+  <p>Begin your morning at the famous <strong>Ganpatipule Temple</strong>, home to the revered Swayambhu Ganpati idol. After darshan, spend some time at Ganpatipule Beach and enjoy the peaceful Arabian Sea coastline.</p>
+
+  <p>Ganpatipule is one of the most popular destinations in Ratnagiri and is an ideal starting point for exploring the Konkan coast.</p>
+
+  <p><a href="https://www.konkandekho.com/experiences/ganpatipule-temple" target="_blank"><strong>Explore Ganpatipule Temple on KonkanDekho →</strong></a></p>
+
+  <h3>10:00 AM — Prachin Konkan</h3>
+
+  <p>Next, visit <strong>Prachin Konkan</strong>, a unique open-air museum that showcases the traditional lifestyle, culture and heritage of the Konkan region.</p>
+
+  <p>The exhibits offer visitors a glimpse into traditional homes, occupations, farming practices, festivals and everyday village life. It is a great stop for families and travellers who want to understand the cultural side of Konkan beyond its beaches.</p>
+
+  <p><a href="https://www.konkandekho.com/experiences/prachin-konkan-museum" target="_blank"><strong>Explore Prachin Konkan on KonkanDekho →</strong></a></p>
+
+  <h3>11:30 AM — Kavi Keshavsoot Smarak</h3>
+
+  <p>Continue towards <strong>Kavi Keshavsoot Smarak at Malgund</strong>, the birthplace and memorial of renowned Marathi poet Keshavsoot.</p>
+
+  <p>Surrounded by the peaceful Konkan landscape, the memorial celebrates the life and contribution of one of the pioneers of modern Marathi poetry. It is a meaningful stop for travellers interested in Maharashtra's literary and cultural heritage.</p>
+
+  <h3>01:00 PM — Authentic Konkan Lunch</h3>
+
+  <p>Take a break from sightseeing and enjoy an authentic <strong>Konkan lunch</strong>. Local food is an important part of experiencing Ratnagiri, and this is the perfect time to try traditional Maharashtrian and Konkan-style dishes.</p>
+
+  <p><strong>KonkanDekho Tip:</strong> Don't rush through your meals. Food is one of the best ways to experience the culture of a destination.</p>
+
+  <h3>02:30 PM — Aare-Ware Coastal Drive</h3>
+
+  <p>Now head towards the spectacular <strong>Aare-Ware coastal road</strong>, one of Ratnagiri's most scenic stretches.</p>
+
+  <p>The winding road between green hills and the Arabian Sea offers breathtaking views and excellent photography opportunities. Take your time here and enjoy the journey itself rather than simply treating Aare-Ware as a stop on the map.</p>
+
+  <h3>03:30 PM — Aare-Ware Adventure</h3>
+  <p><img src="https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FZipline%20near%20Aare%20ware%2FWhatsApp%20Image%202026-08-20%20at%2017.55.47%20(1).jpeg?alt=media&token=339ae573-828c-4308-bf2c-71553b779791" /></p>
+
+
+  <p>For adventure lovers, add a <strong>zipline experience at Aare-Ware</strong> and enjoy the Konkan coastline from a completely different perspective.</p>
+
+  <p>Adventure activities may depend on weather, season and local availability, so check availability before planning this part of your itinerary.</p>
+
+  <h3>05:00 PM — Kajirbhati Beach & Watersports</h3>
+
+  <p>Spend the afternoon at <strong>Kajirbhati Beach</strong>, a beautiful coastal destination known for its peaceful surroundings and scenic shoreline.</p>
+
+  <p>Depending on seasonal availability and weather conditions, you can enjoy local watersports and beach activities. After the adventure, slow down by the sea and enjoy the sunset.</p>
+
+  <h3>07:30 PM — Dinner & Local Konkan Food</h3>
+
+  <p>No Ratnagiri trip is complete without authentic local food. End your first day with a traditional Konkan-style meal and experience the flavours of the region.</p>
+
+  <p><strong>Recommended:</strong> Mehendale Swad Dining.</p>
+
+  <h2>Day 2 — Heritage, Forts, Beaches & Spiritual Konkan</h2>
+
+  <h3>07:30 AM — Patit Pavan Mandir</h3>
+
+  <p>Start the second day with a visit to <strong>Patit Pavan Mandir</strong> in Ratnagiri, an important historical and cultural landmark associated with freedom fighter Vinayak Damodar Savarkar.</p>
+
+  <p>The temple holds an important place in Ratnagiri's social history and is worth visiting for travellers interested in Maharashtra's heritage.</p>
+
+  <h3>08:30 AM — Lokmanya Tilak Janmasthan</h3>
+
+  <p>Next, visit <strong>Lokmanya Tilak Janmasthan</strong>, the birthplace of Lokmanya Bal Gangadhar Tilak.</p>
+
+  <p>The heritage site provides an opportunity to learn about the early life of one of India's prominent freedom movement leaders.</p>
+
+  <h3>09:30 AM — Breakfast at Rasraj Misal</h3>
+
+  <p>After exploring Ratnagiri's heritage, stop for a hearty local breakfast at <strong>Rasraj Misal</strong>.</p>
+
+  <p>A spicy Maharashtrian misal is the perfect way to refuel before continuing your Ratnagiri sightseeing journey.</p>
+
+  <h3>11:00 AM — Ratnadurga Fort</h3>
+
+  <p>Next, head to the magnificent <strong>Ratnadurga Fort</strong>, one of Ratnagiri's most iconic historical attractions.</p>
+
+  <p>The fort sits along the Arabian Sea and offers spectacular coastal views. Walk around the historic fortifications, explore the Bhagwati Temple and enjoy panoramic views of the sea and Ratnagiri coastline.</p>
+
+  <h3>01:00 PM — Bhatye Beach</h3>
+
+  <p>After exploring the fort, make your way to <strong>Bhatye Beach</strong>.</p>
+
+  <p>The long stretch of sandy coastline is ideal for a relaxed afternoon walk, photography and enjoying the sea breeze. If you have time, simply slow down here and enjoy the peaceful side of Ratnagiri.</p>
+
+  <h3>02:30 PM — Local Konkan Lunch</h3>
+
+  <p>Enjoy a relaxed local lunch before continuing towards the quieter and more peaceful side of Ratnagiri.</p>
+
+  <p>This is a good opportunity to try authentic local food and support small restaurants and food businesses in the region.</p>
+
+  <h3>04:00 PM — Pawas — Swami Swaroopanand Math</h3>
+
+  <p>Continue your journey towards <strong>Pawas</strong> and visit the revered Swami Swaroopanand Math.</p>
+
+  <p>Surrounded by greenery and the peaceful atmosphere of rural Konkan, Pawas offers a completely different experience from the busy tourist spots.</p>
+
+  <p>Take some quiet time for darshan, reflection and experiencing the spiritual heritage of Konkan.</p>
+
+  <h3>05:30 PM — Kasheli — A Peaceful Konkan Escape</h3>
+
+  <p>If time permits, finish your journey towards <strong>Kasheli</strong>, a beautiful and relatively peaceful coastal village in Ratnagiri district.</p>
+
+  <p>Known for its serene coastal surroundings, traditional Konkan landscape and peaceful atmosphere, Kasheli is an excellent final stop for travellers looking to experience the quieter side of Konkan.</p>
+
+  <h2>Ratnagiri 2-Day Trip at a Glance</h2>
+
+  <p><strong>Day 1:</strong> Ganpatipule Temple & Beach → Prachin Konkan → Kavi Keshavsoot Smarak → Aare-Ware → Adventure → Kajirbhati Beach → Local Konkan Dinner</p>
+
+  <p><strong>Day 2:</strong> Patit Pavan Mandir → Lokmanya Tilak Janmasthan → Rasraj Misal → Ratnadurga Fort → Bhatye Beach → Pawas → Kasheli</p>
+
+  <h2>Where to Stay in Ratnagiri</h2>
+
+  <p>For a comfortable Ratnagiri weekend getaway, choose a local homestay that allows you to explore the beaches, temples, forts and local attractions conveniently.</p>
+
+  <p>Staying at a local Konkan homestay also gives you an opportunity to experience authentic hospitality, local food and the relaxed pace of Konkan life.</p>
+
+  <p><a href="https://www.konkandekho.com/" target="_blank"><strong>Explore KonkanDekho to discover handpicked homestays and stays across Ratnagiri and the Konkan coast →</strong></a></p>
+
+  <h2>Best Time for a Ratnagiri Weekend Trip</h2>
+
+  <p>The cooler months from <strong>October to February</strong> are generally comfortable for sightseeing, beaches and outdoor activities.</p>
+
+  <p>The monsoon brings lush green landscapes and dramatic coastal views, although some adventure and watersport activities may depend on weather and local conditions.</p>
+
+  <h2>Why This Ratnagiri Itinerary Works</h2>
+
+  <p>This itinerary combines the best of Ratnagiri tourism — <strong>spirituality, history, beaches, adventure, local food and authentic Konkan culture.</strong></p>
+
+  <p>In just two days, you can experience both popular attractions and quieter places that make Ratnagiri special.</p>
+
+  <p>From Ganpatipule's spiritual charm to Aare-Ware's coastal beauty, Ratnadurga's history and Pawas's peaceful atmosphere, this is Ratnagiri beyond just a weekend trip.</p>
+
+  <h2>Experience Ratnagiri Like a Local</h2>
+
+  <p>At <strong>KonkanDekho</strong>, we believe travelling through Konkan should be more than visiting places on a map. It should be about discovering local stays, eating authentic food, meeting local people and experiencing the region in a more meaningful way.</p>
+
+  <p><a href="https://www.konkandekho.com/" target="_blank"><strong>Discover authentic stays and experiences on KonkanDekho →</strong></a></p>`
   }
+
+
+
 
 ]
