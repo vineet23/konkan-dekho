@@ -62,6 +62,14 @@ export interface Blog {
   body: string
 }
 
+export type ExperienceCategory =
+  | "beach"
+  | "temples"
+  | "adventure"
+  | "nature"
+  | "culture"
+  | "scenic";
+
 export interface Experience {
   id: number;
   name: string;
@@ -73,6 +81,7 @@ export interface Experience {
   photos: string[];
   location: string;
   phone: string;
+  category: ExperienceCategory;
   coordinates?: {
     latitude: string;
     longitude: string;

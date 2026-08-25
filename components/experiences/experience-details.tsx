@@ -1,6 +1,7 @@
 import { MapPin, IndianRupee, Languages, Info } from "lucide-react";
 import { Experience } from "@/lib/types";
 import { DescriptionWithReadMore } from "@/components/plots/description-read-more";
+import { ExperienceCategoryBadge } from "@/components/experiences/experience-category-badge";
 
 interface ExperienceDetailsProps {
   experience: Experience;
@@ -10,6 +11,13 @@ export function ExperienceDetails({ experience }: ExperienceDetailsProps) {
   return (
     <div className="mt-4 sm:mt-8">
       <h1 className="text-2xl sm:text-3xl font-bold">{experience.name}</h1>
+
+      <div className="mt-3">
+        <ExperienceCategoryBadge
+          category={experience.category}
+          className="bg-gray-100 text-gray-800 shadow-none"
+        />
+      </div>
 
       {/* Key Details */}
       <div className="mt-4 flex flex-col sm:flex-row gap-4 sm:items-center sm:space-x-4 text-gray-600">

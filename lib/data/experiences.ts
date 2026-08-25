@@ -17,6 +17,7 @@ export const experiences: Experience[] = [
     ],
     location: "Dhamanse, Ratnagiri",
     phone: "9145174975",
+    category: "nature",
     coordinates: {
       latitude: "17.134434° N",
       longitude: "73.336250° E",
@@ -37,6 +38,7 @@ export const experiences: Experience[] = [
     ],
     location: "Lanja",
     phone: "",
+    category: "nature",
     coordinates: {
       latitude: "16.868977° N",
       longitude: "73.732273° E",
@@ -54,10 +56,10 @@ export const experiences: Experience[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKasheli%20sunset%20Point%2FWhatsApp%20Image%202026-08-20%20at%2011.05.34.jpeg?alt=media&token=c5e6c2b2-cbef-4c67-8684-b8921444bea3",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKasheli%20sunset%20Point%2FWhatsApp%20Image%202026-08-20%20at%2011.05.34%20(1).jpeg?alt=media&token=3da40212-c74b-4307-940e-d23c0df1102c",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKasheli%20sunset%20Point%2FWhatsApp%20Image%202026-08-20%20at%2011.05.33.jpeg?alt=media&token=b90c663f-5068-4eb3-b55e-c05cb6354285",
-
     ],
     location: "Pawas, Ratnagiri",
     phone: "",
+    category: "scenic",
     coordinates: {
       latitude: "16.727052° N",
       longitude: "73.309846° E",
@@ -72,15 +74,14 @@ export const experiences: Experience[] = [
     guideline: "Please maintain quiet behavior to respect the natural environment.",
     language: ["English", "Marathi"],
     photos: [
-
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FNature%20Trail%2FWhatsApp%20Image%202026-08-19%20at%2012.18.55.jpeg?alt=media&token=b1feb81c-44f9-486e-8915-adab6eb1debf",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FNature%20Trail%2FWhatsApp%20Image%202026-08-19%20at%2012.19.09.jpeg?alt=media&token=ef51c94c-13d6-440c-a915-5d5763e886f5",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FNature%20Trail%2FWhatsApp%20Image%202026-08-19%20at%2012.19.14.jpeg?alt=media&token=9921099b-5774-499e-8576-259f56725f84",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FNature%20Trail%2FWhatsApp%20Image%202026-08-19%20at%2012.19.17.jpeg?alt=media&token=3ed376a4-2e93-4f90-8793-85cba3703de8",
-
     ],
     location: "Ori, Ratnagiri",
     phone: "",
+    category: "nature",
     coordinates: {
       latitude: "17.124308° N",
       longitude: "73.310085° E",
@@ -99,11 +100,10 @@ export const experiences: Experience[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKayaking%20in%20Malgund%2Fk2.jpg?alt=media&token=4baa1bae-c81a-4435-8a61-d4f4f9397c64",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKayaking%20in%20Malgund%2Fkayaking1.jpg?alt=media&token=de2f9ce8-233c-4cd2-9f5a-a284e6308cab",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FKayaking%20in%20Malgund%2Fk2.jpg?alt=media&token=4baa1bae-c81a-4435-8a61-d4f4f9397c64",
-
-
     ],
     location: "Malgund, Ratnagiri",
     phone: "",
+    category: "adventure",
     coordinates: {
       latitude: "17.150561° N",
       longitude: "73.266200° E",
@@ -118,15 +118,13 @@ export const experiences: Experience[] = [
     guideline: "Please maintain quiet behavior to respect the natural environment.",
     language: ["English", "Marathi"],
     photos: [
-
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Fbird%20watching%20near%20nivendi%2FWhatsApp%20Image%202026-08-20%20at%2017.44.43.jpeg?alt=media&token=91f16b9a-62a9-4228-acaf-5e8f79aa8b62",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Fbird%20watching%20near%20nivendi%2FWhatsApp%20Image%202026-08-20%20at%2017.44.44.jpeg?alt=media&token=cdc1903b-27db-443b-9af9-23e48f27f1da",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Fbird%20watching%20near%20nivendi%2FWhatsApp%20Image%202026-08-20%20at%2017.44.44%20(1).jpeg?alt=media&token=bbf295cd-d5f4-4a3d-bfdc-61e8d86aed6b",
-
-
     ],
     location: "Nivendi, Ratnagiri",
     phone: "",
+    category: "nature",
     coordinates: {
       latitude: "17.165403° N",
       longitude: "73.302416° E",
@@ -141,15 +139,13 @@ export const experiences: Experience[] = [
     guideline: "Please follow all safety instructions and wear the provided gear.",
     language: ["English", "Marathi"],
     photos: [
-
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FZipline%20near%20Aare%20ware%2FWhatsApp%20Image%202026-08-20%20at%2017.55.48.jpeg?alt=media&token=77f93663-50d8-46ce-9e0d-4a9f05d95418",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FZipline%20near%20Aare%20ware%2FWhatsApp%20Image%202026-08-20%20at%2017.55.47.jpeg?alt=media&token=555e19e4-89b4-415c-a230-5a7cc91f2a41",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FZipline%20near%20Aare%20ware%2FWhatsApp%20Image%202026-08-20%20at%2017.55.47%20(1).jpeg?alt=media&token=339ae573-828c-4308-bf2c-71553b779791",
-
-
     ],
     location: "Aare Ware, Ratnagiri",
     phone: "",
+    category: "adventure",
     coordinates: {
       latitude: "17.079232° N",
       longitude: "73.288281° E",
@@ -167,16 +163,14 @@ export const experiences: Experience[] = [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FShimgotsav%2FWhatsApp%20Image%202026-08-20%20at%2021.52.53.jpeg?alt=media&token=82692755-8cfa-41b3-8995-3687430b1afe",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FShimgotsav%2FWhatsApp%20Image%202026-08-20%20at%2021.52.51.jpeg?alt=media&token=d25af4d5-5341-4e47-956d-6fc810673eba",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FShimgotsav%2FWhatsApp%20Image%202026-08-20%20at%2021.52.52.jpeg?alt=media&token=e7feeccd-8dff-48ef-a10d-0166a7a02060",
-
-
     ],
     location: "Phansop, Ratnagiri",
     phone: "",
+    category: "culture",
     coordinates: {
       latitude: "16.95258801167241° N",
       longitude: "73.3113518358121° E",
     },
-
   },
   {
     id: 9,
@@ -187,23 +181,22 @@ export const experiences: Experience[] = [
     guideline: "",
     language: ["English", "Marathi"],
     photos: [
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FBhatye%20Beach%2FBhatye_beach.webp?alt=media&token=2a694652-738e-4d5e-92df-2b5555dea12b",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FBhatye%20Beach%2FSunset_Bhatye_Beach.webp?alt=media&token=19b75e68-84fc-46f6-b55d-1e8a9cc305e3",
-
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FBhatye%20Beach%2FBhatye_beach.webp?alt=media&token=2a694652-738e-4d5e-92df-2b5555dea12b",
     ],
     location: "Ratnagiri",
     phone: "",
+    category: "beach",
     coordinates: {
       latitude: "16.97861287729902° N",
       longitude: "73.2937592676574° E",
     },
   },
-
   {
     id: 10,
     name: "Ganpatipule Temple",
     slug: "ganpatipule-temple",
-    description: "Ganpatipule Temple, one of Maharashtra’s most revered Ganesh temples, is a beautiful spiritual destination on the Konkan coast. Famous for its Swayambhu Ganpati idol and scenic location near Ganpatipule Beach, the temple attracts devotees and travellers throughout the year. A must-visit destination for experiencing Konkan’s culture, spirituality, and coastal beauty.",
+    description: "Ganpatipule Temple, one of Maharashtra's most revered Ganesh temples, is a beautiful spiritual destination on the Konkan coast. Famous for its Swayambhu Ganpati idol and scenic location near Ganpatipule Beach, the temple attracts devotees and travellers throughout the year. A must-visit destination for experiencing Konkan's culture, spirituality, and coastal beauty.",
     rate: "",
     guideline: "",
     language: ["English", "Marathi"],
@@ -212,13 +205,14 @@ export const experiences: Experience[] = [
     ],
     location: "Ratnagiri",
     phone: "",
+    category: "temples",
     coordinates: {
       latitude: "17.144490673574722° N",
       longitude: "73.26688424167061° E",
     },
   },
   {
-    id: 10,
+    id: 14,
     name: "Thiba Palace",
     slug: "thiba-palace",
     description: "",
@@ -227,15 +221,15 @@ export const experiences: Experience[] = [
     language: ["English", "Marathi"],
     photos: [
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FThiba%20Palace%2FThiba%20Palace.webp?alt=media&token=7a03fcb3-c128-4813-850a-f2a76a14007d",
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FThiba%20Palace%2FThiba_Palace_Interiors.webp?alt=media&token=d4c5d4aa-a059-4e95-941a-be54400eaa4c",],
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FThiba%20Palace%2FThiba_Palace_Interiors.webp?alt=media&token=d4c5d4aa-a059-4e95-941a-be54400eaa4c",
+    ],
     location: "Ratnagiri",
     phone: "",
+    category: "culture",
     coordinates: {
       latitude: "16.983568360557932° N",
       longitude: "73.31167297883579° E",
     },
-
-
   },
   {
     id: 11,
@@ -250,12 +244,11 @@ export const experiences: Experience[] = [
     ],
     location: "Ratnagiri",
     phone: "",
+    category: "scenic",
     coordinates: {
       latitude: "16.96313086335966° N",
       longitude: "73.29369215099318° E",
     },
-
-
   },
   {
     id: 12,
@@ -266,15 +259,15 @@ export const experiences: Experience[] = [
     guideline: "",
     language: ["English", "Marathi"],
     photos: [
-      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Fpawas%20math%2FPawas-2.webp?alt=media&token=9451da98-f8dc-4634-8d02-d340263b5a89",],
+      "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2Fpawas%20math%2FPawas-2.webp?alt=media&token=9451da98-f8dc-4634-8d02-d340263b5a89",
+    ],
     location: "Ratnagiri",
     phone: "",
+    category: "temples",
     coordinates: {
       latitude: "16.86624139770066° N",
-      longitude: "73.32871893253626dir° E",
+      longitude: "73.32871893253626° E",
     },
-
-
   },
   {
     id: 13,
@@ -285,20 +278,16 @@ export const experiences: Experience[] = [
     guideline: "",
     language: ["English", "Marathi"],
     photos: [
-
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FPrachin%20konkan%2FIMG-20260823-WA0041.webp?alt=media&token=1335271a-503d-4dcb-9454-4874bc86cadb",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FPrachin%20konkan%2FIMG-20260823-WA0039.webp?alt=media&token=7e527a65-28ed-41d4-8dc4-8b336656a64d",
       "https://firebasestorage.googleapis.com/v0/b/konkandekho-158ab.firebasestorage.app/o/Experiences%2FPrachin%20konkan%2FIMG-20260823-WA0038.webp?alt=media&token=901ff110-717b-4180-bba8-5de16a155d3a",
     ],
     location: "Ratnagiri",
     phone: "",
+    category: "culture",
     coordinates: {
       latitude: "17.15007599085225° N",
       longitude: "73.27548628168218° E",
     },
-
   },
-
-
-
 ];

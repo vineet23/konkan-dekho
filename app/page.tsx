@@ -1,19 +1,34 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { TripPlanner } from "@/components/trip-planner";
 import { plots } from "@/lib/data/plots";
 import { experiences } from "@/lib/data/experiences";
 
 import { HomestayCard } from "@/components/homestay-card";
 import { ExperienceCard } from "@/components/experience-card";
+import { ExperienceCategoryFilters } from "@/components/experiences/experience-category-filters";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Home as HomeIcon, Compass, BellRing } from "lucide-react";
+import { ExperienceCategory } from "@/lib/types";
+import { filterExperiences } from "@/lib/utils/experience-filters";
 
 export default function Home() {
   const [filteredPlots, setFilteredPlots] = useState(plots);
   const [filteredExperiences, setFilteredExperiences] = useState(experiences);
   const [activeTab, setActiveTab] = useState("homestays");
+  const [selectedCategory, setSelectedCategory] =
+    useState<ExperienceCategory | null>(null);
+  const [locationFilter, setLocationFilter] = useState<string | undefined>();
+
+  const displayedExperiences = useMemo(
+    () =>
+      filterExperiences(filteredExperiences, {
+        location: locationFilter,
+        category: selectedCategory,
+      }),
+    [filteredExperiences, locationFilter, selectedCategory]
+  );
 
   useEffect(() => {
     const storedTab = sessionStorage.getItem("homeActiveTab");
@@ -38,6 +53,9 @@ export default function Home() {
     if (filters.location && filters.location !== "all") {
       resultPlots = resultPlots.filter((p) => p.location === filters.location);
       resultExperiences = resultExperiences.filter((e) => e.location === filters.location);
+      setLocationFilter(filters.location);
+    } else {
+      setLocationFilter(undefined);
     }
 
     // Filter by Guests
@@ -95,10 +113,15 @@ export default function Home() {
 
           <TabsContent value="experiences">
             <h2 className="text-2xl font-bold mb-6 text-gray-900">
-              {filteredExperiences.length === 0 ? "No experiences found" : "Local Experiences"}
+              {displayedExperiences.length === 0 ? "No experiences found" : "Local Experiences"}
             </h2>
+            <ExperienceCategoryFilters
+              selected={selectedCategory}
+              onChange={setSelectedCategory}
+              className="mb-6"
+            />
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
-              {filteredExperiences.map((exp) => (
+              {displayedExperiences.map((exp) => (
                 <ExperienceCard key={exp.id} experience={exp} />
               ))}
             </div>

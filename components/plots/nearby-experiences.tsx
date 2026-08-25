@@ -54,6 +54,8 @@ export function NearbyExperiences({ plot }: NearbyExperiencesProps) {
         opts={{
           align: "start",
           dragFree: false,
+          slidesToScroll: 1,
+          containScroll: "trimSnaps",
         }}
         className="w-full pt-8"
       >
@@ -75,16 +77,17 @@ export function NearbyExperiences({ plot }: NearbyExperiencesProps) {
           )}
         </div>
 
-        <CarouselContent className="-ml-6">
+        <CarouselContent className="-ml-3 sm:-ml-4 lg:-ml-6">
           {nearbyExperiences.map((experience) => (
             <CarouselItem
               key={experience.id}
-              className="basis-[85%] pl-6 sm:basis-1/2 lg:basis-1/3"
+              className="basis-1/2 pl-3 sm:basis-1/2 sm:pl-4 md:basis-1/3 lg:basis-1/3 lg:pl-6"
             >
               <ExperienceCard
                 experience={experience}
                 distance={experience.distance}
                 compact
+                minimal
               />
             </CarouselItem>
           ))}
