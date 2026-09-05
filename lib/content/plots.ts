@@ -10,6 +10,8 @@ import type { TrashPlot } from "./types";
 
 export type { TrashPlot } from "./types";
 
+const loggedPlotLoad = { done: false };
+
 async function readPlotsRaw(): Promise<Plot[]> {
   const source = isFirebaseContentMode() ? "Firebase Storage" : "local content/";
   const data = await readJson<unknown>(CONTENT_KEYS.plots, []);
@@ -18,7 +20,10 @@ async function readPlotsRaw(): Promise<Plot[]> {
     console.error(`[content] Invalid plots.json (source=${source})`, parsed.error.flatten());
     return [];
   }
-  console.log(`[content] Loaded ${parsed.data.length} plots from ${source}`);
+  if (!loggedPlotLoad.done) {
+    loggedPlotLoad.done = true;
+    console.log(`[content] Loaded ${parsed.data.length} plots from ${source}`);
+  }
   return parsed.data;
 }
 

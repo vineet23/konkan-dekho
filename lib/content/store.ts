@@ -23,7 +23,27 @@ export function useFirebaseContentStore() {
   return isFirebaseAdminConfigured();
 }
 
-async function firebaseReadJson<T>(key: string, fallback: T): Promise<T> {
+/**
+ * Process-level cache so Next build / many pages share one Firebase download
+ * instead of re-fetching plots.json / experiences.json per route.
+ */
+const memoryCache = new Map<string, unknown>();
+const inflight = new Map<string, Promise<unknown>>();
+
+function invalidateContentCache(key?: string) {
+  if (key) {
+    memoryCache.delete(key);
+    inflight.delete(key);
+    return;
+  }
+  memoryCache.clear();
+  inflight.clear();
+}
+
+async function firebaseReadJsonUncached<T>(
+  key: string,
+  fallback: T
+): Promise<T> {
   const bucket = getContentBucket();
   if (!bucket) {
     console.warn(`[content] Firebase Admin not ready; fallback for ${key}`);
@@ -33,12 +53,16 @@ async function firebaseReadJson<T>(key: string, fallback: T): Promise<T> {
   const file = bucket.file(key);
   const [exists] = await file.exists();
   if (!exists) {
-    console.warn(`[content] Missing in Firebase Storage: ${key} (using fallback)`);
+    console.warn(
+      `[content] Missing in Firebase Storage: ${key} (using fallback)`
+    );
     return fallback;
   }
 
   const [buf] = await file.download();
-  console.log(`[content] Fetched ${key} from Firebase Storage (${buf.length} bytes)`);
+  console.log(
+    `[content] Fetched ${key} from Firebase Storage (${buf.length} bytes)`
+  );
   return JSON.parse(buf.toString("utf8")) as T;
 }
 
@@ -58,26 +82,54 @@ async function firebaseWriteJson(key: string, body: string): Promise<void> {
 }
 
 export async function readJson<T>(key: string, fallback: T): Promise<T> {
-  if (useFirebaseContentStore()) {
-    try {
-      return await firebaseReadJson(key, fallback);
-    } catch (err) {
-      console.error(`Firebase content read failed for ${key}`, err);
-      return fallback;
-    }
+  if (memoryCache.has(key)) {
+    return memoryCache.get(key) as T;
   }
 
-  const filePath = localPath(key);
-  try {
-    const raw = await fs.readFile(filePath, "utf8");
-    return JSON.parse(raw) as T;
-  } catch {
-    return fallback;
+  const pending = inflight.get(key);
+  if (pending) {
+    return pending as Promise<T>;
   }
+
+  const load = (async (): Promise<T> => {
+    try {
+      if (useFirebaseContentStore()) {
+        try {
+          const data = await firebaseReadJsonUncached(key, fallback);
+          memoryCache.set(key, data);
+          return data;
+        } catch (err) {
+          console.error(`Firebase content read failed for ${key}`, err);
+          memoryCache.set(key, fallback);
+          return fallback;
+        }
+      }
+
+      const filePath = localPath(key);
+      try {
+        const raw = await fs.readFile(filePath, "utf8");
+        const data = JSON.parse(raw) as T;
+        memoryCache.set(key, data);
+        return data;
+      } catch {
+        memoryCache.set(key, fallback);
+        return fallback;
+      }
+    } finally {
+      inflight.delete(key);
+    }
+  })();
+
+  inflight.set(key, load);
+  return load;
 }
 
 export async function writeJson(key: string, data: unknown): Promise<void> {
   const body = JSON.stringify(data, null, 2);
+
+  // Keep process cache in sync for subsequent reads in this instance
+  memoryCache.set(key, data);
+  inflight.delete(key);
 
   if (useFirebaseContentStore()) {
     await firebaseWriteJson(key, body);
@@ -97,3 +149,5 @@ export function isBlobMode() {
 export function isFirebaseContentMode() {
   return useFirebaseContentStore();
 }
+
+export { invalidateContentCache };

@@ -10,6 +10,8 @@ import type { TrashExperience } from "./types";
 
 export type { TrashExperience } from "./types";
 
+const loggedExperienceLoad = { done: false };
+
 async function readExperiencesRaw(): Promise<Experience[]> {
   const source = isFirebaseContentMode() ? "Firebase Storage" : "local content/";
   const data = await readJson<unknown>(CONTENT_KEYS.experiences, []);
@@ -21,7 +23,12 @@ async function readExperiencesRaw(): Promise<Experience[]> {
     );
     return [];
   }
-  console.log(`[content] Loaded ${parsed.data.length} experiences from ${source}`);
+  if (!loggedExperienceLoad.done) {
+    loggedExperienceLoad.done = true;
+    console.log(
+      `[content] Loaded ${parsed.data.length} experiences from ${source}`
+    );
+  }
   return parsed.data;
 }
 
