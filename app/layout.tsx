@@ -15,6 +15,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://konkandekho.com"),
   title: "Konkan Dekho - Explore & Stay at Premium Villas and Homestays",
   description:
     "Discover premium homestays in Konkan region. Find perfect property for your vacation with detailed information, images and expert assistance.",

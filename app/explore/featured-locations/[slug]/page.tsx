@@ -1,25 +1,37 @@
 import type { Metadata } from "next";
+import { getPlots, getExperiences } from "@/lib/content";
 import LocationPlotsClient from "./client";
 
 export async function generateMetadata({
-    params,
+  params,
 }: {
-    params: { slug: string };
+  params: { slug: string };
 }): Promise<Metadata> {
-    const decodedSlug = decodeURIComponent(params.slug);
-    return {
-        title: `${decodedSlug} Stays | Konkan Dekho`,
-        description: `Explore and unlock a world of homestays in ${decodedSlug}`,
-        openGraph: {
-            images: ["/image/logo.svg"],
-        },
-    };
+  const decodedSlug = decodeURIComponent(params.slug);
+  return {
+    title: `${decodedSlug} Stays | Konkan Dekho`,
+    description: `Explore and unlock a world of homestays in ${decodedSlug}`,
+    openGraph: {
+      images: ["/image/logo.svg"],
+    },
+  };
 }
 
-export default function LocationPlotsPage({
-    params,
+export default async function LocationPlotsPage({
+  params,
 }: {
-    params: { slug: string };
+  params: { slug: string };
 }) {
-    return <LocationPlotsClient slug={params.slug} />;
+  const [plots, experiences] = await Promise.all([
+    getPlots(),
+    getExperiences(),
+  ]);
+
+  return (
+    <LocationPlotsClient
+      slug={params.slug}
+      plots={plots}
+      experiences={experiences}
+    />
+  );
 }

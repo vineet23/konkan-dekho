@@ -27,6 +27,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# admin content history (live plots/experiences JSON may be committed as seed)
+/content/history/
+
 # vercel
 .vercel
 

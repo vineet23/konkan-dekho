@@ -1,3 +1,11 @@
+export type {
+  Plot,
+  PlotMedia,
+  HostInfo,
+  Experience,
+  ExperienceCategory,
+} from "./schemas";
+
 export type SortOption = "price-asc" | "price-desc" | "area-asc" | "area-desc";
 
 export interface FilterOptions {
@@ -8,42 +16,6 @@ export interface FilterOptions {
   sortBy: SortOption;
 }
 
-export interface PlotMedia {
-  type: "image" | "video";
-  url: string;
-  thumbnail?: string; // Thumbnail for videos
-}
-
-export interface HostInfo {
-  name: string;
-  imageUrl: string;
-  isPremier?: boolean;
-  listingDate?: string; // Date when the host started listing
-  // yearsHosting?: number;
-}
-
-export interface Plot {
-  id: number;
-  title: string;
-  slug: string;
-  area: string;
-  location: string;
-  guests: string;
-  price: string;
-  description: string;
-  phone: string;
-  features: string[];
-  images: string[];
-  media: PlotMedia[];
-  coordinates: {
-    latitude: string;
-    longitude: string;
-  };
-  host?: HostInfo;
-  ical?: string[];
-}
-
-// Define the TeamMember type
 export interface TeamMember {
   name: string;
   role: string;
@@ -59,31 +31,5 @@ export interface Blog {
   slug: string;
   description: string;
   images: string[];
-  body: string
-}
-
-export type ExperienceCategory =
-  | "beach"
-  | "temples"
-  | "adventure"
-  | "nature"
-  | "culture"
-  | "scenic";
-
-export interface Experience {
-  id: number;
-  name: string;
-  slug: string;
-  description: string;
-  rate: string | number;
-  guideline?: string;
-  language: string | string[];
-  photos: string[];
-  location: string;
-  phone: string;
-  category: ExperienceCategory;
-  coordinates?: {
-    latitude: string;
-    longitude: string;
-  };
+  body: string;
 }

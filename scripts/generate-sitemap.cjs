@@ -31,7 +31,15 @@ function loadDataFromTypeScript(fileName, exportName) {
   return data;
 }
 
-function loadPlotsFromTypeScript() {
+function loadPlotsFromJson() {
+  const jsonFile = path.join(ROOT_DIR, "content", "plots.json");
+  if (fs.existsSync(jsonFile)) {
+    const data = JSON.parse(fs.readFileSync(jsonFile, "utf8"));
+    if (!Array.isArray(data)) {
+      throw new Error("content/plots.json did not contain an array");
+    }
+    return data;
+  }
   return loadDataFromTypeScript("plots.ts", "plots");
 }
 
@@ -60,18 +68,25 @@ function buildUrls() {
     "/blogs",
   ];
 
-  const plots = loadPlotsFromTypeScript();
+  const plots = loadPlotsFromJson();
   const plotPaths = plots.map(
     (p) => `/${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}`
   );
 
+  let experiencePaths = [];
+  const experiencesFile = path.join(ROOT_DIR, "content", "experiences.json");
+  if (fs.existsSync(experiencesFile)) {
+    const experiences = JSON.parse(fs.readFileSync(experiencesFile, "utf8"));
+    experiencePaths = experiences.map((e) => `/experiences/${e.slug}`);
+  }
+
   const blogs = loadBlogsFromTypeScript();
   const blogPaths = blogs.map((b) => `/blogs/${b.slug}`);
 
-  return { staticPaths, plotPaths, blogPaths };
+  return { staticPaths, plotPaths, experiencePaths, blogPaths };
 }
 
-function generateSitemapXml({ staticPaths, plotPaths, blogPaths }) {
+function generateSitemapXml({ staticPaths, plotPaths, experiencePaths, blogPaths }) {
   const today = formatDateYYYYMMDD();
 
   const urlEntry = (loc, priority) =>
@@ -81,6 +96,7 @@ function generateSitemapXml({ staticPaths, plotPaths, blogPaths }) {
   for (const p of staticPaths)
     entries.push(urlEntry(p, p === "/" ? "1.0" : "0.7"));
   for (const p of plotPaths) entries.push(urlEntry(p, "0.8"));
+  for (const p of experiencePaths) entries.push(urlEntry(p, "0.8"));
   for (const p of blogPaths) entries.push(urlEntry(p, "0.8"));
 
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join(

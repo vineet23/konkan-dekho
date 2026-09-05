@@ -7,6 +7,9 @@ const nextConfig = {
     unoptimized: true,
     domains: ["firebasestorage.googleapis.com", "images.unsplash.com"],
   },
+  experimental: {
+    serverComponentsExternalPackages: ["@vercel/blob", "undici"],
+  },
 };
 
 module.exports = nextConfig;
