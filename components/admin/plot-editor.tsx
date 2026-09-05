@@ -160,13 +160,15 @@ export function PlotEditor({
       .filter(Boolean);
 
     const hostName = values.host?.name?.trim();
+    const hostImage = values.host?.imageUrl?.trim();
+    const hostDate = values.host?.listingDate?.trim();
     const host =
-      hostName || values.host?.imageUrl
+      hostName || hostImage || hostDate
         ? {
-            name: values.host?.name || "",
-            imageUrl: values.host?.imageUrl || "",
+            name: hostName || "",
+            imageUrl: hostImage || "",
             isPremier: values.host?.isPremier,
-            listingDate: values.host?.listingDate,
+            listingDate: hostDate || undefined,
           }
         : undefined;
 
@@ -530,7 +532,10 @@ export function PlotEditor({
         <AccordionItem value="host">
           <AccordionTrigger>
             <span className="flex items-center gap-2">
-              Host
+              Host{" "}
+              <span className="text-xs font-normal text-stone-500">
+                (optional)
+              </span>
               {errors.host ? (
                 <span className="text-xs font-normal text-red-600">
                   Needs attention
@@ -539,19 +544,21 @@ export function PlotEditor({
             </span>
           </AccordionTrigger>
           <AccordionContent className="space-y-3">
-            <p className="text-xs text-stone-500">Optional.</p>
+            <p className="text-xs text-stone-500">
+              Skip this section if you do not want to show a host.
+            </p>
             <Field
               label="Host name"
+              hint="Optional"
               error={fieldError(errors as Record<string, unknown>, "host.name")}
             >
               <Input className="min-h-11" {...form.register("host.name")} />
             </Field>
             <ThumbnailImageField
-              label="Host photo"
+              label="Host photo (optional)"
               value={form.watch("host.imageUrl") || ""}
               folder="plots"
               onChange={(imageUrl) => {
-                form.setValue("host.name", form.getValues("host.name") || "");
                 form.setValue("host.imageUrl", imageUrl, {
                   shouldValidate: true,
                 });
@@ -559,6 +566,7 @@ export function PlotEditor({
             />
             <Field
               label="Listing date"
+              hint="Optional"
               error={fieldError(
                 errors as Record<string, unknown>,
                 "host.listingDate"

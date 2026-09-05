@@ -58,26 +58,34 @@ export const plotMediaAdminSchema = z.object({
   thumbnail: optionalHttpOrPathUrlSchema,
 });
 
-export const hostInfoAdminSchema = z
-  .object({
-    name: z.string().trim(),
-    imageUrl: optionalHttpOrPathUrlSchema,
-    isPremier: z.boolean().optional(),
-    listingDate: z.string().optional(),
-  })
-  .superRefine((host, ctx) => {
-    const hasAny =
-      Boolean(host.name?.trim()) ||
-      Boolean(host.imageUrl?.trim()) ||
-      Boolean(host.listingDate?.trim());
-    if (hasAny && !host.name?.trim()) {
-      ctx.addIssue({
-        code: z.ZodIssueCode.custom,
-        message: "Host name is required when host details are set",
-        path: ["name"],
-      });
-    }
-  });
+export const hostInfoAdminSchema = z.object({
+  name: z.string().trim(),
+  imageUrl: optionalHttpOrPathUrlSchema,
+  isPremier: z.boolean().optional(),
+  listingDate: z.string().optional(),
+});
+
+function emptyHostToUndefined(val: unknown) {
+  if (!val || typeof val !== "object") return undefined;
+  const h = val as {
+    name?: string;
+    imageUrl?: string;
+    listingDate?: string;
+    isPremier?: boolean;
+  };
+  const name = (h.name || "").trim();
+  const imageUrl = (h.imageUrl || "").trim();
+  const listingDate = (h.listingDate || "").trim();
+  if (!name && !imageUrl && !listingDate && h.isPremier == null) {
+    return undefined;
+  }
+  return {
+    name,
+    imageUrl,
+    listingDate: listingDate || undefined,
+    isPremier: h.isPremier,
+  };
+}
 
 export const plotAdminSchema = z.object({
   id: z.number(),
@@ -101,7 +109,7 @@ export const plotAdminSchema = z.object({
     latitude: latitudeSchema,
     longitude: longitudeSchema,
   }),
-  host: hostInfoAdminSchema.optional(),
+  host: z.preprocess(emptyHostToUndefined, hostInfoAdminSchema.optional()),
   ical: z.array(z.string()).optional(),
 });
 
