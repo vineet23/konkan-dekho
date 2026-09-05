@@ -1,5 +1,6 @@
 import { cert, getApps, initializeApp, type App } from "firebase-admin/app";
 import { getStorage } from "firebase-admin/storage";
+import { randomUUID } from "crypto";
 
 function parseServiceAccount(): Record<string, string> | null {
   const b64 = process.env.FIREBASE_SERVICE_ACCOUNT_BASE64?.trim();
@@ -51,4 +52,37 @@ export function getContentBucket() {
   const app = getFirebaseAdminApp();
   if (!app) return null;
   return getStorage(app).bucket();
+}
+
+/** Admin-SDK upload (bypasses Storage security rules). Returns a public download URL. */
+export async function uploadAdminFileToStorage(
+  data: Buffer,
+  filename: string,
+  folder: "plots" | "experiences",
+  contentType?: string
+): Promise<string> {
+  const bucket = getContentBucket();
+  if (!bucket) {
+    throw new Error(
+      "Firebase Admin is not configured. Set FIREBASE_SERVICE_ACCOUNT_BASE64 (or _JSON) and restart."
+    );
+  }
+
+  const safeName = filename.replace(/[^a-zA-Z0-9._-]/g, "_");
+  const objectPath = `AdminUploads/${folder}/${Date.now()}-${safeName}`;
+  const token = randomUUID();
+  const type = contentType || "application/octet-stream";
+
+  await bucket.file(objectPath).save(data, {
+    resumable: false,
+    metadata: {
+      contentType: type,
+      metadata: {
+        firebaseStorageDownloadTokens: token,
+      },
+    },
+  });
+
+  const encoded = encodeURIComponent(objectPath);
+  return `https://firebasestorage.googleapis.com/v0/b/${bucket.name}/o/${encoded}?alt=media&token=${token}`;
 }
