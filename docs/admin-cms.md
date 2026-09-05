@@ -1,100 +1,76 @@
 # Admin CMS — architecture notes
 
-For partner review. This describes how content management works in this repo and how it fits **Netlify + Firebase**.
+For partner review. **Host: Vercel.** **Content: Firebase Storage.**
 
 ---
 
 ## Goals
 
 - Edit **plots** and **experiences** without changing TypeScript hand-data.
-- Keep the public site mostly static/ISR (cheap, fast).
-- Survive Netlify hosting (no durable local disk; Vercel Blob is not our primary store).
+- Keep the public site mostly static / on-demand ISR (cheap, fast).
+- Durable content on Firebase (works on Vercel serverless; no local disk in prod).
 
 ---
 
 ## High-level flow
 
 ```
-Admin Save  →  write JSON to store
-Admin Publish  →  refresh public site
-Public pages  →  read JSON from store at build / request time
+Admin Save  →  write JSON to Firebase Storage
+Admin Publish  →  revalidatePath on Vercel (public pages refresh)
+Public pages  →  read JSON from Firebase (or local content/ in dev)
 ```
 
 | Action | What happens |
 | --- | --- |
-| **Save** | Validates with Zod → writes `plots` / `experiences` (and history/trash) |
-| **Publish** | Best-effort `revalidatePath` + **Netlify build hook** (if configured) |
-| **Media** | Images/videos upload to **Firebase Storage** (client SDK) or paste URL |
+| **Save** | Validates with Zod → writes `plots` / `experiences` (and history/trash) to Firebase when Admin is configured |
+| **Publish** | `revalidatePath` so Vercel regenerates cached pages from fresh Firebase JSON |
+| **Media** | Uploads via `/api/admin/upload` (Firebase Admin SDK) or paste URL |
+
+Optional: if `NETLIFY_BUILD_HOOK_URL` is set, Publish also POSTs it (soft-fail; Vercel revalidate is primary).
 
 ---
 
 ## Where content lives
 
-### Local development (default)
+### Local development
 
-- Files under `content/` (`plots.json`, `experiences.json`, trash, history).
-- Used when **Firebase Admin is not configured**.
-- Seed: `npm run seed:content` (from `lib/data/*`).
-- Day-to-day: edit via `/admin`, inspect diffs in `content/`.
+- Default: `content/` on disk when Firebase Admin is **not** set.
+- With Admin + `NEXT_PUBLIC_FIREBASE_*`: same as prod (Firebase Storage).
+- Seed: `npm run seed:content`
+- First sync to Storage: `npm run push:content`
 
-### Production (Netlify)
+### Production (Vercel)
 
-- Same logical keys, stored as files in **Firebase Storage**:
+- Firebase Storage keys:
   - `content/plots.json`
   - `content/experiences.json`
   - `content/trash/*.json`
   - `content/history/...`
-- Used when **Firebase Admin** env is set (`FIREBASE_SERVICE_ACCOUNT_JSON` or `_BASE64` + storage bucket).
-- First-time / sync from local: `npm run push:content`.
+- Set Firebase Admin env on the Vercel project so build and runtime both read Storage.
 
-`lib/content/store.ts` chooses the backend:
+`lib/content/store.ts`:
 
 1. Firebase Admin configured → Firebase Storage  
-2. Else → local `content/` disk  
-
-*(Older Vercel Blob path was removed in favor of Firebase for Netlify.)*
+2. Else → local `content/`
 
 ---
 
-## Why not only `revalidatePath`?
+## Publish on Vercel
 
-`/api/admin/publish` still calls `revalidatePath` (Next on-demand cache bust).
+`/api/admin/publish` calls `revalidatePath` on the site layout and main listing routes.
 
-On **Vercel**, that often refreshes ISR pages in place.
+After Publish, the **next visitor** gets pages rebuilt from Firebase. No full project redeploy required.
 
-On **Netlify**, many pages are effectively **build-time static**. Relying only on revalidate is unreliable. So Publish also:
-
-```http
-POST $NETLIFY_BUILD_HOOK_URL
-```
-
-That starts a **production rebuild**. During the build, the app reads the latest JSON from Firebase Storage, then Netlify deploys. Live site updates in a few minutes.
-
-| Mechanism | Role on Netlify |
-| --- | --- |
-| `revalidatePath` | Best-effort, may help little |
-| **Build hook** | Source of truth for “make the public site match Storage” |
-
-Save does **not** trigger a rebuild — only **Publish** does (when the hook env is set).
+Save does **not** revalidate — only **Publish** does.
 
 ---
 
 ## Auth
 
-- Simple password login: `ADMIN_PASSWORD` + signed session cookie (`ADMIN_SESSION_SECRET`).
+- `ADMIN_PASSWORD` + signed cookie (`ADMIN_SESSION_SECRET`).
 - Admin UI: `/admin/*`
-- APIs: `/api/admin/*` wrapped with `withAdmin`.
-
-Not Firebase Auth for CMS operators (media uploads use the public Firebase client config; content JSON writes use the **Admin service account** on the server).
-
----
-
-## Validation & UX
-
-- Zod schemas: `lib/schemas/plot.ts`, `lib/schemas/experience.ts` (+ shared `validators.ts`).
-- Slug uniqueness (plots: slug globally unique in admin checks).
-- Coordinates: plain numbers OK; `° N` / `° E` optional.
-- Field errors + summary under Save; accordions open to invalid sections.
+- APIs: `/api/admin/*` via `withAdmin`.
+- Media and content writes use **Firebase Admin** on the server (not open Storage rules).
 
 ---
 
@@ -105,33 +81,27 @@ See `.env.example`.
 | Variable | Purpose |
 | --- | --- |
 | `ADMIN_PASSWORD` / `ADMIN_SESSION_SECRET` | Admin login |
-| `NEXT_PUBLIC_FIREBASE_*` | Browser uploads + bucket name |
-| `FIREBASE_SERVICE_ACCOUNT_JSON` or `_BASE64` | Server read/write of content JSON |
-| `NETLIFY_BUILD_HOOK_URL` | Publish → Netlify rebuild |
+| `NEXT_PUBLIC_FIREBASE_*` | Client config / bucket name |
+| `FIREBASE_SERVICE_ACCOUNT_JSON` or `_BASE64` | Server content + uploads |
+| `NETLIFY_BUILD_HOOK_URL` | Optional legacy hook (ignored if unset) |
 
-**Netlify:** set the above on the site env (production).  
-**Local:** usually omit service account + hook; use `content/`.
-
-Build hook: Netlify → Project configuration → Build & deploy → Build hooks → branch `main` (or your prod branch).
+**Vercel:** set admin + Firebase vars on the project. Redeploy after changing env.
 
 ---
 
 ## Cost (ballpark)
 
-- Firebase Storage for ~hundreds of KB of JSON: effectively free at our scale.
-- Existing media already on Firebase; same project.
-- Publish rebuilds consume **Netlify** build minutes/credits — main variable if you publish often.
+- Firebase Storage for JSON + existing media: free / very cheap at our scale.
+- Vercel: hosting + on-demand revalidation (no rebuild-per-publish required).
 
 ---
 
 ## Operator playbook
 
 1. `/admin/login`
-2. Edit plot/experience → **Save** (writes store)
-3. **Publish** (Netlify rebuild if hook set)
-4. Wait for Netlify deploy → verify public pages
-
-Rollback / trash: per-item history (5 deep) and trash restore in admin.
+2. Edit → **Save** (Firebase Storage)
+3. **Publish** (Vercel cache revalidate)
+4. Hard-refresh public pages
 
 ---
 
@@ -141,16 +111,6 @@ Rollback / trash: per-item history (5 deep) and trash restore in admin.
 | --- | --- |
 | Content I/O | `lib/content/store.ts`, `plots.ts`, `experiences.ts` |
 | Firebase Admin | `lib/firebase/admin.ts` |
-| Firebase client uploads | `lib/firebase/client.ts` |
-| Publish API | `app/api/admin/publish/route.ts` |
-| Admin UI | `components/admin/*`, `app/admin/*` |
-| Push local → Storage | `scripts/push-content-firebase.ts` |
-| Seed local JSON | `scripts/seed-content.ts` |
-
----
-
-## Open / follow-ups
-
-- Ensure Netlify build has Firebase Admin env so **build-time** `getPlots()` reads Storage (not empty fallback).
-- Disconnect unused **Vercel** Git integration if Netlify is the only host (avoids duplicate failing checks).
-- Optional later: Netlify Blobs instead of Firebase JSON, or Firestore documents instead of whole-file JSON.
+| Uploads | `app/api/admin/upload/route.ts`, `lib/firebase/client.ts` |
+| Publish | `app/api/admin/publish/route.ts` |
+| Push seed | `scripts/push-content-firebase.ts` |

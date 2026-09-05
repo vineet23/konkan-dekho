@@ -5,18 +5,23 @@ import {
   type Experience,
 } from "@/lib/schemas/experience";
 import { CONTENT_KEYS, HISTORY_LIMIT } from "./paths";
-import { readJson, writeJson } from "./store";
+import { isFirebaseContentMode, readJson, writeJson } from "./store";
 import type { TrashExperience } from "./types";
 
 export type { TrashExperience } from "./types";
 
 async function readExperiencesRaw(): Promise<Experience[]> {
+  const source = isFirebaseContentMode() ? "Firebase Storage" : "local content/";
   const data = await readJson<unknown>(CONTENT_KEYS.experiences, []);
   const parsed = experiencesArraySchema.safeParse(data);
   if (!parsed.success) {
-    console.error("Invalid experiences.json", parsed.error.flatten());
+    console.error(
+      `[content] Invalid experiences.json (source=${source})`,
+      parsed.error.flatten()
+    );
     return [];
   }
+  console.log(`[content] Loaded ${parsed.data.length} experiences from ${source}`);
   return parsed.data;
 }
 

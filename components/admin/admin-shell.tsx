@@ -40,10 +40,7 @@ export function AdminShell({
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Publish failed");
       setMessage(
-        data.message ||
-          (data.netlifyTriggered
-            ? "Published — Netlify rebuild started"
-            : "Published — public pages refreshed")
+        data.message || "Published — public pages refreshed"
       );
     } catch (err) {
       setMessage(err instanceof Error ? err.message : "Publish failed");

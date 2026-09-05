@@ -18,20 +18,27 @@ async function ensureParent(filePath: string) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
 }
 
-/** Production (Netlify): Firebase Storage. Local: content/ on disk. */
+/** Production: Firebase Storage when Admin is configured. Local: content/ on disk. */
 export function useFirebaseContentStore() {
   return isFirebaseAdminConfigured();
 }
 
 async function firebaseReadJson<T>(key: string, fallback: T): Promise<T> {
   const bucket = getContentBucket();
-  if (!bucket) return fallback;
+  if (!bucket) {
+    console.warn(`[content] Firebase Admin not ready; fallback for ${key}`);
+    return fallback;
+  }
 
   const file = bucket.file(key);
   const [exists] = await file.exists();
-  if (!exists) return fallback;
+  if (!exists) {
+    console.warn(`[content] Missing in Firebase Storage: ${key} (using fallback)`);
+    return fallback;
+  }
 
   const [buf] = await file.download();
+  console.log(`[content] Fetched ${key} from Firebase Storage (${buf.length} bytes)`);
   return JSON.parse(buf.toString("utf8")) as T;
 }
 

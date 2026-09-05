@@ -1,7 +1,8 @@
 import { getPlots, getExperiences } from "@/lib/content";
 import { HomeClient } from "@/components/home-client";
 
-export const dynamic = "force-static";
+/** Static until Publish calls revalidatePath (Vercel on-demand ISR). */
+export const revalidate = false;
 
 export default async function Home() {
   const [plots, experiences] = await Promise.all([

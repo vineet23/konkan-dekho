@@ -5,18 +5,20 @@ import {
   type Plot,
 } from "@/lib/schemas/plot";
 import { CONTENT_KEYS, HISTORY_LIMIT } from "./paths";
-import { readJson, writeJson } from "./store";
+import { isFirebaseContentMode, readJson, writeJson } from "./store";
 import type { TrashPlot } from "./types";
 
 export type { TrashPlot } from "./types";
 
 async function readPlotsRaw(): Promise<Plot[]> {
+  const source = isFirebaseContentMode() ? "Firebase Storage" : "local content/";
   const data = await readJson<unknown>(CONTENT_KEYS.plots, []);
   const parsed = plotsArraySchema.safeParse(data);
   if (!parsed.success) {
-    console.error("Invalid plots.json", parsed.error.flatten());
+    console.error(`[content] Invalid plots.json (source=${source})`, parsed.error.flatten());
     return [];
   }
+  console.log(`[content] Loaded ${parsed.data.length} plots from ${source}`);
   return parsed.data;
 }
 
