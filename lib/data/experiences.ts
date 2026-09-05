@@ -1,5 +1,10 @@
 import { Experience } from "../types";
 
+/**
+ * Seed-source experience data. Runtime content is loaded from
+ * content/experiences.json (or Vercel Blob). Re-run `npm run seed:content`
+ * after editing this file.
+ */
 // Optional coordinates use the same format as plots, e.g. "17.10451480888077° N"
 export const experiences: Experience[] = [
   {

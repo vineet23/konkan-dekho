@@ -27,6 +27,13 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# Firebase service account keys (never commit)
+/firebasejson/
+*.firebase-adminsdk*.json
+
+# admin content history (live plots/experiences JSON may be committed as seed)
+/content/history/
+
 # vercel
 .vercel
 

@@ -1,5 +1,9 @@
 import { Plot } from "../types";
 
+/**
+ * Seed-source plot data. Runtime content is loaded from content/plots.json
+ * (or Vercel Blob). Re-run `npm run seed:content` after editing this file.
+ */
 export const plots: Plot[] = [
   {
     id: 1,

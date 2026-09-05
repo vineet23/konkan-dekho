@@ -10,10 +10,9 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
-import { plots } from "@/lib/data/plots";
-import { experiences } from "@/lib/data/experiences";
 import { DateRange } from "react-day-picker";
 import { Search, Minus, Plus, X } from "lucide-react";
+import type { Plot, Experience } from "@/lib/types";
 import {
     Popover,
     PopoverContent,
@@ -74,6 +73,8 @@ const GuestCounter = ({
 export function TripPlanner({
     onSearch,
     initialLocation,
+    plots = [],
+    experiences = [],
 }: {
     onSearch?: (filters: {
         location?: string;
@@ -81,6 +82,8 @@ export function TripPlanner({
         guest: { adults: number; children: number; pets: number };
     }) => void;
     initialLocation?: string;
+    plots?: Plot[];
+    experiences?: Experience[];
 }) {
     const [location, setLocation] = useState<string | undefined>(initialLocation);
     const [dateRange, setDateRange] = useState<DateRange | undefined>();
@@ -97,7 +100,7 @@ export function TripPlanner({
             ...experiences.map((e) => e.location)
         ].filter(Boolean);
         return Array.from(new Set(locs)).sort();
-    }, []);
+    }, [plots, experiences]);
 
     // Initialize from sessionStorage on mount
     useEffect(() => {

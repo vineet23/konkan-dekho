@@ -1,9 +1,12 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { plots } from "@/lib/data/plots";
+import { getPlots, getPlotBySlugKey, getExperiences } from "@/lib/content";
 import { ClientPlotPage } from "@/components/plots/client-plot-page";
 
-export function generateStaticParams() {
+export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  const plots = await getPlots();
   return plots.map((plot) => ({
     slug: `${plot.slug}-${plot.area.toLowerCase().replace(/ /g, "-")}`,
   }));
@@ -14,9 +17,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const plot = plots.find(
-    (p) => `${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}` === params.slug
-  );
+  const plot = await getPlotBySlugKey(params.slug);
   if (!plot) {
     return {
       title: "Plot Not Found | Konkan Dekho",
@@ -29,24 +30,32 @@ export async function generateMetadata({
     openGraph: {
       images:
         plot.images && plot.images.length > 0
-          ? plot.images[0]
+          ? [plot.images[0]]
           : ["/image/logo.svg"],
     },
   };
 }
 
-export default function PlotDetailsPage({
+export default async function PlotDetailsPage({
   params,
 }: {
   params: { slug: string };
 }) {
-  const plot = plots.find(
-    (p) => `${p.slug}-${p.area.toLowerCase().replace(/ /g, "-")}` === params.slug
-  );
+  const [plot, allPlots, experiences] = await Promise.all([
+    getPlotBySlugKey(params.slug),
+    getPlots(),
+    getExperiences(),
+  ]);
 
   if (!plot) {
     notFound();
   }
 
-  return <ClientPlotPage id={plot.id.toString()} />;
+  return (
+    <ClientPlotPage
+      plot={plot}
+      allPlots={allPlots}
+      experiences={experiences}
+    />
+  );
 }

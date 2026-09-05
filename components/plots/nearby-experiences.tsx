@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { Plot } from "@/lib/types";
-import { experiences } from "@/lib/data/experiences";
+import { Experience } from "@/lib/types";
 import { ExperienceCard } from "@/components/experience-card";
 import { parseCoordinates, calculateDistance } from "@/lib/utils/geo-distance";
 import {
@@ -16,9 +16,10 @@ import {
 
 interface NearbyExperiencesProps {
   plot: Plot;
+  experiences: Experience[];
 }
 
-export function NearbyExperiences({ plot }: NearbyExperiencesProps) {
+export function NearbyExperiences({ plot, experiences }: NearbyExperiencesProps) {
   const nearbyExperiences = useMemo(() => {
     const originLat = parseCoordinates(plot.coordinates.latitude);
     const originLon = parseCoordinates(plot.coordinates.longitude);
@@ -40,7 +41,7 @@ export function NearbyExperiences({ plot }: NearbyExperiencesProps) {
       }))
       .sort((a, b) => a.distance - b.distance)
       .slice(0, 5);
-  }, [plot.coordinates.latitude, plot.coordinates.longitude]);
+  }, [plot.coordinates.latitude, plot.coordinates.longitude, experiences]);
 
   if (nearbyExperiences.length === 0) {
     return null;
