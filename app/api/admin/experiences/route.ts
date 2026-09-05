@@ -5,7 +5,7 @@ import {
   listExperiencesUncached,
   saveExperience,
 } from "@/lib/content";
-import { experienceAdminSchema } from "@/lib/schemas/experience";
+import { experienceAdminCreateSchema, experienceAdminSchema } from "@/lib/schemas/experience";
 
 export async function GET() {
   return withAdmin(async () => {
@@ -17,7 +17,7 @@ export async function GET() {
 export async function POST(req: NextRequest) {
   return withAdmin(async () => {
     const body = await req.json();
-    const parsed = experienceAdminSchema.omit({ id: true }).safeParse(body);
+    const parsed = experienceAdminCreateSchema.safeParse(body);
     if (!parsed.success) {
       return jsonError(
         parsed.error.issues[0]?.message || "Invalid experience"

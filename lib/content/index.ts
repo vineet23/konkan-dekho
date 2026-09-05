@@ -27,6 +27,6 @@ export {
   replaceAllExperiences,
 } from "./experiences";
 
-export { isBlobMode } from "./store";
+export { isBlobMode, isFirebaseContentMode } from "./store";
 export { HISTORY_LIMIT } from "./paths";
 export type { TrashPlot, TrashExperience } from "./types";

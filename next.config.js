@@ -8,7 +8,7 @@ const nextConfig = {
     domains: ["firebasestorage.googleapis.com", "images.unsplash.com"],
   },
   experimental: {
-    serverComponentsExternalPackages: ["@vercel/blob", "undici"],
+    serverComponentsExternalPackages: ["firebase-admin", "undici"],
   },
 };
 

@@ -39,7 +39,12 @@ export function AdminShell({
       const res = await fetch("/api/admin/publish", { method: "POST" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Publish failed");
-      setMessage("Published — public pages refreshed");
+      setMessage(
+        data.message ||
+          (data.netlifyTriggered
+            ? "Published — Netlify rebuild started"
+            : "Published — public pages refreshed")
+      );
     } catch (err) {
       setMessage(err instanceof Error ? err.message : "Publish failed");
     } finally {

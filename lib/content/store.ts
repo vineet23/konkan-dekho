@@ -1,9 +1,9 @@
 import { promises as fs } from "fs";
 import path from "path";
-
-function useBlobStore() {
-  return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
-}
+import {
+  getContentBucket,
+  isFirebaseAdminConfigured,
+} from "@/lib/firebase/admin";
 
 function localRoot() {
   return path.join(process.cwd(), "content");
@@ -18,57 +18,46 @@ async function ensureParent(filePath: string) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
 }
 
-async function blobListUrl(key: string): Promise<string | null> {
-  const token = process.env.BLOB_READ_WRITE_TOKEN!;
-  const res = await fetch(
-    `https://vercel.com/api/blob?prefix=${encodeURIComponent(key)}&limit=100`,
-    {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-      cache: "no-store",
-    }
-  );
-  if (!res.ok) {
-    throw new Error(`Blob list failed: ${res.status}`);
-  }
-  const data = (await res.json()) as {
-    blobs?: { pathname: string; url: string }[];
-  };
-  const exact = (data.blobs || []).find((b) => b.pathname === key);
-  return exact?.url ?? null;
+/** Production (Netlify): Firebase Storage. Local: content/ on disk. */
+export function useFirebaseContentStore() {
+  return isFirebaseAdminConfigured();
 }
 
-async function blobPut(key: string, body: string) {
-  const token = process.env.BLOB_READ_WRITE_TOKEN!;
-  const res = await fetch(
-    `https://vercel.com/api/blob?pathname=${encodeURIComponent(key)}`,
-    {
-      method: "PUT",
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json",
-        "x-content-type": "application/json",
-        "x-add-random-suffix": "0",
-        "x-allow-overwrite": "1",
-        "x-access": "public",
-      },
-      body,
-    }
-  );
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Blob put failed: ${res.status} ${text}`);
+async function firebaseReadJson<T>(key: string, fallback: T): Promise<T> {
+  const bucket = getContentBucket();
+  if (!bucket) return fallback;
+
+  const file = bucket.file(key);
+  const [exists] = await file.exists();
+  if (!exists) return fallback;
+
+  const [buf] = await file.download();
+  return JSON.parse(buf.toString("utf8")) as T;
+}
+
+async function firebaseWriteJson(key: string, body: string): Promise<void> {
+  const bucket = getContentBucket();
+  if (!bucket) {
+    throw new Error("Firebase Storage is not configured for content writes");
   }
+
+  await bucket.file(key).save(body, {
+    contentType: "application/json; charset=utf-8",
+    metadata: {
+      cacheControl: "no-cache",
+    },
+    resumable: false,
+  });
 }
 
 export async function readJson<T>(key: string, fallback: T): Promise<T> {
-  if (useBlobStore()) {
-    const url = await blobListUrl(key);
-    if (!url) return fallback;
-    const res = await fetch(url, { cache: "no-store" });
-    if (!res.ok) return fallback;
-    return (await res.json()) as T;
+  if (useFirebaseContentStore()) {
+    try {
+      return await firebaseReadJson(key, fallback);
+    } catch (err) {
+      console.error(`Firebase content read failed for ${key}`, err);
+      return fallback;
+    }
   }
 
   const filePath = localPath(key);
@@ -83,8 +72,8 @@ export async function readJson<T>(key: string, fallback: T): Promise<T> {
 export async function writeJson(key: string, data: unknown): Promise<void> {
   const body = JSON.stringify(data, null, 2);
 
-  if (useBlobStore()) {
-    await blobPut(key, body);
+  if (useFirebaseContentStore()) {
+    await firebaseWriteJson(key, body);
     return;
   }
 
@@ -93,6 +82,11 @@ export async function writeJson(key: string, data: unknown): Promise<void> {
   await fs.writeFile(filePath, body, "utf8");
 }
 
+/** @deprecated use isFirebaseContentMode — kept for older imports */
 export function isBlobMode() {
-  return useBlobStore();
+  return useFirebaseContentStore();
+}
+
+export function isFirebaseContentMode() {
+  return useFirebaseContentStore();
 }
